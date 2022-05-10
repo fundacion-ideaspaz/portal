@@ -48,16 +48,20 @@ jobs:
         run: |
           git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | awk '{print "/"$1}' | sed '/.github/d' > /tmp/diff
           echo "lines=`cat /tmp/diff | wc -l | sed 's/^ *//g'`" >> $GITHUB_ENV
+      
       # Generate proper json file with jq
       - name: Build invalidation payload
+        if: env.lines > 0
         run: jq --raw-input --slurp 'sub("\n$";"") | split("\n")' /tmp/diff | jq '{"Paths":{"Quantity":'env.lines'|tonumber, "Items":.}, "CallerReference":"'${{ github.sha }}'"}' > /tmp/invalidation.json
 
       - name: Create cache invalidation
+        if: env.lines > 0
         run: aws cloudfront create-invalidation
           --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
           --invalidation-batch file:///tmp/invalidation.json
 
       - name: Slack notification when sync ends
+        if: env.lines > 0
         uses: 8398a7/action-slack@v3
         with:
           status: ${{ job.status }}
