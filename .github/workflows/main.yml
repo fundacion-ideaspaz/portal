@@ -47,7 +47,6 @@ jobs:
       - name: Compare differences and build invalidation payload
         run: |
           git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | awk '{print "/"$1}' | sed '/.github/d' > /tmp/diff
-          echo "/" >> /tmp/diff
           echo "lines=`cat /tmp/diff | wc -l | sed 's/^ *//g'`" >> $GITHUB_ENV
       # Generate proper json file with jq
       - name: Build invalidation payload
