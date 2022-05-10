@@ -1,0 +1,69 @@
+name: Sync static website to AWS S3 bucket
+
+# Step 1: Sync files to S3 bucket
+# Step 2: Generate cache invalidation only for files changed
+# Step 3: Invalidate Cloufront cache
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      # Full sync on every build - atomic deploy
+      - name: Sync files
+        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}
+          --acl public-read
+          --delete
+          --only-show-errors
+          --exclude '.git/*'
+          --exclude '.github/*'
+          --exclude '.gitignore'
+          --exclude '*/.DS_Store'
+          --exclude '*/.gitkeep'
+          --exclude '*/.meta/*'
+          --exclude 'README.md'
+
+      # Get list of files changed on the last commit with git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
+      # Add trailing slash to every line to comply with Cloudfrount invalidation url rules with awk '{print "/"$1}'
+      # Remove no website content with sed '/.github/d'
+      # Add / as the last line of the diff to always invalidate index.html
+      # Save count lines on env variable for the invalidation quantity param
+      - name: Compare differences and build invalidation payload
+        run: |
+          git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | awk '{print "/"$1}' | sed '/.github/d' > /tmp/diff
+          echo "/" >> /tmp/diff
+          echo "lines=`cat /tmp/diff | wc -l | sed 's/^ *//g'`" >> $GITHUB_ENV
+      # Generate proper json file with jq
+      - name: Build invalidation payload
+        run: jq --raw-input --slurp 'sub("\n$";"") | split("\n")' /tmp/diff | jq '{"Paths":{"Quantity":'env.lines'|tonumber, "Items":.}, "CallerReference":"'${{ github.sha }}'"}' > /tmp/invalidation.json
+
+      - name: Create cache invalidation
+        run: aws cloudfront create-invalidation
+          --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          --invalidation-batch file:///tmp/invalidation.json
+
+      - name: Slack notification when sync ends
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          fields: repo, workflow, message, commit, author, took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          if: always() # Pick up events even if the job fails or is canceled.
