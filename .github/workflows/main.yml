@@ -29,7 +29,6 @@ jobs:
       # Full sync on every build - atomic deploy
       - name: Sync files
         run: aws s3 sync . ${{ secrets.AWS_BUCKET }}
-          --acl public-read
           --delete
           --only-show-errors
           --exclude '.git/*'
