@@ -30,7 +30,7 @@ jobs:
         run: echo "short_sha=`git rev-parse --short HEAD`" >> $GITHUB_ENV
         
       - name: Set bucket folder name
-        run: echo "folder=`date +"%Y%m%d%H%M"`_`${{ env.short_sha }}`" >> $GITHUB_ENV
+        run: echo "folder=`date +"%Y%m%d%H%M"`_${{ env.short_sha }}" >> $GITHUB_ENV
 
       # Full sync on every build - atomic deploy
       - name: Sync files
