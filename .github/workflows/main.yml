@@ -27,7 +27,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Get short commit SHA
-        run: echo "short_sha=${ github.sha::7 }" >> $GITHUB_ENV
+        run: echo "short_sha=${ GITHUB_SHA::7 }" >> $GITHUB_ENV
 
       # Full sync on every build - atomic deploy
       - name: Sync files
