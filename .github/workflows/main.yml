@@ -106,9 +106,11 @@ jobs:
           
       - name: Wait for invalidation to be completed
         if: env.lines > 0
-        run: aws cloudfront wait invalidation-completed
-          --id ${{ env.invalidation_id }}
-          --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+        run: |
+          aws cloudfront wait invalidation-completed
+            --id ${{ env.invalidation_id }}
+            --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          cat /tmp/invalidation_output.json
 
       - name: Slack notification when sync ends
         if: env.lines > 0
