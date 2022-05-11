@@ -92,19 +92,23 @@ jobs:
         if: ${{ env.lines > 0 && env.lines <= 50 }}
         run: aws cloudfront create-invalidation
           --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
-          --invalidation-batch file:///tmp/invalidation.json
+          --invalidation-batch file:///tmp/invalidation.json > /tmp/invalidation_output.json
 
       - name: Full cache invalidation
         if: env.lines > 50
         run: aws cloudfront create-invalidation
           --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
-          --paths "/*"
+          --paths "/*" > /tmp/invalidation_output.json
           
-      # - name: Wait for invalidation to be completed
-        # if: env.lines > 0
-        # run: aws cloudfront wait invalidation-completed
-          # --id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
-          # --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+      - name: Set env invalidation_id
+        if: env.lines > 0
+        run: echo "invalidation_id=`cat /tmp/invalidation_output.json | jq -r ".Invalidation.Id"`" >> $GITHUB_ENV 
+          
+      - name: Wait for invalidation to be completed
+        if: env.lines > 0
+        run: aws cloudfront wait invalidation-completed
+          --id ${{ env.invalidation_id }}
+          --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
       - name: Slack notification when sync ends
         if: env.lines > 0
