@@ -28,7 +28,7 @@ jobs:
 
       # Full sync on every build - atomic deploy
       - name: Sync files
-        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}
+        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}/${{ github.sha }}
           --delete
           --only-show-errors
           --exclude '.git/*'
@@ -48,7 +48,7 @@ jobs:
         run: |
           git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | awk '{print "/"$1}' | sed '/.github/d' > /tmp/diff
           echo "lines=`cat /tmp/diff | wc -l | sed 's/^ *//g'`" >> $GITHUB_ENV
-      
+
       # Generate proper json file with jq
       - name: Build invalidation payload
         if: ${{ env.lines > 0 && env.lines <= 50 }}
@@ -59,10 +59,10 @@ jobs:
         run: aws cloudfront create-invalidation
           --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
           --invalidation-batch file:///tmp/invalidation.json
-          
+
       - name: Full cache invalidation
         if: env.lines > 50
-        run: aws cloudfront create-invalidation 
+        run: aws cloudfront create-invalidation
           --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
           --paths "/*"
 
