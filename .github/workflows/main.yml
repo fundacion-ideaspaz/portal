@@ -26,9 +26,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
 
+      - name: Get short commit SHA
+        run: echo "short_sha=${ github.sha::7 }" >> $GITHUB_ENV
+
       # Full sync on every build - atomic deploy
       - name: Sync files
-        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}/${{ github.sha }}
+        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}/${{ env.short_sha }}
           --delete
           --only-show-errors
           --exclude '.git/*'
@@ -38,6 +41,37 @@ jobs:
           --exclude '*/.gitkeep'
           --exclude '*/.meta/*'
           --exclude 'README.md'
+
+      # Get the current CloudFront distribution's configure
+      - name: Get distribution config and output it to a file
+        run: aws cloudfront get-distribution-config --id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }} > /tmp/output.json
+
+      # This takes the JSON file, removes the ETag field, selects the
+      # appropriate distribution config item, and sets the origin path
+      # to the S3 folder we expect. It then spits that config out to
+      # its own file
+      - name: Remove ETag field and update origin path
+        run: cat /tmp/output.json | jq "del(.ETag) | (.DistributionConfig.Origins.Items[] | select(.Id == \"${{ secrets.AWS_CLOUDFRONT_ORIGIN_ID }}\")).OriginPath = \"/${{ env.short_sha }}\" | .DistributionConfig" > /tmp/updated-config.json
+
+      # AWS CLI Requires us to specify the etag from this request, to make
+      # sure nobody has made a change since we last pulled the config.
+      # This extracts the content of that tag. The -r parameter outputs
+      # the field as "raw" data, without quotes, which we want for our
+      # variable.
+      - name: Set env ETag variable
+        run: echo "etag=`cat /tmp/output.json | jq -r ".ETag"`" >> $GITHUB_ENV
+
+      # Pass in the modified configuration file and the etag value to
+      # the cli command to update the distribution.
+      - name: Update the distribution config
+        run: aws cloudfront update-distribution
+          --id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
+          --if-match="${{ env.etag }}"
+          --distribution-config file:///tmp/updated-config.json
+
+      - name: Wait for distribution to be deployed
+        run: aws cloudfront wait distribution-deployed
+          --id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION_ID }}
 
       # Get list of files changed on the last commit with git diff-tree --no-commit-id --name-only -r ${{ github.sha }}
       # Add trailing slash to every line to comply with Cloudfrount invalidation url rules with awk '{print "/"$1}'
