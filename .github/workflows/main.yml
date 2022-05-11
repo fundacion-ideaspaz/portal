@@ -54,7 +54,7 @@ jobs:
       # to the S3 folder we expect. It then spits that config out to
       # its own file
       - name: Remove ETag field and update origin path
-        run: cat /tmp/output.json | jq "del(.ETag) | (.DistributionConfig.Origins.Items[] | select(.Id == \"${{ secrets.AWS_CLOUDFRONT_ORIGIN_ID }}\")).OriginPath = \"/${{ env.short_sha }}\" | .DistributionConfig" > /tmp/updated-config.json
+        run: cat /tmp/output.json | jq "del(.ETag) | (.DistributionConfig.Origins.Items[] | select(.Id == \"${{ secrets.AWS_CLOUDFRONT_ORIGIN_ID }}\")).OriginPath = \"/${{ env.folder }}\" | .DistributionConfig" > /tmp/updated-config.json
 
       # AWS CLI Requires us to specify the etag from this request, to make
       # sure nobody has made a change since we last pulled the config.
