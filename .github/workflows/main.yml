@@ -28,10 +28,13 @@ jobs:
 
       - name: Get short commit SHA
         run: echo "short_sha=`git rev-parse --short HEAD`" >> $GITHUB_ENV
+        
+      - name: Set bucket folder name
+        run: echo "folder=`date +"%Y%m%d%H%M"`_`${{ env.short_sha }}`" >> $GITHUB_ENV
 
       # Full sync on every build - atomic deploy
       - name: Sync files
-        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}/${{ env.short_sha }}
+        run: aws s3 sync . ${{ secrets.AWS_BUCKET }}/${{ env.folder }}
           --delete
           --only-show-errors
           --exclude '.git/*'
