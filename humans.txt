@@ -1,6 +1,6 @@
 /* TEAM */
 
-Creator: Site Name
+Creator: FIP
 URL: https://stg.ideaspaz.org/
 Description: Bienvenido a Statamic 57 en español!
 Not sure where to do next? Here are a few ideas, but feel free to explore in your own way, in your own time.
