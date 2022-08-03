@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98.313" height="59.25" viewBox="0 0 98.313 59.25">
+  <defs>
+    <clipPath id="arrow-up-a">
+      <path fill="none" d="M0 0h59.25v13.452H0z" data-name="Rectangle 16"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 2367">
+    <g data-name="Group 3197">
+      <g data-name="Group 3294">
+        <g data-name="Group 3358">
+          <g data-name="Group 1551">
+            <g data-name="Group 611">
+              <path fill="#707070" d="M13.452 7.388h-1.836l-4.86-5.965H6.7L1.835 7.382 0 7.388 6.3 0h.861Z" data-name="Path 4"/>
+              <path fill="#040405" d="M6.727 59.25Z" data-name="Path 5"/>
+              <g data-name="Group 14">
+                <g clip-path="url(#arrow-up-a)" data-name="Group 13" transform="matrix(0 -1 1 0 0 59.25)">
+                  <path fill="none" stroke="#707070" stroke-width="1.389" d="M57.601 6.726H.001" data-name="Path 203"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <text fill="#707070" data-name="VOLVER ARRIBA" font-family="WorkSans-Bold, Work Sans" font-size="10" font-weight="700" transform="translate(19.313 57.25)"><tspan x="0" y="0">VOLVER ARRIBA</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

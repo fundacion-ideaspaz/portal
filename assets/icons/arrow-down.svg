@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.452" height="69.25" viewBox="0 0 13.452 69.25">
+  <defs>
+    <clipPath id="arrow-down-a">
+      <path id="Rectangle_16" fill="none" d="M0 0h69.25v13.452H0z" data-name="Rectangle 16"/>
+    </clipPath>
+  </defs>
+  <g id="Flecha" transform="translate(-139 -660)">
+    <g id="Group_611" data-name="Group 611" transform="rotate(90 -253.774 406.226)">
+      <path id="Path_4" fill="#040405" d="M43.9 0v1.836L49.862 6.7v.051L43.9 11.617v1.835l7.388-6.3v-.858Z" data-name="Path 4" transform="translate(17.965)"/>
+      <path id="Path_5" fill="#040405" d="M0 6.725Z" data-name="Path 5"/>
+      <g id="Group_14" data-name="Group 14">
+        <g id="Group_13" clip-path="url(#arrow-down-a)" data-name="Group 13">
+          <path id="Line_1" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="1.389" d="M67.328 6.726H.001" data-name="Line 1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

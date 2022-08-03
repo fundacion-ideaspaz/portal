@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.998" height="15.999" viewBox="0 0 15.998 15.999">
+  <defs>
+    <clipPath id="plus-a">
+      <path fill="none" stroke="#000" d="M0 0h15.998v15.999H0z" data-name="Rectangle 33"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 792">
+    <g clip-path="url(#plus-a)" data-name="Group 66">
+      <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M7.999 15.999V0" data-name="Line 6"/>
+    </g>
+    <path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5" d="M15.998 7.999H0" data-name="Line 5"/>
+  </g>
+</svg>
