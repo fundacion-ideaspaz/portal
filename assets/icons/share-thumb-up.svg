@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="share-thumb-up-a">
+      <path data-name="Path 290" d="M0-2.182h17.6v-16H0Z" transform="translate(0 18.182)" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/>
+  <g data-name="Group 2118">
+    <g data-name="Group 2117" transform="translate(9 8)" clip-path="url(#share-thumb-up)">
+      <g data-name="Group 2116">
+        <path data-name="Path 289" d="M6.4 16h7.2a1.591 1.591 0 0 0 1.473-.976l2.415-5.642a1.576 1.576 0 0 0 .112-.584v-1.6a1.6 1.6 0 0 0-1.6-1.6h-5.048l.759-3.656.025-.256a1.205 1.205 0 0 0-.352-.847l-.848-.84-5.272 5.273A1.591 1.591 0 0 0 4.8 6.4v8A1.6 1.6 0 0 0 6.4 16M3.2 6.4H0V16h3.2Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="share-solo-text-a">
+      <path data-name="Path 292" d="M0-3.072h14.628v-16H0Z" transform="translate(0 19.072)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/>
+  <g data-name="Group 2123">
+    <g data-name="Group 2122" transform="translate(9.563 9)" clip-path="url(#share-solo-text-a)">
+      <g data-name="Group 2121">
+        <path data-name="Path 291" d="M13.898 8.008a.676.676 0 0 0 .73-.722v-6.5a.743.743 0 0 0-.8-.789 1.552 1.552 0 0 0-.951.354l-1.559 1.058a.649.649 0 0 0-.369.568.537.537 0 0 0 .531.56.79.79 0 0 0 .479-.177l1.188-.789h.029v5.714a.677.677 0 0 0 .722.722M.907 16a.949.949 0 0 0 1.018-.8l1.194-3.281h5.612L9.926 15.2a.948.948 0 0 0 1.018.8.849.849 0 0 0 .936-.878 1.765 1.765 0 0 0-.111-.59L7.367 2.802a1.387 1.387 0 0 0-1.43-1.018 1.368 1.368 0 0 0-1.409 1.01L.11 14.57a1.731 1.731 0 0 0-.11.568.818.818 0 0 0 .907.862m2.684-5.6 2.308-6.474h.059l2.309 6.471Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

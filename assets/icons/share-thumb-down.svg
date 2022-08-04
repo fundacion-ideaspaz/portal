@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <clipPath id="share-thumb-down-a">
+      <path data-name="Path 290" d="M0-18.182h17.6v16H0Z" transform="translate(0 18.182)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 3501" transform="translate(-691 -965)">
+    <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(691 965)" fill="#b5b5b5"/>
+    <g data-name="Group 2119">
+      <g data-name="Group 2117" clip-path="url(#share-thumb-down-a)" transform="translate(700 976)">
+        <g data-name="Group 2116">
+          <path data-name="Path 289" d="M6.4 0h7.2a1.591 1.591 0 0 1 1.472.976l2.416 5.64a1.576 1.576 0 0 1 .112.584v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.048l.759 3.656.025.256a1.205 1.205 0 0 1-.352.847l-.848.84-5.272-5.271A1.591 1.591 0 0 1 4.8 9.6v-8A1.6 1.6 0 0 1 6.4 0M3.2 9.6H0V0h3.2Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
