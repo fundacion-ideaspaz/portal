@@ -28,7 +28,7 @@
 
 <body class="flex min-h-screen flex-col overflow-x-hidden" x-data="{ open: false }" id="top">
   
-    <nav class="sticky top-0 z-50 border-b bg-fip-gray" x-show="!open">
+    <nav class="sticky top-0 z-50 border-b bg-fip-gray max-w-screen-2xl mx-auto w-full" x-show="!open">
   <div class="container flex max-w-6xl px-6 py-5 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="hidden flex-auto grow-0 sm:block"><svg class="h-7 sm:w-72" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg></a>
     <a href="/" class="mr-4 flex-auto grow-0 sm:hidden"><svg class="h-7" xmlns="http://www.w3.org/2000/svg" width="29.692" height="30" viewBox="0 0 29.692 30"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> </svg></a>
@@ -68,7 +68,7 @@
   </div>
 </nav>
 
-<nav class="relative z-0 bg-fip-gray" x-cloak x-show="open">
+<nav class="relative z-0 bg-fip-gray max-w-screen-2xl mx-auto w-full" x-cloak x-show="open">
   <div class="container flex max-w-6xl p-8 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="flex-auto grow-0"><svg class="h-10 hidden sm:w-72 sm:block" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg>
       <svg class="h-20 w-36 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
@@ -433,55 +433,70 @@
 
   
   <div id="app"><div class="mt-6 sm:mt-12">
-  <div class="container mx-auto max-w-3xl gap-4 sm:grid sm:grid-cols-12">
-    <div class="px-6 sm:col-span-2 sm:px-0">
-      <span class="mb-4 block font-black uppercase text-fip-green sm:inline">Publicaciones</span>
-    </div>
-    <div class="px-6 sm:col-span-8 sm:px-0">
-      <div class="mb-6 block font-sans text-xs tracking-normal text-gray-400 sm:mb-12 sm:pl-6 sm:text-sm">
-        <span class="font-medium uppercase">Inicio</span>
-        <span class="mx-2">/</span>
-        <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
-        <span class="mx-2">/</span>
-        <span class="font-medium">30 de junio de 2017</span>
-        <span class="mx-2">/</span>
-        <span class="">13 min.</span>
-      </div>
-    </div>
+  <!-- metadata block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-6 sm:mb-12 ">
+  <div class="sm:col-span-2">
+    
+      <span class="mb-4 block font-black uppercase text-fip-green sm:inline mx-6 sm:mx-0">Publicaciones</span>
+    
   </div>
-  <div class="mb-32 gap-4 sm:grid sm:grid-cols-12">
-    <div class="sm:col-span-2"></div>
-    <div class="sm:col-span-8">
-      <article class="max-w-none px-6 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:text-xl prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl">
-          <h1>Antes de afirmar que el consumo de cocaína va en aumento, piénselo dos veces</h1>
-          <p class="lead">La evidencia muestra que en Estados Unidos hay información contradictoria sobre el incremento del consumo de cocaína y en Colombia no hay datos para apoyar la afirmación de que el consumo ha tenido grandes variaciones en la última década. </p>
-          
-            <p class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
-  Esta columna de opinión se publicó el 10 August de 2022 en
-  
-  <a href=""
-    class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">Leer columna
-    original</a>
-</p>
+  <div class="block font-sans text-xs tracking-normal text-gray-400 sm:text-sm">
+  <span class="font-medium uppercase">Inicio</span>
+  <span class="mx-2">/</span>
+  <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
+  <span class="mx-2">/</span>
+  <span class="font-medium">30 de junio de 2017</span>
+  <span class="mx-2">/</span>
+  <span class="">13 min.</span>
+</div>
 
-          
-          <div class="sm:relative">
-            
-              <figure class="-mx-6 sm:-mx-0">
-  
-  
+  </div>
+</div>
+</div>
+
+  <!-- header block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
     
-    <img class="mb-0"
-      src="https://ideaspaz.imgix.net/images/59569f3b0a009.png?auto=format&fit=crop&w=720&h=410&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-      width="720" height="410" alt="" />
-    
-  
-</figure>
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-            
-            <div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+  <div class="container mx-auto">
+    <h1>Antes de afirmar que el consumo de cocaína va en aumento, piénselo dos veces</h1>
+    <p class="lead">La evidencia muestra que en Estados Unidos hay información contradictoria sobre el incremento del consumo de cocaína y en Colombia no hay datos para apoyar la afirmación de que el consumo ha tenido grandes variaciones en la última década. </p>
+    <!-- external portal block -->
+
+  <div class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
+    Esta  se publicó el 11 de agosto de 2022 en
+    
+    <a href=""
+      class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">
+      Leer  original
+    </a>
+  </div>
+
+
+    <div class="sm:relative">
+      
+  <figure class="-mx-6 sm:-mx-0 mb-4">
+    
+    
+      
+      <img class="mb-0"
+        src="https://ideaspaz.imgix.net/images/59569f3b0a009.png?auto=format&fit=crop&w=768&h=432&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+        width="768" height="432" alt="" />
+      
+    
+  </figure>
+
+
+      <!-- share block -->
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -500,86 +515,123 @@
   </div>
 </div>
 
-            
-            
-          </div>
-        </section>
 
-        
-          
-            <section class="container mx-auto max-w-3xl"><p class="note">Este artículo se publicó el <a target="_blank" href="http://lasillavacia.com/blogs/antes-de-afirmar-que-el-consumo-de-cocaina-va-en-aumento-pienselo-dos-veces-61548">30 de junio de 2017 en La Silla Vacía</a>. Leer <a target="_blank" href="http://www.insightcrime.org/news-analysis/cocaine-consumption-rise-think-again">versión en inglés</a></p><p>Mientras que en los Estados Unidos se señala el boom de la coca en Colombia como una de las causas del aumento del consumo de cocaína, en Colombia se afirma que el alza en el número de hectáreas ha sido jalonada por el incremento en la demanda externa e interna. Recientemente, W. Brownfield, subsecretario para asuntos de narcotráfico, llegó a afirmar que habría una relación “<a target="_blank" href="http://cnnespanol.cnn.com/video/cnnee-dusa-intvw-william-brownfield-lucha-contra-el-narcotrafico/amp/">simbiótica</a>” entre la producción de cocaína en Colombia y el consumo en EE.UU.</p><p>El problema es que no hay evidencia suficiente para afirmar que el consumo de esta droga haya aumentado y aun si fuera cierto, señalar una relación de causalidad resulta muy difícil en un mercado ilegal en el que intervienen muchas variables. No se trata de restarle importancia o simplificar lo que es un serio problema de salud pública, sino de evitar las explicaciones fáciles y también las alertas que buscan generar apoyo para las medidas más represivas o que no han dado resultado –retorno de la fumigación o el endurecimiento de las penas–.</p><p>En una primera parte de este artículo analizaremos la información disponible sobre el consumo de cocaína en los Estados Unidos, Europa y Oceanía. Luego nos detendremos en Colombia, para finalmente señalar algunas conclusiones.</p><h3>¿Es cierto que el consumo de cocaína está en aumento en los Estados Unidos?</h3><p>De acuerdo a la información de la <a target="_blank" href="https://www.washingtonpost.com/news/worldviews/wp/2017/03/04/colombias-coca-boom-is-showing-up-on-u-s-streets/?utm_term=.fabd5d9b79c7">Administración de Servicios de Salud Mental y Abuso de Sustancias de Estados Unidos</a>, entre 2013 y 2015 el consumo de cocaína se incrementó en un 61 por ciento pasando de 601.000 a 968.000 usuarios de esta droga. <a target="_blank" href="https://www.drugabuse.gov/related-topics/trends-statistics/overdose-death-rates">Los registros </a>de muertes por sobredosis de cocaína también muestran una tendencia al alza, pasando de 4.700 en 2011 a 7.000 en 2015. Con estas cifras el <a href="https://obamawhitehouse.archives.gov/sites/default/files/ondcp/policy-and-research/wausid_results_report.pdf">Departamento de Estado</a> ha prendido las alertas, señalando que este mercado está siendo suplido por Colombia, ya que el 90% de las muestras de cocaína que fueron incautadas en 2015 tienen como origen nuestro país.</p><p>A primera vista, la conexión parece lógica, convincente. Sin embargo, <a target="_blank" href="https://www.brookings.edu/opinions/mixed-messages-is-cocaine-consumption-in-the-u-s-going-up-or-down/">un análisis detallado </a>de los datos plantea serias dudas sobre esta afirmación. El reconocido experto en política de drogas de la corporación RAND, Beau Kilmer, señala que en los Estados Unidos existen muchos vacíos e inconsistencias en la información y que por lo tanto estas cifras deben ser manejadas con cautela. Esta situación no es exclusiva para el caso de la cocaína, sino también para las otras sustancias ilícitas en ese país, <a target="_blank" href="https://fivethirtyeight.com/features/data-on-drug-use-is-disappearing-just-when-we-need-it-most/">sobre las cuales es cada vez es más difícil conseguir información confiable</a>.</p><p>Kilmer compara siete fuentes estadísticas y encuentra que solo tres ellas señalan que el consumo de cocaína está aumentando, con indicadores débiles para poder estimar el consumo de los <em>heavy users </em>(los usuarios intensivos que pueden llegar a consumir <a target="_blank" href="https://www.rand.org/content/dam/rand/pubs/monograph_reports/2006/RAND_MR331.sum.pdf">ocho veces</a> más que los usuarios ocasionales) (<a target="_blank" href="https://www.cdc.gov/drugoverdose/index.html">Centers for Disease Control and Prevention</a>, <a href="https://nsduhweb.rti.org/respweb/homepage.cfm">National Survey on Drug Use and Health</a> y<a target="_blank" href="https://nsduhweb.rti.org/respweb/homepage.cfm"> National Survey on Drug Use and Health</a>). Las otras cuatro fuentes, que son las más confiables, muestran que el consumo en este país se ha estabilizado y en algunos casos ha disminuido (<a target="_blank" href="http://www.questdiagnostics.com/home.html">Quest Diagnostics</a>, <a target="_blank" href="https://wwwdasis.samhsa.gov/webt/information.htm">Treatment Episode Data Set </a>(TEDS), <a target="_blank" href="https://www.nij.gov/topics/drugs/markets/adam/pages/welcome.aspx">Arrestee Drug Abuse Monitoring</a> y <a target="_blank" href="https://www.cdc.gov/drugoverdose/index.html">Centers for Disease Control and Prevention</a>).</p><p>En cuanto a las cifras de sobredosis de cocaína, un aspecto importante a tener en cuenta es que el aumento en los últimos dos años ha estado jalonado por un incremento de casos donde las muertes se originan por una peligrosa mezcla de cocaína con opiáceos –como heroína o el <a href="http://www.bbc.com/mundo/noticias/2016/03/160329_fentanilo_droga_50_veces_mas_potente_que_heroina_alerta_eeuu_dgm">fentanilo</a>– y no por el uso exclusivo de cocaína.</p><p><a target="_blank" href="http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.2016.303627?journalCode=ajph&">Un nuevo estudio publicado en el American Journal of Public Health </a>muestra que entre 2006 y 2010 los casos de sobredosis de cocaína iban en caída al pasar de 2.5 a 1.35 muertes por cien mil habitantes. Sin embargo, de 2010 a la fecha esta cifra se ha incrementado en más de un 60 por ciento como resultado de la mezcla de cocaína con opiáceos, lo cual es consistente con el creciente uso de heroína y el suministro de fentanilo producido ilícitamente en los Estados Unidos. Este escenario en que los opiáceos están impulsado el aumento de muertes obliga a ser muy cuidadoso con las cifras que se están manejando respecto al consumo de cocaína en Estados Unidos, ya que puede llevar a inferencias que no responden a la situación real de los consumidores.</p><p>Por otra parte, <a target="_blank" href="https://economia.uniandes.edu.co/component/booklibrary/478/view/46/Documentos%20CEDE/1073/coca-cocaina-y-narcotrafico">un reciente análisis realizado por Hernando Zuleta</a>, Director del Centro de Estudios sobre Seguridad y Drogas (CESED) de la Universidad de Los Andes, señala que no se puede hablar de un aumento generalizando en los Estados Unidos, pues el consumo de cocaína se ha concentrado en franjas específicas de la población y en los estados que están más al norte como Alaska, Montana y Maine –y no en los del sur–.</p><h3>¿Y qué ha pasado en el resto del mundo?</h3><p>En Europa tampoco está claro si el consumo de cocaína va en aumento. Según<a href="https://www.unodc.org/wdr2017/"> el Informe Mundial sobre Drogas 2017</a>, publicado por la Oficina de las Naciones Unidas contra las Drogas y el Delito (UNODC, por sus siglas en inglés), a pesar de que la oferta de cocaína parece estar creciendo (basado en las encuestas y estudios realizados por los países, la mayoría de las cuales no están actualizadas), todavía no es posible establecer si el consumo ha crecido. Lo que muestran las cifras es que el periodo 2011-2015 estuvo marcado por un comportamiento estable (aproximadamente el 0.9 por ciento de la población).</p><p>La información desagregada por países tampoco muestra un panorama claro. El <a target="_blank" href="http://www.emcdda.europa.eu/edr2017">más reciente informe del Observatorio Europeo de las Drogas y las Toxicomanías </a>(OEDT), concluye que de aquellos países que realizaron encuestas de consumo de cocaína en 2013, seis mostraron un incremento, dos una tendencia estable y cuatro presentaron reducciones.</p><p>En Europa, además de las encuestas poblaciones, se encuentran los análisis de detección de residuos de cocaína en algunas aguas residuales municipales. Con base en esta información, el OEDT encuentra que las pautas generales detectadas en 2015 son similares a las de años anteriores, en las que la mayoría de las ciudades muestra una tendencia descendente o estable.</p><p>En cuanto a Asia, <a target="_blank" href="http://www.unodc.org/wdr2017/">la información reportada por UNODC </a>hace referencia al aumento en el número de incautaciones de cocaína que tenía como destino este continente, las cuales pasaron de 0.4 toneladas en 1998 a 1.7 toneladas en 2015, especialmente en los países del este y sudeste asiático. Aunque esto puede ser un indicio del aumento de la demanda, no es suficiente para concluir que está aumentando el consumo. Una situación similar se encuentra en Australia, donde las incautaciones aumentaron de 0.1 toneladas en los años noventa a 1.2 toneladas en 2015. En este caso, UNODC además señala que se registra una leve caída de los precios de cocaína, lo cual tampoco es evidencia clara de que el uso de la cocaína esté en aumento.</p><p>En conclusión, no existe evidencia concluyente que indique que el consumo de cocaína ha incrementado en el mundo, ni revisando la evidencia global, ni la disponible para las regiones o países específicos.</p><h3>¿Y en Colombia sí está aumentando el consumo?</h3><p><a target="_blank" href="https://www.dnp.gov.co/Paginas/Narcomenudeo,-un-lucrativo-negocio-que-mueve-6-billones-de%20pesos%20anuales.aspx">Un informe del Departamento Nacional de Planeación</a> prendió las alertas al afirmar que el consumo de drogas estaba creciendo en el país, al punto de que Colombia había pasado “en los últimos siete años a ocupar el cuarto puesto en Suramérica en consumo de cocaína y marihuana”. Posteriormente aparecieron titulares como “<a target="_blank" href="http://www.dinero.com/pais/articulo/cuanto-mueve-el-negocio-del-narcotrafico-en-colombia-2017/241953">Colombia pasó de productor a ser uno de los principales consumidores de droga</a>” o “<a target="_blank" href="http://www.elespectador.com/noticias/nacional/colombia-de-productor-de-cocaina-gran-consumidor-de-dro-articulo-664731">Colombia, de productor de cocaína a gran consumidor de droga”</a>. ¿Qué dice la evidencia al respecto?</p><p>Existen cinco encuestas que se han hecho para estudiar el consumo de drogas. Cada una tiene datos comparables para sub-periodos, aborda distintas poblaciones y tiene una escala geográfica distinta:</p></section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl">
+      <!-- sidebar block -->
+<div class="sm:absolute sm:top-0 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
   
+  
+</div>
 
-<figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
-  <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/59569dfcbc987.png?auto=format&w=1024&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-    width="1024" alt="" />
-  
-</figure>
-</section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl"><p>Al observar las cifras que ofrece cada encuesta sobre la prevalencia del último año de consumo de cocaína, encontramos un panorama distinto al que plantean los medios:</p></section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl">
-  
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
-<figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
-  <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/59569e06e5573.png?auto=format&w=1024&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-    width="1024" alt="" />
+  <!-- content block -->
+  <!-- post content -->
+<article>
+  <!-- prose header -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <!-- prose content blocks -->
   
-</figure>
-</section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl"><p>De las cinco encuestas, dos de ellas –<a target="_blank" href="http://www.odc.gov.co/Portals/1/publicaciones/pdf/destacados/CO03542012-ii-estudio-epidemiologico-andino-sobre-consumo-drogas-poblacion-universitaria-informe-colombia-2012-.pdf">población universitaria</a> y <a href="https://economia.uniandes.edu.co/images/archivos/pdfs/CESED/Boletin3CESED.pdf">CESED jóvenes</a>- muestran que la prevalencia anual de consumo ha disminuido en el tiempo. Otras dos revelan una tendencia al alza. La encuesta sobre <a target="_blank" href="https://www.unodc.org/documents/colombia/Documentostecnicos/Estudio_Consumo_Escolares.pdf">población escolar</a> evidencia un incremento del 1.21 entre el año base y el final. Mientras que la <a target="_blank" href="https://www.odc.gov.co/Portals/1/publicaciones/pdf/consumo/estudios/locales/CO031052016-estudio-consumo-sustancias-psicoactivas-bogota-2016.pdf">cifra del Estudio de SPA</a> en Bogotá presenta un leve aumento del 0.21 entre ambos años. Finalmente, el <a target="_blank" href="https://www.unodc.org/documents/colombia/2014/Julio/Estudio_de_Consumo_UNODC.pdf">Estudio Nacional de SPA </a>concluye que el consumo se ha mantenido estable.</p><p>De manera general, lo que sugieren los datos disponibles es que el consumo de cocaína no ha tenido grandes variaciones durante la última década.</p><p>Una mención especial requiere el Estudio Nacional de Consumo de Sustancias Psicoactivas en población escolar, el cual mostró un aumento significativo en la prevalencia del último año. Lo primero que hay que destacar es que el año base es 2004 y el año final de 2011, es decir un periodo anterior al aumento reciente de los cultivos de coca. Lo segundo es que esta encuesta hace referencia a menores de edad, la población más vulnerable y con un consumo de alto riesgo. Desde la fecha de la última encuesta (2011) hasta el día de hoy, un porcentaje de estos menores podría haber seguido con el consumo, lo cual se reflejaría en las encuestas más recientes. En todo caso, este es un tema sobre el cual el Estado debe prestar atención, siendo una prioridad actualizar esta encuesta.</p></section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl">
+    
+      <p class="note">Este artículo se publicó el <a target="_blank" href="http://lasillavacia.com/blogs/antes-de-afirmar-que-el-consumo-de-cocaina-va-en-aumento-pienselo-dos-veces-61548">30 de junio de 2017 en La Silla Vacía</a>. Leer <a target="_blank" href="http://www.insightcrime.org/news-analysis/cocaine-consumption-rise-think-again">versión en inglés</a></p><p>Mientras que en los Estados Unidos se señala el boom de la coca en Colombia como una de las causas del aumento del consumo de cocaína, en Colombia se afirma que el alza en el número de hectáreas ha sido jalonada por el incremento en la demanda externa e interna. Recientemente, W. Brownfield, subsecretario para asuntos de narcotráfico, llegó a afirmar que habría una relación “<a target="_blank" href="http://cnnespanol.cnn.com/video/cnnee-dusa-intvw-william-brownfield-lucha-contra-el-narcotrafico/amp/">simbiótica</a>” entre la producción de cocaína en Colombia y el consumo en EE.UU.</p><p>El problema es que no hay evidencia suficiente para afirmar que el consumo de esta droga haya aumentado y aun si fuera cierto, señalar una relación de causalidad resulta muy difícil en un mercado ilegal en el que intervienen muchas variables. No se trata de restarle importancia o simplificar lo que es un serio problema de salud pública, sino de evitar las explicaciones fáciles y también las alertas que buscan generar apoyo para las medidas más represivas o que no han dado resultado –retorno de la fumigación o el endurecimiento de las penas–.</p><p>En una primera parte de este artículo analizaremos la información disponible sobre el consumo de cocaína en los Estados Unidos, Europa y Oceanía. Luego nos detendremos en Colombia, para finalmente señalar algunas conclusiones.</p><h3>¿Es cierto que el consumo de cocaína está en aumento en los Estados Unidos?</h3><p>De acuerdo a la información de la <a target="_blank" href="https://www.washingtonpost.com/news/worldviews/wp/2017/03/04/colombias-coca-boom-is-showing-up-on-u-s-streets/?utm_term=.fabd5d9b79c7">Administración de Servicios de Salud Mental y Abuso de Sustancias de Estados Unidos</a>, entre 2013 y 2015 el consumo de cocaína se incrementó en un 61 por ciento pasando de 601.000 a 968.000 usuarios de esta droga. <a target="_blank" href="https://www.drugabuse.gov/related-topics/trends-statistics/overdose-death-rates">Los registros </a>de muertes por sobredosis de cocaína también muestran una tendencia al alza, pasando de 4.700 en 2011 a 7.000 en 2015. Con estas cifras el <a href="https://obamawhitehouse.archives.gov/sites/default/files/ondcp/policy-and-research/wausid_results_report.pdf">Departamento de Estado</a> ha prendido las alertas, señalando que este mercado está siendo suplido por Colombia, ya que el 90% de las muestras de cocaína que fueron incautadas en 2015 tienen como origen nuestro país.</p><p>A primera vista, la conexión parece lógica, convincente. Sin embargo, <a target="_blank" href="https://www.brookings.edu/opinions/mixed-messages-is-cocaine-consumption-in-the-u-s-going-up-or-down/">un análisis detallado </a>de los datos plantea serias dudas sobre esta afirmación. El reconocido experto en política de drogas de la corporación RAND, Beau Kilmer, señala que en los Estados Unidos existen muchos vacíos e inconsistencias en la información y que por lo tanto estas cifras deben ser manejadas con cautela. Esta situación no es exclusiva para el caso de la cocaína, sino también para las otras sustancias ilícitas en ese país, <a target="_blank" href="https://fivethirtyeight.com/features/data-on-drug-use-is-disappearing-just-when-we-need-it-most/">sobre las cuales es cada vez es más difícil conseguir información confiable</a>.</p><p>Kilmer compara siete fuentes estadísticas y encuentra que solo tres ellas señalan que el consumo de cocaína está aumentando, con indicadores débiles para poder estimar el consumo de los <em>heavy users </em>(los usuarios intensivos que pueden llegar a consumir <a target="_blank" href="https://www.rand.org/content/dam/rand/pubs/monograph_reports/2006/RAND_MR331.sum.pdf">ocho veces</a> más que los usuarios ocasionales) (<a target="_blank" href="https://www.cdc.gov/drugoverdose/index.html">Centers for Disease Control and Prevention</a>, <a href="https://nsduhweb.rti.org/respweb/homepage.cfm">National Survey on Drug Use and Health</a> y<a target="_blank" href="https://nsduhweb.rti.org/respweb/homepage.cfm"> National Survey on Drug Use and Health</a>). Las otras cuatro fuentes, que son las más confiables, muestran que el consumo en este país se ha estabilizado y en algunos casos ha disminuido (<a target="_blank" href="http://www.questdiagnostics.com/home.html">Quest Diagnostics</a>, <a target="_blank" href="https://wwwdasis.samhsa.gov/webt/information.htm">Treatment Episode Data Set </a>(TEDS), <a target="_blank" href="https://www.nij.gov/topics/drugs/markets/adam/pages/welcome.aspx">Arrestee Drug Abuse Monitoring</a> y <a target="_blank" href="https://www.cdc.gov/drugoverdose/index.html">Centers for Disease Control and Prevention</a>).</p><p>En cuanto a las cifras de sobredosis de cocaína, un aspecto importante a tener en cuenta es que el aumento en los últimos dos años ha estado jalonado por un incremento de casos donde las muertes se originan por una peligrosa mezcla de cocaína con opiáceos –como heroína o el <a href="http://www.bbc.com/mundo/noticias/2016/03/160329_fentanilo_droga_50_veces_mas_potente_que_heroina_alerta_eeuu_dgm">fentanilo</a>– y no por el uso exclusivo de cocaína.</p><p><a target="_blank" href="http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.2016.303627?journalCode=ajph&">Un nuevo estudio publicado en el American Journal of Public Health </a>muestra que entre 2006 y 2010 los casos de sobredosis de cocaína iban en caída al pasar de 2.5 a 1.35 muertes por cien mil habitantes. Sin embargo, de 2010 a la fecha esta cifra se ha incrementado en más de un 60 por ciento como resultado de la mezcla de cocaína con opiáceos, lo cual es consistente con el creciente uso de heroína y el suministro de fentanilo producido ilícitamente en los Estados Unidos. Este escenario en que los opiáceos están impulsado el aumento de muertes obliga a ser muy cuidadoso con las cifras que se están manejando respecto al consumo de cocaína en Estados Unidos, ya que puede llevar a inferencias que no responden a la situación real de los consumidores.</p><p>Por otra parte, <a target="_blank" href="https://economia.uniandes.edu.co/component/booklibrary/478/view/46/Documentos%20CEDE/1073/coca-cocaina-y-narcotrafico">un reciente análisis realizado por Hernando Zuleta</a>, Director del Centro de Estudios sobre Seguridad y Drogas (CESED) de la Universidad de Los Andes, señala que no se puede hablar de un aumento generalizando en los Estados Unidos, pues el consumo de cocaína se ha concentrado en franjas específicas de la población y en los estados que están más al norte como Alaska, Montana y Maine –y no en los del sur–.</p><h3>¿Y qué ha pasado en el resto del mundo?</h3><p>En Europa tampoco está claro si el consumo de cocaína va en aumento. Según<a href="https://www.unodc.org/wdr2017/"> el Informe Mundial sobre Drogas 2017</a>, publicado por la Oficina de las Naciones Unidas contra las Drogas y el Delito (UNODC, por sus siglas en inglés), a pesar de que la oferta de cocaína parece estar creciendo (basado en las encuestas y estudios realizados por los países, la mayoría de las cuales no están actualizadas), todavía no es posible establecer si el consumo ha crecido. Lo que muestran las cifras es que el periodo 2011-2015 estuvo marcado por un comportamiento estable (aproximadamente el 0.9 por ciento de la población).</p><p>La información desagregada por países tampoco muestra un panorama claro. El <a target="_blank" href="http://www.emcdda.europa.eu/edr2017">más reciente informe del Observatorio Europeo de las Drogas y las Toxicomanías </a>(OEDT), concluye que de aquellos países que realizaron encuestas de consumo de cocaína en 2013, seis mostraron un incremento, dos una tendencia estable y cuatro presentaron reducciones.</p><p>En Europa, además de las encuestas poblaciones, se encuentran los análisis de detección de residuos de cocaína en algunas aguas residuales municipales. Con base en esta información, el OEDT encuentra que las pautas generales detectadas en 2015 son similares a las de años anteriores, en las que la mayoría de las ciudades muestra una tendencia descendente o estable.</p><p>En cuanto a Asia, <a target="_blank" href="http://www.unodc.org/wdr2017/">la información reportada por UNODC </a>hace referencia al aumento en el número de incautaciones de cocaína que tenía como destino este continente, las cuales pasaron de 0.4 toneladas en 1998 a 1.7 toneladas en 2015, especialmente en los países del este y sudeste asiático. Aunque esto puede ser un indicio del aumento de la demanda, no es suficiente para concluir que está aumentando el consumo. Una situación similar se encuentra en Australia, donde las incautaciones aumentaron de 0.1 toneladas en los años noventa a 1.2 toneladas en 2015. En este caso, UNODC además señala que se registra una leve caída de los precios de cocaína, lo cual tampoco es evidencia clara de que el uso de la cocaína esté en aumento.</p><p>En conclusión, no existe evidencia concluyente que indique que el consumo de cocaína ha incrementado en el mundo, ni revisando la evidencia global, ni la disponible para las regiones o países específicos.</p><h3>¿Y en Colombia sí está aumentando el consumo?</h3><p><a target="_blank" href="https://www.dnp.gov.co/Paginas/Narcomenudeo,-un-lucrativo-negocio-que-mueve-6-billones-de%20pesos%20anuales.aspx">Un informe del Departamento Nacional de Planeación</a> prendió las alertas al afirmar que el consumo de drogas estaba creciendo en el país, al punto de que Colombia había pasado “en los últimos siete años a ocupar el cuarto puesto en Suramérica en consumo de cocaína y marihuana”. Posteriormente aparecieron titulares como “<a target="_blank" href="http://www.dinero.com/pais/articulo/cuanto-mueve-el-negocio-del-narcotrafico-en-colombia-2017/241953">Colombia pasó de productor a ser uno de los principales consumidores de droga</a>” o “<a target="_blank" href="http://www.elespectador.com/noticias/nacional/colombia-de-productor-de-cocaina-gran-consumidor-de-dro-articulo-664731">Colombia, de productor de cocaína a gran consumidor de droga”</a>. ¿Qué dice la evidencia al respecto?</p><p>Existen cinco encuestas que se han hecho para estudiar el consumo de drogas. Cada una tiene datos comparables para sub-periodos, aborda distintas poblaciones y tiene una escala geográfica distinta:</p>
+    
+  
+    
+      
   
 
 <figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
   <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/59569e162ebe0.png?auto=format&w=1024&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-    width="1024" alt="" />
+    src="https://ideaspaz.imgix.net/images/59569dfcbc987.png?auto=format&w=768&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+    width="768" alt="" />
   
 </figure>
-</section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl"><p>De otro lado, una de las afirmaciones recurrentes en el debate es que el aumento de las hectáreas cultivadas estaría presionando el consumo interno. Esta hipótesis es difícil de sostener con los datos disponibles. El Ministerio de Justicia estima que para una población de 288 mil personas se requieren alrededor de 19 toneladas de cocaína al año. El estudio del DNP, por su parte, calcula en 254 mil personas el número total de usuarios de cocaína en 2015, las cuales demandarían cerca de 16.7 toneladas, lo que representa el 2.6 por ciento del total de la producción. Es claro que el uso de cocaína en Colombia es un factor marginal en el aumento del número de hectáreas.</p><p>Otro de los argumentos que se han sostenido es que el reciente incremento de los cultivos ha generado una mayor disponibilidad de drogas en las ciudades. De las cinco encuestas analizadas, solo el estudio de SPA en Bogotá ofrece información para analizar la disponibilidad antes y después del aumento de los cultivos. Lo que se esperaría es que entre la encuesta del 2009 y la del 2016 se evidencie un aumento en la facilidad para acceder a esta sustancia. Sin embargo, esto no es lo que sucede:</p></section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl">
+
+    
+  
+    
+      <p>Al observar las cifras que ofrece cada encuesta sobre la prevalencia del último año de consumo de cocaína, encontramos un panorama distinto al que plantean los medios:</p>
+    
+  
+    
+      
   
 
 <figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
   <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/59569e2b8243b.png?auto=format&w=1024&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-    width="1024" alt="" />
+    src="https://ideaspaz.imgix.net/images/59569e06e5573.png?auto=format&w=768&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+    width="768" alt="" />
   
 </figure>
-</section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl"><p>Aunque no se pueden sacar conclusiones del país a partir de los resultados de Bogotá, se puede afirmar que con los datos que hay, la disponibilidad y la oferta de cocaína no han variado significativamente. Por eso, si va a afirmar que el consumo de cocaína está aumentando, mejor piénselo dos veces.</p><p>La evidencia contenida en este artículo permite concluir que:</p><ul><li><p>En los Estados Unidos hay información contradictoria sobre el incremento del consumo de cocaína.</p></li><li><p>En Europa la tendencia es estable y en varias ciudades apunta a un descenso.</p></li><li><p>En Asia y Oceanía el aumento de las incautaciones ha generado alertas sobre el incremento de la demanda, pero no hay información para señalar que el consumo ha tenido un alza.</p></li><li><p>En Colombia no hay datos para apoyar la afirmación de que el consumo ha tenido grandes variaciones en la última década. Además, la demanda interna aparece como factor marginal para explicar el alza en el número de hectáreas de coca y es difícil poder afirmar que hay una mayor facilidad para acceder a la cocaína.</p></li></ul><p>Si bien la evidencia del aumento en el consumo no es clara en este momento, esto no significa que los países deban bajar la guardia en lo que claramente es un asunto de salud pública. Analizando lo que ocurre en los EE.UU., Beau Kilmer advierte que es posible que aún no se hayan reflejado en las encuestas y estudios las cifras del consumo problemático, por la brecha temporal que existe entre el consumo ocasional y el uso intensivo. Lo que muestra la <a target="_blank" href="https://www.brookings.edu/opinions/mixed-messages-is-cocaine-consumption-in-the-u-s-going-up-or-down/">evidencia</a> es que aproximadamente el 16 por ciento de quienes consumieron cocaína por primera vez, terminen desarrollando un uso intensivo de esta sustancia en los próximos diez años. Por lo que es posible que en una década las encuestas sí reflejen una tendencia al alza como resultado del tránsito de aquellos que comenzaron como consumidores ocasionales y terminaron como <em>heavy users.</em></p><p>Por el momento, hay que tomar con cautela los llamados al endurecimiento de las medidas para controlar los cultivos, que se basan en el supuesto crecimiento alarmante del consumo de cocaína. También es importante evitar las simplificaciones que buscan atribuir a un solo factor el alza en los cultivos de coca. Por supuesto que la demanda tiene conexiones con la oferta y viceversa, pero en un mercado imperfecto como el de la cocaína, hay un desacople entre lo que se produce y lo que se consume.</p><p>En lugar de pasarse la pelota de un lado a otro, los países involucrados deberían concentrar sus capacidades y recursos en responder al uso de drogas como un asunto de salud pública y al incremento de los cultivos como un asunto de desarrollo, con un esfuerzo sostenido enfocado en mejorar la calidad de vida de los campesinos y el desarrollo rural. Infundir temor, sin tener en cuenta la evidencia, solo nos llevará a seguir con las fórmulas que no han funcionado en el pasado.</p></section>
-          
-        
 
-        <section class="container mx-auto max-w-3xl"><div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+    
+  
+    
+      <p>De las cinco encuestas, dos de ellas –<a target="_blank" href="http://www.odc.gov.co/Portals/1/publicaciones/pdf/destacados/CO03542012-ii-estudio-epidemiologico-andino-sobre-consumo-drogas-poblacion-universitaria-informe-colombia-2012-.pdf">población universitaria</a> y <a href="https://economia.uniandes.edu.co/images/archivos/pdfs/CESED/Boletin3CESED.pdf">CESED jóvenes</a>- muestran que la prevalencia anual de consumo ha disminuido en el tiempo. Otras dos revelan una tendencia al alza. La encuesta sobre <a target="_blank" href="https://www.unodc.org/documents/colombia/Documentostecnicos/Estudio_Consumo_Escolares.pdf">población escolar</a> evidencia un incremento del 1.21 entre el año base y el final. Mientras que la <a target="_blank" href="https://www.odc.gov.co/Portals/1/publicaciones/pdf/consumo/estudios/locales/CO031052016-estudio-consumo-sustancias-psicoactivas-bogota-2016.pdf">cifra del Estudio de SPA</a> en Bogotá presenta un leve aumento del 0.21 entre ambos años. Finalmente, el <a target="_blank" href="https://www.unodc.org/documents/colombia/2014/Julio/Estudio_de_Consumo_UNODC.pdf">Estudio Nacional de SPA </a>concluye que el consumo se ha mantenido estable.</p><p>De manera general, lo que sugieren los datos disponibles es que el consumo de cocaína no ha tenido grandes variaciones durante la última década.</p><p>Una mención especial requiere el Estudio Nacional de Consumo de Sustancias Psicoactivas en población escolar, el cual mostró un aumento significativo en la prevalencia del último año. Lo primero que hay que destacar es que el año base es 2004 y el año final de 2011, es decir un periodo anterior al aumento reciente de los cultivos de coca. Lo segundo es que esta encuesta hace referencia a menores de edad, la población más vulnerable y con un consumo de alto riesgo. Desde la fecha de la última encuesta (2011) hasta el día de hoy, un porcentaje de estos menores podría haber seguido con el consumo, lo cual se reflejaría en las encuestas más recientes. En todo caso, este es un tema sobre el cual el Estado debe prestar atención, siendo una prioridad actualizar esta encuesta.</p>
+    
+  
+    
+      
+  
+
+<figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
+  <img class="my-0"
+    src="https://ideaspaz.imgix.net/images/59569e162ebe0.png?auto=format&w=768&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+    width="768" alt="" />
+  
+</figure>
+
+    
+  
+    
+      <p>De otro lado, una de las afirmaciones recurrentes en el debate es que el aumento de las hectáreas cultivadas estaría presionando el consumo interno. Esta hipótesis es difícil de sostener con los datos disponibles. El Ministerio de Justicia estima que para una población de 288 mil personas se requieren alrededor de 19 toneladas de cocaína al año. El estudio del DNP, por su parte, calcula en 254 mil personas el número total de usuarios de cocaína en 2015, las cuales demandarían cerca de 16.7 toneladas, lo que representa el 2.6 por ciento del total de la producción. Es claro que el uso de cocaína en Colombia es un factor marginal en el aumento del número de hectáreas.</p><p>Otro de los argumentos que se han sostenido es que el reciente incremento de los cultivos ha generado una mayor disponibilidad de drogas en las ciudades. De las cinco encuestas analizadas, solo el estudio de SPA en Bogotá ofrece información para analizar la disponibilidad antes y después del aumento de los cultivos. Lo que se esperaría es que entre la encuesta del 2009 y la del 2016 se evidencie un aumento en la facilidad para acceder a esta sustancia. Sin embargo, esto no es lo que sucede:</p>
+    
+  
+    
+      
+  
+
+<figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
+  <img class="my-0"
+    src="https://ideaspaz.imgix.net/images/59569e2b8243b.png?auto=format&w=768&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+    width="768" alt="" />
+  
+</figure>
+
+    
+  
+    
+      <p>Aunque no se pueden sacar conclusiones del país a partir de los resultados de Bogotá, se puede afirmar que con los datos que hay, la disponibilidad y la oferta de cocaína no han variado significativamente. Por eso, si va a afirmar que el consumo de cocaína está aumentando, mejor piénselo dos veces.</p><p>La evidencia contenida en este artículo permite concluir que:</p><ul><li><p>En los Estados Unidos hay información contradictoria sobre el incremento del consumo de cocaína.</p></li><li><p>En Europa la tendencia es estable y en varias ciudades apunta a un descenso.</p></li><li><p>En Asia y Oceanía el aumento de las incautaciones ha generado alertas sobre el incremento de la demanda, pero no hay información para señalar que el consumo ha tenido un alza.</p></li><li><p>En Colombia no hay datos para apoyar la afirmación de que el consumo ha tenido grandes variaciones en la última década. Además, la demanda interna aparece como factor marginal para explicar el alza en el número de hectáreas de coca y es difícil poder afirmar que hay una mayor facilidad para acceder a la cocaína.</p></li></ul><p>Si bien la evidencia del aumento en el consumo no es clara en este momento, esto no significa que los países deban bajar la guardia en lo que claramente es un asunto de salud pública. Analizando lo que ocurre en los EE.UU., Beau Kilmer advierte que es posible que aún no se hayan reflejado en las encuestas y estudios las cifras del consumo problemático, por la brecha temporal que existe entre el consumo ocasional y el uso intensivo. Lo que muestra la <a target="_blank" href="https://www.brookings.edu/opinions/mixed-messages-is-cocaine-consumption-in-the-u-s-going-up-or-down/">evidencia</a> es que aproximadamente el 16 por ciento de quienes consumieron cocaína por primera vez, terminen desarrollando un uso intensivo de esta sustancia en los próximos diez años. Por lo que es posible que en una década las encuestas sí reflejen una tendencia al alza como resultado del tránsito de aquellos que comenzaron como consumidores ocasionales y terminaron como <em>heavy users.</em></p><p>Por el momento, hay que tomar con cautela los llamados al endurecimiento de las medidas para controlar los cultivos, que se basan en el supuesto crecimiento alarmante del consumo de cocaína. También es importante evitar las simplificaciones que buscan atribuir a un solo factor el alza en los cultivos de coca. Por supuesto que la demanda tiene conexiones con la oferta y viceversa, pero en un mercado imperfecto como el de la cocaína, hay un desacople entre lo que se produce y lo que se consume.</p><p>En lugar de pasarse la pelota de un lado a otro, los países involucrados deberían concentrar sus capacidades y recursos en responder al uso de drogas como un asunto de salud pública y al incremento de los cultivos como un asunto de desarrollo, con un esfuerzo sostenido enfocado en mejorar la calidad de vida de los campesinos y el desarrollo rural. Infundir temor, sin tener en cuenta la evidencia, solo nos llevará a seguir con las fórmulas que no han funcionado en el pasado.</p>
+    
+  
+  <!-- prose footer -->
+  </div>
+</div>
+</div>
+
+</article>
+
+  <!-- share block -->
+  <!-- share block -->
+
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-4 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -597,36 +649,54 @@
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
-</section>
-        
-          <section class="container mx-auto max-w-3xl"><p class="not-prose uppercase font-bold tracking-normal text-sm">
-  <span class="mr-2">Palabras clave:</span>
-  
-    <a href="/posts/tags/coca" class="text-fip-green underline">Coca</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/droga" class="text-fip-green underline">Droga</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/cultivos-ilicitos" class="text-fip-green underline">Cultivos ilícitos</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/analizando-la-coyuntura" class="text-fip-green underline">Analizando la coyuntura</a>
-    
-  
-</p>
-</section>
-        
-        
-      </article>
-    </div>
+
   </div>
+</div>
+</div>
+
+
+
+  <!-- keywords block -->
+  
+  <!-- keywords block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12  ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <p class="not-prose uppercase font-bold tracking-normal">
+    <span class="mr-2 text-sm">Palabras clave:</span>
+    
+      <a href="/publicaciones?query=Coca" class="text-fip-green underline text-sm">Coca</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Droga" class="text-fip-green underline text-sm">Droga</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Cultivos ilícitos" class="text-fip-green underline text-sm">Cultivos ilícitos</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Analizando la coyuntura" class="text-fip-green underline text-sm">Analizando la coyuntura</a>
+      
+    
+  </p>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- footnotes block -->
+  
+
 </div>
 </div>
   
@@ -634,7 +704,7 @@
     <!-- tags cloud -->
 <div class="container mx-auto max-w-6xl mt-20 mb-8  pl-6 sm:px-0">
   <div class="-mt-2 mb-4 pt-2 font-black uppercase sm:mr-0 sm:mb-0 border-t-fip-gray-light border-t-4 text-fip-gray-light  text-base block">
-  <h2 id="41adb1d8-486a-4fd5-b42d-bb5a8eaf37cf" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
+  <h2 id="c94fb0bb-0cb2-47bb-9741-cd37b1a6cea3" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
     <a href="/publicaciones" class="ml-auto mt-4 hidden text-xs font-black uppercase hover:no-underline text-fip-gray-light ">
     <span class="px-2 font-normal">/</span>
     Ver todas las etiquetas
@@ -646,34 +716,58 @@
     <ul class="w-[1200px] sm:w-auto">
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Frontera"
+          <a href="/publicaciones?query=Hostilidades"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Frontera
+            Hostilidades
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Bloque Oriental"
+          <a href="/publicaciones?query=Jorge 40"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Bloque Oriental
+            Jorge 40
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Implementación"
+          <a href="/publicaciones?query=Programas regionales de desarrollo y paz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Implementación
+            Programas regionales de desarrollo y paz
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Empresas"
+          <a href="/publicaciones?query=EmPaz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Empresas
+            EmPaz
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Análisis sistémico"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Análisis sistémico
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Disidencias"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Disidencias
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Vigilancia"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Vigilancia
           </a>
         </li>
       
@@ -686,66 +780,34 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Monitoreo"
+          <a href="/publicaciones?query=Guerrilla"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Monitoreo
+            Guerrilla
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Admin"
+          <a href="/publicaciones?query=Cultivos ilícitos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Admin
+            Cultivos ilícitos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Drogas blandas"
+          <a href="/publicaciones?query=Marzo"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Drogas blandas
+            Marzo
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Confianza"
+          <a href="/publicaciones?query=líderes sociales"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Confianza
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=gobernanza"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            gobernanza
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Clan Úsuga"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Clan Úsuga
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Campaña presidencial"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Campaña presidencial
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Cabildos abiertos"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Cabildos abiertos
+            líderes sociales
           </a>
         </li>
       
@@ -758,50 +820,58 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Erradicación"
+          <a href="/publicaciones?query=DDR"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Erradicación
+            DDR
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Catatumbo"
+          <a href="/publicaciones?query=Trastornos alimenticios"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Catatumbo
+            Trastornos alimenticios
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Extorsión"
+          <a href="/publicaciones?query=sustancias psicoactivas"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Extorsión
+            sustancias psicoactivas
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Medellín"
+          <a href="/publicaciones?query=Éxtasis"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Medellín
+            Éxtasis
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Laboratorios de Empresas y Reconciliación"
+          <a href="/publicaciones?query=Terrorismo"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Laboratorios de Empresas y Reconciliación
+            Terrorismo
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Cacao Conecta"
+          <a href="/publicaciones?query=reforma-al-sector-seguridad"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Cacao Conecta
+            reforma-al-sector-seguridad
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Restitución"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Restitución
           </a>
         </li>
       
@@ -809,7 +879,7 @@
   </div>
 </div>
 
-<footer class="mt-auto bg-fip-gray py-8">
+<footer class="mt-auto bg-fip-gray py-8 max-w-screen-2xl mx-auto w-full">
   <div class="container relative grid max-w-6xl px-6 py-5 sm:mx-auto sm:grid-cols-6 sm:gap-x-32 sm:gap-y-16 sm:px-0">
     <div class="row-span-2 sm:col-span-2">
       <a href="/"><svg class="h-16 w-24 sm:hidden block mb-8" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>

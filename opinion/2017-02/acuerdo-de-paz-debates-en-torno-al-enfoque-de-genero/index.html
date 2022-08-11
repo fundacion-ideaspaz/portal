@@ -28,7 +28,7 @@
 
 <body class="flex min-h-screen flex-col overflow-x-hidden" x-data="{ open: false }" id="top">
   
-    <nav class="sticky top-0 z-50 border-b bg-fip-gray" x-show="!open">
+    <nav class="sticky top-0 z-50 border-b bg-fip-gray max-w-screen-2xl mx-auto w-full" x-show="!open">
   <div class="container flex max-w-6xl px-6 py-5 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="hidden flex-auto grow-0 sm:block"><svg class="h-7 sm:w-72" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg></a>
     <a href="/" class="mr-4 flex-auto grow-0 sm:hidden"><svg class="h-7" xmlns="http://www.w3.org/2000/svg" width="29.692" height="30" viewBox="0 0 29.692 30"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> </svg></a>
@@ -68,7 +68,7 @@
   </div>
 </nav>
 
-<nav class="relative z-0 bg-fip-gray" x-cloak x-show="open">
+<nav class="relative z-0 bg-fip-gray max-w-screen-2xl mx-auto w-full" x-cloak x-show="open">
   <div class="container flex max-w-6xl p-8 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="flex-auto grow-0"><svg class="h-10 hidden sm:w-72 sm:block" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg>
       <svg class="h-20 w-36 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
@@ -433,60 +433,75 @@
 
   
   <div id="app"><div class="mt-6 sm:mt-12">
-  <div class="container mx-auto max-w-3xl gap-4 sm:grid sm:grid-cols-12">
-    <div class="px-6 sm:col-span-2 sm:px-0">
-      <span class="mb-4 block font-black uppercase text-fip-green sm:inline">Publicaciones</span>
-    </div>
-    <div class="px-6 sm:col-span-8 sm:px-0">
-      <div class="mb-6 block font-sans text-xs tracking-normal text-gray-400 sm:mb-12 sm:pl-6 sm:text-sm">
-        <span class="font-medium uppercase">Inicio</span>
-        <span class="mx-2">/</span>
-        <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
-        <span class="mx-2">/</span>
-        <span class="font-medium">13 de febrero de 2017</span>
-        <span class="mx-2">/</span>
-        <span class="">18 min.</span>
-      </div>
-    </div>
+  <!-- metadata block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-6 sm:mb-12 ">
+  <div class="sm:col-span-2">
+    
+      <span class="mb-4 block font-black uppercase text-fip-green sm:inline mx-6 sm:mx-0">Publicaciones</span>
+    
   </div>
-  <div class="mb-32 gap-4 sm:grid sm:grid-cols-12">
-    <div class="sm:col-span-2"></div>
-    <div class="sm:col-span-8">
-      <article class="max-w-none px-6 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:text-xl prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl">
-          <h1>Acuerdo de paz, debates en torno al enfoque de género </h1>
-          <p class="lead">En una decisión salomónica, el Acuerdo Final contiene el 90% de las propuestas que presentaron defensores y detractores del enfoque de género tras el triunfo del NO en el plebiscito </p>
+  <div class="block font-sans text-xs tracking-normal text-gray-400 sm:text-sm">
+  <span class="font-medium uppercase">Inicio</span>
+  <span class="mx-2">/</span>
+  <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
+  <span class="mx-2">/</span>
+  <span class="font-medium">13 de febrero de 2017</span>
+  <span class="mx-2">/</span>
+  <span class="">18 min.</span>
+</div>
+
+  </div>
+</div>
+</div>
+
+  <!-- header block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <div class="container mx-auto">
+    <h1>Acuerdo de paz, debates en torno al enfoque de género </h1>
+    <p class="lead">En una decisión salomónica, el Acuerdo Final contiene el 90% de las propuestas que presentaron defensores y detractores del enfoque de género tras el triunfo del NO en el plebiscito </p>
+    <!-- external portal block -->
+
+  <div class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
+    Esta  se publicó el 11 de agosto de 2022 en
+    
+    <a href=""
+      class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">
+      Leer  original
+    </a>
+  </div>
+
+
+    <div class="sm:relative">
+      
+  <figure class="-mx-6 sm:-mx-0 mb-4">
+    
+    
+      
+      <img class="mb-0"
+        src="https://ideaspaz.imgix.net/images/58a1e09b08d27.png?auto=format&fit=crop&w=768&h=432&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+        width="768" height="432" alt="Foto: Ministerio de Hacienda" />
+      
+        <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
+          Foto: Ministerio de Hacienda
           
-            <p class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
-  Esta columna de opinión se publicó el 10 August de 2022 en
-  
-  <a href=""
-    class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">Leer columna
-    original</a>
-</p>
+        </figcaption>
+      
+    
+  </figure>
 
-          
-          <div class="sm:relative">
-            
-              <figure class="-mx-6 sm:-mx-0">
-  
-  
-    
-    <img class="mb-0"
-      src="https://ideaspaz.imgix.net/images/58a1e09b08d27.png?auto=format&fit=crop&w=720&h=410&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-      width="720" height="410" alt="Foto: Ministerio de Hacienda" />
-    
-      <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
-        Foto: Ministerio de Hacienda
-        
-      </figcaption>
-    
-  
-</figure>
 
-            
-            <div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+      <!-- share block -->
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -505,41 +520,77 @@
   </div>
 </div>
 
-            
-              <div class="mt-12 mb-12">
-  <ul class="not-prose -ml-5 list-none sm:absolute sm:top-0 sm:-left-60 sm:ml-1 sm:w-52">
-    <li class="font-sans uppercase text-xs mb-6 text-gray-400">Autore/as</li>
-    
-      <li class="mb-6 w-full sm:mb-8">
-        <a href="/equipo/irina-cuesta" class="grid grid-cols-4 gap-4 text-xs tracking-normal sm:block sm:grid-cols-none sm:gap-0">
-          <img class="sm:col-span-0 col-span-1 h-[60px] w-[60px] rounded-full sm:mb-2 sm:h-[80px] sm:w-[80px]"
-            src="https://ideaspaz.imgix.net/staff/6216b45444b0f.png?auto=format&w=80&h=80&ixlib=php-3.3.1"
-            alt="Irina Cuesta" />
-          <div class="sm:col-span-0 col-span-2 mt-1 sm:mt-0">
-            <span
-              class="mb-1 block w-full border-b border-b-gray-300 pb-1 text-sm font-bold uppercase">Irina Cuesta</span>
-            <span class="block text-sm sm:text-xs">Investigadora</span>
-            <span class="mb-4 hidden font-bold text-fip-green underline sm:block">icuesta@ideaspaz.org</span>
-            <span class="hidden uppercase sm:block">+ Ver perfil</span>
-          </div>
-        </a>
-      </li>
-    
-  </ul>
+
+      <!-- sidebar block -->
+<div class="sm:absolute sm:top-0 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
+  
+    <!-- authors block -->
+<ul class="not-prose list-none block mb-8">
+  <li class="font-sans uppercase text-xs mb-6 text-gray-400">Autore/as</li>
+  
+    <li class="mb-6 w-full sm:mb-8 last:mb-0">
+      <a href="/equipo/irina-cuesta" class="grid grid-cols-4 gap-4 text-xs tracking-normal sm:block sm:grid-cols-none sm:gap-0">
+        <img class="sm:col-span-0 col-span-1 h-[60px] w-[60px] rounded-full sm:mb-2 sm:h-[80px] sm:w-[80px]"
+          src="https://ideaspaz.imgix.net/staff/6216b45444b0f.png?auto=format&w=80&h=80&ixlib=php-3.3.1"
+          alt="Irina Cuesta" />
+        <div class="sm:col-span-0 col-span-2 mt-1 sm:mt-0">
+          <span
+            class="mb-1 block w-full border-b border-b-gray-300 pb-1 text-sm font-bold uppercase">Irina Cuesta</span>
+          <span class="block text-sm sm:text-xs">Investigadora</span>
+          <span class="mb-4 hidden font-bold text-fip-green underline sm:block">icuesta@ideaspaz.org</span>
+          <span class="hidden uppercase sm:block">+ Ver perfil</span>
+        </div>
+      </a>
+    </li>
+  
+</ul>
+
+  
+  
 </div>
 
-            
-            
-          </div>
-        </section>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
-        
-          
-            <section class="container mx-auto max-w-3xl"><p class="note">Esta columna de opinión se publicó el <a target="_blank" href="https://www.opendemocracy.net/democraciaabierta/g-nica-mazzoldi-irina-cuesta/debates-transformaciones-y-potencialidades-del-enfoqu">2 de febrero de 2017, en Open Democracy</a></p><p>El pasado 14 de noviembre, el Gobierno y las FARC dieron a conocer la versión final del Acuerdo de Paz luego de que la propuesta inicial no fuera aprobada en el plebiscito y tras un rápido proceso de revisión. En ese contexto, el enfoque de género se mantuvo en el centro del debate dada la insistencia de diferentes sectores religiosos y políticos en cambiar el contenido y el alcance del mismo.</p><p>Los sectores cristianos insistían, por ejemplo, en que se reemplazara el enfoque de género por enfoque de derechos de las mujeres, que se eliminaran menciones a conceptos como “diversidad sexual”, “orientación sexual” e “identidad de género”, y que se incorporara el “enfoque de familia” en defensa de la familia tradicional hombre-mujer. Estas propuestas tienen estrecha relación con los debates que se han dado en Colombia desde que la Corte Constitucional aprobó el matrimonio de parejas del mismo sexo y les reconoció otros derechos como la adopción y la conformación de familias diversas.</p><p>Por otro lado, organizaciones de mujeres y LGBTI esperaban que se conservara la totalidad del enfoque de género, defendían los avances del Acuerdo en el reconocimiento de derechos así como por su activa participación en la negociación.</p><p>El desenlace de esta tensión entre posiciones políticas y religiosas fue la incorporación de cambios y aclaraciones a las referencias del enfoque de género como principio del acuerdo de paz con las FARC. ¿Cuáles fueron esos cambios y qué efecto tienen? ¿Qué buscaban los sectores religiosos y contradictores del enfoque de género? ¿Qué se gana y qué se pierde con lo reformado, lo incorporado o lo descartado?</p><h3>De cambios cosméticos a nuevos sentidos</h3><p>La FIP identificó que el 50% de las propuestas sobre enfoque de género fueron presentadas por el exprocurador general Alejandro Ordóñez y las iglesias cristianas. Estas buscaban limitar el alcance del enfoque solo al reconocimiento de los derechos de las mujeres. Por el contrario, las propuestas de organizaciones de mujeres y LGBTI, pedían que se incluyera a población con identidades sexuales diversas. Por su parte, el expresidente Andrés Pastrana y la líder conservadora Marta Lucía Ramírez, proponían que el nuevo Acuerdo se concentrara en reconocer a las mujeres como víctimas particulares del conflicto armado.</p><p><strong>Hay que decir que el texto final del nuevo Acuerdo contiene el 90% de las propuestas que presentaron defensores y detractores del enfoque de género</strong>, una salida salomónica a la tensión entre iglesias cristianas y organizaciones de mujeres y LGBTI.</p><p>Los cambios podrían dividirse en dos tipos: la eliminación de expresiones y el remplazo de términos. El primero de estos cambios se materializa en que ya no aparecen en el texto del Acuerdo expresiones como “diversidad sexual e identidad de género diversa”, “discriminación de género”, “valores no sexistas”, “no estigmatización en razón de la orientación sexual”, “estereotipos basados en género” y “violencia sistemática de género”. Esta era una petición expresa de sectores cristianos para quienes se debía eliminar la referencia “que presta especial atención a los derechos fundamentales de la población LGBTI (entre otros grupos)” [1] para evitar que vía Acuerdo de Paz se realizaran cambios al orden constitucional vigente.</p><set>Los estudios de género y los avances jurídicos en Colombia han evidenciado que existen múltiples matices entre las expresiones “violencia sistemática de género” y “violencia contra las mujeres”</set><p>Sobre el remplazo de términos, sobresale el cambio de “equidad de género” por la expresión “igualdad de oportunidades” o “igualdad entre hombres y mujeres”, así como el reemplazo de “diversidad sexual e identidad de género” por “grupos en condiciones de vulnerabilidad”, “género” por “sexo”, “enfoque de género” por “medidas específicas y diferenciadas” y “perspectiva de género” por “medidas afirmativas”.</p><p>Estos cambios, a juzgar por las primeras reacciones de los sectores involucrados en el debate, parecieron aplacar la polémica. <strong>Organizaciones de mujeres y LGBTI rescataron que se incorporara el principio de no discriminación,</strong> al igual que la continuación del enfoque de género y las referencias a medidas afirmativas para la población LGBTI.</p><p>Por el contrario, algunos sectores cristianos continuaron mostrando su inconformidad por el hecho de que se conservara la referencia explícita al “género”, lo que en su concepto deja abierta la puerta a la llamada “ideología de género”. En comunicados públicos han dicho que “a pesar de que se han hecho algunas modificaciones en cuanto al lenguaje, estructuralmente se sigue manteniendo el mismo aspecto. Nosotros sugerimos que si el objetivo de implementar el enfoque de género es para la reivindicación de los derechos de la mujer, se utilice la expresión “enfoque de derechos”[2].</p><p>Lo que parece un debate sobre detalles menores en la redacción de los textos, en realidad es una discusión crucial sobre cómo se nombran las problemáticas que se abordan en el Acuerdo Final: la conformación de la familia, las relaciones entre hombres y mujeres, el reconocimiento de derechos, la inclusión, la igualdad y la equidad en la sociedad colombiana.</p><p>Los estudios de género y los avances jurídicos en Colombia han evidenciado, por ejemplo, que existen múltiples matices entre las expresiones “violencia sistemática de género” y “violencia contra las mujeres”. Sin embargo, en el texto del Acuerdo, la primera fue reemplazada por la segunda obviando que, en política pública, suponen resultados distintos, sobre todo a la hora de prevenir y atender diversos tipos de violencias históricas y estructurales. De igual forma, no es lo mismo reconocer a las personas LGBTI aludiendo específicamente a su identidad de género u orientación sexual diversa, que remitiéndolos a un conjunto tan amplio como el de “poblaciones vulnerables”.</p><set>Lo que parece un debate sobre detalles menores, en realidad es una discusión crucial sobre cómo se nombran las problemáticas que se abordan en el Acuerdo Final</set><p>De ahí que el cambio de unas palabras o la eliminación de otras no pueda entenderse como cambios secundarios o cosméticos en el texto del Acuerdo y en esa medida resulta pertinente abordar preguntas como las siguientes: ¿Qué consecuencias tienen estos cambios aparentemente “cosméticos”? y ¿qué retos plantea el enfoque de género que quedó en el Acuerdo en clave de implementación?</p><h3>Lo novedoso</h3><p>El enfoque de género como principio de derechos siguió siendo uno de los lineamientos principales del Acuerdo Final. Lo novedoso es la incorporación del principio de garantía del derecho a la igualdad y a la no discriminación, una exigencia de las organizaciones LGBTI a las que les preocupaba que se desconociera la necesidad de adoptar medidas no discriminatorias para poblaciones históricamente discriminadas y excluidas en razón de su orientación sexual e identidad de género.</p><p><strong>El Acuerdo Final le apuesta a la inclusión como un principio de actuación social, política y democrática, encaminado a la materialización del derecho a la igualdad</strong>, especialmente, para quienes han sido discriminados y excluidos en razón de sus diferencias de orientación sexual, identidad de género y pertenencia étnica, entre otras condiciones.</p><p>Vistas así las cosas, no es casual el reconocimiento implícito de las diferencias en tanto fuente de diversidad y pluralidad: son “las diferencias las que deben ser tuteladas, respetadas y garantizadas en obsequio al principio de igualdad”[3], dice Luigi Ferrajoli.</p><p>De ahí la importancia de avances históricos que ha tenido Colombia en materia de igualdad entre hombres y mujeres como los de la primera mitad del siglo XX: derechos patrimoniales (1930), derecho a ocupar cargos públicos (1936), acceso a educación (1943) y derecho al voto (1954).</p><set>Los cambios sobre enfoque de género en el Acuerdo Final podrían dividirse en dos tipos: la eliminación de expresiones y el remplazo de términos</set><p>Si bien se han dado avances progresivos en el reconocimiento de derechos de grupos tradicionalmente excluidos, también se han mantenido y/o agravado discriminaciones y exclusiones; ya que las condiciones y posiciones desiguales obedecen a dinámicas históricas, de poder, de exclusión en diferentes ámbitos sociales, económicos, laborales, culturales, etc.</p><p>Es por eso que las desigualdades y discriminaciones basadas en género no están aisladas de otras formas de discriminación y se conjugan con aspectos étnicos, raciales, generacionales y/o de clase. Al respecto, estudios realizados en ciudades como Cali y el Valle del Cauca advierten una fuerte desigualdad social de cara a la población afrodescendiente en términos de años de vida, tanto para hombres como mujeres. A esto se suma que los análisis de las tasas y los porcentajes acumulados de mortalidad revelan también que la mayor brecha entre grupos étnicos se encuentra entre las mujeres, siendo las afrodescendientes las que se encuentran en clara desventaja[4].</p><p>Desde esta perspectiva, resulta estratégico que el Acuerdo Final se refiera tanto al enfoque de género como al principio de igualdad y no discriminación. Será entonces una tarea garantizar la complementariedad entre uno y otro, especialmente a la hora de abordar de manera integral la relación que existe entre discriminación y violencia basada en género, así como para la atención de desigualdades e interseccionalidades[5] que se reforzaron y agravaron en el marco del conflicto armado. Reconocer estas discriminaciones estructurales, lleva también a reflexionar sobre la continuación de diferentes tipos de violencias en el ámbito público y doméstico durante la transición a la paz.</p><p><strong>Otro de los retos en la etapa de implementación del Acuerdo será armonizar el principio de igualdad y no estigmatización con las posturas de sectores religiosos</strong> que propusieron en su momento eliminar algunos términos y apartados del texto inicial que contribuían al reconocimiento de la discriminación basada en el género. Es el caso de Diana Sofía Giraldo, de la Fundación Víctimas Visibles, quien sugirió que se eliminara la referencia “promoción de la no estigmatización en razón de la orientación sexual y la identidad de género diversa”, argumentando que “la estabilidad social y la legitimidad del Acuerdo se evidencia en el apoyo a la protección a la concepción familiar entre un hombre y una mujer”[6].</p><set>De acuerdo con el último informe del Instituto Nacional de Medicina Legal, las mujeres son las más afectadas por la violencia de pareja (86,66%)</set><p>Las referencias a la familia como núcleo básico de la sociedad incorporadas en la renegociación, no hacen mención explícita a qué se refieren con “familia”, por lo que queda abierta la interpretación a si se trata de lo sugerido por sectores cristianos en torno a un modelo de familia conformado exclusivamente por un hombre y una mujer, o si se abre la puerta al reconocimiento de la diversidad como lo viene señalando la Corte Constitucional.</p><p>Lo que preocupa de esta alusión en el Acuerdo es la idealización de la familia y del entorno familiar, dejando de lado, por ejemplo, las cifras de violencia que evidencian que el hogar, en realidad, es uno de los espacios más inseguros para mujeres, niños y niñas. De acuerdo con el último informe del Instituto Nacional de Medicina Legal[7], las mujeres son las más afectadas por la violencia de pareja (86,66%) y en el 47,27% de los casos, el presunto agresor es su compañero permanente y en el 29,33% su excompañero. La mujer también sigue siendo la más victimizada por violencia sexual con el 85,2% de los casos registrados, de los cuales, el presunto agresor, en el 88% (16.813 casos) fue un familiar, la pareja o expareja, un amigo o el encargado del cuidado de la víctima. La edad media de las víctimas de violencia sexual fue de 12,45 años y los exámenes médico legales por presunto delito sexual practicados a niños/niñas en primera infancia (0-5 años) se incrementaron en un 12,46%. El 77,81% (15.135) de los casos de violencia sexual se presentó en la vivienda.</p><p>De lo anterior también se desprende un nuevo reto para la implementación del Acuerdo Final, dadas las referencias a las violencias basadas en género, aunque con más énfasis en los espacios públicos (asociados con conflicto armado) que en los privados/domésticos y en sus respectivas conexiones (o <em>continuum </em>de violencias).</p><h3>Lo reciclado</h3><p>Una de las novedades del Acuerdo Final es la incorporación de una definición explícita del enfoque de género así: “reconocimiento de la igualdad de derechos entre hombres y mujeres y de las circunstancias especiales de cada uno, en especial de las mujeres independiente de su estado civil, ciclo vital y relación familiar y comunitaria, como sujeto de derechos y de especial protección constitucional. Implica, en particular, la necesidad de garantizar medidas afirmativas para promover esa igualdad, la participación activa de las mujeres y sus organizaciones en la construcción de la paz y el reconocimiento de la victimización de la mujer por causa del conflicto”.</p><p><strong>Esta definición es un avance respecto al enfoque de género como principio general que apunta a la igualdad de derechos </strong>y al reconocimiento de las mujeres como sujetos de protección constitucional especial. Sin embargo, el alcance de dicho avance puede verse limitado porque en otros apartados del texto se cambió el término “equidad de género” por el de “igualdad de oportunidades entre hombres y mujeres”. Al respecto, es necesario señalar dos asuntos:</p><p>Primero, no es lo mismo garantizar derechos en lógica de equidad que generar oportunidades en condiciones de igualdad. No basta, por ejemplo, con garantizar el acceso de las mujeres al sistema educativo en condiciones de igualdad con los hombres, también será necesario garantizarles calidad educativa y permanencia en el sistema teniendo en cuenta sus necesidades e intereses. Tampoco puede perderse de vista que “equidad de género” es claramente incluyente de las personas LGBTI, mientras que “igualdad de oportunidades” acota su alcance a hombres y mujeres. De ahí que las dos expresiones no puedan equipararse o reducirlas a un cambio de forma como pretenden señalar los sectores cristianos.</p><set>La “equidad de género” es claramente incluyente de las personas LGBTI, mientras que “igualdad de oportunidades” acota su alcance a hombres y mujeres</set><p>Segundo, ese cambio en los términos no puede calificarse como novedoso o innovador. Las políticas de igualdad de oportunidades son una fórmula conocida (no necesariamente exitosa) a nivel global y local que hace parte de la historia de los modelos de desarrollo y de su impacto en las mujeres, o de los debates de las Conferencias Mundiales de Mujeres; por no hablar del universo de programas y proyectos que en su momento se implementaron en Europa o países latinoamericanos, algunos todavía en curso.</p><p>Colombia no es la excepción. En 1999, durante el gobierno de Andrés Pastrana, se creó una política de igualdad de oportunidades para las mujeres. Luego, durante el primer gobierno de Álvaro Uribe se suscribió la Ley 823 de 2003, que promovía y fortalecía el acceso de las mujeres al trabajo urbano y rural y a la generación de ingresos en condiciones de igualdad.</p><p>En otras palabras, la igualdad de oportunidades entre hombres y mujeres ha hecho parte de las políticas públicas de nuestro país. También, hace ya varios años se inició el tránsito de los planes de igualdad de oportunidades hacia políticas de equidad de género. De ese proceso quedó como aprendizaje que los primeros tendían a abordar la igualdad de oportunidades en lo público, dejando en segundo plano la relación entre discriminación y violencia contra las mujeres, así como los cambios que también es necesario generar en el entorno familiar para que el mayor acceso a trabajo y educación para las mujeres (rol productivo) venga acompañado de transformaciones en su rol reproductivo y de cuidado. De lo contrario, los avances en oportunidades laborales, educativas o económicas tienen costos para ellas como la triple jornada de trabajo, violencia de pareja, violencia intrafamiliar, entre otros.</p><set>La igualdad de oportunidades entre hombres y mujeres ya ha hecho parte de las políticas públicas de Colombia</set><p>Desde el enfoque de género se ha señalado que no se trata de elegir entre una cosa u otra. Se requieren políticas y proyectos de cara a la atención de necesidades cotidianas, pero también de los intereses estratégicos para las mujeres y la población LGBTI.</p><p>No sobra insistir en que el género como categoría analítica y social y como enfoque de política pública, se enmarca en el reconocimiento de derechos y en la inclusión como un principio democrático. Después de todo, contextos que reproducen patrones de exclusión y discriminación de mujeres y personas LGBTI, se constituyen en espacios que justifican y normalizan las violencias basadas en el género. En esa medida, el enfoque de género supone una apuesta en doble sentido: por un lado, la protección y garantía de derechos individuales a través de acciones afirmativas y reparadoras; y por el otro, la equidad y la igualdad como marco para la transformación social en función de relaciones incluyentes.</p><p><strong>El enfoque de género también supone la atención diferencial de víctimas de la guerra ya que su posición es desigual en la sociedad.</strong> Y en esa medida hay que tomar acciones estratégicas que impulsen el reconocimiento de ciudadanías y la transformación de relaciones sociales. Uno de los aportes de los estudios de género a la comprensión y el desarrollo de la democracia ha sido la visión amplia de lo político, la cual incorpora la esfera privada de la vida social como un elemento de la política y un espacio en el que se reproducen relaciones desiguales al igual que en la esfera pública[8].</p><p>Volviendo al Acuerdo de Paz y a manera de conclusión, hay que decir que el enfoque de género sigue siendo potente aunque se transformó en las entrelineas del texto. Esta transformación supuso la combinación de enfoques de política pública que hacen referencia a políticas diferenciales, de igualdad de oportunidades, de género y de atención a poblaciones vulnerables, lo cual deriva en un esfuerzo institucional que materialice esas buenas intenciones. Los debates y transformaciones sobre el enfoque de género en el Acuerdo de paz, vienen de la mano con retos y potencialidades importantes para las organizaciones de mujeres y LGBTI no solo en el acompañamiento a la implementación de lo pactado, sino en  persistir en el objetivo de que el enfoque de género y la promoción de la no discriminación son innegociables para la construcción de paz.</p><p>___________________________</p><p>[1] Oficina del Alto Comisionado para la Paz. Sistematización opciones y propuestas voceros del No y lo acordado en el nuevo acuerdo. Pág. 184</p><p>[2] Comunicado divulgado por los pastores Claudia Castellanos, Eduardo Cañas, Héctor Pardo y Jhon Milton Rodríguez, voceros del Pacto Cristiano por la Paz. 18 – Nov – 2016.</p><p>[3] Ferrajoli Luigi. Derechos y garantías: La ley del más débil. Madrid: Editorial Trotta. 1999. Pág. 79.</p><p>[4] URREA-GIRALDO, Fernando et al. Patrones de mortalidad comparativos entre la población afrodescendiente y la blanca-mestiza en Cali y Valle. Revista CS, [S.l.], p. 131-167, ago. 2015. ISSN 2011-0324. Disponible en: . Fecha de acceso: 03 nov. 2016</p><p>[5] La interseccionalidad es un concepto que ha sido empleado para la comprensión de las afectaciones diferenciadas que ha producido el conflicto armado colombiano en diversidad de poblaciones. Se entiende como una herramienta analítica para estudiar, entender y responder a las maneras en que el género se cruza con otras identidades y cómo estos cruces contribuyen a experiencias únicas de opresión y privilegio. En el caso colombiano ha sido profundizado por investigadoras como Mara Viveros y por el Centro Nacional de Memoria Histórica en sus diferentes investigaciones. Ver: Grupo de Memoria Histórica: La memoria histórica desde la perspectiva de género. Conceptos y herramientas. Bogotá: 2011; Mara Viveros. “La interseccionalidad: una aproximación situada a la dominación”. En: Debate Feminista, Vol 52:1-17. 2016.</p><p>[6] Oficina del Alto Comisionado para la Paz. Sistematización opciones y propuestas voceros del No y lo acordado en el nuevo acuerdo. Pág. 133</p><p>[7] Instituto Nacional de Medicina Legal y Ciencias Forenses. Forensis: Datos para la vida 2015. Capítulos: violencia de pareja y exámenes médico legales por presunto delito sexual.</p><p>[8] Las académicas feministas Kate Millet y Carol Pateman identificaron que el sistema sexo/género también tiene dimensiones políticas que responden a intersecciones culturales y sociales como ya lo ha analizado Judith Butler.</p></section>
-          
-        
+  <!-- content block -->
+  <!-- post content -->
+<article>
+  <!-- prose header -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl"><div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+  <!-- prose content blocks -->
+  
+    
+      <p class="note">Esta columna de opinión se publicó el <a target="_blank" href="https://www.opendemocracy.net/democraciaabierta/g-nica-mazzoldi-irina-cuesta/debates-transformaciones-y-potencialidades-del-enfoqu">2 de febrero de 2017, en Open Democracy</a></p><p>El pasado 14 de noviembre, el Gobierno y las FARC dieron a conocer la versión final del Acuerdo de Paz luego de que la propuesta inicial no fuera aprobada en el plebiscito y tras un rápido proceso de revisión. En ese contexto, el enfoque de género se mantuvo en el centro del debate dada la insistencia de diferentes sectores religiosos y políticos en cambiar el contenido y el alcance del mismo.</p><p>Los sectores cristianos insistían, por ejemplo, en que se reemplazara el enfoque de género por enfoque de derechos de las mujeres, que se eliminaran menciones a conceptos como “diversidad sexual”, “orientación sexual” e “identidad de género”, y que se incorporara el “enfoque de familia” en defensa de la familia tradicional hombre-mujer. Estas propuestas tienen estrecha relación con los debates que se han dado en Colombia desde que la Corte Constitucional aprobó el matrimonio de parejas del mismo sexo y les reconoció otros derechos como la adopción y la conformación de familias diversas.</p><p>Por otro lado, organizaciones de mujeres y LGBTI esperaban que se conservara la totalidad del enfoque de género, defendían los avances del Acuerdo en el reconocimiento de derechos así como por su activa participación en la negociación.</p><p>El desenlace de esta tensión entre posiciones políticas y religiosas fue la incorporación de cambios y aclaraciones a las referencias del enfoque de género como principio del acuerdo de paz con las FARC. ¿Cuáles fueron esos cambios y qué efecto tienen? ¿Qué buscaban los sectores religiosos y contradictores del enfoque de género? ¿Qué se gana y qué se pierde con lo reformado, lo incorporado o lo descartado?</p><h3>De cambios cosméticos a nuevos sentidos</h3><p>La FIP identificó que el 50% de las propuestas sobre enfoque de género fueron presentadas por el exprocurador general Alejandro Ordóñez y las iglesias cristianas. Estas buscaban limitar el alcance del enfoque solo al reconocimiento de los derechos de las mujeres. Por el contrario, las propuestas de organizaciones de mujeres y LGBTI, pedían que se incluyera a población con identidades sexuales diversas. Por su parte, el expresidente Andrés Pastrana y la líder conservadora Marta Lucía Ramírez, proponían que el nuevo Acuerdo se concentrara en reconocer a las mujeres como víctimas particulares del conflicto armado.</p><p><strong>Hay que decir que el texto final del nuevo Acuerdo contiene el 90% de las propuestas que presentaron defensores y detractores del enfoque de género</strong>, una salida salomónica a la tensión entre iglesias cristianas y organizaciones de mujeres y LGBTI.</p><p>Los cambios podrían dividirse en dos tipos: la eliminación de expresiones y el remplazo de términos. El primero de estos cambios se materializa en que ya no aparecen en el texto del Acuerdo expresiones como “diversidad sexual e identidad de género diversa”, “discriminación de género”, “valores no sexistas”, “no estigmatización en razón de la orientación sexual”, “estereotipos basados en género” y “violencia sistemática de género”. Esta era una petición expresa de sectores cristianos para quienes se debía eliminar la referencia “que presta especial atención a los derechos fundamentales de la población LGBTI (entre otros grupos)” [1] para evitar que vía Acuerdo de Paz se realizaran cambios al orden constitucional vigente.</p><set>Los estudios de género y los avances jurídicos en Colombia han evidenciado que existen múltiples matices entre las expresiones “violencia sistemática de género” y “violencia contra las mujeres”</set><p>Sobre el remplazo de términos, sobresale el cambio de “equidad de género” por la expresión “igualdad de oportunidades” o “igualdad entre hombres y mujeres”, así como el reemplazo de “diversidad sexual e identidad de género” por “grupos en condiciones de vulnerabilidad”, “género” por “sexo”, “enfoque de género” por “medidas específicas y diferenciadas” y “perspectiva de género” por “medidas afirmativas”.</p><p>Estos cambios, a juzgar por las primeras reacciones de los sectores involucrados en el debate, parecieron aplacar la polémica. <strong>Organizaciones de mujeres y LGBTI rescataron que se incorporara el principio de no discriminación,</strong> al igual que la continuación del enfoque de género y las referencias a medidas afirmativas para la población LGBTI.</p><p>Por el contrario, algunos sectores cristianos continuaron mostrando su inconformidad por el hecho de que se conservara la referencia explícita al “género”, lo que en su concepto deja abierta la puerta a la llamada “ideología de género”. En comunicados públicos han dicho que “a pesar de que se han hecho algunas modificaciones en cuanto al lenguaje, estructuralmente se sigue manteniendo el mismo aspecto. Nosotros sugerimos que si el objetivo de implementar el enfoque de género es para la reivindicación de los derechos de la mujer, se utilice la expresión “enfoque de derechos”[2].</p><p>Lo que parece un debate sobre detalles menores en la redacción de los textos, en realidad es una discusión crucial sobre cómo se nombran las problemáticas que se abordan en el Acuerdo Final: la conformación de la familia, las relaciones entre hombres y mujeres, el reconocimiento de derechos, la inclusión, la igualdad y la equidad en la sociedad colombiana.</p><p>Los estudios de género y los avances jurídicos en Colombia han evidenciado, por ejemplo, que existen múltiples matices entre las expresiones “violencia sistemática de género” y “violencia contra las mujeres”. Sin embargo, en el texto del Acuerdo, la primera fue reemplazada por la segunda obviando que, en política pública, suponen resultados distintos, sobre todo a la hora de prevenir y atender diversos tipos de violencias históricas y estructurales. De igual forma, no es lo mismo reconocer a las personas LGBTI aludiendo específicamente a su identidad de género u orientación sexual diversa, que remitiéndolos a un conjunto tan amplio como el de “poblaciones vulnerables”.</p><set>Lo que parece un debate sobre detalles menores, en realidad es una discusión crucial sobre cómo se nombran las problemáticas que se abordan en el Acuerdo Final</set><p>De ahí que el cambio de unas palabras o la eliminación de otras no pueda entenderse como cambios secundarios o cosméticos en el texto del Acuerdo y en esa medida resulta pertinente abordar preguntas como las siguientes: ¿Qué consecuencias tienen estos cambios aparentemente “cosméticos”? y ¿qué retos plantea el enfoque de género que quedó en el Acuerdo en clave de implementación?</p><h3>Lo novedoso</h3><p>El enfoque de género como principio de derechos siguió siendo uno de los lineamientos principales del Acuerdo Final. Lo novedoso es la incorporación del principio de garantía del derecho a la igualdad y a la no discriminación, una exigencia de las organizaciones LGBTI a las que les preocupaba que se desconociera la necesidad de adoptar medidas no discriminatorias para poblaciones históricamente discriminadas y excluidas en razón de su orientación sexual e identidad de género.</p><p><strong>El Acuerdo Final le apuesta a la inclusión como un principio de actuación social, política y democrática, encaminado a la materialización del derecho a la igualdad</strong>, especialmente, para quienes han sido discriminados y excluidos en razón de sus diferencias de orientación sexual, identidad de género y pertenencia étnica, entre otras condiciones.</p><p>Vistas así las cosas, no es casual el reconocimiento implícito de las diferencias en tanto fuente de diversidad y pluralidad: son “las diferencias las que deben ser tuteladas, respetadas y garantizadas en obsequio al principio de igualdad”[3], dice Luigi Ferrajoli.</p><p>De ahí la importancia de avances históricos que ha tenido Colombia en materia de igualdad entre hombres y mujeres como los de la primera mitad del siglo XX: derechos patrimoniales (1930), derecho a ocupar cargos públicos (1936), acceso a educación (1943) y derecho al voto (1954).</p><set>Los cambios sobre enfoque de género en el Acuerdo Final podrían dividirse en dos tipos: la eliminación de expresiones y el remplazo de términos</set><p>Si bien se han dado avances progresivos en el reconocimiento de derechos de grupos tradicionalmente excluidos, también se han mantenido y/o agravado discriminaciones y exclusiones; ya que las condiciones y posiciones desiguales obedecen a dinámicas históricas, de poder, de exclusión en diferentes ámbitos sociales, económicos, laborales, culturales, etc.</p><p>Es por eso que las desigualdades y discriminaciones basadas en género no están aisladas de otras formas de discriminación y se conjugan con aspectos étnicos, raciales, generacionales y/o de clase. Al respecto, estudios realizados en ciudades como Cali y el Valle del Cauca advierten una fuerte desigualdad social de cara a la población afrodescendiente en términos de años de vida, tanto para hombres como mujeres. A esto se suma que los análisis de las tasas y los porcentajes acumulados de mortalidad revelan también que la mayor brecha entre grupos étnicos se encuentra entre las mujeres, siendo las afrodescendientes las que se encuentran en clara desventaja[4].</p><p>Desde esta perspectiva, resulta estratégico que el Acuerdo Final se refiera tanto al enfoque de género como al principio de igualdad y no discriminación. Será entonces una tarea garantizar la complementariedad entre uno y otro, especialmente a la hora de abordar de manera integral la relación que existe entre discriminación y violencia basada en género, así como para la atención de desigualdades e interseccionalidades[5] que se reforzaron y agravaron en el marco del conflicto armado. Reconocer estas discriminaciones estructurales, lleva también a reflexionar sobre la continuación de diferentes tipos de violencias en el ámbito público y doméstico durante la transición a la paz.</p><p><strong>Otro de los retos en la etapa de implementación del Acuerdo será armonizar el principio de igualdad y no estigmatización con las posturas de sectores religiosos</strong> que propusieron en su momento eliminar algunos términos y apartados del texto inicial que contribuían al reconocimiento de la discriminación basada en el género. Es el caso de Diana Sofía Giraldo, de la Fundación Víctimas Visibles, quien sugirió que se eliminara la referencia “promoción de la no estigmatización en razón de la orientación sexual y la identidad de género diversa”, argumentando que “la estabilidad social y la legitimidad del Acuerdo se evidencia en el apoyo a la protección a la concepción familiar entre un hombre y una mujer”[6].</p><set>De acuerdo con el último informe del Instituto Nacional de Medicina Legal, las mujeres son las más afectadas por la violencia de pareja (86,66%)</set><p>Las referencias a la familia como núcleo básico de la sociedad incorporadas en la renegociación, no hacen mención explícita a qué se refieren con “familia”, por lo que queda abierta la interpretación a si se trata de lo sugerido por sectores cristianos en torno a un modelo de familia conformado exclusivamente por un hombre y una mujer, o si se abre la puerta al reconocimiento de la diversidad como lo viene señalando la Corte Constitucional.</p><p>Lo que preocupa de esta alusión en el Acuerdo es la idealización de la familia y del entorno familiar, dejando de lado, por ejemplo, las cifras de violencia que evidencian que el hogar, en realidad, es uno de los espacios más inseguros para mujeres, niños y niñas. De acuerdo con el último informe del Instituto Nacional de Medicina Legal[7], las mujeres son las más afectadas por la violencia de pareja (86,66%) y en el 47,27% de los casos, el presunto agresor es su compañero permanente y en el 29,33% su excompañero. La mujer también sigue siendo la más victimizada por violencia sexual con el 85,2% de los casos registrados, de los cuales, el presunto agresor, en el 88% (16.813 casos) fue un familiar, la pareja o expareja, un amigo o el encargado del cuidado de la víctima. La edad media de las víctimas de violencia sexual fue de 12,45 años y los exámenes médico legales por presunto delito sexual practicados a niños/niñas en primera infancia (0-5 años) se incrementaron en un 12,46%. El 77,81% (15.135) de los casos de violencia sexual se presentó en la vivienda.</p><p>De lo anterior también se desprende un nuevo reto para la implementación del Acuerdo Final, dadas las referencias a las violencias basadas en género, aunque con más énfasis en los espacios públicos (asociados con conflicto armado) que en los privados/domésticos y en sus respectivas conexiones (o <em>continuum </em>de violencias).</p><h3>Lo reciclado</h3><p>Una de las novedades del Acuerdo Final es la incorporación de una definición explícita del enfoque de género así: “reconocimiento de la igualdad de derechos entre hombres y mujeres y de las circunstancias especiales de cada uno, en especial de las mujeres independiente de su estado civil, ciclo vital y relación familiar y comunitaria, como sujeto de derechos y de especial protección constitucional. Implica, en particular, la necesidad de garantizar medidas afirmativas para promover esa igualdad, la participación activa de las mujeres y sus organizaciones en la construcción de la paz y el reconocimiento de la victimización de la mujer por causa del conflicto”.</p><p><strong>Esta definición es un avance respecto al enfoque de género como principio general que apunta a la igualdad de derechos </strong>y al reconocimiento de las mujeres como sujetos de protección constitucional especial. Sin embargo, el alcance de dicho avance puede verse limitado porque en otros apartados del texto se cambió el término “equidad de género” por el de “igualdad de oportunidades entre hombres y mujeres”. Al respecto, es necesario señalar dos asuntos:</p><p>Primero, no es lo mismo garantizar derechos en lógica de equidad que generar oportunidades en condiciones de igualdad. No basta, por ejemplo, con garantizar el acceso de las mujeres al sistema educativo en condiciones de igualdad con los hombres, también será necesario garantizarles calidad educativa y permanencia en el sistema teniendo en cuenta sus necesidades e intereses. Tampoco puede perderse de vista que “equidad de género” es claramente incluyente de las personas LGBTI, mientras que “igualdad de oportunidades” acota su alcance a hombres y mujeres. De ahí que las dos expresiones no puedan equipararse o reducirlas a un cambio de forma como pretenden señalar los sectores cristianos.</p><set>La “equidad de género” es claramente incluyente de las personas LGBTI, mientras que “igualdad de oportunidades” acota su alcance a hombres y mujeres</set><p>Segundo, ese cambio en los términos no puede calificarse como novedoso o innovador. Las políticas de igualdad de oportunidades son una fórmula conocida (no necesariamente exitosa) a nivel global y local que hace parte de la historia de los modelos de desarrollo y de su impacto en las mujeres, o de los debates de las Conferencias Mundiales de Mujeres; por no hablar del universo de programas y proyectos que en su momento se implementaron en Europa o países latinoamericanos, algunos todavía en curso.</p><p>Colombia no es la excepción. En 1999, durante el gobierno de Andrés Pastrana, se creó una política de igualdad de oportunidades para las mujeres. Luego, durante el primer gobierno de Álvaro Uribe se suscribió la Ley 823 de 2003, que promovía y fortalecía el acceso de las mujeres al trabajo urbano y rural y a la generación de ingresos en condiciones de igualdad.</p><p>En otras palabras, la igualdad de oportunidades entre hombres y mujeres ha hecho parte de las políticas públicas de nuestro país. También, hace ya varios años se inició el tránsito de los planes de igualdad de oportunidades hacia políticas de equidad de género. De ese proceso quedó como aprendizaje que los primeros tendían a abordar la igualdad de oportunidades en lo público, dejando en segundo plano la relación entre discriminación y violencia contra las mujeres, así como los cambios que también es necesario generar en el entorno familiar para que el mayor acceso a trabajo y educación para las mujeres (rol productivo) venga acompañado de transformaciones en su rol reproductivo y de cuidado. De lo contrario, los avances en oportunidades laborales, educativas o económicas tienen costos para ellas como la triple jornada de trabajo, violencia de pareja, violencia intrafamiliar, entre otros.</p><set>La igualdad de oportunidades entre hombres y mujeres ya ha hecho parte de las políticas públicas de Colombia</set><p>Desde el enfoque de género se ha señalado que no se trata de elegir entre una cosa u otra. Se requieren políticas y proyectos de cara a la atención de necesidades cotidianas, pero también de los intereses estratégicos para las mujeres y la población LGBTI.</p><p>No sobra insistir en que el género como categoría analítica y social y como enfoque de política pública, se enmarca en el reconocimiento de derechos y en la inclusión como un principio democrático. Después de todo, contextos que reproducen patrones de exclusión y discriminación de mujeres y personas LGBTI, se constituyen en espacios que justifican y normalizan las violencias basadas en el género. En esa medida, el enfoque de género supone una apuesta en doble sentido: por un lado, la protección y garantía de derechos individuales a través de acciones afirmativas y reparadoras; y por el otro, la equidad y la igualdad como marco para la transformación social en función de relaciones incluyentes.</p><p><strong>El enfoque de género también supone la atención diferencial de víctimas de la guerra ya que su posición es desigual en la sociedad.</strong> Y en esa medida hay que tomar acciones estratégicas que impulsen el reconocimiento de ciudadanías y la transformación de relaciones sociales. Uno de los aportes de los estudios de género a la comprensión y el desarrollo de la democracia ha sido la visión amplia de lo político, la cual incorpora la esfera privada de la vida social como un elemento de la política y un espacio en el que se reproducen relaciones desiguales al igual que en la esfera pública[8].</p><p>Volviendo al Acuerdo de Paz y a manera de conclusión, hay que decir que el enfoque de género sigue siendo potente aunque se transformó en las entrelineas del texto. Esta transformación supuso la combinación de enfoques de política pública que hacen referencia a políticas diferenciales, de igualdad de oportunidades, de género y de atención a poblaciones vulnerables, lo cual deriva en un esfuerzo institucional que materialice esas buenas intenciones. Los debates y transformaciones sobre el enfoque de género en el Acuerdo de paz, vienen de la mano con retos y potencialidades importantes para las organizaciones de mujeres y LGBTI no solo en el acompañamiento a la implementación de lo pactado, sino en  persistir en el objetivo de que el enfoque de género y la promoción de la no discriminación son innegociables para la construcción de paz.</p><p>___________________________</p><p>[1] Oficina del Alto Comisionado para la Paz. Sistematización opciones y propuestas voceros del No y lo acordado en el nuevo acuerdo. Pág. 184</p><p>[2] Comunicado divulgado por los pastores Claudia Castellanos, Eduardo Cañas, Héctor Pardo y Jhon Milton Rodríguez, voceros del Pacto Cristiano por la Paz. 18 – Nov – 2016.</p><p>[3] Ferrajoli Luigi. Derechos y garantías: La ley del más débil. Madrid: Editorial Trotta. 1999. Pág. 79.</p><p>[4] URREA-GIRALDO, Fernando et al. Patrones de mortalidad comparativos entre la población afrodescendiente y la blanca-mestiza en Cali y Valle. Revista CS, [S.l.], p. 131-167, ago. 2015. ISSN 2011-0324. Disponible en: . Fecha de acceso: 03 nov. 2016</p><p>[5] La interseccionalidad es un concepto que ha sido empleado para la comprensión de las afectaciones diferenciadas que ha producido el conflicto armado colombiano en diversidad de poblaciones. Se entiende como una herramienta analítica para estudiar, entender y responder a las maneras en que el género se cruza con otras identidades y cómo estos cruces contribuyen a experiencias únicas de opresión y privilegio. En el caso colombiano ha sido profundizado por investigadoras como Mara Viveros y por el Centro Nacional de Memoria Histórica en sus diferentes investigaciones. Ver: Grupo de Memoria Histórica: La memoria histórica desde la perspectiva de género. Conceptos y herramientas. Bogotá: 2011; Mara Viveros. “La interseccionalidad: una aproximación situada a la dominación”. En: Debate Feminista, Vol 52:1-17. 2016.</p><p>[6] Oficina del Alto Comisionado para la Paz. Sistematización opciones y propuestas voceros del No y lo acordado en el nuevo acuerdo. Pág. 133</p><p>[7] Instituto Nacional de Medicina Legal y Ciencias Forenses. Forensis: Datos para la vida 2015. Capítulos: violencia de pareja y exámenes médico legales por presunto delito sexual.</p><p>[8] Las académicas feministas Kate Millet y Carol Pateman identificaron que el sistema sexo/género también tiene dimensiones políticas que responden a intersecciones culturales y sociales como ya lo ha analizado Judith Butler.</p>
+    
+  
+  <!-- prose footer -->
+  </div>
+</div>
+</div>
+
+</article>
+
+  <!-- share block -->
+  <!-- share block -->
+
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-4 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -557,51 +608,69 @@
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
-</section>
-        
-          <section class="container mx-auto max-w-3xl"><p class="not-prose uppercase font-bold tracking-normal text-sm">
-  <span class="mr-2">Palabras clave:</span>
-  
-    <a href="/posts/tags/farc" class="text-fip-green underline">FARC</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/paz" class="text-fip-green underline">Paz</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/conflicto-armado" class="text-fip-green underline">Conflicto armado</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/dialogos-de-paz" class="text-fip-green underline">Diálogos de Paz</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/violencia-contra-las-mujeres" class="text-fip-green underline">Violencia contra las mujeres</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/lgbti" class="text-fip-green underline">LGBTI</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/mujeres" class="text-fip-green underline">Mujeres</a>
-    
-  
-</p>
-</section>
-        
-        
-      </article>
-    </div>
+
   </div>
+</div>
+</div>
+
+
+
+  <!-- keywords block -->
+  
+  <!-- keywords block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12  ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <p class="not-prose uppercase font-bold tracking-normal">
+    <span class="mr-2 text-sm">Palabras clave:</span>
+    
+      <a href="/publicaciones?query=FARC" class="text-fip-green underline text-sm">FARC</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Paz" class="text-fip-green underline text-sm">Paz</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Conflicto armado" class="text-fip-green underline text-sm">Conflicto armado</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Diálogos de Paz" class="text-fip-green underline text-sm">Diálogos de Paz</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Violencia contra las mujeres" class="text-fip-green underline text-sm">Violencia contra las mujeres</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=LGBTI" class="text-fip-green underline text-sm">LGBTI</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Mujeres" class="text-fip-green underline text-sm">Mujeres</a>
+      
+    
+  </p>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- footnotes block -->
+  
+
 </div>
 </div>
   
@@ -609,7 +678,7 @@
     <!-- tags cloud -->
 <div class="container mx-auto max-w-6xl mt-20 mb-8  pl-6 sm:px-0">
   <div class="-mt-2 mb-4 pt-2 font-black uppercase sm:mr-0 sm:mb-0 border-t-fip-gray-light border-t-4 text-fip-gray-light  text-base block">
-  <h2 id="5d82dbc8-b36a-4138-9419-15a005cec295" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
+  <h2 id="e3196e93-2a33-45d2-a6d9-62fa233e82c7" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
     <a href="/publicaciones" class="ml-auto mt-4 hidden text-xs font-black uppercase hover:no-underline text-fip-gray-light ">
     <span class="px-2 font-normal">/</span>
     Ver todas las etiquetas
@@ -621,114 +690,50 @@
     <ul class="w-[1200px] sm:w-auto">
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Marihuana medicinal"
+          <a href="/publicaciones?query=Frontera"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Marihuana medicinal
+            Frontera
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Cabildos abiertos"
+          <a href="/publicaciones?query=Droga"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Cabildos abiertos
+            Droga
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Sustitución"
+          <a href="/publicaciones?query=Líderes empresariales"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Sustitución
+            Líderes empresariales
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Tema del mes"
+          <a href="/publicaciones?query=Estabilización"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Tema del mes
+            Estabilización
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=ERPAC"
+          <a href="/publicaciones?query=Mafia"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            ERPAC
+            Mafia
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=negociaciones de paz"
+          <a href="/publicaciones?query=Salud mental"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            negociaciones de paz
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=enfoque de género"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            enfoque de género
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Analizando la coyuntura"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Analizando la coyuntura
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Clan Úsuga"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Clan Úsuga
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Boletín Temático"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Boletín Temático
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Empresas y construcción de paz"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Empresas y construcción de paz
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Colombia"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Colombia
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Aspersión"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Aspersión
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Reincidencia"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Reincidencia
+            Salud mental
           </a>
         </li>
       
@@ -741,42 +746,106 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Coca"
+          <a href="/publicaciones?query=Psicología"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Coca
+            Psicología
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Posconflicto"
+          <a href="/publicaciones?query=Implementación"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Posconflicto
+            Implementación
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=transición"
+          <a href="/publicaciones?query=Guajira"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            transición
+            Guajira
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=seguridad y convivencia ciudadana"
+          <a href="/publicaciones?query=punto críticos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            seguridad y convivencia ciudadana
+            punto críticos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=debida diligencia"
+          <a href="/publicaciones?query=Cultivos ilícitos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            debida diligencia
+            Cultivos ilícitos
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Terrorismo"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Terrorismo
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Diálogo entre improbables"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Diálogo entre improbables
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=reincorporación"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            reincorporación
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Indulto"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Indulto
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=2018"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            2018
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Asamblea Constituyente"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Asamblea Constituyente
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Restitución"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Restitución
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Violencia contra las mujeres"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Violencia contra las mujeres
           </a>
         </li>
       
@@ -784,7 +853,7 @@
   </div>
 </div>
 
-<footer class="mt-auto bg-fip-gray py-8">
+<footer class="mt-auto bg-fip-gray py-8 max-w-screen-2xl mx-auto w-full">
   <div class="container relative grid max-w-6xl px-6 py-5 sm:mx-auto sm:grid-cols-6 sm:gap-x-32 sm:gap-y-16 sm:px-0">
     <div class="row-span-2 sm:col-span-2">
       <a href="/"><svg class="h-16 w-24 sm:hidden block mb-8" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>

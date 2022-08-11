@@ -28,7 +28,7 @@
 
 <body class="flex min-h-screen flex-col overflow-x-hidden" x-data="{ open: false }" id="top">
   
-    <nav class="sticky top-0 z-50 border-b bg-fip-gray" x-show="!open">
+    <nav class="sticky top-0 z-50 border-b bg-fip-gray max-w-screen-2xl mx-auto w-full" x-show="!open">
   <div class="container flex max-w-6xl px-6 py-5 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="hidden flex-auto grow-0 sm:block"><svg class="h-7 sm:w-72" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg></a>
     <a href="/" class="mr-4 flex-auto grow-0 sm:hidden"><svg class="h-7" xmlns="http://www.w3.org/2000/svg" width="29.692" height="30" viewBox="0 0 29.692 30"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> </svg></a>
@@ -68,7 +68,7 @@
   </div>
 </nav>
 
-<nav class="relative z-0 bg-fip-gray" x-cloak x-show="open">
+<nav class="relative z-0 bg-fip-gray max-w-screen-2xl mx-auto w-full" x-cloak x-show="open">
   <div class="container flex max-w-6xl p-8 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="flex-auto grow-0"><svg class="h-10 hidden sm:w-72 sm:block" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg>
       <svg class="h-20 w-36 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
@@ -433,60 +433,75 @@
 
   
   <div id="app"><div class="mt-6 sm:mt-12">
-  <div class="container mx-auto max-w-3xl gap-4 sm:grid sm:grid-cols-12">
-    <div class="px-6 sm:col-span-2 sm:px-0">
-      <span class="mb-4 block font-black uppercase text-fip-green sm:inline">Publicaciones</span>
-    </div>
-    <div class="px-6 sm:col-span-8 sm:px-0">
-      <div class="mb-6 block font-sans text-xs tracking-normal text-gray-400 sm:mb-12 sm:pl-6 sm:text-sm">
-        <span class="font-medium uppercase">Inicio</span>
-        <span class="mx-2">/</span>
-        <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
-        <span class="mx-2">/</span>
-        <span class="font-medium">25 de junio de 2018</span>
-        <span class="mx-2">/</span>
-        <span class="">9 min.</span>
-      </div>
-    </div>
+  <!-- metadata block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-6 sm:mb-12 ">
+  <div class="sm:col-span-2">
+    
+      <span class="mb-4 block font-black uppercase text-fip-green sm:inline mx-6 sm:mx-0">Publicaciones</span>
+    
   </div>
-  <div class="mb-32 gap-4 sm:grid sm:grid-cols-12">
-    <div class="sm:col-span-2"></div>
-    <div class="sm:col-span-8">
-      <article class="max-w-none px-6 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:text-xl prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl">
-          <h1>Cultivos ilícitos: el problema y las alternativas posibles</h1>
-          <p class="lead">Países como Afganistán, México y Colombia han aumentado su producción de cultivos ilícitos ¿Qué hay que hacer para disminuir este fenómeno?</p>
+  <div class="block font-sans text-xs tracking-normal text-gray-400 sm:text-sm">
+  <span class="font-medium uppercase">Inicio</span>
+  <span class="mx-2">/</span>
+  <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
+  <span class="mx-2">/</span>
+  <span class="font-medium">25 de junio de 2018</span>
+  <span class="mx-2">/</span>
+  <span class="">9 min.</span>
+</div>
+
+  </div>
+</div>
+</div>
+
+  <!-- header block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <div class="container mx-auto">
+    <h1>Cultivos ilícitos: el problema y las alternativas posibles</h1>
+    <p class="lead">Países como Afganistán, México y Colombia han aumentado su producción de cultivos ilícitos ¿Qué hay que hacer para disminuir este fenómeno?</p>
+    <!-- external portal block -->
+
+  <div class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
+    Esta  se publicó el 11 de agosto de 2022 en
+    
+    <a href=""
+      class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">
+      Leer  original
+    </a>
+  </div>
+
+
+    <div class="sm:relative">
+      
+  <figure class="-mx-6 sm:-mx-0 mb-4">
+    
+    
+      
+      <img class="mb-0"
+        src="https://ideaspaz.imgix.net/images/5b315fab740c0.png?auto=format&fit=crop&w=768&h=432&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+        width="768" height="432" alt="Foto: Revista Semana " />
+      
+        <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
+          Foto: Revista Semana 
           
-            <p class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
-  Esta columna de opinión se publicó el 10 August de 2022 en
-  
-  <a href=""
-    class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">Leer columna
-    original</a>
-</p>
+        </figcaption>
+      
+    
+  </figure>
 
-          
-          <div class="sm:relative">
-            
-              <figure class="-mx-6 sm:-mx-0">
-  
-  
-    
-    <img class="mb-0"
-      src="https://ideaspaz.imgix.net/images/5b315fab740c0.png?auto=format&fit=crop&w=720&h=410&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-      width="720" height="410" alt="Foto: Revista Semana " />
-    
-      <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
-        Foto: Revista Semana 
-        
-      </figcaption>
-    
-  
-</figure>
 
-            
-            <div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+      <!-- share block -->
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -505,18 +520,55 @@
   </div>
 </div>
 
-            
-            
-          </div>
-        </section>
 
-        
-          
-            <section class="container mx-auto max-w-3xl"><p class="note">Esta nota se publicó en el<a target="_blank" href="https://seguridad.nexos.com.mx/?p=802"> portal mexicano Nexos el 25 de junio de 2018</a></p><p>El crecimiento de los cultivos de amapola, vinculado al tráfico de heroína con destino a los Estados Unidos, ha sido parte del debate sobre seguridad previo a las elecciones presidenciales en México. Según las <a href="https://www.unodc.org/wdr2017/field/WDR_Booklet1_Exsum_Spanish.pdf">Naciones Unidas</a>, el país es el tercer mayor productor a nivel mundial, luego de Afganistán y Myanmar (donde también se registraron ascensos). Según la <a target="_blank" href="https://www.reforma.com/libre/acceso/accesofb.htm?urlredirect=/aplicaciones/articulo/default.aspx?id=1316209&v=2">Secretaría de la Defensa Nacional</a>, en 2017 los militares reportaron el hallazgo de 28,221 hectáreas sembradas con amapola, un repunte en comparación con las 22,235 hectáreas de 2016. Este crecimiento se ha dado a la par del alza en los niveles de violencia en las zonas de cultivos y la competencia de <a target="_blank" href="https://elpais.com/internacional/2018/02/03/mexico/1517622776_133987.amp.html?__twitter_impression=true">múltiples estructuras criminales</a> por el control del negocio.</p><p>La expansión de cultivos ilícitos no es una preocupación exclusiva de México. En Afganistán, un reciente informe de <a target="_blank" href="https://www.unodc.org/documents/crop-monitoring/Afghanistan/Opium-survey-peace-security-web.pdf">las Naciones Unidas</a> señaló que los cultivos de adormidera pasaron de 201.000 hectáreas en 2016, a 328,000 en 2017. En cuanto a la producción de coca, en 2017 Colombia habría registrado un ascenso notable en el número de hectáreas, <a target="_blank" href="https://www.reforma.com/libre/acceso/accesofb.htm?urlredirect=/aplicaciones/articulo/default.aspx?id=1316209&v=2">superando las 180,000</a> (40,000 más que en 2016). Para cada caso no hay una única explicación sobre el crecimiento, aunque sí varios rasgos comunes que contribuyen a entender el surgimiento y la expansión de los cultivos ilícitos.</p><p>Aunque la preocupación principal suele dirigirse al aumento en el número de hectáreas, éste es un indicador insuficiente para entender la dinámica de los cultivos y sus verdaderos impactos. Las zonas que desarrollan una dependencia con los cultivos ilícitos suelen ser caracterizadas por<a href="https://www.sciencedirect.com/science/article/pii/S0955395916301931"> bajos niveles de presencia efectiva del Estado</a>, con una limitada provisión de bienes y servicios, bajos niveles de inserción a la economía legal, alta vulnerabilidad social y falta de control por parte del gobierno. Muestra de ellos son los casos de Afganistán, México y Colombia, donde el problema de los cultivos no solo es un asunto que afecta la seguridad, sino que está <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0305750X17303455">íntimamente ligado al desarrollo.</a></p><p>Si bien hay un reconocimiento creciente de esta situación, los esfuerzos se siguen dirigiendo a afectar la oferta —a través de la destrucción de los cultivos—, con la expectativa de tener un impacto negativo en la demanda, a través del <a target="_blank" href="https://search.proquest.com/openview/49037cd5694943454a223c0996f4d706/1?pq-origsite=gscholar&cbl=18750&diss=y">aumento sostenido en los precios y la reducción en el consumo de drogas </a>(una meta que, dicho sea de paso, rara vez se ha conseguido).</p><p>Las medidas aplicadas en los distintos países no tienen grandes variaciones. Por un lado se encuentra la erradicación forzada, con operaciones de aspersión área y erradicación manual; por el otro, los programas de sustitución de cultivos ilícitos, que implican una participación activa de comunidades que se comprometen a hacer el tránsito hacia una economía legal con el apoyo del Estado.</p><p>Hay un debate abierto sobre cuáles de estas alternativas son las más efectivas y cuáles son sus impactos. En este artículo buscamos contribuir a esta discusión, señalando lo que sabemos —y no sabemos— sobre las respuestas para hacer frente a los cultivos ilícitos, a partir de la escasa literatura y evidencia disponible.</p><p><strong>1. La erradicación forzada puede tener efectos en el corto plazo, pero estos suelen no ser sostenibles en el largo plazo. </strong>La aspersión aérea y la erradicación forzada tienen un efecto inmediato en la disminución de cultivos; sin embargo, en el mediano plazo, esta baja suele ser revertida con la aparición de nuevos cultivos. Para conseguir un descenso significativo, se requiere de una intervención de gran escala, con un <a target="_blank" href="http://documents.worldbank.org/curated/en/517811468189273130/pdf/WPS7409.pdf">balance costo-beneficio desfavorable.</a></p><p><strong>2. Los efectos de la erradicación forzada tienden a recaer sobre los cultivadores, quienes absorben los costos de las acciones realizadas por el gobierno</strong>. Los cultivos ilícitos generalmente funcionan como un <a target="_blank" href="http://www.mamacoca.org/docs_de_base/Fumigas/Daniel_Rico_GallegoJorge_Manual_Eradication_Aerial_Sparying_and_Coca_Prices__2012.pdf">monopsonio</a>, bajo el control de una organización criminal que <a target="_blank" href="https://www.tni.org/files/publication-downloads/amapola_opio_y_heroina_la_produccion_de_colombia_y_mexico_web_0.pdf">define el precio</a>, independientemente de la oferta. Esta situación lleva a que los costos de la erradicación recaigan sobre los campesinos, mientras que las facciones criminales conservan suficiente margen de ganancia para mitigar el impacto de las acciones del Estado.</p><p><strong>3. La erradicación forzada tiende a tener rendimientos decrecientes, debido a la resiembra y a la reubicación de los cultivos</strong>. La erradicación forzada se limita a levantar las plantas sin cambiar las condiciones de base que facilitaron el surgimiento y crecimiento de los cultivos, lo cual requiere de la intervención integral del Estado. Esta situación lleva a que los cultivos vuelvan a aparecer al cabo del tiempo (con niveles de <a href="https://www.unodc.org/documents/colombia/2017/julio/CENSO_2017_WEB_baja.pdf">resiembra </a>que rondan el 40% en el caso de Colombia), o se <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0955395916301931">reubiquen en zonas de difícil acceso</a> (lo que se conoce como el “<a target="_blank" href="https://economia.uniandes.edu.co/components/com_booklibrary/ebooks/dcede2018-28.pdf">Efecto Globo</a>”).</p><p><strong>4. En contexto de alta movilización social y alta presencia de organizaciones criminales, la erradicación manual es poco viable.</strong> La erradicación forzada requiere unas condiciones mínimas de seguridad en el territorio, con un despliegue policial y militar que proteja al personal y las aeronaves (en el caso de la aspersión) en zonas altamente vulnerables. Las comunidades organizadas pueden <a target="_blank" href="http://www.ideaspaz.org/publications/posts/1596">impedir la destrucción de los plantíos</a> a través de bloqueos, con el riesgo de generar enfrentamientos con las fuerzas del Estado.</p><p><strong>5. La sustitución de cultivos tiene mayores efectos en el largo plazo, pero exige de mayores recursos y tiempo.</strong> Los programas de sustitución, acompañados con asistencia técnica, <a target="_blank" href="https://espace.library.uq.edu.au/data/UQ_699214/Higginson_2013_ISSDP.pdf?Expires=1529438663&Signature=Cq5KN4~7natuoepwGBXjuCce8hPrlM7szffJLPelEd8Ooi0Bw4DDFS9XnZ7VMbd1Q2vNFSGQiB9dpofnKDVxCoFLOUkMHnKNG5Ka1X5qMd7YoQcIDRV7ZzOpzIu6msr5l8CnzIMJwasXhTZUW9LkqZ15VAu5mkbgLG6MB8NOdwBeJJOgTul2NdksU6RpfXaEC2X46944dfVE5LYErlmA4i4qJKvmYAM6fILrfl9pwr-I~xEXR8FyyBhotMJqtQ~e0LFcIQaD2XPRiyZxsFapoepsrHJoGxNLGy2QLaXVwi6NC-YXeqEfhDac57vnty19hsR5MjWpKU2l8tXYm0E6ZQ__&Key-Pair-Id=APKAJKNBJ4MJBJNC6NLQ">tienen un impacto significativo </a>en la reducción de cultivos ilícitos. Diferentes programas de desarrollo alternativo y de <a target="_blank" href="https://www.brookings.edu/wp-content/uploads/2016/07/Mejia-Colombia-final-2.pdf">consolidación territorial</a> han mostrado resultados positivos en el mediano y largo plazo, pero suelen no generar bajas inmediatas y funcionan en escalas limitadas.</p><p><strong>6. Medidas como la formalización y acceso a la propiedad de la tierra tienen un efecto positivo en la disminución de los cultivos ilícitos.</strong> Durante el Plan Colombia, los municipios que obtuvieron mayor éxito en la disminución de cultivos fueron aquellos que tuvieron un<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0305750X17303455"> mayor nivel de formalización o titulación de la tierra</a> (la formalización de un hectárea adicional se asocia con una disminución de aproximadamente 1.4 hectáreas destinadas a la coca). Además de los incentivos micro-económicos, la formalización de la propiedad funciona como una herramienta de disuasión, aumentando los costos de siembra y los riesgos de tener cultivos ilícitos.</p><p><strong>7. Existen pocas pruebas de que las acciones de erradicación o interdicción tengan algún efecto sostenible en los mercados de distribución.</strong> La evidencia no permite señalar que la reducción de la oferta tenga<a target="_blank" href="https://openknowledge.worldbank.org/bitstream/handle/10986/6531/wps4564.pdf?sequence=1&isAllowed=y"> impactos directos </a>en la demanda, en el nivel de pureza de las sustacias psicoactivas o en los precios del mercado final. En el mejor de los casos pueden producir perturbaciones <a target="_blank" href="http://www.infodrogas.gub.uy/html/material-educativo/documentos/DrugVFinalLR2.pdf">transitorias, sin un efecto sostenible.</a> Bajo este marco, las medidas para responder a los cultivos ilícitos tienen que ver más con el fortalecimiento del Estado y la integración de territorios aislados, que con la reducción de oferta de drogas ilegales.</p><p>La <a target="_blank" href="https://www.ibtauris.com/en/Books/Society%2520%2520social%2520sciences/Politics%2520%2520government/Suppressing%2520Illicit%2520Opium%2520Production%2520in%2520Asia%2520and%2520the%2520Middle%2520East%2520Successful%2520Intervention%2520and%2520National%2520Drug%2520Policies?menuitem=%257B">evidencia </a>señala que para tener una respuesta efectiva y sostenible a los cultivos ilícitos, se requiere de una base institucional mínima que fortalezca la presencia del Estado, de incentivos para que los campesinos abandonen esta actividad, de una respuesta diferenciada para los distintos eslabones de la cadena (con alternativas económicas para los más débiles), y de intervenciones acopladas a las características de cada territorio.<strong> No se trata de escoger entre el garrote y la zanahoria, sino de tener una respuesta articulada que sea capaz de conectar la seguridad y el desarrollo.</strong></p><p>Dentro de las alternativas que están sobre la mesa también se encuentra la regulación de las drogas ilegales y el uso lícito de las plantaciones. Los avances en este campo se limitan a la marihuana, en cuya producción y comercialización predominan las empresas con condiciones desfavorables para los pequeños cultivadores (<a target="_blank" href="https://www.rollingstone.com/culture/features/how-legalization-is-hurting-californias-small-pot-farmers-w514842">incluso en los EE.UU</a>). En México se ha planteado la producción legal de amapola para fines medicinales, una alternativa que parece poco viable bajo las actuales condiciones, teniendo en cuenta la <a target="_blank" href="http://www.painpolicy.wisc.edu/home">sobreoferta global</a> así como las condiciones institucionales requeridas para este cambio. La tarea de hacer de esta propuesta una opción viable y favorable para los campesinos sigue pendiente.</p><p>El contexto mexicano nos muestra que, en lo que tiene que ver con la amapola, el impacto mayor lo está teniendo la irrupción del fentanilo. Se trata de un opioide sintético 50 veces más potente que la heroína que está golpeando el precio del kilo de goma de opio en las zonas productoras. Con la marihuana, por su parte, a medida que avanza la legalización con fines recreativos en los EE.UU, la industria ilegal va perdiendo terreno. Esto no quiere decir que la producción ilegal en México vaya a desaparecer de un día a otro, pero sí advierte de transiciones que cambiarán las condiciones en las zonas dependientes de los cultivos ilícitos.</p><p><strong>Dada esta realidad, es sensato plantear el debate sobre alternativas legales para los pequeños cultivadores, no solo desde la reducción de la oferta, sino desde una perspectiva humanitaria enfocada en el desarrollo y la reducción de la pobreza.</strong> La erradicación de los cultivos sin la aplicación de ninguna otra medida complementaria, no solo es una manera ineficiente de invertir los recursos, sino una vía para prolongar la industria ilegal de las drogas. El próximo presidente de México tendrá que decidir si continuar con una fórmula que no ha dado resultados o arriesgar a implementar una solución de fondo. Aceptémoslo de una vez: el problema no son las matas, sino la ausencia de un Estado que funcione.</p></section>
-          
-        
+      <!-- sidebar block -->
+<div class="sm:absolute sm:top-0 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
+  
+  
+</div>
 
-        <section class="container mx-auto max-w-3xl"><div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+  <!-- content block -->
+  <!-- post content -->
+<article>
+  <!-- prose header -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <!-- prose content blocks -->
+  
+    
+      <p class="note">Esta nota se publicó en el<a target="_blank" href="https://seguridad.nexos.com.mx/?p=802"> portal mexicano Nexos el 25 de junio de 2018</a></p><p>El crecimiento de los cultivos de amapola, vinculado al tráfico de heroína con destino a los Estados Unidos, ha sido parte del debate sobre seguridad previo a las elecciones presidenciales en México. Según las <a href="https://www.unodc.org/wdr2017/field/WDR_Booklet1_Exsum_Spanish.pdf">Naciones Unidas</a>, el país es el tercer mayor productor a nivel mundial, luego de Afganistán y Myanmar (donde también se registraron ascensos). Según la <a target="_blank" href="https://www.reforma.com/libre/acceso/accesofb.htm?urlredirect=/aplicaciones/articulo/default.aspx?id=1316209&v=2">Secretaría de la Defensa Nacional</a>, en 2017 los militares reportaron el hallazgo de 28,221 hectáreas sembradas con amapola, un repunte en comparación con las 22,235 hectáreas de 2016. Este crecimiento se ha dado a la par del alza en los niveles de violencia en las zonas de cultivos y la competencia de <a target="_blank" href="https://elpais.com/internacional/2018/02/03/mexico/1517622776_133987.amp.html?__twitter_impression=true">múltiples estructuras criminales</a> por el control del negocio.</p><p>La expansión de cultivos ilícitos no es una preocupación exclusiva de México. En Afganistán, un reciente informe de <a target="_blank" href="https://www.unodc.org/documents/crop-monitoring/Afghanistan/Opium-survey-peace-security-web.pdf">las Naciones Unidas</a> señaló que los cultivos de adormidera pasaron de 201.000 hectáreas en 2016, a 328,000 en 2017. En cuanto a la producción de coca, en 2017 Colombia habría registrado un ascenso notable en el número de hectáreas, <a target="_blank" href="https://www.reforma.com/libre/acceso/accesofb.htm?urlredirect=/aplicaciones/articulo/default.aspx?id=1316209&v=2">superando las 180,000</a> (40,000 más que en 2016). Para cada caso no hay una única explicación sobre el crecimiento, aunque sí varios rasgos comunes que contribuyen a entender el surgimiento y la expansión de los cultivos ilícitos.</p><p>Aunque la preocupación principal suele dirigirse al aumento en el número de hectáreas, éste es un indicador insuficiente para entender la dinámica de los cultivos y sus verdaderos impactos. Las zonas que desarrollan una dependencia con los cultivos ilícitos suelen ser caracterizadas por<a href="https://www.sciencedirect.com/science/article/pii/S0955395916301931"> bajos niveles de presencia efectiva del Estado</a>, con una limitada provisión de bienes y servicios, bajos niveles de inserción a la economía legal, alta vulnerabilidad social y falta de control por parte del gobierno. Muestra de ellos son los casos de Afganistán, México y Colombia, donde el problema de los cultivos no solo es un asunto que afecta la seguridad, sino que está <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0305750X17303455">íntimamente ligado al desarrollo.</a></p><p>Si bien hay un reconocimiento creciente de esta situación, los esfuerzos se siguen dirigiendo a afectar la oferta —a través de la destrucción de los cultivos—, con la expectativa de tener un impacto negativo en la demanda, a través del <a target="_blank" href="https://search.proquest.com/openview/49037cd5694943454a223c0996f4d706/1?pq-origsite=gscholar&cbl=18750&diss=y">aumento sostenido en los precios y la reducción en el consumo de drogas </a>(una meta que, dicho sea de paso, rara vez se ha conseguido).</p><p>Las medidas aplicadas en los distintos países no tienen grandes variaciones. Por un lado se encuentra la erradicación forzada, con operaciones de aspersión área y erradicación manual; por el otro, los programas de sustitución de cultivos ilícitos, que implican una participación activa de comunidades que se comprometen a hacer el tránsito hacia una economía legal con el apoyo del Estado.</p><p>Hay un debate abierto sobre cuáles de estas alternativas son las más efectivas y cuáles son sus impactos. En este artículo buscamos contribuir a esta discusión, señalando lo que sabemos —y no sabemos— sobre las respuestas para hacer frente a los cultivos ilícitos, a partir de la escasa literatura y evidencia disponible.</p><p><strong>1. La erradicación forzada puede tener efectos en el corto plazo, pero estos suelen no ser sostenibles en el largo plazo. </strong>La aspersión aérea y la erradicación forzada tienen un efecto inmediato en la disminución de cultivos; sin embargo, en el mediano plazo, esta baja suele ser revertida con la aparición de nuevos cultivos. Para conseguir un descenso significativo, se requiere de una intervención de gran escala, con un <a target="_blank" href="http://documents.worldbank.org/curated/en/517811468189273130/pdf/WPS7409.pdf">balance costo-beneficio desfavorable.</a></p><p><strong>2. Los efectos de la erradicación forzada tienden a recaer sobre los cultivadores, quienes absorben los costos de las acciones realizadas por el gobierno</strong>. Los cultivos ilícitos generalmente funcionan como un <a target="_blank" href="http://www.mamacoca.org/docs_de_base/Fumigas/Daniel_Rico_GallegoJorge_Manual_Eradication_Aerial_Sparying_and_Coca_Prices__2012.pdf">monopsonio</a>, bajo el control de una organización criminal que <a target="_blank" href="https://www.tni.org/files/publication-downloads/amapola_opio_y_heroina_la_produccion_de_colombia_y_mexico_web_0.pdf">define el precio</a>, independientemente de la oferta. Esta situación lleva a que los costos de la erradicación recaigan sobre los campesinos, mientras que las facciones criminales conservan suficiente margen de ganancia para mitigar el impacto de las acciones del Estado.</p><p><strong>3. La erradicación forzada tiende a tener rendimientos decrecientes, debido a la resiembra y a la reubicación de los cultivos</strong>. La erradicación forzada se limita a levantar las plantas sin cambiar las condiciones de base que facilitaron el surgimiento y crecimiento de los cultivos, lo cual requiere de la intervención integral del Estado. Esta situación lleva a que los cultivos vuelvan a aparecer al cabo del tiempo (con niveles de <a href="https://www.unodc.org/documents/colombia/2017/julio/CENSO_2017_WEB_baja.pdf">resiembra </a>que rondan el 40% en el caso de Colombia), o se <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0955395916301931">reubiquen en zonas de difícil acceso</a> (lo que se conoce como el “<a target="_blank" href="https://economia.uniandes.edu.co/components/com_booklibrary/ebooks/dcede2018-28.pdf">Efecto Globo</a>”).</p><p><strong>4. En contexto de alta movilización social y alta presencia de organizaciones criminales, la erradicación manual es poco viable.</strong> La erradicación forzada requiere unas condiciones mínimas de seguridad en el territorio, con un despliegue policial y militar que proteja al personal y las aeronaves (en el caso de la aspersión) en zonas altamente vulnerables. Las comunidades organizadas pueden <a target="_blank" href="http://www.ideaspaz.org/publications/posts/1596">impedir la destrucción de los plantíos</a> a través de bloqueos, con el riesgo de generar enfrentamientos con las fuerzas del Estado.</p><p><strong>5. La sustitución de cultivos tiene mayores efectos en el largo plazo, pero exige de mayores recursos y tiempo.</strong> Los programas de sustitución, acompañados con asistencia técnica, <a target="_blank" href="https://espace.library.uq.edu.au/data/UQ_699214/Higginson_2013_ISSDP.pdf?Expires=1529438663&Signature=Cq5KN4~7natuoepwGBXjuCce8hPrlM7szffJLPelEd8Ooi0Bw4DDFS9XnZ7VMbd1Q2vNFSGQiB9dpofnKDVxCoFLOUkMHnKNG5Ka1X5qMd7YoQcIDRV7ZzOpzIu6msr5l8CnzIMJwasXhTZUW9LkqZ15VAu5mkbgLG6MB8NOdwBeJJOgTul2NdksU6RpfXaEC2X46944dfVE5LYErlmA4i4qJKvmYAM6fILrfl9pwr-I~xEXR8FyyBhotMJqtQ~e0LFcIQaD2XPRiyZxsFapoepsrHJoGxNLGy2QLaXVwi6NC-YXeqEfhDac57vnty19hsR5MjWpKU2l8tXYm0E6ZQ__&Key-Pair-Id=APKAJKNBJ4MJBJNC6NLQ">tienen un impacto significativo </a>en la reducción de cultivos ilícitos. Diferentes programas de desarrollo alternativo y de <a target="_blank" href="https://www.brookings.edu/wp-content/uploads/2016/07/Mejia-Colombia-final-2.pdf">consolidación territorial</a> han mostrado resultados positivos en el mediano y largo plazo, pero suelen no generar bajas inmediatas y funcionan en escalas limitadas.</p><p><strong>6. Medidas como la formalización y acceso a la propiedad de la tierra tienen un efecto positivo en la disminución de los cultivos ilícitos.</strong> Durante el Plan Colombia, los municipios que obtuvieron mayor éxito en la disminución de cultivos fueron aquellos que tuvieron un<a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0305750X17303455"> mayor nivel de formalización o titulación de la tierra</a> (la formalización de un hectárea adicional se asocia con una disminución de aproximadamente 1.4 hectáreas destinadas a la coca). Además de los incentivos micro-económicos, la formalización de la propiedad funciona como una herramienta de disuasión, aumentando los costos de siembra y los riesgos de tener cultivos ilícitos.</p><p><strong>7. Existen pocas pruebas de que las acciones de erradicación o interdicción tengan algún efecto sostenible en los mercados de distribución.</strong> La evidencia no permite señalar que la reducción de la oferta tenga<a target="_blank" href="https://openknowledge.worldbank.org/bitstream/handle/10986/6531/wps4564.pdf?sequence=1&isAllowed=y"> impactos directos </a>en la demanda, en el nivel de pureza de las sustacias psicoactivas o en los precios del mercado final. En el mejor de los casos pueden producir perturbaciones <a target="_blank" href="http://www.infodrogas.gub.uy/html/material-educativo/documentos/DrugVFinalLR2.pdf">transitorias, sin un efecto sostenible.</a> Bajo este marco, las medidas para responder a los cultivos ilícitos tienen que ver más con el fortalecimiento del Estado y la integración de territorios aislados, que con la reducción de oferta de drogas ilegales.</p><p>La <a target="_blank" href="https://www.ibtauris.com/en/Books/Society%2520%2520social%2520sciences/Politics%2520%2520government/Suppressing%2520Illicit%2520Opium%2520Production%2520in%2520Asia%2520and%2520the%2520Middle%2520East%2520Successful%2520Intervention%2520and%2520National%2520Drug%2520Policies?menuitem=%257B">evidencia </a>señala que para tener una respuesta efectiva y sostenible a los cultivos ilícitos, se requiere de una base institucional mínima que fortalezca la presencia del Estado, de incentivos para que los campesinos abandonen esta actividad, de una respuesta diferenciada para los distintos eslabones de la cadena (con alternativas económicas para los más débiles), y de intervenciones acopladas a las características de cada territorio.<strong> No se trata de escoger entre el garrote y la zanahoria, sino de tener una respuesta articulada que sea capaz de conectar la seguridad y el desarrollo.</strong></p><p>Dentro de las alternativas que están sobre la mesa también se encuentra la regulación de las drogas ilegales y el uso lícito de las plantaciones. Los avances en este campo se limitan a la marihuana, en cuya producción y comercialización predominan las empresas con condiciones desfavorables para los pequeños cultivadores (<a target="_blank" href="https://www.rollingstone.com/culture/features/how-legalization-is-hurting-californias-small-pot-farmers-w514842">incluso en los EE.UU</a>). En México se ha planteado la producción legal de amapola para fines medicinales, una alternativa que parece poco viable bajo las actuales condiciones, teniendo en cuenta la <a target="_blank" href="http://www.painpolicy.wisc.edu/home">sobreoferta global</a> así como las condiciones institucionales requeridas para este cambio. La tarea de hacer de esta propuesta una opción viable y favorable para los campesinos sigue pendiente.</p><p>El contexto mexicano nos muestra que, en lo que tiene que ver con la amapola, el impacto mayor lo está teniendo la irrupción del fentanilo. Se trata de un opioide sintético 50 veces más potente que la heroína que está golpeando el precio del kilo de goma de opio en las zonas productoras. Con la marihuana, por su parte, a medida que avanza la legalización con fines recreativos en los EE.UU, la industria ilegal va perdiendo terreno. Esto no quiere decir que la producción ilegal en México vaya a desaparecer de un día a otro, pero sí advierte de transiciones que cambiarán las condiciones en las zonas dependientes de los cultivos ilícitos.</p><p><strong>Dada esta realidad, es sensato plantear el debate sobre alternativas legales para los pequeños cultivadores, no solo desde la reducción de la oferta, sino desde una perspectiva humanitaria enfocada en el desarrollo y la reducción de la pobreza.</strong> La erradicación de los cultivos sin la aplicación de ninguna otra medida complementaria, no solo es una manera ineficiente de invertir los recursos, sino una vía para prolongar la industria ilegal de las drogas. El próximo presidente de México tendrá que decidir si continuar con una fórmula que no ha dado resultados o arriesgar a implementar una solución de fondo. Aceptémoslo de una vez: el problema no son las matas, sino la ausencia de un Estado que funcione.</p>
+    
+  
+  <!-- prose footer -->
+  </div>
+</div>
+</div>
+
+</article>
+
+  <!-- share block -->
+  <!-- share block -->
+
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-4 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -534,51 +586,69 @@
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
-</section>
-        
-          <section class="container mx-auto max-w-3xl"><p class="not-prose uppercase font-bold tracking-normal text-sm">
-  <span class="mr-2">Palabras clave:</span>
-  
-    <a href="/posts/tags/droga" class="text-fip-green underline">Droga</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/dialogos-de-paz" class="text-fip-green underline">Diálogos de Paz</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/erradicacion" class="text-fip-green underline">Erradicación</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/glifosato" class="text-fip-green underline">Glifosato</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/cultivos-ilicitos" class="text-fip-green underline">Cultivos ilícitos</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/haciendo-propuestas" class="text-fip-green underline">Haciendo propuestas</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/sustitucion-de-cultivos-ilicitos" class="text-fip-green underline">sustitución de cultivos ilícitos</a>
-    
-  
-</p>
-</section>
-        
-        
-      </article>
-    </div>
+
   </div>
+</div>
+</div>
+
+
+
+  <!-- keywords block -->
+  
+  <!-- keywords block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12  ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <p class="not-prose uppercase font-bold tracking-normal">
+    <span class="mr-2 text-sm">Palabras clave:</span>
+    
+      <a href="/publicaciones?query=Droga" class="text-fip-green underline text-sm">Droga</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Diálogos de Paz" class="text-fip-green underline text-sm">Diálogos de Paz</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Erradicación" class="text-fip-green underline text-sm">Erradicación</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Glifosato" class="text-fip-green underline text-sm">Glifosato</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Cultivos ilícitos" class="text-fip-green underline text-sm">Cultivos ilícitos</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Haciendo propuestas" class="text-fip-green underline text-sm">Haciendo propuestas</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=sustitución de cultivos ilícitos" class="text-fip-green underline text-sm">sustitución de cultivos ilícitos</a>
+      
+    
+  </p>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- footnotes block -->
+  
+
 </div>
 </div>
   
@@ -586,7 +656,7 @@
     <!-- tags cloud -->
 <div class="container mx-auto max-w-6xl mt-20 mb-8  pl-6 sm:px-0">
   <div class="-mt-2 mb-4 pt-2 font-black uppercase sm:mr-0 sm:mb-0 border-t-fip-gray-light border-t-4 text-fip-gray-light  text-base block">
-  <h2 id="8488b720-9302-4c17-80bd-346d47f46426" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
+  <h2 id="073da901-31e7-45ff-bacb-b5c57ad8202b" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
     <a href="/publicaciones" class="ml-auto mt-4 hidden text-xs font-black uppercase hover:no-underline text-fip-gray-light ">
     <span class="px-2 font-normal">/</span>
     Ver todas las etiquetas
@@ -598,138 +668,66 @@
     <ul class="w-[1200px] sm:w-auto">
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Drogas blandas"
+          <a href="/publicaciones?query=Empresas y construcción de paz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Drogas blandas
+            Empresas y construcción de paz
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Implementación"
+          <a href="/publicaciones?query=Cese al fuego"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Implementación
+            Cese al fuego
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=punto críticos"
+          <a href="/publicaciones?query=Justicia Especial para la Paz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            punto críticos
+            Justicia Especial para la Paz
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Derechos Humanos"
+          <a href="/publicaciones?query=Psiquiatría"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Derechos Humanos
+            Psiquiatría
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Ollas"
+          <a href="/publicaciones?query=Gobierno abierto"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Ollas
+            Gobierno abierto
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=disminucion-de-delitos"
+          <a href="/publicaciones?query=Ansiedad"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            disminucion-de-delitos
+            Ansiedad
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=EPL"
+          <a href="/publicaciones?query=Cultivos ilícitos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            EPL
+            Cultivos ilícitos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=cooperación"
+          <a href="/publicaciones?query=Bandas criminales"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            cooperación
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Sindicalismo"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Sindicalismo
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=GuiasColombia "
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            GuiasColombia 
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Psicología clínica"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Psicología clínica
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=cárceles"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            cárceles
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Salud mental"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Salud mental
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Negociación"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Negociación
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Desmilitarización"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Desmilitarización
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Diálogo entre improbables"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Diálogo entre improbables
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Meta"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Meta
+            Bandas criminales
           </a>
         </li>
       
@@ -742,18 +740,90 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Fuerzas Militares"
+          <a href="/publicaciones?query=México"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Fuerzas Militares
+            México
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Coca"
+          <a href="/publicaciones?query=ODS"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Coca
+            ODS
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Extorsión"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Extorsión
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Programas regionales de desarrollo y paz"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Programas regionales de desarrollo y paz
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Combates"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Combates
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Aspersión"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Aspersión
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Febrero"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Febrero
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Psicología clínica"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Psicología clínica
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Tortura"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Tortura
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Buenas prácticas"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Buenas prácticas
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=¿Qué?"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            ¿Qué?
           </a>
         </li>
       
@@ -761,7 +831,7 @@
   </div>
 </div>
 
-<footer class="mt-auto bg-fip-gray py-8">
+<footer class="mt-auto bg-fip-gray py-8 max-w-screen-2xl mx-auto w-full">
   <div class="container relative grid max-w-6xl px-6 py-5 sm:mx-auto sm:grid-cols-6 sm:gap-x-32 sm:gap-y-16 sm:px-0">
     <div class="row-span-2 sm:col-span-2">
       <a href="/"><svg class="h-16 w-24 sm:hidden block mb-8" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>

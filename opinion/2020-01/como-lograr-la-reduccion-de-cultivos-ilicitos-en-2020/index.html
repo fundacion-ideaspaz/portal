@@ -28,7 +28,7 @@
 
 <body class="flex min-h-screen flex-col overflow-x-hidden" x-data="{ open: false }" id="top">
   
-    <nav class="sticky top-0 z-50 border-b bg-fip-gray" x-show="!open">
+    <nav class="sticky top-0 z-50 border-b bg-fip-gray max-w-screen-2xl mx-auto w-full" x-show="!open">
   <div class="container flex max-w-6xl px-6 py-5 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="hidden flex-auto grow-0 sm:block"><svg class="h-7 sm:w-72" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg></a>
     <a href="/" class="mr-4 flex-auto grow-0 sm:hidden"><svg class="h-7" xmlns="http://www.w3.org/2000/svg" width="29.692" height="30" viewBox="0 0 29.692 30"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> </svg></a>
@@ -68,7 +68,7 @@
   </div>
 </nav>
 
-<nav class="relative z-0 bg-fip-gray" x-cloak x-show="open">
+<nav class="relative z-0 bg-fip-gray max-w-screen-2xl mx-auto w-full" x-cloak x-show="open">
   <div class="container flex max-w-6xl p-8 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="flex-auto grow-0"><svg class="h-10 hidden sm:w-72 sm:block" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg>
       <svg class="h-20 w-36 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
@@ -433,55 +433,70 @@
 
   
   <div id="app"><div class="mt-6 sm:mt-12">
-  <div class="container mx-auto max-w-3xl gap-4 sm:grid sm:grid-cols-12">
-    <div class="px-6 sm:col-span-2 sm:px-0">
-      <span class="mb-4 block font-black uppercase text-fip-green sm:inline">Publicaciones</span>
-    </div>
-    <div class="px-6 sm:col-span-8 sm:px-0">
-      <div class="mb-6 block font-sans text-xs tracking-normal text-gray-400 sm:mb-12 sm:pl-6 sm:text-sm">
-        <span class="font-medium uppercase">Inicio</span>
-        <span class="mx-2">/</span>
-        <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
-        <span class="mx-2">/</span>
-        <span class="font-medium">7 de enero de 2020</span>
-        <span class="mx-2">/</span>
-        <span class="">10 min.</span>
-      </div>
-    </div>
+  <!-- metadata block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-6 sm:mb-12 ">
+  <div class="sm:col-span-2">
+    
+      <span class="mb-4 block font-black uppercase text-fip-green sm:inline mx-6 sm:mx-0">Publicaciones</span>
+    
   </div>
-  <div class="mb-32 gap-4 sm:grid sm:grid-cols-12">
-    <div class="sm:col-span-2"></div>
-    <div class="sm:col-span-8">
-      <article class="max-w-none px-6 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:text-xl prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl">
-          <h1>¿Cómo lograr la reducción de cultivos ilícitos en 2020?</h1>
-          <p class="lead">Hasta el momento, el plan del Gobierno no parece estar funcionando y la aspersión aérea tampoco será la solución. ¿Qué ha fallado y qué acciones debe tomar el Estado este año?</p>
-          
-            <p class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
-  Esta columna de opinión se publicó el 10 August de 2022 en
-  
-  <a href=""
-    class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">Leer columna
-    original</a>
-</p>
+  <div class="block font-sans text-xs tracking-normal text-gray-400 sm:text-sm">
+  <span class="font-medium uppercase">Inicio</span>
+  <span class="mx-2">/</span>
+  <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
+  <span class="mx-2">/</span>
+  <span class="font-medium">7 de enero de 2020</span>
+  <span class="mx-2">/</span>
+  <span class="">10 min.</span>
+</div>
 
-          
-          <div class="sm:relative">
-            
-              <figure class="-mx-6 sm:-mx-0">
-  
-  
+  </div>
+</div>
+</div>
+
+  <!-- header block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
     
-    <img class="mb-0"
-      src="https://ideaspaz.imgix.net/images/5e149bd534311.png?auto=format&fit=crop&w=720&h=410&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-      width="720" height="410" alt="" />
-    
-  
-</figure>
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-            
-            <div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+  <div class="container mx-auto">
+    <h1>¿Cómo lograr la reducción de cultivos ilícitos en 2020?</h1>
+    <p class="lead">Hasta el momento, el plan del Gobierno no parece estar funcionando y la aspersión aérea tampoco será la solución. ¿Qué ha fallado y qué acciones debe tomar el Estado este año?</p>
+    <!-- external portal block -->
+
+  <div class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
+    Esta  se publicó el 11 de agosto de 2022 en
+    
+    <a href=""
+      class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">
+      Leer  original
+    </a>
+  </div>
+
+
+    <div class="sm:relative">
+      
+  <figure class="-mx-6 sm:-mx-0 mb-4">
+    
+    
+      
+      <img class="mb-0"
+        src="https://ideaspaz.imgix.net/images/5e149bd534311.png?auto=format&fit=crop&w=768&h=432&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+        width="768" height="432" alt="" />
+      
+    
+  </figure>
+
+
+      <!-- share block -->
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -500,24 +515,44 @@
   </div>
 </div>
 
-            
-            
-          </div>
-        </section>
 
-        
-          
-            <section class="container mx-auto max-w-3xl"><p class="note">Esta columna de opinión se publicó el <a target="_blank" href="https://razonpublica.com/2020-como-lograr-la-reduccion-de-cultivos-ilicitos/">6 de enero de 2020 en Razón Pública</a></p><h3>El “punto muerto”</h3><p>La respuesta del Estado al &quot;boom&quot; de los cultivos ilícitos se encuentra en un punto muerto. En 2019, los esfuerzos del gobierno Duque para disminuir el número de hectáreas de coca fueron contrarrestados por la resiembra y el aumento de los cultivos en zonas donde el Estado no intervino.</p><p>Aunque los resultados solo se sabrán con certeza a mediados de este año, cuando se publiquen las cifras oficiales, es probable que los de 2019 no sean muy distintos a los de 2018: el estancamiento del número de cultivos de coca y la producción constante de cocaína.</p><p>¿A qué se debe la incapacidad del Estado para responder al aumento de los cultivos ilícitos? Aunque el plan del Gobierno consiste en utilizar todas las herramientas disponibles, ha enfrentado varios obstáculos y no está dando los resultados esperados:</p><ul><li><p>Las acciones de erradicación forzada se ven contrarrestadas por la acelerada resiembra y el aumento de los cultivos en los lugares donde no es posible realizarla por las condiciones de seguridad y la resistencia de las comunidades.</p></li><li><p>La reanudación de la aspersión aérea no ha logrado destrabarse y su uso estará lejos de ser la &quot;bala de plata&quot; para reducir los cultivos.</p></li><li><p>Hace falta una política clara que arregle los problemas del Programa Nacional Integral de Sustitución de Cultivos de Uso Ilícito (PNIS) o que proponga un nuevo modelo para el tránsito a la economía legal.</p></li><li><p>Existen núcleos de producción donde no ha actuado el Estado.</p></li></ul><h3>  La erradicación forzada y reanudación de la aspersión aérea</h3><p>En diciembre de 2019, el Ejecutivo publicó el decreto para reanudar la fumigación aérea. Los cálculos más optimistas apuntan a que su aplicación comenzará en el segundo semestre de 2020.</p><p>Esta herramienta ha sido presentada como la “bala de plata”, pero su uso estará acotado a las restricciones impuestas por la Corte Constitucional —está prohibido fumigar en lugares como parques naturales y zonas fronterizas—, y a los lugares de difícil acceso. Es decir que, según cálculos, solo podrá ser usada en una tercera parte de los cultivos de coca.</p><p>Bajo estas condiciones, y con interrogantes aún sobre su aplicación, está claro que la aspersión con glifosato no logrará por sí sola una baja sustancial. <strong>En cambio, es posible que ocasione nuevas tensiones en un ambiente caldeado por la activa movilización social. Además, distraerá la atención sobre los problemas de fondo y volverá a poner el centro de gravedad de la política de drogas en el Ministerio de Defensa.</strong></p><p>Mientras el Gobierno logra reanudar la aspersión área, ha apostado por la erradicación manual forzada. Según el ministro de Defensa, Carlos Holmes, en 2019 se superarán las 80.000 hectáreas erradicadas (es decir, 20.000 más que las reportadas en 2018). Este esfuerzo es costoso, sin embargo:</p><ul><li><p>Se seguirá enfrentando a la resiembra que viene ganando el pulso en varias zonas.</p></li><li><p>Ha empujado los cultivos a municipios donde los escuadrones de erradicación no pueden operar.</p></li><li><p>Su aplicación ha costado decenas de heridos y muertos por cuenta de las minas antipersonal.</p></li></ul><h3>La sustitución de cultivos</h3><p>La contribución del PNIS para disminuir los cultivos pasó de 26.000 hectáreas en 2018 a 6.000 en 2019, a pesar de que las familias que hacen parte del Programa aún tienen algo más de 20.000 hectáreas de coca.</p><p>En cualquier caso, el Programa está desfinanciado y no es claro cuál será el modelo que lo reemplace. Según la Ley de Presupuesto, para la vigencia 2020, este programa contará con una asignación de 1.331 billones de pesos, lo que está muy por debajo del presupuesto requerido de 2.1 billones. Además, los actores involucrados coinciden en la necesidad de modificar un programa que ha tenido fallas desde sus inicios, problemas de administración y gestión, y rezagos en su ejecución.</p><p>Si bien el Gobierno es consciente de la necesidad de apoyar el tránsito a la economía legal de las comunidades dependientes de la coca, no está claro el modelo para hacerlo ni las responsabilidades que se asumirán. Sin una apuesta eficaz por el desarrollo alternativo, será imposible tener reducciones sostenibles en las hectáreas con coca.</p><h3>Inacción del Estado en los núcleos de producción</h3><p>Este último punto es el más importante. Al revisar las cifras reportadas por el Observatorio de Drogas del Ministerio de Justicia y del Derecho hasta octubre 31 de 2019 (último corte disponible), encontramos que, en seis de los diez municipios que tuvieron el mayor número de hectáreas de coca en 2018 (44% del total nacional), no hubo intervención alguna del Estado.</p><p>Como se puede observar en la gráfica, en Tibú, Sardinata y el Tarra, en Norte de Santander; en El Tambo, en Cauca; y en El Charco y Barbacoas, en Nariño, ni se erradicó forzosamente, ni se sustituyó voluntariamente. A esta lista se suman zonas como el sur de Córdoba y el sur de Bolívar, donde los niveles de erradicación forzada fueron nulos o muy bajos y donde los cultivos de coca vendrían en aumento.</p></section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl">
+      <!-- sidebar block -->
+<div class="sm:absolute sm:top-0 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
+  
+  
+</div>
+
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+
+  <!-- content block -->
+  <!-- post content -->
+<article>
+  <!-- prose header -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <!-- prose content blocks -->
+  
+    
+      <p class="note">Esta columna de opinión se publicó el <a target="_blank" href="https://razonpublica.com/2020-como-lograr-la-reduccion-de-cultivos-ilicitos/">6 de enero de 2020 en Razón Pública</a></p><h3>El “punto muerto”</h3><p>La respuesta del Estado al &quot;boom&quot; de los cultivos ilícitos se encuentra en un punto muerto. En 2019, los esfuerzos del gobierno Duque para disminuir el número de hectáreas de coca fueron contrarrestados por la resiembra y el aumento de los cultivos en zonas donde el Estado no intervino.</p><p>Aunque los resultados solo se sabrán con certeza a mediados de este año, cuando se publiquen las cifras oficiales, es probable que los de 2019 no sean muy distintos a los de 2018: el estancamiento del número de cultivos de coca y la producción constante de cocaína.</p><p>¿A qué se debe la incapacidad del Estado para responder al aumento de los cultivos ilícitos? Aunque el plan del Gobierno consiste en utilizar todas las herramientas disponibles, ha enfrentado varios obstáculos y no está dando los resultados esperados:</p><ul><li><p>Las acciones de erradicación forzada se ven contrarrestadas por la acelerada resiembra y el aumento de los cultivos en los lugares donde no es posible realizarla por las condiciones de seguridad y la resistencia de las comunidades.</p></li><li><p>La reanudación de la aspersión aérea no ha logrado destrabarse y su uso estará lejos de ser la &quot;bala de plata&quot; para reducir los cultivos.</p></li><li><p>Hace falta una política clara que arregle los problemas del Programa Nacional Integral de Sustitución de Cultivos de Uso Ilícito (PNIS) o que proponga un nuevo modelo para el tránsito a la economía legal.</p></li><li><p>Existen núcleos de producción donde no ha actuado el Estado.</p></li></ul><h3>  La erradicación forzada y reanudación de la aspersión aérea</h3><p>En diciembre de 2019, el Ejecutivo publicó el decreto para reanudar la fumigación aérea. Los cálculos más optimistas apuntan a que su aplicación comenzará en el segundo semestre de 2020.</p><p>Esta herramienta ha sido presentada como la “bala de plata”, pero su uso estará acotado a las restricciones impuestas por la Corte Constitucional —está prohibido fumigar en lugares como parques naturales y zonas fronterizas—, y a los lugares de difícil acceso. Es decir que, según cálculos, solo podrá ser usada en una tercera parte de los cultivos de coca.</p><p>Bajo estas condiciones, y con interrogantes aún sobre su aplicación, está claro que la aspersión con glifosato no logrará por sí sola una baja sustancial. <strong>En cambio, es posible que ocasione nuevas tensiones en un ambiente caldeado por la activa movilización social. Además, distraerá la atención sobre los problemas de fondo y volverá a poner el centro de gravedad de la política de drogas en el Ministerio de Defensa.</strong></p><p>Mientras el Gobierno logra reanudar la aspersión área, ha apostado por la erradicación manual forzada. Según el ministro de Defensa, Carlos Holmes, en 2019 se superarán las 80.000 hectáreas erradicadas (es decir, 20.000 más que las reportadas en 2018). Este esfuerzo es costoso, sin embargo:</p><ul><li><p>Se seguirá enfrentando a la resiembra que viene ganando el pulso en varias zonas.</p></li><li><p>Ha empujado los cultivos a municipios donde los escuadrones de erradicación no pueden operar.</p></li><li><p>Su aplicación ha costado decenas de heridos y muertos por cuenta de las minas antipersonal.</p></li></ul><h3>La sustitución de cultivos</h3><p>La contribución del PNIS para disminuir los cultivos pasó de 26.000 hectáreas en 2018 a 6.000 en 2019, a pesar de que las familias que hacen parte del Programa aún tienen algo más de 20.000 hectáreas de coca.</p><p>En cualquier caso, el Programa está desfinanciado y no es claro cuál será el modelo que lo reemplace. Según la Ley de Presupuesto, para la vigencia 2020, este programa contará con una asignación de 1.331 billones de pesos, lo que está muy por debajo del presupuesto requerido de 2.1 billones. Además, los actores involucrados coinciden en la necesidad de modificar un programa que ha tenido fallas desde sus inicios, problemas de administración y gestión, y rezagos en su ejecución.</p><p>Si bien el Gobierno es consciente de la necesidad de apoyar el tránsito a la economía legal de las comunidades dependientes de la coca, no está claro el modelo para hacerlo ni las responsabilidades que se asumirán. Sin una apuesta eficaz por el desarrollo alternativo, será imposible tener reducciones sostenibles en las hectáreas con coca.</p><h3>Inacción del Estado en los núcleos de producción</h3><p>Este último punto es el más importante. Al revisar las cifras reportadas por el Observatorio de Drogas del Ministerio de Justicia y del Derecho hasta octubre 31 de 2019 (último corte disponible), encontramos que, en seis de los diez municipios que tuvieron el mayor número de hectáreas de coca en 2018 (44% del total nacional), no hubo intervención alguna del Estado.</p><p>Como se puede observar en la gráfica, en Tibú, Sardinata y el Tarra, en Norte de Santander; en El Tambo, en Cauca; y en El Charco y Barbacoas, en Nariño, ni se erradicó forzosamente, ni se sustituyó voluntariamente. A esta lista se suman zonas como el sur de Córdoba y el sur de Bolívar, donde los niveles de erradicación forzada fueron nulos o muy bajos y donde los cultivos de coca vendrían en aumento.</p>
+    
+  
+    
+      
   
 
 <figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
   <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/5e1498d7d8734.png?auto=format&w=1024&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-    width="1024" alt="Fuente: Elaboración propia a partir de los datos del Observatorio de Drogas del Ministerio de Justicia y del Derecho" />
+    src="https://ideaspaz.imgix.net/images/5e1498d7d8734.png?auto=format&w=768&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+    width="768" alt="Fuente: Elaboración propia a partir de los datos del Observatorio de Drogas del Ministerio de Justicia y del Derecho" />
   
     <figcaption class="mx-6 sm:mx-0">
       Fuente: Elaboración propia a partir de los datos del Observatorio de Drogas del Ministerio de Justicia y del Derecho
@@ -525,15 +560,32 @@
     </figcaption>
   
 </figure>
-</section>
-          
-        
-          
-            <section class="container mx-auto max-w-3xl"><p>En contraste, la erradicación forzada fue aplicada de manera más intensa en municipios como Tumaco, en Nariño; Tarazá, en Antioquia; y Puerto Asís y Orito, en Putumayo. En los dos primeros municipios llama la atención que el número de hectáreas erradicadas superó incluso a las sembradas en 2018, lo que, además de que podría ser un indicador de los niveles de resiembra, invita también a preguntarse sobre la fiabilidad de las cifras. La información de campo no solo indica la aparición de nuevos cultivos en estos municipios, sino también su desplazamiento a zonas cercanas.</p><p>Estos datos muestran que la cobija del Estado es corta y que, mientras la Fuerza Pública interviene donde puede, hay zonas vedadas o donde su presencia ha sido superficial e intermitente. Esta no es una situación nueva. La ausencia de una política clara para hacer frente a este problema viene de gobiernos sucesivos.</p><p><strong>  </strong>El punto muerto de la política de drogas también se explica por su desconexión con la agenda de seguridad y el propósito de la transformación territorial. Sus acciones están en constante tensión con aquellas que van dirigidas al desarrollo y la inclusión de las comunidades que dependen de esta economía ilegal.</p><h3>La respuesta está en lo local</h3><p>En conclusión, la estrategia para responder al aumento de los cultivos ilícitos ha sido agresiva en los anuncios y ordenada en el papel, pero ha estado desconectada de la puesta en marcha del Acuerdo de Paz y del desarrollo territorial, además de que ha sido costosa y no ha mostrado resultados tangibles. Las cargas se siguen poniendo en las acciones más represivas, que son necesarias pero claramente insuficientes.</p><p>¿Cómo salir de este punto muerto? La respuesta debe partir de su aplicación territorial; es decir, del análisis de las condiciones y las características de los principales núcleos cocaleros. En este caso, el objetivo principal no debería ser acabar con la coca, sino la disrupción de las redes criminales (es decir, su debilitamiento y desarticulación), y la creación de condiciones para el tránsito a la economía legal. En últimas, se trata de transformar los territorios, no solo en términos de seguridad, sino sobre todo de desarrollo.</p><p>En los casos en los que se han conseguido reducciones notables de los cultivos de coca —como sucedió con el Plan de Consolidación de La Macarena—, dichas bajas fueron el resultado de la combinación de varios elementos:</p><ul><li><p>Uso de distintas herramientas</p></li><li><p>Enfasis en lo local</p></li><li><p>Involucramiento de las autoridades y las comunidades (aunque con un enfoque muy vertical)</p></li><li><p>Fortalecimiento de la presencia del Estado</p></li><li><p>Su aproximación y gestión regional, aunque con una visión centralista y fincada en el control territorial</p></li></ul><p>El Gobierno debe diseñar soluciones concretas para problemas específicos, disponiendo de las herramientas y los recursos, con opciones construidas junto a los actores locales. Todo, claro, a partir de un marco de referencia, que en este caso debería ser el Plan Nacional de Desarrollo y la “Ruta Futuro”.</p><p>Así, <strong>debería avanzar</strong> en las siguientes acciones:</p><ul><li><p><strong>Definir planes concretos de intervención para los principales núcleos cocaleros</strong>. Las “Zonas Futuro” deberían ser un punto de partida para definir la secuencia posible y articular los recursos disponibles, a partir de compromisos concretos que involucren a las autoridades y las comunidades. Esto debería ser parte de una estrategia para impulsar los Programas de Desarrollo con Enfoque Territorial (PDET), aprovechando la ventana de oportunidad que abre el comienzo de nuevas administraciones.</p></li><li><p><strong>  Incluir en la Hoja de Ruta del PDET acciones específicas enfocadas en el tránsito a la economía legal</strong>. La estrategia de seguridad y la de desarrollo de los PDET no pueden seguir transitando por dos caminos distintos.</p></li><li><p><strong>Reformular el PNIS</strong> y proponer una nueva ruta para la sustitución de cultivos ilícitos. Aquí, el sector privado y el mercado deben tener un papel central.</p></li><li><p><strong>Poner en marcha un “Plan Verde” para la sustitución de cultivos ilícitos</strong>. El 61% de los cultivos de coca se encuentra fuera de la frontera agrícola. En estos lugares las alternativas no pueden ser los típicos proyectos agropecuarios; las opciones deben estar conectadas con la protección del medio ambiente.</p></li><li><p><strong>  Definir y desarrollar con las comunidades indígenas y afro un plan de sustitución para sus territorios.</strong> La Organización Nacional Indígena de Colombia (ONIC), así como distintos Consejos Comunitarios, han manifestado su intención de avanzar en este camino.</p></li><li><p><strong>Contar con una estrategia para la sustitución de los cultivos de marihuana. </strong>Esto pasa por considerar, en estas zonas, el desarrollo de negocios alrededor de la industria creciente de la marihuana medicinal, así como abrir el debate sobre la regulación del cannabis para fines recreacionales.</p></li></ul><p>En el caso de los PDET, el Gobierno ha entendido que la apuesta es de largo plazo. Su propósito es dejar sentadas las bases para un proceso que se desarrollará en los próximos 15 años, con proyecciones específicas hasta el 2021.</p><p>En contraste, cuando se trata de hacer frente a los cultivos ilícitos, la premura y la urgencia son el tono predominante, con mucha reacción, pero poca o nula planeación. Es hora de que el Estado tenga una respuesta de largo aliento, conectada y alineada con la transformación territorial.</p></section>
-          
-        
 
-        <section class="container mx-auto max-w-3xl"><div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+    
+  
+    
+      <p>En contraste, la erradicación forzada fue aplicada de manera más intensa en municipios como Tumaco, en Nariño; Tarazá, en Antioquia; y Puerto Asís y Orito, en Putumayo. En los dos primeros municipios llama la atención que el número de hectáreas erradicadas superó incluso a las sembradas en 2018, lo que, además de que podría ser un indicador de los niveles de resiembra, invita también a preguntarse sobre la fiabilidad de las cifras. La información de campo no solo indica la aparición de nuevos cultivos en estos municipios, sino también su desplazamiento a zonas cercanas.</p><p>Estos datos muestran que la cobija del Estado es corta y que, mientras la Fuerza Pública interviene donde puede, hay zonas vedadas o donde su presencia ha sido superficial e intermitente. Esta no es una situación nueva. La ausencia de una política clara para hacer frente a este problema viene de gobiernos sucesivos.</p><p><strong>  </strong>El punto muerto de la política de drogas también se explica por su desconexión con la agenda de seguridad y el propósito de la transformación territorial. Sus acciones están en constante tensión con aquellas que van dirigidas al desarrollo y la inclusión de las comunidades que dependen de esta economía ilegal.</p><h3>La respuesta está en lo local</h3><p>En conclusión, la estrategia para responder al aumento de los cultivos ilícitos ha sido agresiva en los anuncios y ordenada en el papel, pero ha estado desconectada de la puesta en marcha del Acuerdo de Paz y del desarrollo territorial, además de que ha sido costosa y no ha mostrado resultados tangibles. Las cargas se siguen poniendo en las acciones más represivas, que son necesarias pero claramente insuficientes.</p><p>¿Cómo salir de este punto muerto? La respuesta debe partir de su aplicación territorial; es decir, del análisis de las condiciones y las características de los principales núcleos cocaleros. En este caso, el objetivo principal no debería ser acabar con la coca, sino la disrupción de las redes criminales (es decir, su debilitamiento y desarticulación), y la creación de condiciones para el tránsito a la economía legal. En últimas, se trata de transformar los territorios, no solo en términos de seguridad, sino sobre todo de desarrollo.</p><p>En los casos en los que se han conseguido reducciones notables de los cultivos de coca —como sucedió con el Plan de Consolidación de La Macarena—, dichas bajas fueron el resultado de la combinación de varios elementos:</p><ul><li><p>Uso de distintas herramientas</p></li><li><p>Enfasis en lo local</p></li><li><p>Involucramiento de las autoridades y las comunidades (aunque con un enfoque muy vertical)</p></li><li><p>Fortalecimiento de la presencia del Estado</p></li><li><p>Su aproximación y gestión regional, aunque con una visión centralista y fincada en el control territorial</p></li></ul><p>El Gobierno debe diseñar soluciones concretas para problemas específicos, disponiendo de las herramientas y los recursos, con opciones construidas junto a los actores locales. Todo, claro, a partir de un marco de referencia, que en este caso debería ser el Plan Nacional de Desarrollo y la “Ruta Futuro”.</p><p>Así, <strong>debería avanzar</strong> en las siguientes acciones:</p><ul><li><p><strong>Definir planes concretos de intervención para los principales núcleos cocaleros</strong>. Las “Zonas Futuro” deberían ser un punto de partida para definir la secuencia posible y articular los recursos disponibles, a partir de compromisos concretos que involucren a las autoridades y las comunidades. Esto debería ser parte de una estrategia para impulsar los Programas de Desarrollo con Enfoque Territorial (PDET), aprovechando la ventana de oportunidad que abre el comienzo de nuevas administraciones.</p></li><li><p><strong>  Incluir en la Hoja de Ruta del PDET acciones específicas enfocadas en el tránsito a la economía legal</strong>. La estrategia de seguridad y la de desarrollo de los PDET no pueden seguir transitando por dos caminos distintos.</p></li><li><p><strong>Reformular el PNIS</strong> y proponer una nueva ruta para la sustitución de cultivos ilícitos. Aquí, el sector privado y el mercado deben tener un papel central.</p></li><li><p><strong>Poner en marcha un “Plan Verde” para la sustitución de cultivos ilícitos</strong>. El 61% de los cultivos de coca se encuentra fuera de la frontera agrícola. En estos lugares las alternativas no pueden ser los típicos proyectos agropecuarios; las opciones deben estar conectadas con la protección del medio ambiente.</p></li><li><p><strong>  Definir y desarrollar con las comunidades indígenas y afro un plan de sustitución para sus territorios.</strong> La Organización Nacional Indígena de Colombia (ONIC), así como distintos Consejos Comunitarios, han manifestado su intención de avanzar en este camino.</p></li><li><p><strong>Contar con una estrategia para la sustitución de los cultivos de marihuana. </strong>Esto pasa por considerar, en estas zonas, el desarrollo de negocios alrededor de la industria creciente de la marihuana medicinal, así como abrir el debate sobre la regulación del cannabis para fines recreacionales.</p></li></ul><p>En el caso de los PDET, el Gobierno ha entendido que la apuesta es de largo plazo. Su propósito es dejar sentadas las bases para un proceso que se desarrollará en los próximos 15 años, con proyecciones específicas hasta el 2021.</p><p>En contraste, cuando se trata de hacer frente a los cultivos ilícitos, la premura y la urgencia son el tono predominante, con mucha reacción, pero poca o nula planeación. Es hora de que el Estado tenga una respuesta de largo aliento, conectada y alineada con la transformación territorial.</p>
+    
+  
+  <!-- prose footer -->
+  </div>
+</div>
+</div>
+
+</article>
+
+  <!-- share block -->
+  <!-- share block -->
+
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-4 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -551,66 +603,79 @@
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
-</section>
-        
-          <section class="container mx-auto max-w-3xl"><p class="not-prose uppercase font-bold tracking-normal text-sm">
-  <span class="mr-2">Palabras clave:</span>
-  
-    <a href="/posts/tags/coca" class="text-fip-green underline">Coca</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/politica-de-drogas" class="text-fip-green underline">Política de drogas</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/fumigaciones" class="text-fip-green underline">Fumigaciones</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/glifosato" class="text-fip-green underline">Glifosato</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/cultivos-ilicitos" class="text-fip-green underline">Cultivos ilícitos</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/haciendo-propuestas" class="text-fip-green underline">Haciendo propuestas</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/analizando-la-coyuntura" class="text-fip-green underline">Analizando la coyuntura</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/sustitucion-de-cultivos-ilicitos" class="text-fip-green underline">sustitución de cultivos ilícitos</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/pnis" class="text-fip-green underline">PNIS</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/pdet" class="text-fip-green underline">PDET</a>
-    
-  
-</p>
-</section>
-        
-        
-      </article>
-    </div>
+
   </div>
+</div>
+</div>
+
+
+
+  <!-- keywords block -->
+  
+  <!-- keywords block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12  ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <p class="not-prose uppercase font-bold tracking-normal">
+    <span class="mr-2 text-sm">Palabras clave:</span>
+    
+      <a href="/publicaciones?query=Coca" class="text-fip-green underline text-sm">Coca</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Política de drogas" class="text-fip-green underline text-sm">Política de drogas</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Fumigaciones" class="text-fip-green underline text-sm">Fumigaciones</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Glifosato" class="text-fip-green underline text-sm">Glifosato</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Cultivos ilícitos" class="text-fip-green underline text-sm">Cultivos ilícitos</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Haciendo propuestas" class="text-fip-green underline text-sm">Haciendo propuestas</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Analizando la coyuntura" class="text-fip-green underline text-sm">Analizando la coyuntura</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=sustitución de cultivos ilícitos" class="text-fip-green underline text-sm">sustitución de cultivos ilícitos</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=PNIS" class="text-fip-green underline text-sm">PNIS</a>
+      
+    
+  </p>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- footnotes block -->
+  
+
 </div>
 </div>
   
@@ -618,7 +683,7 @@
     <!-- tags cloud -->
 <div class="container mx-auto max-w-6xl mt-20 mb-8  pl-6 sm:px-0">
   <div class="-mt-2 mb-4 pt-2 font-black uppercase sm:mr-0 sm:mb-0 border-t-fip-gray-light border-t-4 text-fip-gray-light  text-base block">
-  <h2 id="c8eead77-ed9b-46f5-bb34-e081a31fe53b" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
+  <h2 id="8f45e95c-7ab9-4a00-8df4-5d3f5be698a0" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
     <a href="/publicaciones" class="ml-auto mt-4 hidden text-xs font-black uppercase hover:no-underline text-fip-gray-light ">
     <span class="px-2 font-normal">/</span>
     Ver todas las etiquetas
@@ -630,162 +695,162 @@
     <ul class="w-[1200px] sm:w-auto">
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Asamblea Constituyente"
+          <a href="/publicaciones?query=Recomendados"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Asamblea Constituyente
+            Recomendados
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Reinserción"
+          <a href="/publicaciones?query=Erradicación"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Reinserción
+            Erradicación
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Junio"
+          <a href="/publicaciones?query=Indígenas"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Junio
+            Indígenas
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=zonas veredales"
+          <a href="/publicaciones?query=Violencia contra las mujeres"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            zonas veredales
+            Violencia contra las mujeres
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Implementación"
+          <a href="/publicaciones?query=Sostenibilidad"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Implementación
+            Sostenibilidad
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Homicidio"
+          <a href="/publicaciones?query=Obras por impuestos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Homicidio
+            Obras por impuestos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Reparación"
+          <a href="/publicaciones?query=Justicia Transicional"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Reparación
+            Justicia Transicional
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Derechos Humanos"
+          <a href="/publicaciones?query=Minería ilegal"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Derechos Humanos
+            Minería ilegal
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Ley de amnistía "
+          <a href="/publicaciones?query=enfoque de género"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Ley de amnistía 
+            enfoque de género
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Combates"
+          <a href="/publicaciones?query=seguridad y convivencia ciudadana"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Combates
+            seguridad y convivencia ciudadana
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Acuerdo de Paz"
+          <a href="/publicaciones?query=datos abiertos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Acuerdo de Paz
+            datos abiertos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Salud mental"
+          <a href="/publicaciones?query=2017"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Salud mental
+            2017
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Campaña presidencial"
+          <a href="/publicaciones?query=Narcotráfico"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Campaña presidencial
+            Narcotráfico
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Segunda Marquetalia"
+          <a href="/publicaciones?query=Convocatoria laboral"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Segunda Marquetalia
+            Convocatoria laboral
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Paz"
+          <a href="/publicaciones?query=Política criminal"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Paz
+            Política criminal
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Mujeres"
+          <a href="/publicaciones?query=CPI"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Mujeres
+            CPI
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=mipymes"
+          <a href="/publicaciones?query=proceso de paz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            mipymes
+            proceso de paz
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=DIH"
+          <a href="/publicaciones?query=Marco Jurídico para la Paz"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            DIH
+            Marco Jurídico para la Paz
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=marco legal de drogas"
+          <a href="/publicaciones?query=UNGASS "
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            marco legal de drogas
+            UNGASS 
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Fast track"
+          <a href="/publicaciones?query=Tortura"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Fast track
+            Tortura
           </a>
         </li>
       
@@ -793,7 +858,7 @@
   </div>
 </div>
 
-<footer class="mt-auto bg-fip-gray py-8">
+<footer class="mt-auto bg-fip-gray py-8 max-w-screen-2xl mx-auto w-full">
   <div class="container relative grid max-w-6xl px-6 py-5 sm:mx-auto sm:grid-cols-6 sm:gap-x-32 sm:gap-y-16 sm:px-0">
     <div class="row-span-2 sm:col-span-2">
       <a href="/"><svg class="h-16 w-24 sm:hidden block mb-8" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>

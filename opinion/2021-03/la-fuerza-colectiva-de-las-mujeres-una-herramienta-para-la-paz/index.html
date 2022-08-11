@@ -28,7 +28,7 @@
 
 <body class="flex min-h-screen flex-col overflow-x-hidden" x-data="{ open: false }" id="top">
   
-    <nav class="sticky top-0 z-50 border-b bg-fip-gray" x-show="!open">
+    <nav class="sticky top-0 z-50 border-b bg-fip-gray max-w-screen-2xl mx-auto w-full" x-show="!open">
   <div class="container flex max-w-6xl px-6 py-5 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="hidden flex-auto grow-0 sm:block"><svg class="h-7 sm:w-72" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg></a>
     <a href="/" class="mr-4 flex-auto grow-0 sm:hidden"><svg class="h-7" xmlns="http://www.w3.org/2000/svg" width="29.692" height="30" viewBox="0 0 29.692 30"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> </svg></a>
@@ -68,7 +68,7 @@
   </div>
 </nav>
 
-<nav class="relative z-0 bg-fip-gray" x-cloak x-show="open">
+<nav class="relative z-0 bg-fip-gray max-w-screen-2xl mx-auto w-full" x-cloak x-show="open">
   <div class="container flex max-w-6xl p-8 sm:mx-auto sm:items-center sm:px-0">
     <a href="/" class="flex-auto grow-0"><svg class="h-10 hidden sm:w-72 sm:block" xmlns="http://www.w3.org/2000/svg" width="307" height="30.003" viewBox="0 0 307 30.003"> <g data-name="Group 7"> <g data-name="Group 2"> <path data-name="Path 1" d="M29.692.003v.011L0 30.003v-25A4.993 4.993 0 0 1 4.993.011Z" fill="#003475"/> <path data-name="Path 2" d="M29.691.003v20H9.9Z" fill="#f99410"/> </g> <g data-name="Group 3" fill="#003475"> <path data-name="Path 3" d="M49.691 17.311v-10h6.843v.946h-5.843v3.8h5.629v.944h-5.629v4.316Z"/> <path data-name="Path 4" d="M66.831 7.31v6.1a3.7 3.7 0 0 1-3.941 4 3.739 3.739 0 0 1-4-4v-6.1h1v6.1a2.89 2.89 0 0 0 3 3.072 2.844 2.844 0 0 0 2.944-3.072v-6.1Z"/> <path data-name="Path 5" d="m76.945 15.424-.056-3.314v-4.8h1v10h-.6l-6.474-8.043.032 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 6" d="M84.542 7.31a4.723 4.723 0 0 1 5.015 4.9 4.783 4.783 0 0 1-5.015 5.1h-3.527v-10Zm-2.528 9.074h2.528a3.889 3.889 0 0 0 4-4.188 3.836 3.836 0 0 0-4-3.94h-2.528Z"/> <path data-name="Path 7" d="M98.428 14.997h-5.8L91.6 17.311h-1.058l4.486-10h1l4.489 10h-1.059Zm-5.4-.918h5l-2.5-5.682Z"/> <path data-name="Path 8" d="M110.369 15.952a5.061 5.061 0 0 1-3.642 1.513 4.834 4.834 0 0 1-5.2-5.1 4.921 4.921 0 0 1 5.2-5.2 4.6 4.6 0 0 1 3.541 1.5l-.614.62a4.13 4.13 0 0 0-2.927-1.2 4.041 4.041 0 0 0-4.2 4.271 3.911 3.911 0 0 0 4.2 4.186 4.3 4.3 0 0 0 3-1.229Z"/> <path data-name="Path 9" d="M112.637 17.311v-10h1v10Z"/> <path data-name="Path 10" d="M121.2 7.138a4.884 4.884 0 0 1 5.054 5.2 5.065 5.065 0 1 1-10.127-.014 4.895 4.895 0 0 1 5.073-5.186Zm-4.074 5.2a4.068 4.068 0 1 0 8.13 0 3.938 3.938 0 0 0-4.056-4.257 3.9 3.9 0 0 0-4.078 4.258Zm5.758-7.973h-1.143l-1.067 1.774v.057h.869l1.341-1.8Z"/> <path data-name="Path 11" d="m135.835 15.424-.057-3.314v-4.8h1v10h-.6l-6.471-8.043.03 2.958v5.085h-1v-10h.63Z"/> <path data-name="Path 12" d="M143.83 17.311v-10h2.214v10Z"/> <path data-name="Path 13" d="M152.727 7.31a4.607 4.607 0 0 1 4.971 4.929c0 2.613-1.469 5.072-4.971 5.072h-4.1v-10Zm-1.9 7.945h1.9c2.172 0 2.774-1.6 2.774-3.044a2.6 2.6 0 0 0-2.774-2.89h-1.9Z"/> <path data-name="Path 14" d="M167.355 17.311h-7.615v-10h7.413v2.044h-5.226v1.928h4.927v1.958h-4.927v2.015h5.428Z"/> <path data-name="Path 15" d="M176.551 15.603h-5.127l-.727 1.712h-2.4l4.488-10h2.427l4.487 10h-2.415ZM174 9.568l-1.731 4.058h3.442Z"/> <path data-name="Path 16" d="M186.745 9.727a3.335 3.335 0 0 0-2.317-.846c-.985 0-1.785.415-1.785 1.1 0 .916.871 1.087 2.154 1.2 1.972.17 3.847.928 3.847 3.243 0 2.226-2.058 3.2-4.216 3.215a5.013 5.013 0 0 1-4.372-2.058l1.33-1.385a3.981 3.981 0 0 0 3.058 1.413c1.183 0 2-.47 2-1.185.014-.841-.658-1.229-2.014-1.343-2.112-.2-4-.729-3.972-3.084.015-1.986 1.9-3.045 3.954-3.045a4.411 4.411 0 0 1 3.734 1.541Z"/> <path data-name="Path 17" d="M196.837 14.479v2.832h-2.228v-10h4.713a3.488 3.488 0 0 1 3.83 3.588c0 2-1.285 3.557-3.83 3.581Zm0-2.041h2.485a1.459 1.459 0 0 0 1.6-1.5 1.478 1.478 0 0 0-1.6-1.516h-2.485Z"/> <path data-name="Path 18" d="M211.28 15.603h-5.131l-.725 1.712h-2.4l4.489-10h2.426l4.488 10h-2.415Zm-2.555-6.031-1.732 4.058h3.445Z"/> <path data-name="Path 19" d="M224.706 17.311h-2.47l-2.558-3.288h-1.615v3.288h-2.227v-10h4.742a3.388 3.388 0 0 1 3.7 3.372 3 3 0 0 1-2.316 3.143l2.744 3.316Zm-6.643-8.087v2.913h2.537a1.388 1.388 0 0 0 1.472-1.4 1.471 1.471 0 0 0-1.5-1.516Z"/> <path data-name="Path 20" d="M233.631 15.603h-5.124l-.731 1.712h-2.4l4.487-10h2.427l4.485 10h-2.413Zm-2.553-6.031-1.73 4.058h3.442Z"/> <path data-name="Path 21" d="M243.91 7.31v7.958h5v2.043h-7.23v-10Z"/> <path data-name="Path 22" d="M257.7 15.603h-5.131l-.724 1.712h-2.4l4.484-10h2.428l4.487 10h-2.414Zm-2.555-6.031-1.73 4.058h3.444Z"/> <path data-name="Path 23" d="M267.768 14.479v2.832h-2.229v-10h4.711a3.489 3.489 0 0 1 3.832 3.588c0 2-1.287 3.557-3.832 3.581Zm0-2.041h2.482a1.46 1.46 0 0 0 1.6-1.5 1.482 1.482 0 0 0-1.6-1.516h-2.482Z"/> <path data-name="Path 24" d="M282.208 15.603h-5.13l-.727 1.712h-2.4l4.486-10h2.429l4.486 10h-2.415Zm-2.558-6.031-1.729 4.058h3.442Z"/> <path data-name="Path 25" d="M286.334 7.31h7.642v.97l-4.8 6.947h4.914v2.084h-8v-1.155l4.886-6.932h-4.643Z"/> </g> <g data-name="Group 6"> <g data-name="Group 5"> <g data-name="Group 4"> <path data-name="Path 26" d="M307 .003v26.68a3.325 3.325 0 0 1-3.32 3.32H47.689l1.011-1.01h254.98a2.32 2.32 0 0 0 2.32-2.31V.003Z" fill="#f99410"/> </g> </g> </g> </g> </svg>
       <svg class="h-20 w-36 sm:hidden" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
@@ -433,60 +433,75 @@
 
   
   <div id="app"><div class="mt-6 sm:mt-12">
-  <div class="container mx-auto max-w-3xl gap-4 sm:grid sm:grid-cols-12">
-    <div class="px-6 sm:col-span-2 sm:px-0">
-      <span class="mb-4 block font-black uppercase text-fip-green sm:inline">Publicaciones</span>
-    </div>
-    <div class="px-6 sm:col-span-8 sm:px-0">
-      <div class="mb-6 block font-sans text-xs tracking-normal text-gray-400 sm:mb-12 sm:pl-6 sm:text-sm">
-        <span class="font-medium uppercase">Inicio</span>
-        <span class="mx-2">/</span>
-        <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
-        <span class="mx-2">/</span>
-        <span class="font-medium">23 de marzo de 2021</span>
-        <span class="mx-2">/</span>
-        <span class="">7 min.</span>
-      </div>
-    </div>
+  <!-- metadata block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-6 sm:mb-12 ">
+  <div class="sm:col-span-2">
+    
+      <span class="mb-4 block font-black uppercase text-fip-green sm:inline mx-6 sm:mx-0">Publicaciones</span>
+    
   </div>
-  <div class="mb-32 gap-4 sm:grid sm:grid-cols-12">
-    <div class="sm:col-span-2"></div>
-    <div class="sm:col-span-8">
-      <article class="max-w-none px-6 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:text-xl prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl">
-          <h1>La fuerza colectiva de las mujeres: una herramienta para la paz</h1>
-          <p class="lead">A pesar de la violencia y el miedo, las mujeres de regiones afectadas por el conflicto siguen organizándose para movilizar políticas locales, espacios de diálogo y procesos de denuncia. </p>
+  <div class="block font-sans text-xs tracking-normal text-gray-400 sm:text-sm">
+  <span class="font-medium uppercase">Inicio</span>
+  <span class="mx-2">/</span>
+  <span class="font-black uppercase text-fip-gray-light">FIP Opina</span>
+  <span class="mx-2">/</span>
+  <span class="font-medium">23 de marzo de 2021</span>
+  <span class="mx-2">/</span>
+  <span class="">7 min.</span>
+</div>
+
+  </div>
+</div>
+</div>
+
+  <!-- header block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <div class="container mx-auto">
+    <h1>La fuerza colectiva de las mujeres: una herramienta para la paz</h1>
+    <p class="lead">A pesar de la violencia y el miedo, las mujeres de regiones afectadas por el conflicto siguen organizándose para movilizar políticas locales, espacios de diálogo y procesos de denuncia. </p>
+    <!-- external portal block -->
+
+  <div class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
+    Esta  se publicó el 11 de agosto de 2022 en
+    
+    <a href=""
+      class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">
+      Leer  original
+    </a>
+  </div>
+
+
+    <div class="sm:relative">
+      
+  <figure class="-mx-6 sm:-mx-0 mb-4">
+    
+    
+      
+      <img class="mb-0"
+        src="https://ideaspaz.imgix.net/images/6064b6e42ae88.png?auto=format&fit=crop&w=768&h=432&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
+        width="768" height="432" alt="Escuela de Mujeres "María de Jesús Mahecha"// foto: Agencia Prensa Rural" />
+      
+        <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
+          Escuela de Mujeres "María de Jesús Mahecha"// foto: Agencia Prensa Rural
           
-            <p class="mt-8 bg-gray-100 px-4 py-4 text-sm font-bold text-gray-500 sm:flex">
-  Esta columna de opinión se publicó el 10 August de 2022 en
-  
-  <a href=""
-    class="ml-2 text-xs font-normal uppercase underline underline-offset-4 sm:ml-auto" target="_blank">Leer columna
-    original</a>
-</p>
+        </figcaption>
+      
+    
+  </figure>
 
-          
-          <div class="sm:relative">
-            
-              <figure class="-mx-6 sm:-mx-0">
-  
-  
-    
-    <img class="mb-0"
-      src="https://ideaspaz.imgix.net/images/6064b6e42ae88.png?auto=format&fit=crop&w=720&h=410&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1"
-      width="720" height="410" alt="Escuela de Mujeres "María de Jesús Mahecha"// foto: Agencia Prensa Rural" />
-    
-      <figcaption class="text-base tracking-normal text-gray-500 mx-6 sm:mx-0">
-        Escuela de Mujeres "María de Jesús Mahecha"// foto: Agencia Prensa Rural
-        
-      </figcaption>
-    
-  
-</figure>
 
-            
-            <div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+      <!-- share block -->
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -505,41 +520,77 @@
   </div>
 </div>
 
-            
-              <div class="mt-12 mb-12">
-  <ul class="not-prose -ml-5 list-none sm:absolute sm:top-0 sm:-left-60 sm:ml-1 sm:w-52">
-    <li class="font-sans uppercase text-xs mb-6 text-gray-400">Autore/as</li>
-    
-      <li class="mb-6 w-full sm:mb-8">
-        <a href="/equipo/irina-cuesta" class="grid grid-cols-4 gap-4 text-xs tracking-normal sm:block sm:grid-cols-none sm:gap-0">
-          <img class="sm:col-span-0 col-span-1 h-[60px] w-[60px] rounded-full sm:mb-2 sm:h-[80px] sm:w-[80px]"
-            src="https://ideaspaz.imgix.net/staff/6216b45444b0f.png?auto=format&w=80&h=80&ixlib=php-3.3.1"
-            alt="Irina Cuesta" />
-          <div class="sm:col-span-0 col-span-2 mt-1 sm:mt-0">
-            <span
-              class="mb-1 block w-full border-b border-b-gray-300 pb-1 text-sm font-bold uppercase">Irina Cuesta</span>
-            <span class="block text-sm sm:text-xs">Investigadora</span>
-            <span class="mb-4 hidden font-bold text-fip-green underline sm:block">icuesta@ideaspaz.org</span>
-            <span class="hidden uppercase sm:block">+ Ver perfil</span>
-          </div>
-        </a>
-      </li>
-    
-  </ul>
+
+      <!-- sidebar block -->
+<div class="sm:absolute sm:top-0 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
+  
+    <!-- authors block -->
+<ul class="not-prose list-none block mb-8">
+  <li class="font-sans uppercase text-xs mb-6 text-gray-400">Autore/as</li>
+  
+    <li class="mb-6 w-full sm:mb-8 last:mb-0">
+      <a href="/equipo/irina-cuesta" class="grid grid-cols-4 gap-4 text-xs tracking-normal sm:block sm:grid-cols-none sm:gap-0">
+        <img class="sm:col-span-0 col-span-1 h-[60px] w-[60px] rounded-full sm:mb-2 sm:h-[80px] sm:w-[80px]"
+          src="https://ideaspaz.imgix.net/staff/6216b45444b0f.png?auto=format&w=80&h=80&ixlib=php-3.3.1"
+          alt="Irina Cuesta" />
+        <div class="sm:col-span-0 col-span-2 mt-1 sm:mt-0">
+          <span
+            class="mb-1 block w-full border-b border-b-gray-300 pb-1 text-sm font-bold uppercase">Irina Cuesta</span>
+          <span class="block text-sm sm:text-xs">Investigadora</span>
+          <span class="mb-4 hidden font-bold text-fip-green underline sm:block">icuesta@ideaspaz.org</span>
+          <span class="hidden uppercase sm:block">+ Ver perfil</span>
+        </div>
+      </a>
+    </li>
+  
+</ul>
+
+  
+  
 </div>
 
-            
-            
-          </div>
-        </section>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
-        
-          
-            <section class="container mx-auto max-w-3xl"><p class="note">Esta columna <a href="https://www.elespectador.com/colombia2020/pais/la-fuerza-colectiva-de-las-mujeres-una-herramienta-para-la-paz/">se publicó originalmente en Colombia 2020</a>, de El Espectador</p><p>A mediados de mayo de 2020, Rosa, una líder campesina, organizaba su agenda del día para poder cubrir un turno en el  peaje comunitario instalado para prevenir la propagación del coronavirus en un  municipio del Catatumbo. Al otro lado del país, María enviaba mensajes de  WhatsApp a lideresas del Urabá para organizar una ruta de seguimiento a casos  de violencia intrafamiliar y facilitar canales con las comisarías de familia.  En esos mismos meses, comunidades del Catatumbo lideraban eventos virtuales, sacaban  comunicados, solicitaban medidas humanitarias al Gobierno Nacional y el cese al  fuego a los grupos armados ilegales. En Urabá, líderes campesinos advertían  sobre el control armado y los riesgos de los jóvenes ante los impactos  económicos de la pandemia.</p><p>En estos tiempos —como en los más  difíciles del conflicto— ese capital humano y social ha persistido en las regiones.  <strong>“Matamos el miedo para que el miedo no  nos mate a nosotras”, dicen las  lideresas para explicar cómo sostienen sus procesos organizativos. </strong>Sea como  viudas, familiares de desaparecidos, víctimas o mujeres ejerciendo su  ciudadanía, incluso durante la pandemia han movilizado  políticas locales, espacios de diálogo y procesos de denuncia. Más allá de  una característica innata por el hecho de ser mujeres, la fuerza de estos  liderazgos surge, en parte, por los efectos diferenciados que tiene la  violencia: mientras la letal impacta mayoritariamente a los hombres, la sexual  tiene como principales víctimas a las mujeres. El efecto es que ellas asumen  roles como cabezas de familia, sobrevivientes de hechos de violencia sexual, y  se involucran en procesos de reconstrucción de tejidos comunitarios[1].</p><p>Por esto, la incorporación del enfoque de  género en el Acuerdo de Paz fue un hito en el reconocimiento al impacto del  conflicto sobre las mujeres y el rol que juegan en una paz sostenible. Considerando  los rezagos que ha tenido la implementación de las medidas de género, <strong>en este momento  es necesario potenciar iniciativas de equidad que ya existen en los territorios,  así como las fuerzas colectivas que se han sostenido y adaptado en medio de la  adversidad. </strong></p><p>Desde un espacio de diálogo denominado La  Incubadora[2], en el que participan lideresas del Urabá  antioqueño y el Catatumbo, en la Fundación Ideas para la Paz elaboramos algunas  reflexiones que rescatan experiencias de acción colectiva como las de Rosa y  María, y de otras mujeres que se preguntan cómo llevar del papel a la práctica  políticas de género y paz a sus territorios. Comparto cuatro:</p><ul><li><p><strong>El poder del aprendizaje colectivo.</strong> Para implementar  políticas y medidas de equidad género a partir de las capacidades que hay en lo  local, es importante saber: ¿qué es lo que ya trabajan y lideran las  organizaciones de mujeres? ¿Por qué han priorizado su trabajo en determinados  temas? En veredas, corregimientos y cascos urbanos existen asociaciones, organizaciones  y colectivos que se han formado a partir de necesidades y preocupaciones  compartidas. Por esto, en ocasiones<strong> la ‘fórmula mágica’ de crear organizaciones  de mujeres ‘por decreto’ no garantiza la sostenibilidad ni el impacto de  proyectos productivos o capital semilla, </strong>por poner un ejemplo; primero, es  necesario identificar un rumbo e intereses comunes entre las mujeres. Estas  experiencias pueden ser también un punto de partida para la formulación de  esquemas más efectivos de protección de las lideresas sociales.</p></li></ul><ul><li><p><strong>Reunir agendas diversas para trazar metas comunes. </strong>Enfocarse en las mujeres no debe hacer perder de vista que estamos  hablando de un universo diverso, no homogéneo. Aunque parezca una obviedad,  esto resulta relevante sobre todo en contextos locales donde la  interseccionalidad de lo étnico, rural/urbano, y ciclo vital, marca  experiencias particulares de exclusión y violencia. Por ejemplo, mientras en  Catatumbo a Rosa le interesa el trabajo en las JAC, otras mujeres, como Zenaida,  consideran prioritarios los proyectos productivos; María, por su parte, insiste  en la recolección y denuncia de casos de violencia sexual, y Adelaida quiere  trabajar por la situación de las mujeres migrantes. <strong>Los espacios de  participación que permitan el reconocimiento e intercambio de esas agendas  diversas —en algunos casos también disímiles—, son un primer escalón para  identificar acciones estratégicas para los derechos de las mujeres.</strong></p></li></ul><ul><li><p><strong>Sumar y conectar esfuerzos.</strong> En regiones donde ha habido avances  importantes en la implementación de las medidas de género del Acuerdo de Paz,  se han alineado intereses de diferentes sectores y puesto en práctica políticas  locales relacionadas con ellas: definición de metas e indicadores claros en los  planes de desarrollo, trazadores presupuestales y, sobre todo, veeduría y  control de la sociedad civil. Para potenciar esto, es necesario involucrar a  diversos actores a las políticas de género y seguir convenciendo sobre su  utilidad; al final, los avances en equidad representan beneficios para las  comunidades y el Estado. Sobre esto, estamos aún en deuda de entender los mapas  regionales de los desafíos de las políticas de género en Colombia.</p></li></ul><ul><li><p><strong>Sin contextos favorables, la capacidad de agencia y resiliencia de las  mujeres no llevará a procesos transformadores. </strong>Si bien Rosa y María lideran procesos que se han sostenido y pueden  potenciarse para generar importantes impactos en sus comunidades, siguen  ejerciendo su liderazgo en contextos con pocas garantías de seguridad y profundas  vulnerabilidades. Iniciativas de empoderamiento y participación de las mujeres  en estas regiones chocan muchas veces con contextos poco favorables que reducen  su impacto. <strong>Por esto, no se puede descargar en las mujeres la responsabilidad  de transformar sus vidas y empoderarse mientras no transformemos los contextos  en los que viven; esto incluye, por supuesto, un trabajo amplio de género, que contenga  a los hombres y las comunidades.</strong> Esto es particularmente relevante para medidas  contempladas en el Acuerdo, como la titulación y formalización de tierras para  mujeres rurales o el acceso a créditos y proyectos productivos, que, sin un  trabajo sobre los contextos, no lograrán el impacto esperado.</p></li></ul><p>Como Rosa y María, muchas lideresas han “matado el miedo” sosteniendo iniciativas de paz en contextos de alta fragilidad. En La Incubadora hemos identificado <strong>la necesidad de seguir profundizando en lecturas territoriales sobre los obstáculos y oportunidades del Acuerdo de Paz desde la perspectiva de género</strong>, así como en las potencialidades que tienen las experiencias de resiliencia de las mujeres.</p><p>Las participantes de esta iniciativa quieren visibilizar dos temas que son prioritarios para potenciar la paz y la equidad: <strong>la participación y el empoderamiento económico</strong>. En Catatumbo, las lideresas reflexionaron y dieron propuestas sobre cómo impulsar su participación en escenarios de construcción de paz (navegue las infografías que realizamos con sus propuestas en <a href="http://ideaspaz.org/especiales/infografias/jovenes_catatumbo_liderazgo_construccion.html">construcción de paz</a> y <a href="http://ideaspaz.org/especiales/infografias/jovenes_catatumbo_equidad_genero.html">equidad de género</a>). En Urabá, las mujeres elaboraron mensajes dirigidos a las comunidades, sector empresarial y la institucionalidad sobre la relevancia del empoderamiento económico para la paz territorial (escuche <a href="https://www.youtube.com/playlist?list=PLVPVBhJrCtNpyOCUuSnRkVpdfxK1q7kR-">aquí</a> lo que las mujeres de Urabá le quieren decir a estos sectores).</p><p>En definitiva, en las regiones hay fuerzas colectivas y aprendizajes que pueden protegerse e incubarse para una paz incluyente.</p><p class="note">Conozca la relatorias virtuales: <a href="http://ideaspaz.org/especiales/infografias/incubadora_uraba_01.html">Empoderamiento económico en Urabá</a> y <a href="http://ideaspaz.org/especiales/infografias/incubadora_uraba_02.html">¿Qué sienten las mujeres en torno al empoderamiento económico?</a></p><p>_________________________________</p><p>[1] Sobre esto, en la Universidad del Valle recopilamos diversas  experiencias de acciones colectivas de mujeres por la paz y las potencialidades  de la perspectiva de género para el análisis de la movilización por la paz en  Colombia: Rodríguez, A., Ibarra, M., Cuesta, I., &amp; Luna, Y. (2018). Mujeres  en movimiento. Género, experiencias organizativas y repertorios de acción en  Colombia. Cali: Editorial Universidad del Valle.</p><p>[2] La estrategia La Incubadora se desarrolla  como parte del proyecto “Alcanzar la paz en medio de la fragilidad”  implementado por la Fundación Ideas para la paz (FIP) con apoyo del IDRC de  Canadá.</p></section>
-          
-        
+  <!-- content block -->
+  <!-- post content -->
+<article>
+  <!-- prose header -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-8 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
 
-        <section class="container mx-auto max-w-3xl"><div class="not-prose flex border-b border-b-gray-300 py-4 mb-8 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
+  <!-- prose content blocks -->
+  
+    
+      <p class="note">Esta columna <a href="https://www.elespectador.com/colombia2020/pais/la-fuerza-colectiva-de-las-mujeres-una-herramienta-para-la-paz/">se publicó originalmente en Colombia 2020</a>, de El Espectador</p><p>A mediados de mayo de 2020, Rosa, una líder campesina, organizaba su agenda del día para poder cubrir un turno en el  peaje comunitario instalado para prevenir la propagación del coronavirus en un  municipio del Catatumbo. Al otro lado del país, María enviaba mensajes de  WhatsApp a lideresas del Urabá para organizar una ruta de seguimiento a casos  de violencia intrafamiliar y facilitar canales con las comisarías de familia.  En esos mismos meses, comunidades del Catatumbo lideraban eventos virtuales, sacaban  comunicados, solicitaban medidas humanitarias al Gobierno Nacional y el cese al  fuego a los grupos armados ilegales. En Urabá, líderes campesinos advertían  sobre el control armado y los riesgos de los jóvenes ante los impactos  económicos de la pandemia.</p><p>En estos tiempos —como en los más  difíciles del conflicto— ese capital humano y social ha persistido en las regiones.  <strong>“Matamos el miedo para que el miedo no  nos mate a nosotras”, dicen las  lideresas para explicar cómo sostienen sus procesos organizativos. </strong>Sea como  viudas, familiares de desaparecidos, víctimas o mujeres ejerciendo su  ciudadanía, incluso durante la pandemia han movilizado  políticas locales, espacios de diálogo y procesos de denuncia. Más allá de  una característica innata por el hecho de ser mujeres, la fuerza de estos  liderazgos surge, en parte, por los efectos diferenciados que tiene la  violencia: mientras la letal impacta mayoritariamente a los hombres, la sexual  tiene como principales víctimas a las mujeres. El efecto es que ellas asumen  roles como cabezas de familia, sobrevivientes de hechos de violencia sexual, y  se involucran en procesos de reconstrucción de tejidos comunitarios[1].</p><p>Por esto, la incorporación del enfoque de  género en el Acuerdo de Paz fue un hito en el reconocimiento al impacto del  conflicto sobre las mujeres y el rol que juegan en una paz sostenible. Considerando  los rezagos que ha tenido la implementación de las medidas de género, <strong>en este momento  es necesario potenciar iniciativas de equidad que ya existen en los territorios,  así como las fuerzas colectivas que se han sostenido y adaptado en medio de la  adversidad. </strong></p><p>Desde un espacio de diálogo denominado La  Incubadora[2], en el que participan lideresas del Urabá  antioqueño y el Catatumbo, en la Fundación Ideas para la Paz elaboramos algunas  reflexiones que rescatan experiencias de acción colectiva como las de Rosa y  María, y de otras mujeres que se preguntan cómo llevar del papel a la práctica  políticas de género y paz a sus territorios. Comparto cuatro:</p><ul><li><p><strong>El poder del aprendizaje colectivo.</strong> Para implementar  políticas y medidas de equidad género a partir de las capacidades que hay en lo  local, es importante saber: ¿qué es lo que ya trabajan y lideran las  organizaciones de mujeres? ¿Por qué han priorizado su trabajo en determinados  temas? En veredas, corregimientos y cascos urbanos existen asociaciones, organizaciones  y colectivos que se han formado a partir de necesidades y preocupaciones  compartidas. Por esto, en ocasiones<strong> la ‘fórmula mágica’ de crear organizaciones  de mujeres ‘por decreto’ no garantiza la sostenibilidad ni el impacto de  proyectos productivos o capital semilla, </strong>por poner un ejemplo; primero, es  necesario identificar un rumbo e intereses comunes entre las mujeres. Estas  experiencias pueden ser también un punto de partida para la formulación de  esquemas más efectivos de protección de las lideresas sociales.</p></li></ul><ul><li><p><strong>Reunir agendas diversas para trazar metas comunes. </strong>Enfocarse en las mujeres no debe hacer perder de vista que estamos  hablando de un universo diverso, no homogéneo. Aunque parezca una obviedad,  esto resulta relevante sobre todo en contextos locales donde la  interseccionalidad de lo étnico, rural/urbano, y ciclo vital, marca  experiencias particulares de exclusión y violencia. Por ejemplo, mientras en  Catatumbo a Rosa le interesa el trabajo en las JAC, otras mujeres, como Zenaida,  consideran prioritarios los proyectos productivos; María, por su parte, insiste  en la recolección y denuncia de casos de violencia sexual, y Adelaida quiere  trabajar por la situación de las mujeres migrantes. <strong>Los espacios de  participación que permitan el reconocimiento e intercambio de esas agendas  diversas —en algunos casos también disímiles—, son un primer escalón para  identificar acciones estratégicas para los derechos de las mujeres.</strong></p></li></ul><ul><li><p><strong>Sumar y conectar esfuerzos.</strong> En regiones donde ha habido avances  importantes en la implementación de las medidas de género del Acuerdo de Paz,  se han alineado intereses de diferentes sectores y puesto en práctica políticas  locales relacionadas con ellas: definición de metas e indicadores claros en los  planes de desarrollo, trazadores presupuestales y, sobre todo, veeduría y  control de la sociedad civil. Para potenciar esto, es necesario involucrar a  diversos actores a las políticas de género y seguir convenciendo sobre su  utilidad; al final, los avances en equidad representan beneficios para las  comunidades y el Estado. Sobre esto, estamos aún en deuda de entender los mapas  regionales de los desafíos de las políticas de género en Colombia.</p></li></ul><ul><li><p><strong>Sin contextos favorables, la capacidad de agencia y resiliencia de las  mujeres no llevará a procesos transformadores. </strong>Si bien Rosa y María lideran procesos que se han sostenido y pueden  potenciarse para generar importantes impactos en sus comunidades, siguen  ejerciendo su liderazgo en contextos con pocas garantías de seguridad y profundas  vulnerabilidades. Iniciativas de empoderamiento y participación de las mujeres  en estas regiones chocan muchas veces con contextos poco favorables que reducen  su impacto. <strong>Por esto, no se puede descargar en las mujeres la responsabilidad  de transformar sus vidas y empoderarse mientras no transformemos los contextos  en los que viven; esto incluye, por supuesto, un trabajo amplio de género, que contenga  a los hombres y las comunidades.</strong> Esto es particularmente relevante para medidas  contempladas en el Acuerdo, como la titulación y formalización de tierras para  mujeres rurales o el acceso a créditos y proyectos productivos, que, sin un  trabajo sobre los contextos, no lograrán el impacto esperado.</p></li></ul><p>Como Rosa y María, muchas lideresas han “matado el miedo” sosteniendo iniciativas de paz en contextos de alta fragilidad. En La Incubadora hemos identificado <strong>la necesidad de seguir profundizando en lecturas territoriales sobre los obstáculos y oportunidades del Acuerdo de Paz desde la perspectiva de género</strong>, así como en las potencialidades que tienen las experiencias de resiliencia de las mujeres.</p><p>Las participantes de esta iniciativa quieren visibilizar dos temas que son prioritarios para potenciar la paz y la equidad: <strong>la participación y el empoderamiento económico</strong>. En Catatumbo, las lideresas reflexionaron y dieron propuestas sobre cómo impulsar su participación en escenarios de construcción de paz (navegue las infografías que realizamos con sus propuestas en <a href="http://ideaspaz.org/especiales/infografias/jovenes_catatumbo_liderazgo_construccion.html">construcción de paz</a> y <a href="http://ideaspaz.org/especiales/infografias/jovenes_catatumbo_equidad_genero.html">equidad de género</a>). En Urabá, las mujeres elaboraron mensajes dirigidos a las comunidades, sector empresarial y la institucionalidad sobre la relevancia del empoderamiento económico para la paz territorial (escuche <a href="https://www.youtube.com/playlist?list=PLVPVBhJrCtNpyOCUuSnRkVpdfxK1q7kR-">aquí</a> lo que las mujeres de Urabá le quieren decir a estos sectores).</p><p>En definitiva, en las regiones hay fuerzas colectivas y aprendizajes que pueden protegerse e incubarse para una paz incluyente.</p><p class="note">Conozca la relatorias virtuales: <a href="http://ideaspaz.org/especiales/infografias/incubadora_uraba_01.html">Empoderamiento económico en Urabá</a> y <a href="http://ideaspaz.org/especiales/infografias/incubadora_uraba_02.html">¿Qué sienten las mujeres en torno al empoderamiento económico?</a></p><p>_________________________________</p><p>[1] Sobre esto, en la Universidad del Valle recopilamos diversas  experiencias de acciones colectivas de mujeres por la paz y las potencialidades  de la perspectiva de género para el análisis de la movilización por la paz en  Colombia: Rodríguez, A., Ibarra, M., Cuesta, I., &amp; Luna, Y. (2018). Mujeres  en movimiento. Género, experiencias organizativas y repertorios de acción en  Colombia. Cali: Editorial Universidad del Valle.</p><p>[2] La estrategia La Incubadora se desarrolla  como parte del proyecto “Alcanzar la paz en medio de la fragilidad”  implementado por la Fundación Ideas para la paz (FIP) con apoyo del IDRC de  Canadá.</p>
+    
+  
+  <!-- prose footer -->
+  </div>
+</div>
+</div>
+
+</article>
+
+  <!-- share block -->
+  <!-- share block -->
+
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12 mb-4 ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+
+<div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
     <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
     <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
@@ -557,31 +608,49 @@
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
-</section>
-        
-          <section class="container mx-auto max-w-3xl"><p class="not-prose uppercase font-bold tracking-normal text-sm">
-  <span class="mr-2">Palabras clave:</span>
-  
-    <a href="/posts/tags/violencia-sexual" class="text-fip-green underline">Violencia sexual</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/violencia-contra-las-mujeres" class="text-fip-green underline">Violencia contra las mujeres</a>
-    
-      <span class="mx-2 text-fip-green">/</span>
-    
-  
-    <a href="/posts/tags/mujeres" class="text-fip-green underline">Mujeres</a>
-    
-  
-</p>
-</section>
-        
-        
-      </article>
-    </div>
+
   </div>
+</div>
+</div>
+
+
+
+  <!-- keywords block -->
+  
+  <!-- keywords block -->
+  <div class="container mx-auto max-w-6xl gap-4 sm:grid sm:grid-cols-12  ">
+  <div class="sm:col-span-2">
+    
+  </div>
+  <div class="sm:col-span-8 relative">
+    <div class="max-w-none px-6 sm:px-0 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+
+  <p class="not-prose uppercase font-bold tracking-normal">
+    <span class="mr-2 text-sm">Palabras clave:</span>
+    
+      <a href="/publicaciones?query=Violencia sexual" class="text-fip-green underline text-sm">Violencia sexual</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Violencia contra las mujeres" class="text-fip-green underline text-sm">Violencia contra las mujeres</a>
+      
+        <span class="mx-2 text-fip-green text-sm">/</span>
+      
+    
+      <a href="/publicaciones?query=Mujeres" class="text-fip-green underline text-sm">Mujeres</a>
+      
+    
+  </p>
+  </div>
+</div>
+</div>
+
+
+
+  <!-- footnotes block -->
+  
+
 </div>
 </div>
   
@@ -589,7 +658,7 @@
     <!-- tags cloud -->
 <div class="container mx-auto max-w-6xl mt-20 mb-8  pl-6 sm:px-0">
   <div class="-mt-2 mb-4 pt-2 font-black uppercase sm:mr-0 sm:mb-0 border-t-fip-gray-light border-t-4 text-fip-gray-light  text-base block">
-  <h2 id="de1b5ae6-e381-4448-ab8a-ce339738d352" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
+  <h2 id="ca184a89-bc02-44e0-89e5-9cde0aa70f4c" class="w-3/4 sm:w-full text-xl sm:text-2xl">Etiquetas destacadas</h2>
     <a href="/publicaciones" class="ml-auto mt-4 hidden text-xs font-black uppercase hover:no-underline text-fip-gray-light ">
     <span class="px-2 font-normal">/</span>
     Ver todas las etiquetas
@@ -601,114 +670,58 @@
     <ul class="w-[1200px] sm:w-auto">
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Reparación"
+          <a href="/publicaciones?query=Política pública"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Reparación
+            Política pública
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Mafia"
+          <a href="/publicaciones?query=consumo de drogas"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Mafia
+            consumo de drogas
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Venganza"
+          <a href="/publicaciones?query=habitantes de calle"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Venganza
+            habitantes de calle
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Restitución"
+          <a href="/publicaciones?query=Crisis humanitaria"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Restitución
+            Crisis humanitaria
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Los Urabeños"
+          <a href="/publicaciones?query=Recursos"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Los Urabeños
+            Recursos
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Venezuela"
+          <a href="/publicaciones?query=Instrumento de confianza"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Venezuela
+            Instrumento de confianza
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Delitos"
+          <a href="/publicaciones?query=Migración"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Delitos
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Manifestaciones"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Manifestaciones
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Haciendo propuestas"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Haciendo propuestas
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=sustitución de cultivos ilícitos"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            sustitución de cultivos ilícitos
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Armas"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Armas
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=reincorporación"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            reincorporación
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=sistema carcelario"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            sistema carcelario
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Abril"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Abril
+            Migración
           </a>
         </li>
       
@@ -721,6 +734,78 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Erradicación"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Erradicación
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=ONU"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            ONU
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Oro"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Oro
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Narcotráfico"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Narcotráfico
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Participación política"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Participación política
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=LGBTI"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            LGBTI
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Minas antipersonal"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Minas antipersonal
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Hostilidades"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Hostilidades
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
+          <a href="/publicaciones?query=Análisis sistémico"
+            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
+            <span class="mr-2 align-middle text-xl font-semibold">+</span>
+            Análisis sistémico
+          </a>
+        </li>
+      
+        <li class="mb-2 mr-2 inline-block last:mr-0">
           <a href="/publicaciones?query=concentración FARC"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
@@ -729,34 +814,18 @@
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=jóvenes"
+          <a href="/publicaciones?query=Bienes"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            jóvenes
+            Bienes
           </a>
         </li>
       
         <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Salud mental"
+          <a href="/publicaciones?query=Mafia"
             class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
             <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Salud mental
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=marco legal de drogas"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            marco legal de drogas
-          </a>
-        </li>
-      
-        <li class="mb-2 mr-2 inline-block last:mr-0">
-          <a href="/publicaciones?query=Julio"
-            class="block whitespace-nowrap border border-fip-gray py-1 px-4 font-serif text-xs font-bold uppercase tracking-wider text-fip-gray-light hover:border-fip-gray-light hover:no-underline">
-            <span class="mr-2 align-middle text-xl font-semibold">+</span>
-            Julio
+            Mafia
           </a>
         </li>
       
@@ -764,7 +833,7 @@
   </div>
 </div>
 
-<footer class="mt-auto bg-fip-gray py-8">
+<footer class="mt-auto bg-fip-gray py-8 max-w-screen-2xl mx-auto w-full">
   <div class="container relative grid max-w-6xl px-6 py-5 sm:mx-auto sm:grid-cols-6 sm:gap-x-32 sm:gap-y-16 sm:px-0">
     <div class="row-span-2 sm:col-span-2">
       <a href="/"><svg class="h-16 w-24 sm:hidden block mb-8" xmlns="http://www.w3.org/2000/svg" width="293.827" height="172.84" viewBox="0 0 293.827 172.84" xml:space="preserve"> <path fill="#124E91" d="M240.838 8.689c-.163 0-.325 0-.487.009a.279.279 0 0 0-.122 0h-63.494v127.173h48.182V103.1h15.922c26.067 0 47.205-21.137 47.205-47.204-.001-26.068-21.139-47.207-47.206-47.207zM232.9 72.078v-.008h-7.872V40.493h7.872c8.725 0 15.793 7.076 15.793 15.792 0 8.725-7.068 15.793-15.793 15.793zM88.504 57.042V87.56H52.891v48.312H4.581V16.812a8.122 8.122 0 0 1 8.124-8.123h86.344l.008 31.804H52.891v16.549h35.613zm25.232 15.246h48.31v63.593h-48.31zm48.31-63.606v.017l-48.31 48.789V16.812a8.122 8.122 0 0 1 8.123-8.123l40.187-.007z"/> <path fill="#FAA634" d="M162.046 8.689V40.49l-31.478.001v-.008z"/> <path d="M5.75 157.549V146.46h7.588v1.045h-6.48v4.213H13.1v1.046H6.858v4.785H5.75zm19.008-11.089v6.764c0 2.994-1.965 4.437-4.373 4.437-2.407 0-4.436-1.442-4.436-4.437v-6.764h1.109v6.764c0 2.106 1.441 3.406 3.326 3.406 1.68 0 3.264-1.093 3.264-3.406v-6.764h1.11zm11.213 8.997-.062-3.676v-5.321h1.108v11.089h-.665l-7.176-8.919.031 3.278v5.641h-1.108V146.46h.697l7.175 8.997zm8.425-8.997c3.754 0 5.56 2.692 5.56 5.433 0 2.805-1.679 5.656-5.56 5.656h-3.913V146.46h3.913zm-2.803 10.059h2.804c3.088 0 4.481-2.408 4.436-4.643-.048-2.154-1.442-4.371-4.436-4.371h-2.804v9.014zm18.198-1.538h-6.432l-1.141 2.567h-1.172l4.975-11.089h1.108l4.975 11.089h-1.173l-1.14-2.567zm-5.987-1.013h5.544l-2.772-6.306-2.772 6.306zm19.228 2.075a5.633 5.633 0 0 1-4.039 1.681c-3.834 0-5.751-2.567-5.767-5.657-.017-3.025 1.917-5.766 5.767-5.766 1.473 0 2.962.522 3.929 1.663l-.681.683a4.59 4.59 0 0 0-3.248-1.332c-3.09 0-4.658 2.282-4.658 4.736 0 2.599 1.568 4.643 4.658 4.643 1.188 0 2.439-.476 3.326-1.363l.713.712zm2.517 1.506V146.46h1.109v11.089h-1.109zm9.488-11.279c3.755.016 5.624 2.804 5.607 5.766-.016 2.898-1.853 5.72-5.607 5.72-3.77 0-5.624-2.821-5.624-5.735 0-3.123 2.027-5.751 5.624-5.751zm-4.515 5.765c.031 2.424 1.489 4.674 4.515 4.674s4.482-2.297 4.499-4.674c0-2.486-1.474-4.704-4.499-4.721-2.978 0-4.547 2.108-4.515 4.721zm6.385-8.839h-1.269l-1.188 1.964v.063h.968l1.489-1.996v-.031zm14.364 12.261-.062-3.676v-5.321h1.108v11.089h-.665l-7.177-8.919.032 3.278v5.641h-1.109V146.46h.697l7.176 8.997zm8.865 2.092V146.46h2.455v11.089h-2.455zm9.868-11.089c3.817 0 5.513 2.565 5.513 5.464 0 2.899-1.632 5.625-5.513 5.625h-4.547V146.46h4.547zm-2.108 8.807h2.107c2.408 0 3.073-1.773 3.073-3.374 0-1.6-.761-3.2-3.073-3.2h-2.107v6.574zm18.327 2.282h-8.443V146.46H136v2.264h-5.797v2.139h5.465v2.171h-5.465v2.233h6.02v2.282zm10.199-1.902h-5.687l-.808 1.901h-2.662l4.975-11.089h2.692l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.135.175c-.618-.649-1.695-.935-2.566-.935-1.094 0-1.98.46-1.98 1.22 0 1.014.967 1.204 2.392 1.33 2.187.19 4.261 1.029 4.261 3.597 0 2.47-2.28 3.548-4.672 3.563-1.918.016-3.914-.729-4.849-2.28l1.474-1.537c.855 1.093 2.266 1.569 3.391 1.569 1.314 0 2.217-.524 2.217-1.315.017-.935-.728-1.363-2.232-1.49-2.346-.221-4.437-.808-4.404-3.421.016-2.202 2.106-3.374 4.388-3.374 1.711 0 2.994.38 4.135 1.71l-1.555 1.363zm11.194 5.275v3.137h-2.472V146.46h5.228c2.836 0 4.246 1.837 4.246 3.976 0 2.219-1.426 3.944-4.246 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.602-1.681-1.774-1.681h-2.756v3.344zm16.014 3.501h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm17.722 8.587h-2.739l-2.837-3.645h-1.789v3.645h-2.472V146.46h5.259c2.678 0 4.104 1.789 4.104 3.738-.016 1.441-.443 2.724-2.566 3.485l3.041 3.675v.191zm-7.365-8.966v3.229h2.819c1.141 0 1.632-.854 1.632-1.552-.016-.76-.507-1.678-1.664-1.678h-2.787zm17.265 7.064h-5.688l-.808 1.901h-2.661l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm14.233-2.502v8.823h5.545v2.266h-8.016V146.46h2.471zm15.285 9.187h-5.688l-.808 1.901h-2.662l4.975-11.089h2.693l4.974 11.089h-2.677l-.807-1.901zm-2.836-6.685-1.917 4.5h3.818l-1.901-4.5zm14.001 5.45v3.137h-2.472V146.46h5.228c2.836 0 4.245 1.837 4.245 3.976 0 2.219-1.425 3.944-4.245 3.977h-2.756zm0-2.266h2.756c1.188 0 1.774-.776 1.774-1.663s-.603-1.681-1.774-1.681h-2.756v3.344zm16.013 3.501h-5.688l-.807 1.901h-2.662l4.974-11.089h2.693l4.975 11.089h-2.678l-.807-1.901zm-2.835-6.685-1.918 4.5h3.818l-1.9-4.5zm7.41-2.502h8.476v1.077l-5.323 7.698h5.45v2.313h-8.871v-1.284l5.417-7.682h-5.148v-2.122z" fill="#124E91"/> <path fill="#FAA634" d="M278.729 167.691H4.583v-2.303h274.146c3.845 0 6.973-3.128 6.973-6.972V106.44l2.303-2.341v54.316c0 5.116-4.16 9.276-9.276 9.276z"/> <path fill="#005490" d="M288.046 167.691h-.041"/> </svg></a>
