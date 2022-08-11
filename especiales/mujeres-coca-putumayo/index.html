@@ -31,9 +31,10 @@
   <div id="app">
 
 <!-- sticky page nav -->
-<nav class="sticky top-0 z-50 bg-gray-100 py-4 sm:block hidden ">
-  <div class="container mx-auto max-w-6xl sm:flex">
-    <ul class="sm:inline-block text-xs uppercase font-black text-fip-green grow">
+<nav class="sticky top-0 z-50 bg-gray-100 py-4 sm:block">
+  <div class="container mx-auto max-w-6xl sm:flex overflow-x-auto">
+    <ul
+      class="flex sm:inline-block text-xs uppercase font-black text-fip-green grow w-[800px] sm:w-auto mx-6 sm:mx-0">
       <li class="inline"><a href="#top">Inicio</a></li>
       
         <li class="inline px-2">/</li>
@@ -58,15 +59,18 @@
   <!-- page header -->
   <div class="h-[728px] bg-cover bg-bottom grid place-content-center mx-auto max-w-screen-2xl mb-12"
     style="background-image: url(https://ideaspaz.imgix.net/images/multimedia/11mujeres-cultivadoras-de-coca_-sara-aliaga-1-scaled-1660051821.jpg?format=auto&fip=crop&w=1024&h=768)">
-    <div class="max-w-6xl relative">
+    <div class="mx-6 sm:mx-0 max-w-6xl relative">
       <a href="/"><svg xmlns="http://www.w3.org/2000/svg" width="111.526" height="62.56" viewBox="0 0 111.526 62.56"> <path d="M92.953.003h-.192a.11.11 0 0 0-.048 0H67.732v50.038h18.957V37.148h6.264a18.573 18.573 0 0 0 0-37.145Zm-3.123 24.94h-3.1V12.514h3.1a6.214 6.214 0 1 1 0 12.427Zm-56.811-5.916v12.007H19.007v19.008H0V3.199a3.2 3.2 0 0 1 3.2-3.2h33.967v12.513h-18.16v6.511Zm9.927 5.998h19.007v25.02H42.946zM61.953 0v.007l-19.007 19.2v-16a3.2 3.2 0 0 1 3.2-3.2Z" fill="#fff"/> <path d="M61.953.003v12.511H49.568Z" fill="#fff" opacity=".7"/> <path fill="#005490" d="M111.526 62.56h-.016"/> </svg></a>
-      <a href="/" class="text-white uppercase font-serif font-black text-base underline absolute right-0 top-0">Volver
+      <a href="/"
+        class="text-white uppercase font-serif font-black underline absolute right-0 top-0 text-xs sm:text-base">Volver
         al sitio de FIP</a>
     </div>
     <header class="max-w-6xl mt-32 font-black">
-      <h1 class="text-9xl text-white tracking-tight text-center">Mujeres y coca</h1>
-      <h2 class="text-fip-green text-5xl tracking-normal text-right">en el Putumayo</h2>
-      <p class="w-3/4 font-serif text-xl font-bold leading-8 text-white text-center mx-auto mt-4">
+      <h1 class="text-5xl sm:text-9xl text-white tracking-tight text-center">Mujeres y coca</h1>
+      <h2 class="text-fip-green text-4xl sm:text-5xl tracking-normal text-center sm:text-right">en el Putumayo
+      </h2>
+      <p
+        class="w-3/4 font-serif text-lg sm:text-xl font-bold leading-7 sm:leading-8 text-white text-center mx-auto mt-4">
         En busca de sustento, las mujeres se han vinculado a diferentes eslabones de la economía cocalera como finqueras, jornaleras, cocineras, quimiqueras, mulas o colaboradoras. Para ellas, la coca tiene un significado particular que se relaciona con sus experiencias como mujeres y con su vínculo con el territorio.</p>
       <svg class="mx-auto mt-12" xmlns="http://www.w3.org/2000/svg" width="13.452" height="69.25" viewBox="0 0 13.452 69.25"> <defs> <clipPath id="a"> <path data-name="Rectangle 16" fill="none" d="M0 0h69.25v13.452H0z"/> </clipPath> </defs> <g data-name="Group 2204"> <g data-name="Group 2203"> <g data-name="Group 611"> <path data-name="Path 4" d="M13.452 61.865h-1.836l-4.864 5.962h-.051l-4.866-5.962H0l6.3 7.388h.858Z" fill="#fff"/> <path data-name="Path 5" d="M6.727 0Z" fill="#040405"/> <g data-name="Group 14"> <g data-name="Group 13" clip-path="url(#a)" transform="rotate(90 6.726 6.726)"> <path data-name="Path 301" d="M67.328 6.726H.001" fill="none" stroke="#fff" stroke-width="1.389"/> </g> </g> </g> </g> </g> </svg>
     </header>
@@ -191,15 +195,8 @@
 
 <figure class="sm:mt-8 sm:text-base -mx-6 sm:-mx-0">
   <img class="my-0"
-    src="https://ideaspaz.imgix.net/images/-ejemplo-1-terapia-psicolodelica.jpeg?auto=format&w=768&crop=focalpoint&fp-x=0.57&fp-y=0.32&fp-z=1.1&ixlib=php-3.3.1"
-    width="768" alt="María del Mar Betancur, 28 años, trabajadora social" />
-  
-    <figcaption class="mx-6 sm:mx-0">
-      María del Mar Betancur, 28 años, trabajadora social
-      
-        <small>© SANTIAGO MESA</small>
-      
-    </figcaption>
+    src="https://ideaspaz.imgix.net/?auto=format&w=768&ixlib=php-3.3.1"
+    width="768" alt="" />
   
 </figure>
 
@@ -219,23 +216,25 @@
   <!-- special sections -->
   
   
-    <div id="el-auge-de-la-coca" class="h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
+    <!-- section header -->
+    <div id="el-auge-de-la-coca"
+      class="h-96 sm:h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
       style="background-image: url(https://ideaspaz.imgix.net/images/multimedia/part-01.jpg?format=auto&fip=crop&w=1024&h=768)">
-      <header class="max-w-6xl font-black tracking-tighter ml-56 mt-72">
-        <h1 class="text-fip-green text-6xl relative">
-          <small class="absolute text-white text-3xl -ml-28 top-1">Parte 1</small>
+      <header class="w-full max-w-6xl font-black tracking-tighter sm:ml-56 px-6 sm:px-0 mt-52 sm:mt-72">
+        <h1 class="text-fip-green text-3xl sm:text-6xl relative">
+          <small
+            class="sm:absolute text-white text-xl sm:text-3xl sm:-ml-28 sm:top-1 block sm:inline">Parte 1</small>
           El auge de la coca
         </h1>
-        <h2 class="text-9xl text-white">1978 / 1987</h2>
+        <h2 class="text-5xl sm:text-9xl  text-white">1978 / 1987</h2>
         <button x-on:click="selected !== 0 ? selected = 0 : selected = null"
-          class="text-white tracking-normal block text-sans uppercase text-xs mt-8">
+          class="text-white tracking-normal block text-sans uppercase text-xs mt-2 sm:mt-8">
           <svg class="inline mr-2" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"> <g data-name="Group 1381" fill="none" stroke="#fff" stroke-width="1.5"> <path data-name="Line 90" d="M11.5 0v23"/> <path data-name="Line 91" d="M23 11.5H0"/> </g> </svg>
           Seguir leyendo
         </button>
       </header>
     </div>
-
-    <!-- content block -->
+    <!-- section content -->
     <div x-ref="container_0" class="overflow-hidden transition-all max-h-0 duration-500 ease-in-out"
       x-bind:style="selected == 0 ? 'max-height: ' + $refs.container_0.scrollHeight + 'px' : ''">
       <!-- post content -->
@@ -268,23 +267,25 @@
       
     </div>
   
-    <div id="fumigacion-de-cultivos" class="h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
+    <!-- section header -->
+    <div id="fumigacion-de-cultivos"
+      class="h-96 sm:h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
       style="background-image: url(https://ideaspaz.imgix.net/images/multimedia/part-02.jpg?format=auto&fip=crop&w=1024&h=768)">
-      <header class="max-w-6xl font-black tracking-tighter ml-56 mt-72">
-        <h1 class="text-fip-green text-6xl relative">
-          <small class="absolute text-white text-3xl -ml-28 top-1">Parte 2</small>
+      <header class="w-full max-w-6xl font-black tracking-tighter sm:ml-56 px-6 sm:px-0 mt-52 sm:mt-72">
+        <h1 class="text-fip-green text-3xl sm:text-6xl relative">
+          <small
+            class="sm:absolute text-white text-xl sm:text-3xl sm:-ml-28 sm:top-1 block sm:inline">Parte 2</small>
           Fumigación de cultivos
         </h1>
-        <h2 class="text-9xl text-white">2000 / 2015</h2>
+        <h2 class="text-5xl sm:text-9xl  text-white">2000 / 2015</h2>
         <button x-on:click="selected !== 1 ? selected = 1 : selected = null"
-          class="text-white tracking-normal block text-sans uppercase text-xs mt-8">
+          class="text-white tracking-normal block text-sans uppercase text-xs mt-2 sm:mt-8">
           <svg class="inline mr-2" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"> <g data-name="Group 1381" fill="none" stroke="#fff" stroke-width="1.5"> <path data-name="Line 90" d="M11.5 0v23"/> <path data-name="Line 91" d="M23 11.5H0"/> </g> </svg>
           Seguir leyendo
         </button>
       </header>
     </div>
-
-    <!-- content block -->
+    <!-- section content -->
     <div x-ref="container_1" class="overflow-hidden transition-all max-h-0 duration-500 ease-in-out"
       x-bind:style="selected == 1 ? 'max-height: ' + $refs.container_1.scrollHeight + 'px' : ''">
       <!-- post content -->
@@ -375,23 +376,25 @@
       
     </div>
   
-    <div id="desmovilizacion-farc" class="h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
+    <!-- section header -->
+    <div id="desmovilizacion-farc"
+      class="h-96 sm:h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
       style="background-image: url(https://ideaspaz.imgix.net/images/multimedia/part-03.jpg?format=auto&fip=crop&w=1024&h=768)">
-      <header class="max-w-6xl font-black tracking-tighter ml-56 mt-72">
-        <h1 class="text-fip-green text-6xl relative">
-          <small class="absolute text-white text-3xl -ml-28 top-1">Parte 3</small>
+      <header class="w-full max-w-6xl font-black tracking-tighter sm:ml-56 px-6 sm:px-0 mt-52 sm:mt-72">
+        <h1 class="text-fip-green text-3xl sm:text-6xl relative">
+          <small
+            class="sm:absolute text-white text-xl sm:text-3xl sm:-ml-28 sm:top-1 block sm:inline">Parte 3</small>
           Desmovilización FARC
         </h1>
-        <h2 class="text-9xl text-white">2016 / 2017</h2>
+        <h2 class="text-5xl sm:text-9xl  text-white">2016 / 2017</h2>
         <button x-on:click="selected !== 2 ? selected = 2 : selected = null"
-          class="text-white tracking-normal block text-sans uppercase text-xs mt-8">
+          class="text-white tracking-normal block text-sans uppercase text-xs mt-2 sm:mt-8">
           <svg class="inline mr-2" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"> <g data-name="Group 1381" fill="none" stroke="#fff" stroke-width="1.5"> <path data-name="Line 90" d="M11.5 0v23"/> <path data-name="Line 91" d="M23 11.5H0"/> </g> </svg>
           Seguir leyendo
         </button>
       </header>
     </div>
-
-    <!-- content block -->
+    <!-- section content -->
     <div x-ref="container_2" class="overflow-hidden transition-all max-h-0 duration-500 ease-in-out"
       x-bind:style="selected == 2 ? 'max-height: ' + $refs.container_2.scrollHeight + 'px' : ''">
       <!-- post content -->
@@ -422,23 +425,25 @@
       
     </div>
   
-    <div id="retos-actuales" class="h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
+    <!-- section header -->
+    <div id="retos-actuales"
+      class="h-96 sm:h-[590px] bg-cover bg-bottom grid mx-auto max-w-screen-2xl scroll-mt-[48px]"
       style="background-image: url(https://ideaspaz.imgix.net/images/multimedia/part-04.jpg?format=auto&fip=crop&w=1024&h=768)">
-      <header class="max-w-6xl font-black tracking-tighter ml-56 mt-72">
-        <h1 class="text-fip-green text-6xl relative">
-          <small class="absolute text-white text-3xl -ml-28 top-1">Parte 4</small>
+      <header class="w-full max-w-6xl font-black tracking-tighter sm:ml-56 px-6 sm:px-0 mt-52 sm:mt-72">
+        <h1 class="text-fip-green text-3xl sm:text-6xl relative">
+          <small
+            class="sm:absolute text-white text-xl sm:text-3xl sm:-ml-28 sm:top-1 block sm:inline">Parte 4</small>
           Retos actuales
         </h1>
-        <h2 class="text-9xl text-white">2022</h2>
+        <h2 class="text-5xl sm:text-9xl  text-white">2022</h2>
         <button x-on:click="selected !== 3 ? selected = 3 : selected = null"
-          class="text-white tracking-normal block text-sans uppercase text-xs mt-8">
+          class="text-white tracking-normal block text-sans uppercase text-xs mt-2 sm:mt-8">
           <svg class="inline mr-2" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"> <g data-name="Group 1381" fill="none" stroke="#fff" stroke-width="1.5"> <path data-name="Line 90" d="M11.5 0v23"/> <path data-name="Line 91" d="M23 11.5H0"/> </g> </svg>
           Seguir leyendo
         </button>
       </header>
     </div>
-
-    <!-- content block -->
+    <!-- section content -->
     <div x-ref="container_3" class="overflow-hidden transition-all max-h-0 duration-500 ease-in-out"
       x-bind:style="selected == 3 ? 'max-height: ' + $refs.container_3.scrollHeight + 'px' : ''">
       <!-- post content -->
@@ -489,7 +494,7 @@
   
 
   <!-- partners logos -->
-  <div class="container mx-auto max-w-6xl mb-16 mt-12">
+  <div class="container mx-auto max-w-6xl mb-16 mt-12 hidden">
     <div class="overflow-x-auto sm:overflow-hidden py-8 scroll-px-6 snap-x -mx-6 px-6 sm:px-0 sm:-mx-0">
   <ul class="flex gap-8 sm:gap-16 items-center w-[800px] sm:w-auto justify-center">
     
@@ -515,11 +520,11 @@
   </div>
 
   <!-- credits -->
-  <div class="container mx-auto max-w-6xl mb-16 mt-12 prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
+  <div class="container sm:max-w-6xl mb-16 mt-12 px-6 sm:px-0 sm:mx-auto prose prose-fip font-serif text-lg sm:text-xl tracking-tight prose-h1:tracking-tight prose-h1:leading-10 prose-h1:text-4xl prose-h3:font-black prose-h3:relative before:prose-h3:bg-black before:prose-h3:-ml-20 before:prose-h3:absolute before:prose-h3:-ml-24 before:prose-h3:top-3 before:prose-h3:w-20 before:prose-h3:h-4 prose-h4:mt-0 prose-h4:mb-4 prose-lead:font-semibold prose-lead:leading-8 prose-lead:tracking-tight prose-lead:text-black prose-lead:text-xl prose-p:mb-4 prose-p:break-words prose-blockquote:sm:w-3/4 prose-blockquote:font-sans prose-blockquote:pt-12 prose-blockquote:border-0 prose-blockquote:pl-0 prose-blockquote:font-black prose-blockquote:not-italic prose-blockquote:tracking-normal prose-blockquote:text-xl prose-blockquote:sm:text-2xl before:prose-blockquote:text-8xl before:prose-blockquote:text-fip-green before:prose-blockquote:absolute before:prose-blockquote:-top-12 before:prose-blockquote:leading-none prose-ul:pl-5 marker:prose-ul:font-black marker:prose-ul:text-black prose-ol:pl-5 marker:prose-ol:font-black marker:prose-ol:text-black prose-a:text-fip-blue prose-a:font-semibold">
     
 <div class="text-sm font-serif sm:grid sm:grid-cols-3 sm:gap-4">
   
-    <div class="col-span-1 mb-8 sm:mb-0">
+    <div class="sm:col-span-1 mb-8 sm:mb-0">
       <span
         class="block border-b border-b-/index/ pb-4 mb-4 font-black ">
         Créditos
@@ -527,7 +532,7 @@
       <div class="columns-1"><p><strong>Publicado<br></strong>21 de diciembre de 2021</p><p>Editado por Luiza Fairfield.<br>Edición de fotografía adicional Crista Chapman.<br>Fotografias y vídeo drone Susan Morris</p><p><strong>Corregido y actualizado</strong><br>27 de marzo de 2022</p></div>
     </div>
   
-    <div class="col-span-1 mb-8 sm:mb-0">
+    <div class="sm:col-span-1 mb-8 sm:mb-0">
       <span
         class="block border-b border-b-/index/ pb-4 mb-4 font-black sm:-ml-4 hidden sm:block">
         &nbsp;
@@ -535,7 +540,7 @@
       <div class="columns-1"><p><strong>Equipo de Dinámicas del Conflicto</strong></p><p><strong>Juan Carlos Garzón Vergara<br></strong>Director del Área de Dinámicas del Conflicto<br>y Negociaciones de Paz</p><p><strong>Génica Mazzoldi Díaz<br></strong>Investigadora Senior</p><p><strong>Román Huertas Montoya<br></strong>Investigador Senior</p><p><strong>Irina Cuesta<br></strong>Investigadora</p><p><strong>Paula Andrea Tobo<br></strong>Asistente de Investigación</p></div>
     </div>
   
-    <div class="col-span-1 mb-8 sm:mb-0">
+    <div class="sm:col-span-1 mb-8 sm:mb-0">
       <span
         class="block border-b border-b-/index/ pb-4 mb-4 font-black sm:-ml-4 hidden sm:block">
         &nbsp;
