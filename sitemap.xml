@@ -3,7 +3,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org</loc>
-        <lastmod>2022-08-11</lastmod>
+        <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -66,7 +66,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/quienes-somos</loc>
-        <lastmod>2022-08-08</lastmod>
+        <lastmod>2022-08-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/terminos-y-condiciones</loc>
+        <lastmod>2022-08-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/convocatorias/director-area-seguridad-politica-criminal</loc>
+        <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -74,13 +88,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/especiales/mujeres-coca-putumayo</loc>
         <lastmod>2022-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/about-us</loc>
-        <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -156,6 +163,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/en/about-us</loc>
+        <lastmod>2022-08-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/que-hacemos/conducta-empresarial-responsable</loc>
         <lastmod>2022-08-12</lastmod>
         <changefreq>monthly</changefreq>
@@ -207,6 +221,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/que-hacemos/seguridad-y-gobernanza</loc>
         <lastmod>2022-08-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/proyectos/guias-colombia</loc>
+        <lastmod>2022-08-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1046,7 +1067,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/terpel</loc>
-        <lastmod>2022-08-09</lastmod>
+        <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1102,7 +1123,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/videos/paz-posible</loc>
-        <lastmod>2022-08-08</lastmod>
+        <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
