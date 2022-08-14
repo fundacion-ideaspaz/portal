@@ -149,6 +149,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/en/segunda-prueba</loc>
+        <lastmod>2022-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/que-hacemos/conducta-empresarial-responsable</loc>
         <lastmod>2022-08-12</lastmod>
         <changefreq>monthly</changefreq>
@@ -185,6 +192,13 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/prueba-de-ines-maria/prueba-ines</loc>
+        <lastmod>2022-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/prueba-de-ines-maria/segunda-prueba</loc>
         <lastmod>2022-08-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
