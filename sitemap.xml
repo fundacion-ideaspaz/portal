@@ -59,7 +59,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/que-hacemos</loc>
-        <lastmod>2022-08-14</lastmod>
+        <lastmod>2022-08-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -73,20 +73,6 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/terminos-y-condiciones</loc>
-        <lastmod>2022-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/convocatorias/director-area-seguridad-politica-criminal</loc>
-        <lastmod>2022-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/especiales/mujeres-coca-putumayo</loc>
         <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -226,22 +212,162 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/podcasts/el-eln-incumplio-el-cese-al-fuego</loc>
+        <lastmod>2021-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/pandemia-y-mujeres-rurales-voces-desde-el-uraba-y-el-catatumbo</loc>
+        <lastmod>2021-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/tendiendo-puentes-entre-sujetos-empresariales-y-comision-de-la-verdad</loc>
+        <lastmod>2021-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/un-pdet-en-bogota</loc>
+        <lastmod>2021-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/violencias-de-genero-en-la-transicion</loc>
+        <lastmod>2021-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/aprendizajes-de-paz-desde-el-sector-productivo</loc>
+        <lastmod>2021-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/mujeres-las-mas-afectadas-por-la-pandemia-que-pueden-hacer-las-empresas</loc>
+        <lastmod>2021-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/las-mujeres-de-uraba-quieren-que-su-comunidad-las-apoye</loc>
+        <lastmod>2021-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/lo-que-las-mujeres-de-uraba-quieren-decirle-al-sector-empresarial</loc>
+        <lastmod>2021-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/las-mujeres-de-uraba-quieren-ensenarles-a-otras-mujeres-a-emprender</loc>
+        <lastmod>2021-03-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/dialogo-para-el-tramite-pacifico-de-conflictividades-en-colombia</loc>
+        <lastmod>2022-01-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/ondas-del-territorio-confianza</loc>
+        <lastmod>2022-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/ondas-del-territorio-desarrollo-economico-inclusivo</loc>
+        <lastmod>2022-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/ondas-del-territorio-identidad</loc>
+        <lastmod>2022-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/ondas-del-territorio-liderazgo</loc>
+        <lastmod>2022-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/ondas-del-territorio-nuevas-narrativas</loc>
+        <lastmod>2022-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/confianza-para-la-inclusion-socioeconomica-de-los-firmantes-hablan-los-investigadores</loc>
+        <lastmod>2022-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/podcasts/confianza-para-la-inclusion-socioeconomica-de-los-firmantes</loc>
+        <lastmod>2022-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/adriana-guevara-p</loc>
-        <lastmod>2022-05-28</lastmod>
+        <lastmod>2020-05-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/albeiro-hernandez-reyes</loc>
+        <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/alejandra-vargas</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-01-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/alex-c-duran-montano</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2019-10-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/alexa-cepeda</loc>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -254,43 +380,50 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/amaurys-perez-ramos</loc>
+        <lastmod>2022-08-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/ana-irene-pena</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2015-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/ana-maria-rueda</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/andres-aponte-g</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-04-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/andres-cajiao</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2014-08-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/andres-felipe-aponte-gonzalez</loc>
+        <lastmod>2022-01-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/andres-hernandez</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/angie-duran-guerrero</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/angie-duran</loc>
+        <lastmod>2019-08-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -304,42 +437,35 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/beatriz-e-torres-c</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2015-08-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/carlos-gomez</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/carlos-patino-m</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/carolina-duenas</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/carolina-huerfano</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/carolina-sanchez-q</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-07-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/catalina-bello</loc>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -353,21 +479,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/christian-camilo-benito-rebollo</loc>
-        <lastmod>2022-05-31</lastmod>
+        <lastmod>2016-10-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/clarisa-martinez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/clemencia-sanchez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -388,7 +514,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/columnista-invitado-vivian-newman</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2014-07-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -409,21 +535,28 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/daniela-camargo-c</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-11-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/daniela-leon-roa</loc>
+        <lastmod>2015-06-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/david-eduardo-yepes</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2015-10-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/diana-delgado-restrepo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-07-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -444,14 +577,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/edna-patricia-santos-figueroa</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2017-09-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/eliana-velasquez-echeverri</loc>
+        <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/elizabeth-reyes-le-paliscot</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -472,21 +612,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/ervin-ballesteros</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/esteban-vega-fernandez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-07-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/felipe-zarama-s</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -499,36 +639,22 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/francy-chica</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/equipo/gabriela-higuita</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/gabriela-sanchez</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/gaviota-acevedo-espinosa</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/gina-lopez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-10-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -542,7 +668,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/harold-martinez-rojas</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-04-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -556,14 +682,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/humberto-buitrago-osorio</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/ingrid-acevedo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2013-11-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -577,28 +696,28 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/irina-cuesta</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2016-10-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/isabela-marin-carvajal</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/jenny-p-rivera-burgos</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2019-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/jeronimo-castillo</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2013-11-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -611,57 +730,99 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/jeronimo-sudarsky</loc>
+        <lastmod>2022-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/jhon-correa</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/jonathan-londono</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/jorge-mantilla-b</loc>
-        <lastmod>2022-08-07</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/jorge-mantilla-barreto</loc>
+        <lastmod>2021-10-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/jorge-soto-pulido</loc>
+        <lastmod>2015-07-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/jose-ordinola-aucca</loc>
+        <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/juan-diego-restrepo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2015-10-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/juan-pablo-rangel-estrada</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/julian-wilches</loc>
+        <lastmod>2015-07-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/juliana-castano</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/juliana-naranjo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/karol-renteria</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/katherine-ortiz</loc>
+        <lastmod>2022-06-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/katja-marianne-noordam</loc>
+        <lastmod>2015-09-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -682,168 +843,140 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/laura-campos-rivera</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/laura-cortes-r</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/laura-lozada</loc>
+        <lastmod>2022-06-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/laura-sofia-munoz</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-05-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/laura-vargas-p</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2020-12-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/leon-teicher</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2016-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/lidys-jimenez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/lina-m-soto-urbinez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2017-09-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/lina-martinez-puentes</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2019-09-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/luis-correa</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/luisa-de-la-cuesta-zuluaga</loc>
-        <lastmod>2022-05-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/luisa-ramirez-bernal</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-05-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/lukasz-zablonski</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/manuela-suarez-rueda</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2017-02-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/margarita-bautista</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-04-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/margarita-marin</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-04-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-acosta-velez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-alejandra-castillo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2019-04-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-catalina-giron</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2020-02-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-emilia-lleras</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-04-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-lucia-mendez</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/maria-paula-chavarro-mayusa</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2016-06-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-victoria-llorente</loc>
-        <lastmod>2022-07-22</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/martin-franco-velez</loc>
-        <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/mauricio-vargas</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-01-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -857,56 +990,63 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/miguel-suarez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-12-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/miguel-winogrand</loc>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/milena-gaitan-guerra</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2013-10-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/monica-trujillo-p</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2020-01-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/natalia-celis-uribe</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-04-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/natalia-gomez-m</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-02-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/natalia-torres-diaz</loc>
-        <lastmod>2022-05-28</lastmod>
+        <lastmod>2015-03-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/nicolas-landinez-e</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/nicolas-lopez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-02-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -934,56 +1074,56 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/oriana-alonso</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2020-03-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/patricia-bulla</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/patricia-estupinan-f</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-01-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/paula-andrea-gutierrez</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/paula-andrea-tobo</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2018-03-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/paula-andrea-valencia-c</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-11-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/paula-lancheros-s</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-11-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/paulo-esteban-tovar</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2014-04-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -996,15 +1136,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/raul-benito-r</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/prueba</loc>
+        <lastmod>2019-12-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/raul-gomez-p</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/raul-benito-r</loc>
+        <lastmod>2022-02-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1046,14 +1186,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/tatiana-mosquera-angulo</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2016-10-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/tatiana-prada</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/tatiana-prada-collazos</loc>
+        <lastmod>2016-10-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1067,63 +1207,805 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/vanessa-urbina-b</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2020-01-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/vicedith-leon-r</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2021-09-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/viviana-santofimio-t</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-04-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/yazmin-rocio-pachon</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2013-09-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/videos/como-y-por-que-nacio-fip</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/videos/paz-sector-empresarial-colombia-fundacion-ideas-para-la-paz</loc>
+        <lastmod>2014-03-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/videos/el-trabajo-con-las-comunidades</loc>
-        <lastmod>2022-08-08</lastmod>
+        <loc>https://stg.ideaspaz.org/videos/paz-sector-empresarial-en-colombia-2-fundacion-ideas-para-la-paz</loc>
+        <lastmod>2014-03-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/videos/hablan-los-fundadores</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/videos/drug-trafficking-and-colombias-peace-process-part-1</loc>
+        <lastmod>2014-05-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/videos/paz-posible</loc>
-        <lastmod>2022-08-16</lastmod>
+        <loc>https://stg.ideaspaz.org/videos/drug-trafficking-and-colombias-peace-process-part-2</loc>
+        <lastmod>2014-05-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/videos/sumar-ideas-para-generar-cambios</loc>
-        <lastmod>2022-08-08</lastmod>
+        <loc>https://stg.ideaspaz.org/videos/foro-reforma-a-las-fuerzas-armadas-en-escenarios-de-postguerra-y-postconflicto-parte-1</loc>
+        <lastmod>2014-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/foro-reforma-a-las-fuerzas-armadas-en-escenarios-de-postguerra-y-postconflicto-parte-2</loc>
+        <lastmod>2014-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/promo-foro-reforma-a-las-fuerzas-armadas-en-escenarios-de-postguerra-y-postconflicto</loc>
+        <lastmod>2014-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/segundo-conversatorio-seguridad-ciudadana-y-convivencia</loc>
+        <lastmod>2014-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/planeacion-policial-focalizada-fip</loc>
+        <lastmod>2014-11-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/crecio-el-apoyo-al-proceso-de-paz</loc>
+        <lastmod>2015-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/concectados-por-la-paz-2</loc>
+        <lastmod>2015-08-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/politica-de-drogas-en-chile-evidencia-tendencias-y-regulacion-eduardo-vergara-b-director-opdsh</loc>
+        <lastmod>2015-09-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/conversaciones-sobre-bogota-la-seguridad</loc>
+        <lastmod>2015-09-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/mesa-de-trabajo-sobre-seguridad-heterogeneidad-territorial-del-homicidio-en-medellin</loc>
+        <lastmod>2015-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-futuro-de-la-politica-de-drogas-en-paraguay</loc>
+        <lastmod>2015-10-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/homenaje-a-rodrigo-gutierrez-fundador-de-la-fip</loc>
+        <lastmod>2015-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/panel-agenda-de-paz-presente-y-futura</loc>
+        <lastmod>2015-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/presentacion-de-maria-victoria-llorente-directora-de-la-fundacion-ideas-para-la-paz</loc>
+        <lastmod>2015-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/saludo-del-alto-comisionado-para-la-fundacion-ideas-para-la-paz-15-anos-fip</loc>
+        <lastmod>2015-12-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/1-conectados-por-la-paz-introduccion</loc>
+        <lastmod>2016-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/2-conectados-por-la-paz-revision-de-experiencias-de-uso-de-tic-traduccion</loc>
+        <lastmod>2016-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/3-conectados-por-la-paz-revision-de-experiencias-de-uso-de-tic-2-original</loc>
+        <lastmod>2016-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/4-conectados-por-la-paz-trabajo-de-paneles-interaccion-traduccion</loc>
+        <lastmod>2016-01-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/gobierno-y-farc-blindan-los-acuerdos-de-la-habana</loc>
+        <lastmod>2016-05-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/foro-beneficios-de-la-paz-completo</loc>
+        <lastmod>2016-06-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/mesa-tematica-acceso-a-la-informacion-iii-aga-colombia</loc>
+        <lastmod>2016-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/forensis-2015-informacion-estadistica-sobre-violencia-en-colombia</loc>
+        <lastmod>2016-08-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-a-kevin-whitaker-en-el-foro-futuro-colombia</loc>
+        <lastmod>2016-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-a-martin-abregu-en-el-foro-futuro-colombia</loc>
+        <lastmod>2016-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-a-peter-schechter-en-el-foro-futuro-colombia</loc>
+        <lastmod>2016-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-a-ricardo-santamaria-foro-futuro-colombia</loc>
+        <lastmod>2016-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-a-silvia-bastante-en-el-foro-futuro-colombia</loc>
+        <lastmod>2016-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/hacia-una-agenda-compartida-de-empresas-y-construccion-de-paz-maria-victoria-llorente-fip</loc>
+        <lastmod>2016-09-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrevista-fip-las-empresas-en-irlanda-aliadas-de-la-paz-lecciones-para-colombia</loc>
+        <lastmod>2016-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/video-galeria-museo-de-relatos-de-memoria-una-iniciativa-de-ecopetrol-para-la-construccion-de-paz</loc>
+        <lastmod>2016-10-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-convenio-169-y-la-consulta-algunas-preguntas-frecuentes</loc>
+        <lastmod>2016-11-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/sector-privado-y-la-paz-en-la-cumbre-mundial-de-premios-nobel-de-paz</loc>
+        <lastmod>2017-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-pepa-el-esmad-en-el-posconflicto-analisis-fip</loc>
+        <lastmod>2017-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-pepa-seguridad-en-bogota-analisis-de-la-fundacion-ideas-para-la-paz-parte-1</loc>
+        <lastmod>2017-02-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/lanzamiento-instinto-de-vida-es-posible-reducir-los-homicidios</loc>
+        <lastmod>2017-04-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/9-recomendaciones-del-grupoplural-al-programa-de-sustitucion-de-cultivos-ilicitos</loc>
+        <lastmod>2017-04-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/como-medir-si-las-empresas-le-aportan-a-la-construccion-de-paz</loc>
+        <lastmod>2017-05-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/los-problemas-que-enfrenta-la-sustitucion-de-coca</loc>
+        <lastmod>2017-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/homenaje-a-luis-fernando-rico-isagen</loc>
+        <lastmod>2017-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-asamblea-general-de-la-onu-exalta-la-labor-de-la-fip</loc>
+        <lastmod>2018-05-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/presentacion-de-maria-victora-llorente-financiamiento-sostenible-para-la-paz</loc>
+        <lastmod>2018-05-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/lederach-y-ricigliano-hablan-de-colombia-y-el-futuro-de-la-paz</loc>
+        <lastmod>2018-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/lederach-y-ricigliano-hablan-de-colombia-y-el-futuro-de-la-paz</loc>
+        <lastmod>2018-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/envivola-fip-propone-un-cambio-de-rumbo-en-los-programas-de-desarrollo-con-enfoque-territorial</loc>
+        <lastmod>2018-06-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-fip-en-el-foro-de-naciones-unidas-para-el-sector-privado-2018</loc>
+        <lastmod>2018-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/fip-se-suma-a-la-alianza-civil-por-la-democracia-la-vida-y-el-pluralismo</loc>
+        <lastmod>2018-10-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/obras-por-impuestos-a-un-ano-de-su-implementacion</loc>
+        <lastmod>2019-01-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/como-viven-las-personas-de-la-comunidad-lgbti-en-apartado</loc>
+        <lastmod>2019-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/mujeres-en-el-mercado-laboral-apartado</loc>
+        <lastmod>2019-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/mujeres-seguridad-y-estereotipos-apartado</loc>
+        <lastmod>2019-03-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/ensamble-gestion-integral-para-la-seguridad-ciudadana</loc>
+        <lastmod>2019-03-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/laboratorios-espacios-para-conversar-eco-buenaventura</loc>
+        <lastmod>2019-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/laboratorios-espacios-para-conversar-eco-buritica</loc>
+        <lastmod>2019-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/laboratorios-espacios-para-conversar-eco-canon-del-porce</loc>
+        <lastmod>2019-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/paso-a-paso-empaz</loc>
+        <lastmod>2019-04-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/estrategia-para-vincular-a-las-empresas-en-la-atencion-a-ex-miembros-de-la-fuerza-publica</loc>
+        <lastmod>2019-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-micrositio-de-empresas-paz-y-derechos-humanos-se-renueva</loc>
+        <lastmod>2019-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/conferencia-las-verdades-que-conviven</loc>
+        <lastmod>2019-12-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/que-hacer-con-el-eln-opciones-para-no-cerrar-la-puerta-a-una-salida-negociada</loc>
+        <lastmod>2020-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/inseguridad-en-el-catatumbo-el-punto-debil-de-la-transformacion-territorial</loc>
+        <lastmod>2020-03-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/impactos-y-riesgos-del-covid-19-en-la-paz-y-las-dinamicas-del-conflicto</loc>
+        <lastmod>2020-04-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-coronavirus-tambien-podria-poner-en-cuarentena-a-la-paz</loc>
+        <lastmod>2020-04-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/urge-una-accion-conjunta-humanitaria-entre-colombia-y-venezuela-que-abra-puertas</loc>
+        <lastmod>2020-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/que-esta-pasando-con-las-comunidades-vulnerables-en-el-sur-occidente-del-pais</loc>
+        <lastmod>2020-05-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-olla-a-presion-de-las-carceles-no-solo-estallo-en-colombia</loc>
+        <lastmod>2020-05-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/colombia-siembra-menos-coca-pero-produce-la-misma-cocaina</loc>
+        <lastmod>2020-06-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-seguridad-en-tiempos-de-covid-19</loc>
+        <lastmod>2020-06-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/lanzamiento-el-catalogo-de-las-pequenas-soluciones-historias-de-sustitucion-de-cultivos-ilicitos</loc>
+        <lastmod>2020-06-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/pequenassoluciones-juan-urbano-campesino-boyacense-cuenta-como-sustituyo-coca-por-cacao</loc>
+        <lastmod>2020-07-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/como-funciona-el-mercado-de-armas-de-fuego-una-mirada-global-regional-y-nacional</loc>
+        <lastmod>2020-07-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/en-colombia-no-hay-una-sino-varias-guerras-locales-todas-creciendo</loc>
+        <lastmod>2020-09-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/que-hay-detras-del-abuso-policial</loc>
+        <lastmod>2020-09-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/principales-reflexiones-del-informecomo-se-comportael-delito-en-colombia-enepoca-de-confinamiento</loc>
+        <lastmod>2020-09-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/es-sumando-ideas-como-generamos-cambios</loc>
+        <lastmod>2020-10-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-impacto-tuvo-la-pandemia-en-la-participacion-ciudadana</loc>
+        <lastmod>2021-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/el-partido-comunes-las-disidencias-y-las-declaraciones-de-la-canciller</loc>
+        <lastmod>2021-04-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/como-hacemos-para-frenar-la-violencia-en-las-calles</loc>
+        <lastmod>2021-05-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/puntos-claves-de-la-negociacion-en-el-paro-nacional</loc>
+        <lastmod>2021-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/por-que-es-tan-dificil-negociar-con-el-eln</loc>
+        <lastmod>2021-05-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/que-debe-incluir-la-reforma-a-la-policia</loc>
+        <lastmod>2021-06-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-fip-presento-balance-de-los-pdet-de-tres-regiones-en-la-camara-de-representantes</loc>
+        <lastmod>2021-06-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/envivo-lanzamiento-tenemos-que-hablar-colombia</loc>
+        <lastmod>2021-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/los-jovenes-tienen-la-palabra-camara-de-representantes-11082021</loc>
+        <lastmod>2021-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/por-que-es-importante-el-liderazgo-civil-para-la-transformacion-de-la-policia</loc>
+        <lastmod>2021-08-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/homenaje-rodrigo-gutierrez-duque</loc>
+        <lastmod>2021-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/recomendaciones-de-un-clima-peligroso</loc>
+        <lastmod>2021-10-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/hallazgos-un-clima-peligroso-deforestacion-cambio-climatico-y-violencia-en-la-amazonia-colombiana</loc>
+        <lastmod>2021-10-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/fip-participa-en-la-audiencia-publica-sobre-los-pdet-en-el-pacifico-medio</loc>
+        <lastmod>2021-12-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/ser-duros-o-ser-justos-el-uso-de-la-fuerza-por-parte-de-la-policia</loc>
+        <lastmod>2021-12-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/cual-es-la-situacion-de-orden-publico-en-arauca</loc>
+        <lastmod>2022-01-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/launch-lethal-force-monitor-2022-lanzamiento-monitor-fuerza-letal-2022</loc>
+        <lastmod>2022-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/fip-participo-en-el-gran-foro-colombia-2022-de-la-revista-semana</loc>
+        <lastmod>2022-01-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/que-es-cacao-conecta</loc>
+        <lastmod>2022-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-mala-hora-de-las-curules-de-paz-escenarios-de-riesgo-y-acciones-prioritarias</loc>
+        <lastmod>2022-03-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/hablemoscolombia-dialogo-de-dialogos</loc>
+        <lastmod>2022-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/los-jovenes-tienen-la-palabra</loc>
+        <lastmod>2022-05-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/de-jovenes-a-jovenes</loc>
+        <lastmod>2022-05-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/ni-paz-ni-guerra</loc>
+        <lastmod>2022-06-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/migracion-xenofobia-y-ninez-retos-para-la-integracion</loc>
+        <lastmod>2022-07-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-formacion-para-avanzar-en-la-implementacion-del-acuerdo-de-paz</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-la-macarena-meta</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-puerto-libertador-cordoba</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-san-jose-guaviare</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-solano-caqueta</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/entrelazando-tibu-catatumbo</loc>
+        <lastmod>2022-07-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/la-paz-con-el-eln-desafios-y-decisiones-claves</loc>
+        <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1234,8 +2116,78 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-02/no-01-contraofensiva-de-las-farc</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-02/no-02-mucho-ruido-pocas-nueces</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-02/no-03-pescando-en-rio-revuelto</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-03/no-04-la-resbalosa</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-03/no-05-ruido-en-el-perimetro</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-03/no-06-guayana-calibre-762</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2005-04/justicia-verdad-y-reparacion-en-medio-del-conflicto</loc>
         <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-04/no-07-el-fantasma-de-san-onofre</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-04/no-08-operando-en-el-vacio</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-04/no-09-las-elecciones-en-el-macizo</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-04/no-10-quien-manda-a-quien</loc>
+        <lastmod>2011-11-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1248,6 +2200,97 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-05/no-11-el-ultimo-aliento</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-05/no-12-articulo-18</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-05/no-13-la-sedicion-paramilitar</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-05/no-14-el-sitio-de-argelia</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-06/no-15-orden-de-captura</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-06/no-16-relaciones-publicas</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-06/no-17-la-derrota-de-la-coca</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-06/no-18-medio-tiempo</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-07/no-19-limites-estrategicos</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-07/no-20-la-soberania-del-macizo</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-07/no-21-justicia-y-paz-en-espana</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-07/no-22-reinsercion-sin-reconciliacion</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-07/no-23-la-paz-publica</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2005-08/negociar-ya</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -1255,8 +2298,127 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-08/no-24-quien-hace-que</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-08/no-25-la-tercera-generacion</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-08/no-26-la-franja-invisible</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-08/no-27-pre-dialogo-electoral</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-09/no-28-verificacion-de-que</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-09/no-29-la-paz-de-la-politica</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-09/no-30-ilusiones-surafricanas</loc>
+        <lastmod>2011-11-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-09/no-31-dispersar-y-concentrarse</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-09/no-32-la-mediacion-del-vecindario</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-10/no-33-aguas-tibias</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-10/no-34-juego-de-espejos</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-10/no-35-elecciones-de-reeleccion</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-10/no-36-la-caza-de-cabecillas</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-11/no-37-las-reglas-del-juego</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-11/no-38-reinsercion-primeras-conclusiones</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2005-12/no-39-el-turno-del-eln</loc>
+        <lastmod>2011-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2006-02/no-01-los-mochos-de-ralito</loc>
         <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-02/no-40-la-guerra-de-la-macarena</loc>
+        <lastmod>2011-11-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1276,8 +2438,29 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-03/no-41-las-condiciones-de-la-tortura</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2006-04/no-03-las-ninas-del-norte</loc>
         <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-04/no-42-que-hacer-con-el-das</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-04/no-43-la-telarana-de-la-teofilo</loc>
+        <lastmod>2011-11-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1292,6 +2475,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2006-06/participacion-del-sector-empresarial-en-la-reinsercion-percepciones-y-oportunidades</loc>
         <lastmod>2021-05-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-06/no-44-las-penas-de-la-corte</loc>
+        <lastmod>2011-11-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1339,7 +2529,21 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2006-10/no-45-favorabilidad-de-quien</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2006-11/la-estabilizacion-economica-de-la-poblacion-desplazada</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2006-11/operaciones-en-zonas-de-conflicto-y-gobernabilidad-fragil-guias-practicas-para-empresas-en-sectores-no-extractivos</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1348,6 +2552,27 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2006-12/no-07-reclusas-en-mocoa</loc>
         <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-02/no-47-de-excombatientes-a-ciudadanos-luces-y-sombras-de-los-nuevos-planes-de-desmovilizacion</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-03/no-48-la-apuesta-de-la-novena-conferencia-de-las-farc</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-04/no-49-relaciones-peligrosas-los-dilemas-de-los-empresarios-en-el-conflicto</loc>
+        <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1362,6 +2587,34 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2007-06/no-09-el-grito-wayuu</loc>
         <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-06/no-50-las-dos-caras-de-la-reparacion-via-judicial-o-via-administrativa</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-07/no-51-riesgo-calculado-intercambio-humanitario-y-seguridad</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-08/no-52-la-tierra-en-el-campo-colombiano-es-posible-la-justicia</loc>
+        <lastmod>2011-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2007-10/no-46-nuevos-retos-en-un-viejo-conflicto-el-futuro-de-la-seguridad-democratica</loc>
+        <lastmod>2011-11-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1383,6 +2636,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2008-03/no-10-la-historia-de-la-senora-cornelia</loc>
         <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2008-04/no-53-las-raices-del-comportamiento-del-presidente-chavez</loc>
+        <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1612,6 +2872,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2009-03/no-54-el-programa-de-paz-y-reconciliacion-de-medellin-la-erosion-gradual-de-un-poder-ilegal</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2009-04/reconstruccion-de-la-masculinidad-y-reintegracion-de-excombatientes-en-colombia</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -1647,6 +2914,20 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2009-07/no-55-las-farc-un-ano-despues-de-jaque</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2009-07/no-57-el-acuerdo-militar-entre-colombia-y-estados-unidos-una-apuesta-estrategica</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2009-07/la-extradicion-y-las-farc-mas-lena-al-fuego-del-conflicto-armado</loc>
         <lastmod>2021-06-03</lastmod>
         <changefreq>monthly</changefreq>
@@ -1662,6 +2943,13 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2009-08/coordinadores-de-area-de-la-fip-opinan-sobre-las-agendas-de-paz-de-los-candidatos</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2009-08/no-56-un-balance-de-la-aplicacion-de-la-ley-de-justicia-y-paz</loc>
         <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1725,6 +3013,13 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2009-12/caqueta-y-la-suerte-de-la-seguridad-democratica</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2010-01/no-58-para-donde-va-el-paramilitarismo-en-colombia</loc>
         <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -2306,6 +3601,13 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/news/2010-07/fip-participo-en-segunda-gira-de-cooperacion-tecnica-sur-sur</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2010-07/lanzamiento-de-guias-colombia</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -3040,6 +4342,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2011-06/no-59-pensando-en-una-mejor-inteligencia-para-colombia</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2011-06/usos-y-abusos-de-la-extradicion-en-la-lucha-contra-las-drogas</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -3140,6 +4449,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2011-08/la-guajira-en-su-laberinto-transformaciones-y-desafios-de-la-violencia</loc>
         <lastmod>2019-01-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2011-08/no-60-el-pnvcc-oportunidad-para-los-nuevos-alcaldes</loc>
+        <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3404,6 +4720,34 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2011-11/empresas-y-derechos-humanos-en-colombia</loc>
+        <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2011-11/fundacion</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2011-11/memorando-de-entendimiento</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2011-11/reglamento-de-gobierno-interno</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2011-11/boletin-de-prensa-internacional-020811</loc>
         <lastmod>2011-12-22</lastmod>
         <changefreq>monthly</changefreq>
@@ -3509,6 +4853,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2012-01/codhes-nuevo-miembro-de-guias-colombia</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2012-02/la-inteligencia-y-el-estado-democratico</loc>
         <lastmod>2021-06-04</lastmod>
         <changefreq>monthly</changefreq>
@@ -3525,6 +4876,20 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2012-02/lineamientos-de-politica-para-la-paz-negociada-y-la-justicia-post-conflicto</loc>
         <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2012-03/lineamientos-de-seguridad</loc>
+        <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2012-03/lineamientos-en-quejas-y-reclamos</loc>
+        <lastmod>2019-07-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3581,6 +4946,20 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2012-04/boletin-de-prensa-internacional-280212</loc>
         <lastmod>2012-04-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2012-04/indicadores-de-seguridad</loc>
+        <lastmod>2021-06-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2012-04/indicadores-en-quejas-y-reclamos</loc>
+        <lastmod>2021-06-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3929,6 +5308,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/analysis/2013-04/no-llores-por-tanja-colombia</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2013-04/no-llores-por-tanja-colombia</loc>
         <lastmod>2013-04-25</lastmod>
         <changefreq>monthly</changefreq>
@@ -3936,8 +5322,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/analysis/2013-04/no-llores-por-tanja-colombia</loc>
-        <lastmod>2021-06-09</lastmod>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-04/las-ollas-un-asunto-a-largo-plazo</loc>
+        <lastmod>2013-04-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4006,6 +5392,27 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-07/no-61-conflicto-armado-en-la-guajira-y-su-impacto-humanitario</loc>
+        <lastmod>2013-09-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-07/ollas-la-policia-intervino-pero-persiste-el-problema</loc>
+        <lastmod>2013-11-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-07/no-62-conflicto-armado-en-tolima-y-su-impacto-humanitario</loc>
+        <lastmod>2013-07-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2013-07/conflicto-armado-en-tolima-y-su-impacto-humanitario</loc>
         <lastmod>2018-07-18</lastmod>
         <changefreq>monthly</changefreq>
@@ -4041,6 +5448,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-08/no-63-conflicto-armado-en-meta-y-su-impacto-humanitario</loc>
+        <lastmod>2013-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2013-08/primer-foro-regional-latinoamericano-y-del-caribe-sobre-empresas-y-derechos-humanos</loc>
         <lastmod>2013-08-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -4069,8 +5483,29 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2013-09/guias-colombia-en-derechos-humanos-y-derecho-internacional-humanitario</loc>
+        <lastmod>2018-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2013-09/las-farc-y-el-conflicto-armado-en-caqueta</loc>
         <lastmod>2013-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-10/no-64-conflicto-armado-y-su-impacto-humanitario-en-la-region-del-catatumbo</loc>
+        <lastmod>2018-08-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-10/no-65-la-guerra-en-las-coyunturas-de-negociacion-tlaxcala-el-caguan-la-habana</loc>
+        <lastmod>2019-01-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4085,6 +5520,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/news/2013-10/verdadabiertacom-gana-el-premio-simon-bolivar-a-la-mejor-investigacion-en-internet</loc>
         <lastmod>2013-11-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2013-11/no-66-farc-en-las-periferias-tumaco-un-caso-mas</loc>
+        <lastmod>2013-12-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4139,8 +5581,29 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-01/no-67-los-homicidios-en-2013-que-dicen-y-que-no-dicen-las-cifras</loc>
+        <lastmod>2014-01-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-02/no-68-dinamicas-del-conflicto-en-el-bajo-cauca-antioqueno-y-su-impacto-humanitario</loc>
+        <lastmod>2014-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2014-02/la-fip-se-une-a-reconciliacion-colombia-una-iniciativa-de-la-sociedad-civil</loc>
         <lastmod>2014-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-02/no-69-dinamicas-del-conflicto-armado-en-tumaco-y-su-impacto-humanitario</loc>
+        <lastmod>2014-02-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4216,6 +5679,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-05/no-70-la-crisis-de-buenaventura-la-vive-todo-el-pacifico</loc>
+        <lastmod>2017-05-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2014-05/encuentro-internacional-sobre-dialogos-de-seguridad-ciudadana</loc>
         <lastmod>2014-05-29</lastmod>
         <changefreq>monthly</changefreq>
@@ -4237,6 +5707,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-06/el-conflicto-armado-en-el-nudo-de-paramillo-y-su-impacto-humanitario</loc>
+        <lastmod>2014-06-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2014-06/que-se-ha-acordado-en-la-habana</loc>
         <lastmod>2015-03-12</lastmod>
         <changefreq>monthly</changefreq>
@@ -4251,8 +5728,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/analysis/2014-06/conozca-nuestro-informe-de-gestion-2013</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2014-06/conozca-nuestro-informe-de-gestion-2013</loc>
         <lastmod>2020-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-06/el-conflicto-armado-en-el-sur-del-valle-y-el-norte-del-cauca-y-su-impacto-humanitario</loc>
+        <lastmod>2014-07-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4260,6 +5744,20 @@
     <url>
         <loc>https://stg.ideaspaz.org/news/2014-07/la-fip-socio-para-la-guia-de-pais-de-derechos-humanos-y-empresas-del-danish-institute</loc>
         <lastmod>2014-07-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-07/conflicto-armado-en-caqueta-y-putumayo-y-su-impacto-humanitario</loc>
+        <lastmod>2015-06-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2014-07/dinamicas-del-conflicto-armado-en-arauca-y-su-impacto-humanitario</loc>
+        <lastmod>2014-09-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4356,6 +5854,20 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2014-10/guia-de-trabajo-decente</loc>
+        <lastmod>2019-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2014-10/guia-para-la-compra-y-la-adquisicion-de-derechos-sobre-la-tierra-y-derecho-de-uso</loc>
+        <lastmod>2019-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2014-10/la-regulacion-de-la-marihuana-decisiones-claves-para-un-marco-regulatorio</loc>
         <lastmod>2015-11-12</lastmod>
         <changefreq>monthly</changefreq>
@@ -4440,6 +5952,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-02/lo-que-esconden-las-cifras-en-2014-bajaron-los-homicidios-pero-persisten-dinamicas-criminales</loc>
+        <lastmod>2016-03-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2015-02/planeacion-capacitacion-y-tecnologia-un-modelo-efectivo-para-la-seguridad</loc>
         <lastmod>2017-01-22</lastmod>
         <changefreq>monthly</changefreq>
@@ -4449,6 +5968,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2015-02/reconciliar-las-amnistias-con-la-justicia</loc>
         <lastmod>2016-02-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-03/las-farc-hoy-en-el-catatumbo</loc>
+        <lastmod>2017-01-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4524,6 +6050,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-04/hoy-y-ayer-del-bloque-oriental-de-las-farc</loc>
+        <lastmod>2015-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2015-04/dialogos-de-seguridad-ciudadana</loc>
         <lastmod>2015-04-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -4545,6 +6078,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-04/el-abc-del-ejercito-de-liberacion-nacional</loc>
+        <lastmod>2016-03-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2015-04/participacion-empresarial-un-aporte-a-la-construccion-de-paz</loc>
         <lastmod>2016-03-08</lastmod>
         <changefreq>monthly</changefreq>
@@ -4552,8 +6092,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2015-05/conozca-nuestro-informe-de-gestion-2014</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2015-05/conozca-nuestro-informe-de-gestion-2014</loc>
         <lastmod>2020-04-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-05/el-eln-y-la-industria-petrolera-ataques-a-la-infraestructura-en-arauca</loc>
+        <lastmod>2016-03-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4643,6 +6190,20 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-07/lo-que-dejo-la-suspension-del-cese-entre-el-escalamiento-limitado-pero-de-alto-impacto</loc>
+        <lastmod>2015-07-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-07/oro-crimen-organizado-y-guerrillas-en-quibdo</loc>
+        <lastmod>2015-10-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2015-08/conectados-por-la-paz-tecnologia-participacion-y-dialogos-de-paz</loc>
         <lastmod>2017-01-22</lastmod>
         <changefreq>monthly</changefreq>
@@ -4692,8 +6253,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-09/el-desarme-de-las-farc-claves-y-propuestas-para-un-proceso-viable-exitoso-y-transparente</loc>
+        <lastmod>2017-07-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2015-09/escuela-de-guerra-y-paz</loc>
         <lastmod>2015-09-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2015-10/los-gaitanistas-una-fuerza-hegemonica-en-el-bajo-cauca-antioqueno</loc>
+        <lastmod>2015-10-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4909,6 +6484,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2016-03/primeros-pasos-para-la-transicion-de-las-farc</loc>
+        <lastmod>2016-06-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2016-03/la-fip-y-el-ministerio-de-justicia-publican-atlas-de-microtrafico-y-comercializacion-en-cinco-ciudades</loc>
         <lastmod>2016-12-07</lastmod>
         <changefreq>monthly</changefreq>
@@ -5028,6 +6610,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2016-05/las-dos-caras-de-la-reduccion-del-homicidio-en-colombia-logros-y-retos-para-el-postconflicto</loc>
+        <lastmod>2016-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2016-05/el-catatumbo-reacomodo-de-la-guerra-y-tensiones-sociales</loc>
         <lastmod>2016-05-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5119,6 +6708,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2016-06/claves-para-entender-el-acuerdo-de-cese-al-fuego-y-hostilidades-entre-el-gobierno-y-las-farc</loc>
+        <lastmod>2016-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2016-06/los-interrogantes-del-blindaje-juridico-para-la-paz</loc>
         <lastmod>2016-07-20</lastmod>
         <changefreq>monthly</changefreq>
@@ -5168,7 +6764,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2016-07/conozca-nuestro-informe-de-gestion-2015</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2016-07/conozca-nuestro-informe-de-gestion-2015</loc>
         <lastmod>2019-03-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -5260,6 +6856,13 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2016-08/el-cese-del-papel-el-cese-en-el-terreno</loc>
+        <lastmod>2016-08-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2016-08/eln-mucho-ruido-y-poca-fuerza</loc>
         <lastmod>2016-08-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -5532,6 +7135,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2016-11/abc-del-monitoreo-y-la-verificacion-del-cese-al-fuego-y-la-dejacion-de-armas-de-las-farc</loc>
+        <lastmod>2016-12-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2016-12/agenda-de-trabajo-en-empresas-empoderamiento-economico-de-las-mujeres-y-construccion-de-paz</loc>
         <lastmod>2017-04-20</lastmod>
         <changefreq>monthly</changefreq>
@@ -5604,6 +7214,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/news/2017-01/una-vez-mas-la-fip-entre-los-centros-de-pensamiento-mas-destacados-de-america-latina</loc>
         <lastmod>2017-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2017-01/riesgos-y-retos-en-las-zonas-donde-se-concentran-las-farc</loc>
+        <lastmod>2017-02-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -5744,6 +7361,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2017-03/dejacion-entrega-desarme-el-debate-continua</loc>
         <lastmod>2017-03-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2017-03/siete-regiones-sin-la-presencia-de-las-farc-siete-problemas-mas</loc>
+        <lastmod>2017-04-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -6008,6 +7632,27 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2017-07/cadena-de-suministro</loc>
+        <lastmod>2019-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2017-07/crimen-organizado-y-saboteadores-armados-en-tiempos-de-transicion-radiografia-necesaria</loc>
+        <lastmod>2018-10-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2017-07/fortalecimiento-institucional</loc>
+        <lastmod>2019-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2017-07/las-farc-nunca-quisieron-que-sembraramos-esta-coca</loc>
         <lastmod>2017-07-19</lastmod>
         <changefreq>monthly</changefreq>
@@ -6057,7 +7702,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2017-08/conozca-nuestro-informe-de-gestion-2016</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2017-08/conozca-nuestro-informe-de-gestion-2016</loc>
         <lastmod>2019-03-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -6253,6 +7898,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2017-11/mujeres-y-la-economia-cocalera-en-el-putumayo</loc>
+        <lastmod>2018-01-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2017-12/falso-dilema-entre-el-emprendimiento-privado-y-la-paz</loc>
         <lastmod>2017-12-01</lastmod>
         <changefreq>monthly</changefreq>
@@ -6372,6 +8024,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2018-02/retornos-de-mujeres-a-zonas-rurales-recomendaciones-de-politica-publica</loc>
+        <lastmod>2018-02-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2018-02/la-desaparicion-del-grupo-de-genero-de-la-unidad-de-victimas-preocupa</loc>
         <lastmod>2018-02-16</lastmod>
         <changefreq>monthly</changefreq>
@@ -6402,6 +8061,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2018-04/si-prohibir-la-dosis-personal-no-es-la-solucion-cuales-son-las-opciones</loc>
         <lastmod>2018-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2018-04/las-disidencias-de-las-farc-un-problema-en-auge</loc>
+        <lastmod>2018-04-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -6449,7 +8115,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2018-05/conozca-nuestro-informe-de-gestion-2017</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2018-05/conozca-nuestro-informe-de-gestion-2017</loc>
         <lastmod>2019-03-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -6561,6 +8227,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2018-08/inseguridad-y-violencia-en-las-fronteras-los-desafios-del-nuevo-gobierno</loc>
+        <lastmod>2018-09-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2018-08/catatumbo-lecciones-de-la-nueva-cara-de-la-confrontacion</loc>
         <lastmod>2018-08-27</lastmod>
         <changefreq>monthly</changefreq>
@@ -6617,6 +8290,20 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2018-10/la-estabilizacion-en-la-fase-de-transicion</loc>
+        <lastmod>2018-10-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2018-10/gobierno-reitera-su-apoyo-a-la-iniciativa-multiactor-guias-colombia</loc>
+        <lastmod>2018-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2018-11/la-estrategia-contra-las-disidencias-una-cortina-de-humo</loc>
         <lastmod>2018-11-07</lastmod>
         <changefreq>monthly</changefreq>
@@ -6626,6 +8313,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2018-11/los-primeros-100-dias-del-presidente-duque-conflicto-acuerdo-de-paz-y-politica-de-drogas</loc>
         <lastmod>2018-11-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/guias-colombia/2018-11/guias-colombia-lanza-estudio-de-caso-del-mecanismo-de-quejas-y-reclamos-de-telefonica</loc>
+        <lastmod>2019-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -6813,7 +8507,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2019-03/conozca-nuestro-informe-de-gestion-2018</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2019-03/conozca-nuestro-informe-de-gestion-2018</loc>
         <lastmod>2019-03-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -6848,8 +8542,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2019-04/apartado-violencias-de-genero-y-agenda-de-paz</loc>
+        <lastmod>2019-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/news/2019-04/lanzamiento-de-empaz-web-herramienta-que-mide-el-aporte-empresarial-a-la-paz</loc>
         <lastmod>2021-10-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2019-04/la-fragilidad-de-la-transicion-la-paz-incompleta-y-la-continuidad-de-la-confrontacion-armada</loc>
+        <lastmod>2019-05-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -6946,6 +8654,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2019-08/como-estan-las-condiciones-de-seguridad-de-los-excombatientes-de-las-farc</loc>
+        <lastmod>2019-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2019-08/la-implementacion-del-acuerdo-de-paz-a-marchas-forzadas</loc>
         <lastmod>2019-08-05</lastmod>
         <changefreq>monthly</changefreq>
@@ -6983,6 +8698,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/news/2019-08/el-uso-que-las-autoridades-hacen-de-la-fuerza-letal-en-america-latina-riesgos-y-abusos</loc>
         <lastmod>2019-08-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2019-08/el-anuncio-de-ivan-marquez-y-las-nuevas-farc-implicaciones-y-posibles-impactos</loc>
+        <lastmod>2021-12-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7030,6 +8752,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2020-01/que-hacer-con-el-eln-opciones-para-no-cerrar-la-puerta-a-una-salida-negociada</loc>
+        <lastmod>2020-02-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2020-02/que-poder-tiene-realmente-claudia-lopez-sobre-la-policia-y-el-esmad</loc>
         <lastmod>2020-02-24</lastmod>
         <changefreq>monthly</changefreq>
@@ -7037,8 +8766,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2020-02/inseguridad-en-el-catatumbo-el-punto-debil-de-la-transformacion-territorial</loc>
+        <lastmod>2020-03-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/opinion/2020-04/silencios-en-tiempos-de-inseguridad</loc>
         <lastmod>2020-04-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2020-04/impactos-y-riesgos-del-covid-19-en-la-paz-y-las-dinamicas-del-conflicto</loc>
+        <lastmod>2020-05-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7086,7 +8829,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2020-05/conozca-nuestro-informe-de-gestion-2019</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2020-05/conozca-nuestro-informe-de-gestion-2019</loc>
         <lastmod>2020-05-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -7144,6 +8887,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2020-06/bogota-seguridad-y-nuevos-delitos</loc>
         <lastmod>2020-06-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2020-07/infografia-dinamicas-de-la-confrontacion-armada-y-su-impacto-humanitario-a-mayo-de-2020</loc>
+        <lastmod>2021-09-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7394,7 +9144,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2021-04/conozca-nuestro-informe-de-gestion-2020</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2021-04/conozca-nuestro-informe-de-gestion-2020</loc>
         <lastmod>2022-05-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -7611,8 +9361,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2021-09/un-clima-peligroso-deforestacion-cambio-climatico-y-violencia-contra-los-defensores-ambientales-en-la-amazonia-colombiana</loc>
+        <lastmod>2021-12-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/analysis/2021-10/como-va-la-implementacion-del-acuerdo-de-paz-en-el-sur-de-bolivar</loc>
         <lastmod>2021-10-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/siguiendo-el-conflicto/2021-10/el-clan-del-golfo-sin-otoniel-que-cambia-y-que-continua</loc>
+        <lastmod>2021-12-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7800,7 +9564,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/news/2022-04/conozca-nuestro-informe-de-gestion-2021</loc>
+        <loc>https://stg.ideaspaz.org/annual-report/2022-04/conozca-nuestro-informe-de-gestion-2021</loc>
         <lastmod>2022-05-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -7899,7 +9663,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/analysis/2022-07/la-paz-con-el-eln-desafios-y-decisiones-claves</loc>
-        <lastmod>2022-08-11</lastmod>
+        <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7920,7 +9684,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2022-07/en-una-negociacion-con-el-eln-es-indispensable-la-cooperacion-de-maduro</loc>
-        <lastmod>2022-08-11</lastmod>
+        <lastmod>2022-07-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7942,41 +9706,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/en/staff/humanity-united</loc>
         <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/staff/jorge-mantilla-b</loc>
-        <lastmod>2022-07-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/staff/maria-victoria-llorente</loc>
-        <lastmod>2022-07-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/videos/how-and-why-the-fip-was-born</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/videos/founders-speak</loc>
-        <lastmod>2022-08-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/videos/posible-peace</loc>
-        <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
