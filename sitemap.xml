@@ -3,7 +3,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org</loc>
-        <lastmod>2022-08-13</lastmod>
+        <lastmod>2022-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -66,7 +66,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/quienes-somos</loc>
-        <lastmod>2022-08-13</lastmod>
+        <lastmod>2022-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1964,6 +1964,27 @@
     <url>
         <loc>https://stg.ideaspaz.org/videos/la-paz-con-el-eln-desafios-y-decisiones-claves</loc>
         <lastmod>2022-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/colombia-necesita-conversar-sobre-la-paz-posible-maria-victoria-llorente</loc>
+        <lastmod>2022-08-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/como-y-por-que-nacio-la-fip</loc>
+        <lastmod>2022-08-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/videos/hablan-los-fundadores</loc>
+        <lastmod>2022-08-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
