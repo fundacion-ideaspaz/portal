@@ -59,7 +59,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/quienes-somos</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1059,6 +1059,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/acnur</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/adriana-guevara-p</loc>
         <lastmod>2020-05-11</lastmod>
         <changefreq>monthly</changefreq>
@@ -1087,13 +1094,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/almacenes-exito</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/equipo/amaurys-perez-ramos</loc>
         <lastmod>2022-08-08</lastmod>
         <changefreq>monthly</changefreq>
@@ -1115,8 +1115,15 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/andi</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/andres-cajiao</loc>
-        <lastmod>2014-08-20</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1130,7 +1137,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/andres-hernandez</loc>
-        <lastmod>2022-02-15</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1143,8 +1150,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/avianca</loc>
-        <lastmod>2022-08-05</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/anglo-gold-ashanti-colombia</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/bavaria</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1152,6 +1166,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/equipo/beatriz-e-torres-c</loc>
         <lastmod>2015-08-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/camara-de-comercio-de-bogota</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1178,8 +1199,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/cencosud-colombia-tiendas-jumbo-easy</loc>
-        <lastmod>2022-08-07</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/cenit</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/cerrejon</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1206,36 +1234,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/colombia-telecomunicaciones-telefonica</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/colombiana-de-comercio-alkosto</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/equipo/columnista-invitado-vivian-newman</loc>
         <lastmod>2014-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/compensar</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/comunicacion-celular-s-a-claro</loc>
-        <lastmod>2022-08-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1255,6 +1255,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/davivienda</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/diana-delgado-restrepo</loc>
         <lastmod>2018-07-25</lastmod>
         <changefreq>monthly</changefreq>
@@ -1263,21 +1270,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/disan-latinoamerica</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/ecopetrol</loc>
-        <lastmod>2022-08-05</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/edna-patricia-santos-figueroa</loc>
-        <lastmod>2017-09-05</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1291,21 +1298,28 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/elizabeth-reyes-le-paliscot</loc>
-        <lastmod>2013-09-15</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/embajada-de-suecia</loc>
-        <lastmod>2022-08-09</lastmod>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/embajada-de-suiza</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/empresas-publicas-de-medellin</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1332,8 +1346,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/fondos-del-reino-unido-en-colombia</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/ford-foundation</loc>
         <lastmod>2022-08-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/fundacion-konrad-adenauer</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1353,8 +1381,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/geopark</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/gina-lopez</loc>
-        <lastmod>2021-10-04</lastmod>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/grupo-argos</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1374,8 +1416,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/https-humanityunited-org</loc>
-        <lastmod>2022-08-09</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/hitachi</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/humanity-united</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1388,8 +1437,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/inmar-overseas-sucursal-colombia</loc>
-        <lastmod>2022-08-07</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/international-republican-institute</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1417,14 +1466,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/jeronimo-castillo</loc>
-        <lastmod>2013-11-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/jeronimo-martins-colombia-tiendas-ara</loc>
-        <lastmod>2022-08-07</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1452,7 +1494,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/jorge-mantilla-barreto</loc>
-        <lastmod>2021-10-29</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1509,20 +1551,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/equipo/katja-marianne-noordam</loc>
         <lastmod>2015-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/koba-colombia</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/kopps-commercial</loc>
-        <lastmod>2022-08-05</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1648,7 +1676,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/maria-lucia-mendez</loc>
-        <lastmod>2016-06-13</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1668,29 +1696,36 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/medimas</loc>
-        <lastmod>2022-08-05</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/microsoft</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/miguel-suarez</loc>
-        <lastmod>2018-12-20</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/milena-gaitan-guerra</loc>
-        <lastmod>2013-10-01</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/monica-trujillo-p</loc>
-        <lastmod>2020-01-21</lastmod>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/movistar</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1711,7 +1746,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/natalia-torres-diaz</loc>
-        <lastmod>2015-03-16</lastmod>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/nestle</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1731,15 +1773,15 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/nueva-eps</loc>
-        <lastmod>2022-08-05</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/norwegian-centre-for-conflict-resolution</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/onu-mujeres</loc>
-        <lastmod>2022-08-09</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/nutresa</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1760,7 +1802,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/equipo/patricia-bulla</loc>
-        <lastmod>2013-09-15</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1808,8 +1850,22 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/equipo/postobon</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/prodeco</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/equipo/promigas</loc>
-        <lastmod>2022-08-09</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1829,27 +1885,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/reficar</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/samsung-electronics-colombia</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/equipo/sanitas</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/equipo/seguros-bolivar</loc>
         <lastmod>2022-08-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -1857,15 +1892,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/supertiendas-y-droguerias-olimpica</loc>
-        <lastmod>2022-08-05</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/equipo/tatiana-mosquera-angulo</loc>
-        <lastmod>2016-10-31</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1878,8 +1906,36 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/equipo/terpel</loc>
-        <lastmod>2022-08-13</lastmod>
+        <loc>https://stg.ideaspaz.org/equipo/tetra-tech-colombia</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/tipiel</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/union-europea</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/united-states-institute-of-peace</loc>
+        <lastmod>2022-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/equipo/usaid</loc>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -2691,21 +2747,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/videos/colombia-necesita-conversar-sobre-la-paz-posible-maria-victoria-llorente</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/videos/como-y-por-que-nacio-la-fip</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/videos/hablan-los-fundadores</loc>
-        <lastmod>2022-08-16</lastmod>
+        <lastmod>2022-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -10399,20 +10455,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/opinion/2022-08/sacar-a-la-policia-de-mindefensa-sobre-los-hombros-de-pocos-generales</loc>
         <lastmod>2022-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/staff/grupo-sura</loc>
-        <lastmod>2022-08-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/en/staff/humanity-united</loc>
-        <lastmod>2022-08-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
