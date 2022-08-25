@@ -8619,13 +8619,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/adios-a-marcelo-leon-miembro-de-nuestro-comite-directivo</loc>
-        <lastmod>2022-07-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/entrelazando-formacion-para-avanzar-en-la-implementacion-del-acuerdo-de-paz</loc>
         <lastmod>2022-07-14</lastmod>
         <changefreq>monthly</changefreq>
@@ -8684,6 +8677,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-08/vuelve-el-diplomado-habilidades-gerenciales-para-la-reactivacion-la-sostenibilidad-y-la-paz</loc>
         <lastmod>2022-08-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/adios-a-marcelo-leon-miembro-de-nuestro-comite-directivo</loc>
+        <lastmod>2022-08-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
