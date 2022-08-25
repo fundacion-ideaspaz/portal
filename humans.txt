@@ -1,14 +1,23 @@
 /* TEAM */
 
-Creator: FIP
+Creator: FIP Communications team
 URL: https://stg.ideaspaz.org/
-Description: 
 
 /* THANKS */
 
 Statamic: https://statamic.com
+Joshua Blum - Support
+Jason Varga - Support
+
+NODU Interactive: Strategy, development and support https://nodu.org
+Carlos Reyes - Project and tech manager
+Inés Coba - Change management
+
+García Media Latinoamérica: Design and UI Partner https://www.garciamedia.com.ar/
+Rodrigo Fino - Content strategy
+Paula Ripoll - UI Design
 
 /* SITE */
 
 Standards: HTML5, CSS3
-Components: Statamic 3, Laravel, PHP, JavaScript
+Components: Statamic 3, Laravel, PHP, Alpine JS and Vue 3, Algolia, Fathom Analytics

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.625" height="22.625" viewBox="0 0 22.625 22.625">
+  <defs>
+    <clipPath id="close-black-a">
+      <path data-name="Rectangle 32" d="M0 0h16v16H0Z" fill="#fff" stroke="#000"/>
+    </clipPath>
+    <clipPath id="close-black-b">
+      <path data-name="Rectangle 33" d="M0 0h16v16H0Z" fill="none" stroke="#000"/>
+    </clipPath>
+  </defs>
+  <g data-name="Group 683">
+    <g data-name="Group 65">
+      <g data-name="Group 64" transform="rotate(45 5.657 13.656)" clip-path="url(#close-black-a)">
+        <path data-name="Line 5" d="M16 8H0" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g data-name="Group 67">
+      <g data-name="Group 66" transform="rotate(45 5.657 13.656)" clip-path="url(#close-black-b)">
+        <path data-name="Line 6" d="M8 16V0" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>
