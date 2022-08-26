@@ -3,7 +3,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -408,13 +408,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2018-02/continua-la-incertidumbre-con-el-eln</loc>
-        <lastmod>2018-02-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2018-03/el-perdon-miradas-no-cristianas</loc>
         <lastmod>2018-03-26</lastmod>
         <changefreq>monthly</changefreq>
@@ -471,13 +464,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2019-07/dinamicas-de-la-confrontacion-armada-y-afectacion-humanitaria-balance-primer-semestre-2019</loc>
-        <lastmod>2019-07-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2019-09/tender-puentes-entre-sujetos-empresariales-y-la-comision-de-la-verdad</loc>
         <lastmod>2019-09-18</lastmod>
         <changefreq>monthly</changefreq>
@@ -499,15 +485,36 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-09/conceptos-e-ideas-alrededor-de-la-construccion-de-paz-cuales-pueden-ser-los-aportes-del-sector-empresarial-y-como-entenderlos</loc>
-        <lastmod>2020-09-18</lastmod>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-05/agresiones-y-homicidios-de-lideres-sociales</loc>
+        <lastmod>2020-05-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-09/10-claves-para-afrontar-la-crisis-de-la-policia</loc>
-        <lastmod>2020-09-22</lastmod>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-05/el-consumo-interno-de-drogas-ilegales-en-colombia</loc>
+        <lastmod>2020-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-05/la-sustitucion-de-cultivos-en-el-inicio-del-gobierno-duque</loc>
+        <lastmod>2020-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-05/las-preguntas-sobre-la-jep-que-deja-el-video-de-marquez-y-santrich</loc>
+        <lastmod>2020-05-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2020-09/conceptos-e-ideas-alrededor-de-la-construccion-de-paz-cuales-pueden-ser-los-aportes-del-sector-empresarial-y-como-entenderlos</loc>
+        <lastmod>2020-09-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -520,6 +527,384 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-02/guia-para-entender-la-decision-de-la-jep-sobre-la-responsabilidad-de-las-farc-en-el-secuestro</loc>
+        <lastmod>2021-02-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-02/lo-que-dicen-los-resultados-contra-el-eln</loc>
+        <lastmod>2021-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-02/el-llamado-de-los-jovenes-de-regiones-impactadas-por-la-violencia-a-los-congresistas</loc>
+        <lastmod>2021-02-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-03/el-llamado-de-los-jovenes-de-regiones-impactadas-por-la-violencia-a-los-congresistas</loc>
+        <lastmod>2021-03-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-03/el-desafio-de-las-armas-no-letales</loc>
+        <lastmod>2021-03-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-03/mujer-y-covid-19-acciones-de-empresas-gremios-y-hogares-empleadores-que-impactaron-a-las-mujeres-trabajadoras-durante-la-pandemia</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-03/mujer-y-covid-19-recomendaciones-al-estado-las-empresas-gremios-y-hogares-empleadores-para-fortalecer-las-conductas-empresariales-responsables-con-enfoque-de-genero</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-03/mujer-y-covid-19-respuesta-de-empresas-gremios-y-hogares-empleadores-a-los-impactos-de-la-pandemia-en-las-mujeres-trabajadoras</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-04/confiar-para-transformar-una-apuesta-por-la-integracion-de-los-migrantes</loc>
+        <lastmod>2021-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-05/en-barranquilla-crece-la-apuesta-por-integrar-a-los-migrantes-venezolanos</loc>
+        <lastmod>2021-05-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-06/hackaton-por-la-integracion-de-la-poblacion-migrante-en-barranquilla</loc>
+        <lastmod>2021-06-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-06/asi-se-comporto-la-violencia-organizada-en-los-primeros-4-meses-del-2021</loc>
+        <lastmod>2021-06-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-06/regular-el-uso-y-mercado-de-armas-traumatica-sin-reformar-los-mecanismos-de-control-de-las-de-fuego</loc>
+        <lastmod>2021-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-esta-la-inversion-social-privada-en-colombia</loc>
+        <lastmod>2021-07-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/que-tanto-ha-avanzado-colombia-en-reglamentar-la-debida-diligencia-empresarial-en-ddhh</loc>
+        <lastmod>2021-07-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/10-claves-para-afrontar-la-crisis-de-la-policia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/armed-confrontation-dynamics-and-their-humanitarian-impact-during-the-pandemic</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/asi-se-ha-comportado-el-delito-durante-la-cuarentena-en-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/asi-se-ha-comportado-el-delito-durante-la-cuarentena-en-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/cese-al-fuego-del-eln-que-paso-y-que-sigue</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-estan-los-homicidios-en-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-pueden-las-empresas-gestionar-los-derechos-humanos-en-la-cadena-de-suministro-en-tiempos-del-covid-19</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-pueden-las-empresas-prevenir-y-mitigar-los-riesgos-contra-la-ninez-y-la-adolescencia-agudizados-por-el-covid-19</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-pueden-las-empresas-promover-la-equidad-d-egenero-y-respetar-los-derechos-de-las-mujeres-en-tiempos-de-covid-19</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-pueden-las-empresas-promover-y-cumplir-con-condiciones-de-trabajo-decente-en-medio-del-covid-19</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-se-mueven-el-eln-y-las-disidencias-de-las-farc-en-la-orinoquia-colombiana-y-la-guayana-venezolana</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/conflicto-armado-y-la-violencia-en-colombia-que-ha-cambiado</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/continua-la-incertidumbre-con-el-eln</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/cultivos-ilicitos-en-los-parques-naturales</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/dinamicas-de-la-confrontacion-armada-y-afectacion-humanitaria-balance-primer-semestre-2019</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/dinamicas-de-la-confrontacion-armada-y-afectacion-humanitaria</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/dinamicas-de-la-confrontacion-armada-y-su-impacto-humanitario-durante-la-pandemia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/disidencias-de-las-farc-cuales-son-donde-estan-que-hacen</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/el-covid-19-y-la-suspension-de-clases-presenciales</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/en-que-va-el-debate-sobre-politica-de-drogas-en-el-congreso</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/es-posible-continuar-con-la-reduccion-de-los-homicidios-en-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/farc-dissidence-which-where-and-what-they-do</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/impactos-del-covid-19-sobre-la-seguridad-y-el-sistema-alimentario-oportunidades-empresariales-para-gestionarlos</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/is-it-possible-to-continue-to-reduce-the-number-of-homicides-in-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/la-agenda-de-paz-en-el-congreso-en-que-ha-avanzado-y-en-que-no-durante-el-segundo-ano-legislativo-2019-2020</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/la-erradicacion-forzada-disminuye-pero-las-movilizaciones-y-choques-con-la-fuerza-publica-aumentan</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/la-reincorporacion-de-los-excombatientes-de-las-farc</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/lo-que-piensan-los-empresarios-del-fenomeno-migratorio</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/mujer-y-covid-19-superando-los-impactos-desproporcionados-de-la-pandemia-en-sectores-economicos-criticos-mediante-conductas-empresariales-responsables</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/participacion-pdet-y-pandemia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/que-dejan-10-dias-sin-cese-al-fuego-con-el-eln</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/que-dejan-18-dias-sin-cese-al-fuego-con-el-eln</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/un-nuevo-ciclo-de-violencia-organizada-en-colombia</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/verdad-y-afectaciones-a-la-infraestructura-petrolera-en-colombia-durante-el-conflicto-armado</loc>
+        <lastmod>2021-07-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-promover-la-salud-mental-de-los-trabajadores-durante-la-pandemia</loc>
+        <lastmod>2021-07-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/confiar-para-transformar-como-estan-las-relaciones-de-confianza</loc>
+        <lastmod>2021-08-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/confiar-para-transformar-estrategias-para-la-integracion</loc>
+        <lastmod>2021-08-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/migrar-es-transformar</loc>
+        <lastmod>2021-08-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/pistas-para-entender-sin-pasiones-el-debate-actual-sobre-amnistia-general</loc>
+        <lastmod>2021-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/confianza-en-el-sector-empresarial</loc>
         <lastmod>2021-08-23</lastmod>
         <changefreq>monthly</changefreq>
@@ -527,8 +912,50 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/capacidades-para-la-transformacion-del-territorio</loc>
+        <lastmod>2021-08-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-09/la-agenda-de-paz-en-el-congreso-en-que-ha-avanzado-y-en-que-no-durante-el-tercer-ano-legislativo-2020-2021</loc>
+        <lastmod>2021-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-11/la-fiscalia-de-la-corte-penal-internacional-se-fue-de-colombia-ahora-que</loc>
+        <lastmod>2021-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-12/la-incubadora</loc>
         <lastmod>2021-12-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-12/10-facetas-de-la-movilizacion-social-en-colombia</loc>
+        <lastmod>2021-12-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-03/los-acuerdos-de-conservacion-con-las-comunidades-campesinas-una-ventana-de-oportunidades-para-la-sustitucion-de-cultivos-en-las-areas-protegidas</loc>
+        <lastmod>2022-03-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-03/ondas-del-territorio</loc>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -555,435 +982,29 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/10-facetas-de-la-movilizacion-social-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-puede-hacer-el-nuevo-gobierno-con-el-pnis</loc>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/7-recomendaciones-para-desbloquear-el-direccionamiento-supervision-y-control-civil-de-la-fuerza-publica</loc>
-        <lastmod>2022-08-17</lastmod>
+        <lastmod>2022-08-13</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/agresiones-y-homicidios-de-lideres-sociales</loc>
-        <lastmod>2022-08-17</lastmod>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-hacer-con-el-pnis-en-las-zonas-de-manejo-especial</loc>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/armed-confrontation-dynamics-and-their-humanitarian-impact-during-the-pandemic</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/asi-se-comporto-la-violencia-organizada-en-los-primeros-4-meses-del-2021</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/asi-se-ha-comportado-el-delito-durante-la-cuarentena-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/asi-se-ha-comportado-el-delito-durante-la-cuarentena-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/capacidades-para-la-transformacion-del-territorio</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/cese-al-fuego-del-eln-que-paso-y-que-sigue</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-esta-la-inversion-social-privada-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-estan-los-homicidios-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-promover-la-salud-mental-de-los-trabajadores-durante-la-pandemia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-pueden-las-empresas-gestionar-los-derechos-humanos-en-la-cadena-de-suministro-en-tiempos-del-covid-19</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-pueden-las-empresas-prevenir-y-mitigar-los-riesgos-contra-la-ninez-y-la-adolescencia-agudizados-por-el-covid-19</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-pueden-las-empresas-promover-la-equidad-d-egenero-y-respetar-los-derechos-de-las-mujeres-en-tiempos-de-covid-19</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-pueden-las-empresas-promover-y-cumplir-con-condiciones-de-trabajo-decente-en-medio-del-covid-19</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/como-se-mueven-el-eln-y-las-disidencias-de-las-farc-en-la-orinoquia-colombiana-y-la-guayana-venezolana</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/confiar-para-transformar-como-estan-las-relaciones-de-confianza</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/confiar-para-transformar-estrategias-para-la-integracion</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/confiar-para-transformar-una-apuesta-por-la-integracion-de-los-migrantes</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/conflicto-armado-y-la-violencia-en-colombia-que-ha-cambiado</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/cultivos-ilicitos-en-los-parques-naturales</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/dinamicas-de-la-confrontacion-armada-y-afectacion-humanitaria</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/dinamicas-de-la-confrontacion-armada-y-su-impacto-humanitario-durante-la-pandemia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/disidencias-de-las-farc-cuales-son-donde-estan-que-hacen</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/el-consumo-interno-de-drogas-ilegales-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/el-covid-19-y-la-suspension-de-clases-presenciales</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/el-desafio-de-las-armas-no-letales</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/el-llamado-de-los-jovenes-de-regiones-impactadas-por-la-violencia-a-los-congresistas</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/el-llamado-de-los-jovenes-de-regiones-impactadas-por-la-violencia-a-los-congresistas</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/en-barranquilla-crece-la-apuesta-por-integrar-a-los-migrantes-venezolanos</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/en-que-va-el-debate-sobre-politica-de-drogas-en-el-congreso</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/es-posible-continuar-con-la-reduccion-de-los-homicidios-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/farc-dissidence-which-where-and-what-they-do</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/guia-para-entender-la-decision-de-la-jep-sobre-la-responsabilidad-de-las-farc-en-el-secuestro</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/hackaton-por-la-integracion-de-la-poblacion-migrante-en-barranquilla</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/impactos-del-covid-19-sobre-la-seguridad-y-el-sistema-alimentario-oportunidades-empresariales-para-gestionarlos</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/is-it-possible-to-continue-to-reduce-the-number-of-homicides-in-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-agenda-de-paz-en-el-congreso-en-que-ha-avanzado-y-en-que-no-durante-el-segundo-ano-legislativo-2019-2020</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-agenda-de-paz-en-el-congreso-en-que-ha-avanzado-y-en-que-no-durante-el-tercer-ano-legislativo-2020-2021</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-erradicacion-forzada-disminuye-pero-las-movilizaciones-y-choques-con-la-fuerza-publica-aumentan</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-fiscalia-de-la-corte-penal-internacional-se-fue-de-colombia-ahora-que</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-reincorporacion-de-los-excombatientes-de-las-farc</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/la-sustitucion-de-cultivos-en-el-inicio-del-gobierno-duque</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/las-preguntas-sobre-la-jep-que-deja-el-video-de-marquez-y-santrich</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/lo-que-dicen-los-resultados-contra-el-eln</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/lo-que-piensan-los-empresarios-del-fenomeno-migratorio</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/los-acuerdos-de-conservasicon-con-las-comunidades-campesinas-una-ventana-de-oportunidades-para-la-sustitucion-de-cultivos-en-las-areas-protegidas</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/migrar-es-transformar</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/mujer-y-covid-19-acciones-de-empresas-gremios-y-hogares-empleadores-que-impactaron-a-las-mujeres-trabajadoras-durante-la-pandemia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/mujer-y-covid-19-recomendaciones-al-estado-las-empresas-gremios-y-hogares-empleadores-para-fortalecer-las-conductas-empresariales-responsables-con-enfoque-de-genero</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/mujer-y-covid-19-respuesta-de-empresas-gremios-y-hogares-empleadores-a-los-impactos-de-la-pandemia-en-las-mujeres-trabajadoras</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/mujer-y-covid-19-superando-los-impactos-desproporcionados-de-la-pandemia-en-sectores-economicos-criticos-mediante-conductas-empresariales-responsables</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/ondas-del-territorio</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/participacion-pdet-y-pandemia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/pistas-para-entender-sin-pasiones-el-debate-actual-sobre-amnistia-general</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-dejan-10-dias-sin-cese-al-fuego-con-el-eln</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-dejan-18-dias-sin-cese-al-fuego-con-el-eln</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-tanto-ha-avanzado-colombia-en-reglamentar-la-debida-diligencia-empresarial-en-ddhh</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/regular-el-uso-y-mercado-de-armas-traumatica-sin-reformar-los-mecanismos-de-control-de-las-de-fuego</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/un-nuevo-ciclo-de-violencia-organizada-en-colombia</loc>
-        <lastmod>2022-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/verdad-y-afectaciones-a-la-infraestructura-petrolera-en-colombia-durante-el-conflicto-armado</loc>
-        <lastmod>2022-08-17</lastmod>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/obras-por-impuestos-estrategico-para-la-paz</loc>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
