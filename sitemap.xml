@@ -10,7 +10,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/como-lo-hacemos</loc>
-        <lastmod>2022-08-21</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -45,14 +45,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/que-hacemos</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/quienes-somos</loc>
-        <lastmod>2022-08-24</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -60,6 +60,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/terminos-y-condiciones</loc>
         <lastmod>2022-08-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/como-lo-hacemos/comunicaciones</loc>
+        <lastmod>2022-08-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -73,7 +80,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/que-hacemos/conflicto-y-violencia-organizada</loc>
-        <lastmod>2022-08-21</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -81,6 +88,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/que-hacemos/construccion-de-paz</loc>
         <lastmod>2022-08-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/como-lo-hacemos/institucional-y-financiera</loc>
+        <lastmod>2022-08-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -94,7 +108,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/como-lo-hacemos/transforma-centro-de-formacion</loc>
-        <lastmod>2022-08-21</lastmod>
+        <lastmod>2022-08-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -991,13 +1005,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/7-recomendaciones-para-desbloquear-el-direccionamiento-supervision-y-control-civil-de-la-fuerza-publica</loc>
         <lastmod>2022-08-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-hacer-con-el-pnis-en-las-zonas-de-manejo-especial</loc>
-        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -2186,496 +2193,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-12012010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-14012010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-141209</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-28012010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-010207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-010307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-020207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-020307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-021009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-050207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-050307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-051109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-060207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-060707</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-060709</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-061109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-070207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-070307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-071009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-071209</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-080207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-080307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-090107</loc>
-        <lastmod>2012-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-090207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-090307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-090909</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-091109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-100107</loc>
-        <lastmod>2012-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-100809</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-110107</loc>
-        <lastmod>2012-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-110609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-111209</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-120107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-120207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-120307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-121109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-130207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-130307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-131009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-140107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-140207</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-140307</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-140709</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-140809</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-151009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-160107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-160609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-170107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-170709</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-170909</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-180107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-190107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-190609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-191009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-200809</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-211009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-220107</loc>
-        <lastmod>2012-01-13</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-230609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-231109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-240609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-240809</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-250909</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-251109</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-270709</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-270809</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-280909</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-281009</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-300609</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-310709</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-02/boletin-de-prensa-internacional-70909</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-03/cronologia-del-proceso-con-las-autodefensas-2002-2010</loc>
         <lastmod>2021-05-26</lastmod>
         <changefreq>monthly</changefreq>
@@ -2692,13 +2209,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-03/corte-suprema-de-justicia-haciendo-justicia-rescatando-a-la-justicia</loc>
         <lastmod>2021-06-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-06/boletin-de-prensa-internacional-21062010</loc>
-        <lastmod>2010-06-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -2732,211 +2242,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-09022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-11022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-13042010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-14042010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-15022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-17022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-18052010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-19022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-20042010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-20052010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-23022010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-24052010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-30032010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-060810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-100810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-130810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-180810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-240810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-270810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-08/boletin-de-prensa-internacional-300810</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-020910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-060910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-100910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/mandos-medios-de-las-farc-y-su-proceso-de-desmovilizacion-en-el-conflicto-colombiano</loc>
         <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-130910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-170910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-210910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-240910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-270910</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-09/boletin-de-prensa-internacional-300910</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -2984,43 +2291,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-10/boletin-de-prensa-internacional-051010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-10/boletin-de-prensa-internacional-081010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-10/boletin-de-prensa-internacional-111010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-10/boletin-de-prensa-internacional-221010</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2010-10/negociacion-con-las-guerrillas-entre-la-paz-y-la-justicia</loc>
         <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-10/boletin-de-prensa-internacional-261010</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3047,50 +2319,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-051110</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-081110</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2010-11/derechos-humanos-y-sindicalismo</loc>
         <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-171110</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-221110</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-251110</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-11/boletin-de-prensa-internacional-291110</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3103,27 +2333,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-021210</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-071210</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-091210</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/la-extradicion-y-las-farc-extradicion-politica-dossier-no-1</loc>
         <lastmod>2021-06-03</lastmod>
         <changefreq>monthly</changefreq>
@@ -3131,29 +2340,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-131210</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-161210</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2010-12/verdad-abierta-recibe-nuevo-premio-de-periodismo</loc>
         <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2010-12/boletin-de-prensa-internacional-201210</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3173,50 +2361,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-01/boletin-de-prensa-internacional-110111</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-01/boletin-de-prensa-internacional-170111</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2011-01/boletines-de-paz-y-los-dossier-de-extradicion-las-ultimas-publicacioens-fip</loc>
         <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-01/boletin-de-prensa-internacional-240111</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-01/boletin-de-prensa-internacional-270111</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-040211</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-060211</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3229,62 +2375,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-100211</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-170211</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-220211</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-02/boletin-de-prensa-internacional-240211</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-080311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-110311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-150311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-220311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2011-03/el-premio-emprender-paz-abre-sus-convocatorias</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -3292,92 +2382,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-240311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-280311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-03/boletin-de-prensa-internacional-310311</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-040411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-070411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-110411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-150411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-180411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-200411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-260411</loc>
-        <lastmod>2011-04-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-04/boletin-de-prensa-internacional-290411</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/ley-418-de-1997-prorroga-de-la-ley</loc>
         <lastmod>2021-06-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-030511</loc>
-        <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3404,42 +2410,7 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-100511</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-130511</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-160511</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-190511</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-270511</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-05/boletin-de-prensa-internacional-300511</loc>
         <lastmod>2011-12-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -3481,20 +2452,6 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-06/boletin-de-prensa-internacional-030611</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-06/boletin-de-prensa-internacional-070611</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2011-06/premio-emprender-paz-se-entregara-el-1-de-septiembre</loc>
         <lastmod>2021-06-09</lastmod>
         <changefreq>monthly</changefreq>
@@ -3502,57 +2459,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-06/boletin-de-prensa-internacional-110611</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-06/boletin-de-prensa-internacional-170611</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/en-que-va-el-plan-de-choque-de-tierras</loc>
         <lastmod>2021-06-04</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/boletin-de-prensa-internacional-010711</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/boletin-de-prensa-internacional-180711</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/boletin-de-prensa-internacional-200611</loc>
-        <lastmod>2011-12-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/boletin-de-prensa-internacional-220711</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-07/boletin-de-prensa-internacional-260711</loc>
-        <lastmod>2011-12-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3600,22 +2508,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-08/boletin-de-prensa-internacional-050811</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-09/balance-de-la-politica-nacional-de-consolidacion-territorial</loc>
         <lastmod>2018-08-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-09/boletin-de-prensa-internacional-010911</loc>
-        <lastmod>2011-12-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3649,29 +2543,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-10/boletin-de-prensa-internacional-121011</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-10/boletin-de-prensa-internacional-141011</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-10/autodefensas</loc>
         <lastmod>2021-06-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-10/boletin-de-prensa-internacional-211011</loc>
-        <lastmod>2011-12-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3831,78 +2704,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-020811</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-050911</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-120911</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-171111</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-190911</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-221111</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-241111</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2011-11/despues-de-cano-adios-a-las-armas</loc>
         <lastmod>2013-11-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2011-11/boletin-de-prensa-internacional-301111</loc>
-        <lastmod>2011-12-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-01/boletin-de-prensa-internacional-100112</loc>
-        <lastmod>2012-01-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-01/boletin-de-prensa-internacional-160112</loc>
-        <lastmod>2012-01-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -3957,78 +2760,8 @@
     </url>
 
     <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-020412</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-090312</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-110412</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-160312</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-160412</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-200112</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-210212</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-04/boletin-de-prensa-internacional-280212</loc>
-        <lastmod>2012-04-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-05/boletin-de-prensa-internacional-260412</loc>
-        <lastmod>2012-05-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2012-05/apoyo-al-marco-juridico-para-la-paz</loc>
         <lastmod>2012-05-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/investigaciones-analisis/2012-05/boletin-de-prensa-internacional-180512</loc>
-        <lastmod>2012-05-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8172,14 +6905,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-04/el-partido-comunes-las-disidencias-y-las-declaraciones-de-la-canciller</loc>
-        <lastmod>2021-04-26</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-05/como-hacemos-para-frenar-la-violencia-en-las-calles</loc>
-        <lastmod>2021-05-05</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8193,14 +6926,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-05/la-no-violencia-como-parte-del-dialogo-y-la-accion</loc>
-        <lastmod>2021-05-20</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-05/la-fractura-de-la-representacion-politica-como-sanar-las-heridas</loc>
-        <lastmod>2021-05-21</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8242,14 +6975,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-06/cali-la-protesta-y-las-varias-violencias</loc>
-        <lastmod>2021-06-10</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-06/hay-que-leer-las-circunscripciones-de-paz-a-la-luz-de-la-agitada-realidad</loc>
-        <lastmod>2021-06-23</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8263,7 +6996,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-06/guarin-detente-primero-hay-que-hablar-sobre-la-politica-de-control-de-armas</loc>
-        <lastmod>2021-06-18</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8305,14 +7038,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-08/empresas-militares-de-seguridad-privada-o-mercenarios</loc>
-        <lastmod>2021-08-09</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-08/las-cinco-tareas-de-duque-para-detener-el-incremento-de-los-homicidios</loc>
-        <lastmod>2021-08-10</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8340,7 +7073,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-09/la-policia-y-la-seguridad-ciudadana-necesitan-mas-control-civil</loc>
-        <lastmod>2021-09-08</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8354,7 +7087,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-09/consejos-de-juventud-venceran-inercias-de-la-politica-tradicional</loc>
-        <lastmod>2021-09-13</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8396,7 +7129,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-11/5anosporlapaz-las-dos-caras-de-la-paz-en-colombia</loc>
-        <lastmod>2021-12-03</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8445,7 +7178,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2021-12/las-elecciones-de-los-consejos-de-juventud-como-pasar-de-lo-agrio-a-lo-dulce</loc>
-        <lastmod>2021-12-17</lastmod>
+        <lastmod>2022-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -8640,6 +7373,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/adios-a-marcelo-leon-miembro-de-nuestro-comite-directivo</loc>
+        <lastmod>2022-08-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/entrelazando-formacion-para-avanzar-en-la-implementacion-del-acuerdo-de-paz</loc>
         <lastmod>2022-07-14</lastmod>
         <changefreq>monthly</changefreq>
@@ -8698,13 +7438,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-08/vuelve-el-diplomado-habilidades-gerenciales-para-la-reactivacion-la-sostenibilidad-y-la-paz</loc>
         <lastmod>2022-08-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/adios-a-marcelo-leon-miembro-de-nuestro-comite-directivo</loc>
-        <lastmod>2022-08-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
