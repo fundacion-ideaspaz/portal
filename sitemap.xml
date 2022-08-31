@@ -66,7 +66,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/como-lo-hacemos/comunicaciones</loc>
-        <lastmod>2022-08-27</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -605,7 +605,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-04/confiar-para-transformar-una-apuesta-por-la-integracion-de-los-migrantes</loc>
-        <lastmod>2021-04-08</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -703,7 +703,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/como-pueden-las-empresas-promover-la-equidad-d-egenero-y-respetar-los-derechos-de-las-mujeres-en-tiempos-de-covid-19</loc>
-        <lastmod>2021-07-08</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -731,14 +731,14 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/continua-la-incertidumbre-con-el-eln</loc>
-        <lastmod>2021-07-08</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/cultivos-ilicitos-en-los-parques-naturales</loc>
-        <lastmod>2021-07-08</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -780,7 +780,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-07/en-que-va-el-debate-sobre-politica-de-drogas-en-el-congreso</loc>
-        <lastmod>2021-07-08</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -892,21 +892,21 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/confiar-para-transformar-como-estan-las-relaciones-de-confianza</loc>
-        <lastmod>2022-08-30</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/confiar-para-transformar-estrategias-para-la-integracion</loc>
-        <lastmod>2022-08-30</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2021-08/migrar-es-transformar</loc>
-        <lastmod>2022-08-30</lastmod>
+        <lastmod>2022-08-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -982,6 +982,13 @@
     </url>
 
     <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-04/7-recomendaciones-para-desbloquear-el-direccionamiento-supervision-y-control-civil-de-la-fuerza-publica</loc>
+        <lastmod>2022-08-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-04/siete-recomendaciones-para-desbloquear-el-direccionamiento-supervision-y-control-civil-de-la-fuerza-publica</loc>
         <lastmod>2022-08-30</lastmod>
         <changefreq>monthly</changefreq>
@@ -998,13 +1005,6 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/que-puede-hacer-el-nuevo-gobierno-con-el-pnis</loc>
         <lastmod>2022-08-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
-        <loc>https://stg.ideaspaz.org/publicaciones/multimedia/2022-08/7-recomendaciones-para-desbloquear-el-direccionamiento-supervision-y-control-civil-de-la-fuerza-publica</loc>
-        <lastmod>2022-08-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
