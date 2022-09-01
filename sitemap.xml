@@ -7073,7 +7073,7 @@
 
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-07/webinar-migracion-xenofobia-y-ninez-retos-para-la-integracion</loc>
-        <lastmod>2022-07-12</lastmod>
+        <lastmod>2022-09-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7151,6 +7151,13 @@
     <url>
         <loc>https://stg.ideaspaz.org/publicaciones/opinion/2022-08/los-dilemas-de-la-paz-total</loc>
         <lastmod>2022-08-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://stg.ideaspaz.org/publicaciones/noticias/2022-09/memorando-conjunto-al-gobierno-nacional-sobre-la-nueva-politica-de-drogas</loc>
+        <lastmod>2022-09-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

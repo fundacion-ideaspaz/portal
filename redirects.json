@@ -1,4 +1,8 @@
 {
+    "/publications/posts/2233": {
+        "to": "/publicaciones/noticias/2022-09/memorando-conjunto-al-gobierno-nacional-sobre-la-nueva-politica-de-drogas",
+        "statusCode": 301
+    },
     "/publications/posts/2231": {
         "to": "/publicaciones/opinion/2022-08/los-dilemas-de-la-paz-total",
         "statusCode": 301
