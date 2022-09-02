@@ -707,6 +707,10 @@
         "to": "/publicaciones/opinion/2020-09/mujeres-migracion-y-covid-riesgos-y-desafios-en-la-salud-y-la-economia",
         "statusCode": 301
     },
+    "/publications/posts/1894": {
+        "to": "/publicaciones/investigaciones-analisis/2020-09/fuerzas-militares-y-la-proteccion-del-ambiente-roles-riesgos-y-oportunidades",
+        "statusCode": 301
+    },
     "/publications/posts/1891": {
         "to": "/publicaciones/investigaciones-analisis/2020-09/el-covid-19-y-la-suspension-de-clases-riesgos-para-ninos-ninas-y-adolescentes",
         "statusCode": 301
