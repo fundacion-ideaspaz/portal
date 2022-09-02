@@ -4119,6 +4119,10 @@
         "to": "https://multimedia.ideaspaz.org/infografias/cpi.html",
         "statusCode": 301
     },
+    "/especiales/infografias/jep-amnistia.html": {
+        "to": "https://multimedia.ideaspaz.org/infografias/jep-amnistia.html",
+        "statusCode": 301
+    },
     "/especiales/infografias/congreso-2021.html": {
         "to": "https://multimedia.ideaspaz.org/infografias/congreso-2021.html",
         "statusCode": 301
@@ -4129,10 +4133,6 @@
     },
     "/especiales/confianza": {
         "to": "https://multimedia.ideaspaz.org/especiales/confianza/index.html",
-        "statusCode": 301
-    },
-    "/especiales/infografias/jep-amnistia.html": {
-        "to": "https://multimedia.ideaspaz.org/infografias/jep-amnistia.html",
         "statusCode": 301
     },
     "/especiales/infografias/confiar-construir-04.html": {
