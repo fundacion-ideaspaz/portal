@@ -4055,6 +4055,14 @@
         "to": "/que-hacemos/seguridad-y-gobernanza",
         "statusCode": 301
     },
+    "/index.php/publications": {
+        "to": "/publicaciones",
+        "statusCode": 301
+    },
+    "/publications/rss": {
+        "to": "/publicaciones",
+        "statusCode": 301
+    },
     "/conflict": {
         "to": "/que-hacemos/conflicto-y-violencia-organizada",
         "statusCode": 301
