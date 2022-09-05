@@ -4111,10 +4111,6 @@
         "to": "https://multimedia.ideaspaz.org/especiales/7-recomendaciones/index.html",
         "statusCode": 301
     },
-    "/especiales/guia-empresas": {
-        "to": "https://multimedia.ideaspaz.org/especiales/guia-empresas/index.html",
-        "statusCode": 301
-    },
     "/especiales/infografias/acuerdos_v1.html": {
         "to": "https://multimedia.ideaspaz.org/infografias/acuerdos_v1.html",
         "statusCode": 301
@@ -4397,6 +4393,10 @@
     },
     "/especiales/violencia-genero": {
         "to": "https://multimedia.ideaspaz.org/especiales/violencia-genero/index.html",
+        "statusCode": 301
+    },
+    "/especiales/guia-empresas": {
+        "to": "https://multimedia.ideaspaz.org/especiales/guia-empresas/index.html",
         "statusCode": 301
     },
     "/especiales/mapa-ensamble": {
