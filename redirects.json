@@ -4055,22 +4055,6 @@
         "to": "/que-hacemos/seguridad-y-gobernanza",
         "statusCode": 301
     },
-    "/index.php/publications": {
-        "to": "/publicaciones",
-        "statusCode": 301
-    },
-    "/publications/rss": {
-        "to": "/publicaciones",
-        "statusCode": 301
-    },
-    "/conflict": {
-        "to": "/que-hacemos/conflicto-y-violencia-organizada",
-        "statusCode": 301
-    },
-    "/drug": {
-        "to": "/que-hacemos/conflicto-y-violencia-organizada",
-        "statusCode": 301
-    },
     "/publications?contentType=10": {
         "to": "/publicaciones?query=Investigaciones%20y%20an%C3%A1lisis",
         "statusCode": 301
@@ -4509,6 +4493,1362 @@
     },
     "/especiales/marihuana-medicinal": {
         "to": "https://multimedia.ideaspaz.org/especiales/marihuana-medicinal/index.html",
+        "statusCode": 301
+    },
+    "/index.php/publications": {
+        "to": "/publicaciones",
+        "statusCode": 301
+    },
+    "/publications/rss": {
+        "to": "/publicaciones",
+        "statusCode": 301
+    },
+    "/conflict": {
+        "to": "/que-hacemos/conflicto-y-violencia-organizada",
+        "statusCode": 301
+    },
+    "/peace": {
+        "to": "/que-hacemos/construccion-de-paz",
+        "statusCode": 301
+    },
+    "/drug": {
+        "to": "/que-hacemos/conflicto-y-violencia-organizada",
+        "statusCode": 301
+    },
+    "/media/website/1.Certificacion_representante_legal.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/1.Certificacion_representante_legal.pdf",
+        "statusCode": 301
+    },
+    "/media/website/10.Certificado_Antecentes_Judiciales_declaraciones_caducidad.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/10.Certificado_Antecentes_Judiciales_declaraciones_caducidad.pdf",
+        "statusCode": 301
+    },
+    "/media/website/102721_documento_zuleta_2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/102721_documento_zuleta_2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2_stados_financieros_2017-2016.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2_stados_financieros_2017-2016.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2.FIP_InformeGestion2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2.FIP_InformeGestion2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2020-07-08-GTDH-O-Mensaje-previo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2020-07-08-GTDH-O-Mensaje-previo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2020-07-08-GTDHyO-Mensaje-02.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2020-07-08-GTDHyO-Mensaje-02.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2021-03-24_analisis_impactos_DDHH_CERALC.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2021-03-24_analisis_impactos_DDHH_CERALC.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2021-03-24_lecciones_aprendidas_CERALC.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2021-03-24_lecciones_aprendidas_CERALC.pdf",
+        "statusCode": 301
+    },
+    "/media/website/2021-03-24_linea_base_cuantitativa_mujeres_covid-19_CERALC_V2.xlsx": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2021-03-24_linea_base_cuantitativa_mujeres_covid-19_CERALC_V2.xlsx",
+        "statusCode": 301
+    },
+    "/media/website/2021-03-24_recomendaciones_CERALC.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/2021-03-24_recomendaciones_CERALC.pdf",
+        "statusCode": 301
+    },
+    "/media/website/3_acta_no_27_asignacion_permanente _y_Autorizacion_solicitud_de_permanencia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/3_acta_no_27_asignacion_permanente _y_Autorizacion_solicitud_de_permanencia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/3.Estados_Financieros_2019_2018.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/3.Estados_Financieros_2019_2018.pdf",
+        "statusCode": 301
+    },
+    "/media/website/3.FIP_informe_gestion_2018.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/3.FIP_informe_gestion_2018.pdf",
+        "statusCode": 301
+    },
+    "/media/website/4_VIOLENCIA_INTRAFAMILIAR.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/4_VIOLENCIA_INTRAFAMILIAR.pdf",
+        "statusCode": 301
+    },
+    "/media/website/4.Certificacion_de_cumplimientoFIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/4.Certificacion_de_cumplimientoFIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/4.Estados Financieros 2018-2017.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/4.Estados Financieros 2018-2017.pdf",
+        "statusCode": 301
+    },
+    "/media/website/5_VIOLENCIA_PAREJA.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/5_VIOLENCIA_PAREJA.pdf",
+        "statusCode": 301
+    },
+    "/media/website/5.Certificacion_cumplimiento.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/5.Certificacion_cumplimiento.pdf",
+        "statusCode": 301
+    },
+    "/media/website/5.Estatutos_FIP_2018_II.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/5.Estatutos_FIP_2018_II.pdf",
+        "statusCode": 301
+    },
+    "/media/website/6_escritura_4660_constitucio\u0301n_6-12-1999.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/6_escritura_4660_constitucio\u0301n_6-12-1999.pdf",
+        "statusCode": 301
+    },
+    "/media/website/6.certificacion_Antecedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/6.certificacion_Antecedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/6.Escritura_4660_constitucion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/6.Escritura_4660_constitucion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/7.Actas_Excedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/7.Actas_Excedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/7.Camara_Comercio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/7.Camara_Comercio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/8.Acta_CS_27_marzo_2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/8.Acta_CS_27_marzo_2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/9_actas_excedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/9_actas_excedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/acciones_presencia_24-04-2019.xlsx": {
+        "to": "https://multimedia.ideaspaz.org/media/website/acciones_presencia_24-04-2019.xlsx",
+        "statusCode": 301
+    },
+    "/media/website/Acuerdo-joven-firmado-240522.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Acuerdo-joven-firmado-240522.pdf",
+        "statusCode": 301
+    },
+    "/media/website/afiche-web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/afiche-web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/agresiones_lideres_24-04-2019.xlsx": {
+        "to": "https://multimedia.ideaspaz.org/media/website/agresiones_lideres_24-04-2019.xlsx",
+        "statusCode": 301
+    },
+    "/media/website/amnistia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/amnistia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Analisis-FIP-CCB.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Analisis-FIP-CCB.pdf",
+        "statusCode": 301
+    },
+    "/media/website/AnalisisFIP-PronunciamientoMarquez.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/AnalisisFIP-PronunciamientoMarquez.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Aprendizajes-de-paz-Sector-Productivo-VF.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Aprendizajes-de-paz-Sector-Productivo-VF.pdf",
+        "statusCode": 301
+    },
+    "/media/website/audio1.mp3": {
+        "to": "https://multimedia.ideaspaz.org/media/website/audio1.mp3",
+        "statusCode": 301
+    },
+    "/media/website/audio2.mp3": {
+        "to": "https://multimedia.ideaspaz.org/media/website/audio2.mp3",
+        "statusCode": 301
+    },
+    "/media/website/audio3.mp3": {
+        "to": "https://multimedia.ideaspaz.org/media/website/audio3.mp3",
+        "statusCode": 301
+    },
+    "/media/website/audio4.mp3": {
+        "to": "https://multimedia.ideaspaz.org/media/website/audio4.mp3",
+        "statusCode": 301
+    },
+    "/media/website/audios-empaz.html": {
+        "to": "https://multimedia.ideaspaz.org/media/website/audios-empaz.html",
+        "statusCode": 301
+    },
+    "/media/website/BajoCaucaweb.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/BajoCaucaweb.pdf",
+        "statusCode": 301
+    },
+    "/media/website/boletin_prueba.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/boletin_prueba.pdf",
+        "statusCode": 301
+    },
+    "/media/website/boletin_tangram_institucional.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/boletin_tangram_institucional.pdf",
+        "statusCode": 301
+    },
+    "/media/website/brochure-guias-colombia-17sep.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/brochure-guias-colombia-17sep.pdf",
+        "statusCode": 301
+    },
+    "/media/website/capacidades-transformacion-territorio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/capacidades-transformacion-territorio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/capitulo_colombia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/capitulo_colombia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/catatumbo-FIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/catatumbo-FIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/codhes-web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/codhes-web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/como_va_implementacion_codigo_policia_pq.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/como_va_implementacion_codigo_policia_pq.pdf",
+        "statusCode": 301
+    },
+    "/media/website/como_va_implementacion_codigo_policia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/como_va_implementacion_codigo_policia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/conflicto.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/conflicto.pdf",
+        "statusCode": 301
+    },
+    "/media/website/confrontaciones_v2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/confrontaciones_v2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/confrontaciones.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/confrontaciones.pdf",
+        "statusCode": 301
+    },
+    "/media/website/congreso-2021.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/congreso-2021.pdf",
+        "statusCode": 301
+    },
+    "/media/website/consolidacionweb.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/consolidacionweb.pdf",
+        "statusCode": 301
+    },
+    "/media/website/CPI.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/CPI.pdf",
+        "statusCode": 301
+    },
+    "/media/website/decalogo-participacion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/decalogo-participacion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Diplomado_Habilidades_gerenciales_reactivacio\u0301n_sostenibilidad_paz_CORDOBA.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Diplomado_Habilidades_gerenciales_reactivacio\u0301n_sostenibilidad_paz_CORDOBA.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Diplomado_Habilidades_gerenciales_reactivacio\u0301n_sostenibilidad_paz_URABA_ANTIOQUENO.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Diplomado_Habilidades_gerenciales_reactivacio\u0301n_sostenibilidad_paz_URABA_ANTIOQUENO.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Ejecutivo_Monitor_2908.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Ejecutivo_Monitor_2908.pdf",
+        "statusCode": 301
+    },
+    "/media/website/eln-infografia-presion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/eln-infografia-presion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/eln.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/eln.pdf",
+        "statusCode": 301
+    },
+    "/media/website/em-cod-salud-mental.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/em-cod-salud-mental.pdf",
+        "statusCode": 301
+    },
+    "/media/website/estatutos-FIP-2018.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/estatutos-FIP-2018.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Estrategia-intergralFIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Estrategia-intergralFIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/estudiode_caso_cadenade_suministroEPM.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/estudiode_caso_cadenade_suministroEPM.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_100diasduque.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_100diasduque.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_10IDEASPONAL_infografia_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_10IDEASPONAL_infografia_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_3_IDEASPONAL_infografia_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_3_IDEASPONAL_infografia_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_AccionUnificada.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_AccionUnificada.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Acuerdosdeconservacion_InfoNo1_FinalV5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Acuerdosdeconservacion_InfoNo1_FinalV5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Acuerdosdeconservacion_InfoNo2_FinalV5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Acuerdosdeconservacion_InfoNo2_FinalV5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/fip_brochure_web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/fip_brochure_web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CaidaOtoniel_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CaidaOtoniel_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_SurBolivar_FinalV4.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_SurBolivar_FinalV4.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_UrabaAntioquen\u0303o_FinaL.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_UrabaAntioquen\u0303o_FinaL.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol2_FinalV5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol2_FinalV5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol4_Catatumbo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol4_Catatumbo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol5_ImpactoSeguridadCovid_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol5_ImpactoSeguridadCovid_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol6_BajoCauca_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol6_BajoCauca_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol7_Cordoba_Final_V3.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol7_Cordoba_Final_V3.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_Vol8_InformeFinal.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_Vol8_InformeFinal.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitolioTerritorio_web_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitolioTerritorio_web_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CapitTerrit_Guaviare_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CapitTerrit_Guaviare_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Catatumbo_liderazgo_construccion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Catatumbo_liderazgo_construccion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Catatumbo_liderazgo_equidad.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Catatumbo_liderazgo_equidad.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_cifrasyaportes2021.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_cifrasyaportes2021.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_CivilizarSeguridad_web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_CivilizarSeguridad_web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ConversacionJovenes_Buenaventura.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ConversacionJovenes_Buenaventura.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ConversacionJovenes_Catatumbo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ConversacionJovenes_Catatumbo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ConversacionJovenes_Cauca.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ConversacionJovenes_Cauca.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_COVID19_infografia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_COVID19_infografia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_COVID19_web_FINAL_V3.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_COVID19_web_FINAL_V3.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_crimenorganizado.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_crimenorganizado.pdf",
+        "statusCode": 301
+    },
+    "/media/website/fip_decalogodrogas_web_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/fip_decalogodrogas_web_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_DelitoyConfinamiento.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_DelitoyConfinamiento.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Disidencias_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Disidencias_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_EmpresariosPaz_Final_V4.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_EmpresariosPaz_Final_V4.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_EmpresasEstabilizacio\u0301n_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_EmpresasEstabilizacio\u0301n_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_familiascoca_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_familiascoca_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_CuentasImperfectas.FinalV1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_CuentasImperfectas.FinalV1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_LiderazgoCivilPolicia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_LiderazgoCivilPolicia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_PersecusionPenal_FinalV1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_PersecusionPenal_FinalV1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_RecomendacionesFuerzaPublica.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_RecomendacionesFuerzaPublica.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_RelacionPoliciaCiudadanos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_RelacionPoliciaCiudadanos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Fescol_SerDurosSerJustos_FinalV2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Fescol_SerDurosSerJustos_FinalV2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_FragilidadTransicion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_FragilidadTransicion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Buenas Practicas_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Buenas Practicas_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_CadenaSuministro_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_CadenaSuministro_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_CasoEstudioTelefonica_Final4agosto.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_CasoEstudioTelefonica_Final4agosto.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_DecentWork_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_DecentWork_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_EPM_FinalV3Eli.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_EPM_FinalV3Eli.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_FortInstitucional_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_FortInstitucional_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Grievance&Complaints_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Grievance&Complaints_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InfografiaCadenaSuministro_FinalV4.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InfografiaCadenaSuministro_FinalV4.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InfografiaGenero.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InfografiaGenero.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InfografiaNin\u0303ez_FinalV4_interactivo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InfografiaNin\u0303ez_FinalV4_interactivo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InfografiaSeguridadAlimentaria.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InfografiaSeguridadAlimentaria.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InfografiaTrabajoenCasa.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InfografiaTrabajoenCasa.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_InstitutionalStrengthening_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_InstitutionalStrengthening_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_LandRights_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_LandRights_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_QuejasReclamos_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_QuejasReclamos_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_RelComunidades_Final4agosto.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_RelComunidades_Final4agosto.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_RelEmpresarial_FinalV1eli.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_RelEmpresarial_FinalV1eli.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Security_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Security_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Seguridad_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Seguridad_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_SupplyChain_web_C-0519.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_SupplyChain_web_C-0519.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Telefonica.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Telefonica.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_Tierras_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_Tierras_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GC_TrabajoDecente_1117_web01.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GC_TrabajoDecente_1117_web01.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_GuiaEEM_OnuMujeres.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_GuiaEEM_OnuMujeres.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_04_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_04_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_05_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_05_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_06_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_06_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_02_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_02_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_03_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_03_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_ConfiarConstruir_Barranquilla_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_INFO_DiaInternacionalDDHH.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_INFO_DiaInternacionalDDHH.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_InfografiaInformeGestion2020.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_InfografiaInformeGestion2020.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Infome_LaIncubadora_Final_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Infome_LaIncubadora_Final_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Infome_NiPazNiGuerra.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Infome_NiPazNiGuerra.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Infome_SegundaMarquetalia_Final_V7.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Infome_SegundaMarquetalia_Final_V7.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_InformeGestion2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_InformeGestion2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_InformeGestion2020_FinalV3.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_InformeGestion2020_FinalV3.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_InformeGestion2021.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_InformeGestion2021.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_KAS_EmpresasMigracion_Web_FINALV1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_KAS_EmpresasMigracion_Web_FINALV1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_LiderazgoTiempoCrisis_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_LiderazgoTiempoCrisis_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_MalaHoraCurulesPaz_FinalV1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_MalaHoraCurulesPaz_FinalV1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_MetayCaqueta.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_MetayCaqueta.pdf",
+        "statusCode": 301
+    },
+    "/media/website/fip_metodologia_para_poner_marcha_la_accion_unificada.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/fip_metodologia_para_poner_marcha_la_accion_unificada.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_MigracionElecciones.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_MigracionElecciones.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_MigracionVOL2_Final_V1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_MigracionVOL2_Final_V1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_AccesosTierras.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_AccesosTierras.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_AcuerdosConservacion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_AcuerdosConservacion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_AunNoesTardeSeguridad.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_AunNoesTardeSeguridad.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_ConsejosTerritoriales_Final_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_ConsejosTerritoriales_Final_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_CooperacionUSA_FinalV3.pdf.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_CooperacionUSA_FinalV3.pdf.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_CooperacionUSA_FinalV5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_CooperacionUSA_FinalV5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_DialogoConflictividades_Final_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_DialogoConflictividades_Final_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_DistribucionDrogas_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_DistribucionDrogas_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ne_estabilizacion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ne_estabilizacion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_Homicidios_Diciembre.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_Homicidios_Diciembre.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_LaPazconelELN.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_LaPazconelELN.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_LosDilemasPDET.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_LosDilemasPDET.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_MercadoArmas_web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_MercadoArmas_web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_NegociacionesELN.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_NegociacionesELN.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_PlanesAccion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_PlanesAccion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_PNAEmpresas_web_Final_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_PNAEmpresas_web_Final_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_PNNCultivosilicitos_web_Corregido_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_PNNCultivosilicitos_web_Corregido_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_QueHacerConelPNIS_ANEXO.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_QueHacerConelPNIS_ANEXO.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_QueHacerConelPNIS.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_QueHacerConelPNIS.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_QuehacerELN_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_QuehacerELN_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_Reincorporacion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_Reincorporacion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_SiririBalance_Web_FINAL_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_SiririBalance_Web_FINAL_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NE_TrayectoriasFarc_Final_V02.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NE_TrayectoriasFarc_Final_V02.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NEST_MilitaresMedioAmbiente_web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NEST_MilitaresMedioAmbiente_web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NEST_ReclutamientoMenores_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NEST_ReclutamientoMenores_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_NEST_SeguridadGruposMotor_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_NEST_SeguridadGruposMotor_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Obras_mpuestos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Obras_mpuestos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ObrasxImpuestos_Final_ENG.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ObrasxImpuestos_Final_ENG.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ObrasxImpuestos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ObrasxImpuestos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_PDETyPandemia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_PDETyPandemia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_potesta_social_mj.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_potesta_social_mj.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ProspectLastingPeace.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ProspectLastingPeace.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_QueHacerPNIS_InfoNo1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_QueHacerPNIS_InfoNo1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_QueHacerPNIS_InfoNo2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_QueHacerPNIS_InfoNo2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_QuePasoCurulesdePaz_FinalV3.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_QuePasoCurulesdePaz_FinalV3.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_RegulacionArmas_infografia_Final_V2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_RegulacionArmas_infografia_Final_V2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_ReincorporacionFARC_web_FINAL.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_ReincorporacionFARC_web_FINAL.pdf",
+        "statusCode": 301
+    },
+    "/media/website/fip_seguridad_fronteras.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/fip_seguridad_fronteras.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_AnexoConceptual.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_AnexoConceptual.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_Apartado.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_Apartado.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_Apartado\u0301.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_Apartado\u0301.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_Docu_estrategico.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_Docu_estrategico.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_PuertoAsis.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_PuertoAsis.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_SanMiguel.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_SanMiguel.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_Strategic.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_Strategic.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SerieLGBTI_Tumaco.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SerieLGBTI_Tumaco.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SFC_DINAMICAS.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SFC_DINAMICAS.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Siriri_Cartagena_FINAL.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Siriri_Cartagena_FINAL.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Siriri_PDTE_Patia_FINAL.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Siriri_PDTE_Patia_FINAL.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SiririCatatumbo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SiririCatatumbo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_SiririMeta.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_SiririMeta.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_sustitucion_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_sustitucion_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_sustitucion_VOL06.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_sustitucion_VOL06.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_sustitucion_vol5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_sustitucion_vol5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Transformacion_ejercito.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Transformacion_ejercito.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Uraba_1.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Uraba_1.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP_Uraba_2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP_Uraba_2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/fip-campania-sin-la-paz.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/fip-campania-sin-la-paz.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP-informe-gestion-2018.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP-informe-gestion-2018.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP-NE-ReincorporacionEconoFarc-Final-web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP-NE-ReincorporacionEconoFarc-Final-web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP-NEST-LaPazSigue.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP-NEST-LaPazSigue.pdf",
+        "statusCode": 301
+    },
+    "/media/website/FIP-SeguridadJovenesPaz.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/FIP-SeguridadJovenesPaz.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Guia_periodismo_investigativo_homicidio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Guia_periodismo_investigativo_homicidio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Guia_periodismo_sensible_victimas_homicidio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Guia_periodismo_sensible_victimas_homicidio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/guiascol_relacionamientocon_comunidades_casodeestudio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/guiascol_relacionamientocon_comunidades_casodeestudio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/habilidades-gerenciales-reactivacio\u0301n-sostenibilidad-paz.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/habilidades-gerenciales-reactivacio\u0301n-sostenibilidad-paz.pdf",
+        "statusCode": 301
+    },
+    "/media/website/homicidio_infografia_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/homicidio_infografia_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/homicidios_11_06_2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/homicidios_11_06_2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/homis_ago_homis_sep_2018.xlsx": {
+        "to": "https://multimedia.ideaspaz.org/media/website/homis_ago_homis_sep_2018.xlsx",
+        "statusCode": 301
+    },
+    "/media/website/info_conexion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info_conexion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info_covid_ninos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info_covid_ninos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-congreso.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-congreso.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-cultivos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-cultivos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-dinamicas-2020-en.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-dinamicas-2020-en.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-dinamicas-2020.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-dinamicas-2020.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-homicidio-f.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-homicidio-f.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-incu-2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-incu-2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-incu.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-incu.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-policia-pq.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-policia-pq.pdf",
+        "statusCode": 301
+    },
+    "/media/website/info-recomendaciones-seguridad-web.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/info-recomendaciones-seguridad-web.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia_cauca.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia_cauca.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-4anios-conflicto.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-4anios-conflicto.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-acciones-violentas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-acciones-violentas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-armas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-armas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-ataques-cifras-2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-ataques-cifras-2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-ataques-cifras-pp.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-ataques-cifras-pp.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-ataques-cifras.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-ataques-cifras.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-ataques-eln-general.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-ataques-eln-general.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-catatumbo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-catatumbo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Infografia-CODHES.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Infografia-CODHES.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-congreso-drogas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-congreso-drogas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-culti.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-culti.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-disidencias-final-en.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-disidencias-final-en.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-disidencias.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-disidencias.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-drogas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-drogas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Infografia-empresarios-fenomeno-migratorio.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Infografia-empresarios-fenomeno-migratorio.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-ensamble.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-ensamble.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-excombatientes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-excombatientes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-homicidios-03.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-homicidios-03.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-homicidios-en.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-homicidios-en.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-homicidios.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-homicidios.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-jep-2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-jep-2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-jep-3.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-jep-3.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-jep-c4.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-jep-c4.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-jep-c5.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-jep-c5.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-jep.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-jep.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-lideres.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-lideres.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-movimientos-disidencias-eln.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-movimientos-disidencias-eln.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-mujeres-covid-02-cont.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-mujeres-covid-02-cont.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-mujeres-covid-02.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-mujeres-covid-02.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Infografia-No-1-niveles-de-confianza-actores.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Infografia-No-1-niveles-de-confianza-actores.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Infografia-No-2-hoja-ruta.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Infografia-No-2-hoja-ruta.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-opi.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-opi.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-pdet.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-pdet.pdf",
+        "statusCode": 301
+    },
+    "/media/website/infografia-sustitucion-2.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/infografia-sustitucion-2.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_de_gestion_2014.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_de_gestion_2014.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_fip_PNVCC_en.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_fip_PNVCC_en.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_fip_PNVCC_es.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_fip_PNVCC_es.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_gestion_2012.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_gestion_2012.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_gestion_2013.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_gestion_2013.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_gestion_2014.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_gestion_2014.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_gestion_2015.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_gestion_2015.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe_gestion_2016.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe_gestion_2016.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_gestion_2017.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_gestion_2017.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_Monitor_2908.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_Monitor_2908.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_Norte_Cauca_2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_Norte_Cauca_2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_preliminar_Catatumbo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_preliminar_Catatumbo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_preliminar_Planadas_Tolima.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_preliminar_Planadas_Tolima.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_preliminar_Putumayo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_preliminar_Putumayo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Informe_preliminar_Sur_Meta.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Informe_preliminar_Sur_Meta.pdf",
+        "statusCode": 301
+    },
+    "/media/website/informe-gestion-2012-03.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/informe-gestion-2012-03.pdf",
+        "statusCode": 301
+    },
+    "/media/website/inversion_social.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/inversion_social.pdf",
+        "statusCode": 301
+    },
+    "/media/website/LaIncubadoraDesafiosPaz_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/LaIncubadoraDesafiosPaz_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/las_cifras_delictivas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/las_cifras_delictivas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/LasVerdadesqueConviven_JPL_FIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/LasVerdadesqueConviven_JPL_FIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/lecciones_aprendidas_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/lecciones_aprendidas_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Los_jo\u0301venes_toman_palabra_infografi\u0301a_22_feb.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Los_jo\u0301venes_toman_palabra_infografi\u0301a_22_feb.pdf",
+        "statusCode": 301
+    },
+    "/media/website/macarenaweb.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/macarenaweb.pdf",
+        "statusCode": 301
+    },
+    "/media/website/manual-tangram.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/manual-tangram.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Mapa_Seguridad_V7.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Mapa_Seguridad_V7.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Memorando-politica-drogas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Memorando-politica-drogas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/migracion-final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/migracion-final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/MontesdeMariaweb.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/MontesdeMariaweb.pdf",
+        "statusCode": 301
+    },
+    "/media/website/nota_estabilizacion04_movilizacionFIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/nota_estabilizacion04_movilizacionFIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/NotaEstabilizacio\u0301n04_Movilizacio\u0301nFIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/NotaEstabilizacio\u0301n04_Movilizacio\u0301nFIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/obras_vf_final_b.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/obras_vf_final_b.pdf",
+        "statusCode": 301
+    },
+    "/media/website/pequenas-soluciones.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/pequenas-soluciones.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Primer_Informe_Regional_Antioquia_Putumayo.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Primer_Informe_Regional_Antioquia_Putumayo.pdf",
+        "statusCode": 301
+    },
+    "/media/website/primer-estudio-caso-isagen-VF.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/primer-estudio-caso-isagen-VF.pdf",
+        "statusCode": 301
+    },
+    "/media/website/propuestas_4_guias_Colombia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/propuestas_4_guias_Colombia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/protesta_infografia_10.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/protesta_infografia_10.pdf",
+        "statusCode": 301
+    },
+    "/media/website/recomendaciones_final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/recomendaciones_final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/RegulacionEmpresasDDHH_FIPZuleta.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/RegulacionEmpresasDDHH_FIPZuleta.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Reincorporacion_excombatientes_FARC_FIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Reincorporacion_excombatientes_FARC_FIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/responsabilidad-empresarial-respetar-derechos-humanos.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/responsabilidad-empresarial-respetar-derechos-humanos.pdf",
+        "statusCode": 301
+    },
+    "/media/website/respuestas.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/respuestas.pdf",
+        "statusCode": 301
+    },
+    "/media/website/resumen_monitor.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/resumen_monitor.pdf",
+        "statusCode": 301
+    },
+    "/media/website/resumen-ni-gerra-ni-paz.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/resumen-ni-gerra-ni-paz.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Segundo_Informe_Regional_Surdel_Tolima.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Segundo_Informe_Regional_Surdel_Tolima.pdf",
+        "statusCode": 301
+    },
+    "/media/website/seguridad-bogota-fip.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/seguridad-bogota-fip.pdf",
+        "statusCode": 301
+    },
+    "/media/website/sirirPDET_Final.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/sirirPDET_Final.pdf",
+        "statusCode": 301
+    },
+    "/media/website/Tercer_Informe_Regional_Choco\u0300.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/Tercer_Informe_Regional_Choco\u0300.pdf",
+        "statusCode": 301
+    },
+    "/media/website/terminos_auditoria_suecia.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/terminos_auditoria_suecia.pdf",
+        "statusCode": 301
+    },
+    "/media/website/terminos_referencia_auditorias_laboratorios_empresas_reconciliacio\u0301n.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/terminos_referencia_auditorias_laboratorios_empresas_reconciliacio\u0301n.pdf",
+        "statusCode": 301
+    },
+    "/media/website/think-thaks-inv.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/think-thaks-inv.pdf",
+        "statusCode": 301
+    },
+    "/media/website/WWF_ColombiaAmazonas_2021_ES_WEB.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/WWF_ColombiaAmazonas_2021_ES_WEB.pdf",
+        "statusCode": 301
+    },
+    "/media/website/WWF_ColombiaAmazonas_Resumen_ES.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/WWF_ColombiaAmazonas_Resumen_ES.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/1.Certificacion-representante-legal.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/1.Certificacion-representante-legal.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/2.Informe-de-Gestion.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/2.Informe-de-Gestion.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/3.Estados-Financieros-2021-2020.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/3.Estados-Financieros-2021-2020.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/4.Certificacion-de-cumplimiento-FIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/4.Certificacion-de-cumplimiento-FIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/5.Estatutos-FIP-2018-II.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/5.Estatutos-FIP-2018-II.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/6.Certificacion-Antecedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/6.Certificacion-Antecedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt/7.Actas-Excedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt/7.Actas-Excedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/1.Certificacio\u0301n representante legal.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/1.Certificacio\u0301n representante legal.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/2.FIP_InformeGestion2020.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/2.FIP_InformeGestion2020.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/3.Estados Financieros 2020 - 2019.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/3.Estados Financieros 2020 - 2019.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/4.Certificacio\u0301n de cumplimiento FIP.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/4.Certificacio\u0301n de cumplimiento FIP.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/5.Estatutos FIP 2018 -II.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/5.Estatutos FIP 2018 -II.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/6.certificacion Antecedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/6.certificacion Antecedentes.pdf",
+        "statusCode": 301
+    },
+    "/media/website/rt-2021/7. Actas Excedentes.pdf": {
+        "to": "https://multimedia.ideaspaz.org/media/website/rt-2021/7. Actas Excedentes.pdf",
         "statusCode": 301
     }
 }
