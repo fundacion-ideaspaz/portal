@@ -4059,16 +4059,16 @@
         "to": "/publicaciones?query=Investigaciones%20y%20an%C3%A1lisis",
         "statusCode": 301
     },
+    "/publications?contentType=250": {
+        "to": "/publicaciones?query=Informes%20de%20gesti%C3%B3n",
+        "statusCode": 301
+    },
     "/publications?contentType=9": {
         "to": "/publicaciones?query=FIP%20Opina",
         "statusCode": 301
     },
     "/publications?contentType=7": {
         "to": "/publicaciones?query=Noticias",
-        "statusCode": 301
-    },
-    "/publications?contentType=250": {
-        "to": "/publicaciones?query=Informes%20de%20gesti%C3%B3n",
         "statusCode": 301
     },
     "/especiales/infografias/opi.html": {
