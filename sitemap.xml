@@ -58,6 +58,13 @@
     </url>
 
     <url>
+        <loc>https://ideaspaz.org/rte-regimen-tributario-especial</loc>
+        <lastmod>2022-09-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://ideaspaz.org/soporte</loc>
         <lastmod>2022-09-07</lastmod>
         <changefreq>monthly</changefreq>
@@ -66,7 +73,7 @@
 
     <url>
         <loc>https://ideaspaz.org/terminos-y-condiciones</loc>
-        <lastmod>2022-09-01</lastmod>
+        <lastmod>2022-09-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -4511,7 +4518,7 @@
 
     <url>
         <loc>https://ideaspaz.org/publicaciones/noticias/2017-06/politica-fip-para-el-manejo-de-datos-personales</loc>
-        <lastmod>2017-06-13</lastmod>
+        <lastmod>2022-09-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
