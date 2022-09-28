@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="29.5" height="15.621" viewBox="0 0 29.5 15.621">
   <defs>
     <clipPath id="arrow-right-a">
-      <path id="Rectangle_16" fill="none" stroke="rgba(0,0,0,0)" stroke-width="1" d="M0 0h29v13.452H0z" data-name="Rectangle 16"/>
+      <path fill="none" stroke="rgba(0,0,0,0)" stroke-width="1" d="M0 0h29v13.452H0z" data-name="Rectangle 16"/>
     </clipPath>
   </defs>
-  <g id="Group_633" data-name="Group 633" transform="translate(0 1.083)">
-    <path id="Path_4" fill="#040405" stroke="rgba(0,0,0,0)" stroke-width="1" d="M21.615 0v1.836L27.577 6.7v.051l-5.962 4.866v1.835l7.388-6.3v-.858Z" data-name="Path 4"/>
-    <path id="Path_5" fill="#040405" stroke="rgba(0,0,0,0)" stroke-width="1" d="M0 6.725Z" data-name="Path 5"/>
-    <g id="Group_14" data-name="Group 14">
-      <g id="Group_13" clip-path="url(#arrow-right-a)" data-name="Group 13">
-        <path id="Line_1" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="1.389" d="M28.195 6.726H0" data-name="Line 1"/>
+  <g data-name="Group 633" transform="translate(0 1.083)">
+    <path fill="#040405" stroke="rgba(0,0,0,0)" stroke-width="1" d="M21.615 0v1.836L27.577 6.7v.051l-5.962 4.866v1.835l7.388-6.3v-.858Z" data-name="Path 4"/>
+    <path fill="#040405" stroke="rgba(0,0,0,0)" stroke-width="1" d="M0 6.725Z" data-name="Path 5"/>
+    <g data-name="Group 14">
+      <g clip-path="url(#arrow-right-a)" data-name="Group 13">
+        <path fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="1.389" d="M28.195 6.726H0" data-name="Line 1"/>
       </g>
     </g>
   </g>

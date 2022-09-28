@@ -21,7 +21,9 @@
 <link href="https://ideaspaz.org/" rel="home" />
 <link href="https://ideaspaz.org/publicaciones/investigaciones-analisis/2022-07/que-hacer-con-el-pnis-decisiones-claves-para-los-primeros-100-dias-de-gobierno" rel="canonical" />
 <link type="text/plain" rel="author" href="https://ideaspaz.org/humans.txt" />
-  <link rel="stylesheet" href="https://ideaspaz.org/build/assets/app.1b885a01.css" />
+  <link rel="stylesheet" href="https://ideaspaz.org/build/assets/app.8d45e273.css" />
+  <!-- alpine plugins -->
+  <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
@@ -574,19 +576,22 @@
 
 <div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
-    <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#email"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-email-a"> <path data-name="Path 400" d="M0-106.584h19.419v-19.51H0Z" transform="translate(0 126.094)" fill="#fff"/> </clipPath> </defs> <g data-name="Group 3499" transform="translate(-407 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(407 965)" fill="#b5b5b5"/> <g data-name="Group 3498"> <g data-name="Group 3497" transform="translate(415 971)" clip-path="url(#share-email-a)"> <g data-name="Group 3496"> <path data-name="Path 399" d="M0 16.654V8.295a4.459 4.459 0 0 1 .091-.966 2.013 2.013 0 0 1 .331-.739 3.562 3.562 0 0 1 .684-.689l6.6-5.032A6.969 6.969 0 0 1 8.721.221a2.2 2.2 0 0 1 1-.222 2.187 2.187 0 0 1 .984.222 6.5 6.5 0 0 1 1.011.648l6.591 5.032a3.744 3.744 0 0 1 .693.693 1.977 1.977 0 0 1 .331.734 4.469 4.469 0 0 1 .091.966v8.359a2.8 2.8 0 0 1-.263 1.405l-5.675-5.6L18 7.996q.263-.254 0-.453l-7.307-5.53a3.993 3.993 0 0 0-.521-.354.938.938 0 0 0-.449-.109.953.953 0 0 0-.462.113 4.713 4.713 0 0 0-.526.349L1.428 7.551q-.263.19-.009.444l4.551 4.46-5.707 5.622A2.88 2.88 0 0 1 0 16.654m1.115 2.448 7.515-7.47a1.593 1.593 0 0 1 1.088-.562 1.6 1.6 0 0 1 1.1.562l7.482 7.442a2.75 2.75 0 0 1-1.768.435H2.7a2.4 2.4 0 0 1-1.587-.408" fill="#fff"/> </g> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#email"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-email-a"> <path data-name="Path 400" d="M0-106.584h19.419v-19.51H0Z" transform="translate(0 126.094)" fill="#fff"/> </clipPath> </defs> <g data-name="Group 3499" transform="translate(-407 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(407 965)" fill="#b5b5b5"/> <g data-name="Group 3498"> <g data-name="Group 3497" transform="translate(415 971)" clip-path="url(#share-email-a)"> <g data-name="Group 3496"> <path data-name="Path 399" d="M0 16.654V8.295a4.459 4.459 0 0 1 .091-.966 2.013 2.013 0 0 1 .331-.739 3.562 3.562 0 0 1 .684-.689l6.6-5.032A6.969 6.969 0 0 1 8.721.221a2.2 2.2 0 0 1 1-.222 2.187 2.187 0 0 1 .984.222 6.5 6.5 0 0 1 1.011.648l6.591 5.032a3.744 3.744 0 0 1 .693.693 1.977 1.977 0 0 1 .331.734 4.469 4.469 0 0 1 .091.966v8.359a2.8 2.8 0 0 1-.263 1.405l-5.675-5.6L18 7.996q.263-.254 0-.453l-7.307-5.53a3.993 3.993 0 0 0-.521-.354.938.938 0 0 0-.449-.109.953.953 0 0 0-.462.113 4.713 4.713 0 0 0-.526.349L1.428 7.551q-.263.19-.009.444l4.551 4.46-5.707 5.622A2.88 2.88 0 0 1 0 16.654m1.115 2.448 7.515-7.47a1.593 1.593 0 0 1 1.088-.562 1.6 1.6 0 0 1 1.1.562l7.482 7.442a2.75 2.75 0 0 1-1.768.435H2.7a2.4 2.4 0 0 1-1.587-.408" fill="#fff"/> </g> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Comparte</span>
   </div>
   <div class="grow sm:col-span-1 sm:text-center">
-    <a class="align-r mr-2 inline" href="#like"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-like-a"> <path data-name="Path 288" d="M0-2.432h16.349v-15H0Z" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2114" transform="translate(9 27.432)" clip-path="url(#share-like-a)"> <g data-name="Group 2113"> <path data-name="Path 287" d="M8.175-2.432 6.989-3.511C2.779-7.328 0-9.846 0-12.936a4.452 4.452 0 0 1 4.5-4.5 4.894 4.894 0 0 1 3.679 1.708 4.894 4.894 0 0 1 3.679-1.708 4.452 4.452 0 0 1 4.5 4.5C16.349-9.846 13.57-7.328 9.36-3.5Z" fill="#fff"/> </g> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#thumbs-up"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-up-a"> <path data-name="Path 290" d="M0-2.182h17.6v-16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2118"> <g data-name="Group 2117" transform="translate(9 8)" clip-path="url(#share-thumb-up)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 16h7.2a1.591 1.591 0 0 0 1.473-.976l2.415-5.642a1.576 1.576 0 0 0 .112-.584v-1.6a1.6 1.6 0 0 0-1.6-1.6h-5.048l.759-3.656.025-.256a1.205 1.205 0 0 0-.352-.847l-.848-.84-5.272 5.273A1.591 1.591 0 0 0 4.8 6.4v8A1.6 1.6 0 0 0 6.4 16M3.2 6.4H0V16h3.2Z" fill="#fff"/> </g> </g> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#thumbs-down"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-down-a"> <path data-name="Path 290" d="M0-18.182h17.6v16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <g data-name="Group 3501" transform="translate(-691 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(691 965)" fill="#b5b5b5"/> <g data-name="Group 2119"> <g data-name="Group 2117" clip-path="url(#share-thumb-down-a)" transform="translate(700 976)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 0h7.2a1.591 1.591 0 0 1 1.472.976l2.416 5.64a1.576 1.576 0 0 1 .112.584v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.048l.759 3.656.025.256a1.205 1.205 0 0 1-.352.847l-.848.84-5.272-5.271A1.591 1.591 0 0 1 4.8 9.6v-8A1.6 1.6 0 0 1 6.4 0M3.2 9.6H0V0h3.2Z" fill="#fff"/> </g> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#like"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-like-a"> <path data-name="Path 288" d="M0-2.432h16.349v-15H0Z" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2114" transform="translate(9 27.432)" clip-path="url(#share-like-a)"> <g data-name="Group 2113"> <path data-name="Path 287" d="M8.175-2.432 6.989-3.511C2.779-7.328 0-9.846 0-12.936a4.452 4.452 0 0 1 4.5-4.5 4.894 4.894 0 0 1 3.679 1.708 4.894 4.894 0 0 1 3.679-1.708 4.452 4.452 0 0 1 4.5 4.5C16.349-9.846 13.57-7.328 9.36-3.5Z" fill="#fff"/> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#thumbs-up"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-up-a"> <path data-name="Path 290" d="M0-2.182h17.6v-16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2118"> <g data-name="Group 2117" transform="translate(9 8)" clip-path="url(#share-thumb-up)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 16h7.2a1.591 1.591 0 0 0 1.473-.976l2.415-5.642a1.576 1.576 0 0 0 .112-.584v-1.6a1.6 1.6 0 0 0-1.6-1.6h-5.048l.759-3.656.025-.256a1.205 1.205 0 0 0-.352-.847l-.848-.84-5.272 5.273A1.591 1.591 0 0 0 4.8 6.4v8A1.6 1.6 0 0 0 6.4 16M3.2 6.4H0V16h3.2Z" fill="#fff"/> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#thumbs-down"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-down-a"> <path data-name="Path 290" d="M0-18.182h17.6v16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <g data-name="Group 3501" transform="translate(-691 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(691 965)" fill="#b5b5b5"/> <g data-name="Group 2119"> <g data-name="Group 2117" clip-path="url(#share-thumb-down-a)" transform="translate(700 976)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 0h7.2a1.591 1.591 0 0 1 1.472.976l2.416 5.64a1.576 1.576 0 0 1 .112.584v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.048l.759 3.656.025.256a1.205 1.205 0 0 1-.352.847l-.848.84-5.272-5.271A1.591 1.591 0 0 1 4.8 9.6v-8A1.6 1.6 0 0 1 6.4 0M3.2 9.6H0V0h3.2Z" fill="#fff"/> </g> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Califica</span>
   </div>
   <div class="flex-none sm:col-span-1 sm:text-right">
-    <a class="mr-2 inline" href="#solo-text"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-solo-text-a"> <path data-name="Path 292" d="M0-3.072h14.628v-16H0Z" transform="translate(0 19.072)" fill="#fff"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2123"> <g data-name="Group 2122" transform="translate(9.563 9)" clip-path="url(#share-solo-text-a)"> <g data-name="Group 2121"> <path data-name="Path 291" d="M13.898 8.008a.676.676 0 0 0 .73-.722v-6.5a.743.743 0 0 0-.8-.789 1.552 1.552 0 0 0-.951.354l-1.559 1.058a.649.649 0 0 0-.369.568.537.537 0 0 0 .531.56.79.79 0 0 0 .479-.177l1.188-.789h.029v5.714a.677.677 0 0 0 .722.722M.907 16a.949.949 0 0 0 1.018-.8l1.194-3.281h5.612L9.926 15.2a.948.948 0 0 0 1.018.8.849.849 0 0 0 .936-.878 1.765 1.765 0 0 0-.111-.59L7.367 2.802a1.387 1.387 0 0 0-1.43-1.018 1.368 1.368 0 0 0-1.409 1.01L.11 14.57a1.731 1.731 0 0 0-.11.568.818.818 0 0 0 .907.862m2.684-5.6 2.308-6.474h.059l2.309 6.471Z" fill="#fff"/> </g> </g> </g> </svg></a>
+    <a class="inline" href="#solo-text"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-solo-text-a"> <path data-name="Path 292" d="M0-3.072h14.628v-16H0Z" transform="translate(0 19.072)" fill="#fff"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2123"> <g data-name="Group 2122" transform="translate(9.563 9)" clip-path="url(#share-solo-text-a)"> <g data-name="Group 2121"> <path data-name="Path 291" d="M13.898 8.008a.676.676 0 0 0 .73-.722v-6.5a.743.743 0 0 0-.8-.789 1.552 1.552 0 0 0-.951.354l-1.559 1.058a.649.649 0 0 0-.369.568.537.537 0 0 0 .531.56.79.79 0 0 0 .479-.177l1.188-.789h.029v5.714a.677.677 0 0 0 .722.722M.907 16a.949.949 0 0 0 1.018-.8l1.194-3.281h5.612L9.926 15.2a.948.948 0 0 0 1.018.8.849.849 0 0 0 .936-.878 1.765 1.765 0 0 0-.111-.59L7.367 2.802a1.387 1.387 0 0 0-1.43-1.018 1.368 1.368 0 0 0-1.409 1.01L.11 14.57a1.731 1.731 0 0 0-.11.568.818.818 0 0 0 .907.862m2.684-5.6 2.308-6.474h.059l2.309 6.471Z" fill="#fff"/> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
@@ -607,7 +612,9 @@
     class="grid grid-cols-4 uppercase text-xs font-sans border-4 border-fip-green text-fip-green py-3 px-4 leading-4 hover:border-lime-600 hover:text-lime-600 sm:w-full w-1/2"
     target=" _blank">
     <svg class="inline grid-cols-1" data-name="Group 2005" xmlns="http://www.w3.org/2000/svg" width="23.885" height="26.639" viewBox="0 0 23.885 26.639"> <path data-name="Path 4" d="M17.478 17.094h-1.462l-3.869 4.749h-.041l-3.877-4.749H6.768l5.01 5.882h.689Z" fill="#a2c037" stroke="#a2c037" stroke-width=".75"/> <g data-name="Group 14"> <g data-name="Group 1860"> <path data-name="Line 1" fill="none" stroke="#a2c037" stroke-miterlimit="10" stroke-width="2" d="M12.123 22.244V.001"/> </g> </g> <path data-name="Line 139" fill="none" stroke="#a2c037" stroke-width="2" d="M0 25.639h23.885"/> </svg>
-    <div class="col-span-3"><span class="font-bold">Descargar informe</span> (PDF)</div>
+    <div class="col-span-3">
+      <span class="font-bold">Descargar informe</span> (PDF)
+    </div>
   </a>
 </div>
 
@@ -676,12 +683,49 @@
     
   
     
-      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis.html"
-  target="_blank" class="inline-block no-underline  bg-fip-blue sm:py-3 py-2 px-4 my-8">
-  <span class="text-white font-normal uppercase text-xs font-sans tracking-wider">
-    Conozca la infografía con datos claves
-  </span>
-</a>
+      
+  <figure class="-mx-6 bg-[#F6F6F6] py-6 px-6 mt-4 mb-0 sm:-mx-0 sm:grid sm:grid-cols-3 sm:gap-4 not-prose"
+    x-data="{ expanded: false }">
+    
+      
+      
+      
+      
+    
+    
+      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis.html" target="_blank">
+        <img class="my-0 sm:col-span-1"
+          src="https://ideaspaz.imgix.net/images/multimedia/cultivos-ilicitos-infografia.jpeg?auto=format&fit=crop&w=260&h=148&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1" width="260"
+          height="148" alt="" />
+      </a>
+    
+    <figcaption class="sm:col-span-2 mt-2 sm:mt-0 sm:grid sm:content-between">
+      <div>
+        <p class="uppercase text-fip-green font-bold text-base align-top leading-5">
+          Infografía
+          
+            . Conozca los datos clave
+          
+        </p>
+        <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis.html" target="_blank">
+          <h4 class="text-2xl leading-tight font-black">¿Qué puede hacer el nuevo gobierno con el PNIS?</h4>
+        </a>
+      </div>
+      <div>
+        <button x-on:click="expanded = !expanded" x-text="!expanded ? '+ Seguir leyendo' : '- Cerrar'"
+          class="text-fip-green font-sans uppercase text-xs font-bold align-middle py-4 sm:py-0">
+        </button>
+      </div>
+    </figcaption>
+    <p x-show="expanded" x-collapse class="col-span-3 text-lg leading-8">
+      Cinco años cumple el Programa Nacional Integral de Sustitución de Cultivos Ilícitos (PNIS), que promueve la sustitución voluntaria para ayudar a que las familias campesinas que derivan su subsistencia de los cultivos de uso ilícito, superen la pobreza.
+      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis.html" target="_blank"
+        class="uppercase text-sm underline decoration-fip-green decoration-1 underline-offset-4">
+        Ver infografía
+      </a>
+    </p>
+  </figure>
+
 
     
   
@@ -703,16 +747,54 @@ sm:w-1/2 sm:mt-4 sm:text-base -mx-6 sm:-mx-0">
     
   
     
-      <p><strong>2. Desde el punto de vista operativo, la nueva  administración recibirá un Programa que está en la fase de diseño e  implementación de proyectos productivos.</strong> El Gobierno Duque se propone dejar  asignaciones para desarrollar proyectos de ciclo corto para el 100% de las  familias, y de ciclo largo para el 40% de ellas. Según lo reportado por el  PNIS, a mayo de 2022, el programa había comprometido recursos por valor de  $624.738 millones, con lo cual se contrató la operación de proyectos productivos  para 49.089 familias. Esta información deberá ser corroborada en el empalme.</p><p><strong>3. Las condiciones y supuestos bajo los cuales  comenzó a operar el PNIS han cambiado. </strong>El Programa tiene importantes desacoples en sus  componentes y hay pocos avances en la Reforma Rural Integral. El ritmo de  implementación de los PDET y la falta de una estrategia clara de transformación  territorial han dejado al PNIS sin un piso para avanzar.</p><p><strong>4. El deterioro de las condiciones de seguridad es  uno de los obstáculos principales.</strong> En 2017, cuando comenzó el Programa, la tasa de homicidios en los  municipios que hacen parte del PNIS era de 56 por 100 mil habitantes. En 2018  llegó a 73, y en 2021 se encontraba en 60. Durante 2021, en el 41% de los  municipios que hacen parte del Programa la tasa aumentó, destacándose los  incrementos en el sur de Bolívar, Caquetá, Meta y Putumayo. Además, los líderes  sociales que han impulsado el PNIS están expuestos a diferentes riesgos.</p><p><strong>5. El enfoque individual del PNIS limita su capacidad  de influir positivamente en la inclusión económica y social.</strong> El hecho de que la atención del Programa  se enfoque en las familias —y no en un proceso colectivo local— generó  expectativas respecto a la actividad productiva hacia la cual se dirigirían los  recursos. Esto derivó en una lista dispersa, no articulada, de más de 400  líneas productivas, que impone un reto no solo en términos de la atención de los  beneficiarios del Programa, sino que aleja la posibilidad de tener economías de  escala, avanzar en encadenamientos productivos y fomentar iniciativas  colectivas. El riesgo es que los recursos del PNIS se inviertan de manera  dispersa, con poco impacto en términos de la transformación territorial.</p><p><strong>6. El PNIS tiene dinámicas territoriales  diferenciadas. </strong>El punto de partida para generar oportunidades que lleven al  tránsito a la economía legal, no es el mismo. El Programa no comenzó al mismo tiempo en todos  los municipios: sus avances han sido diferenciados y las condiciones en las que  opera también son distintas. Comprender esta heterogeneidad es clave para  pensar en lo que sigue. Además de las diferencias en términos de cobertura de  los componentes del Programa, estos municipios también divergen en la situación  de seguridad y el grado de influencia y consolidación de la economía cocalera. Uno  de los retos del Programa será disminuir las brechas de implementación y tomar  decisiones sobre las zonas que se encuentran más rezagadas en sus componentes.</p><p><strong>7. En las Zonas de Manejo Especial (ZME) la  implementación del PNIS enfrenta desafíos adicionales. </strong> El  36% de las familias vinculadas al Programa se encuentran en Zonas de Reserva  Forestal (ZRF), en el Sistema de Parques Nacionales Naturales (SPNN) o en  territorios colectivos de grupos étnicos. El PNIS inició su implementación sin tener  en cuenta las características y restricciones de estas áreas, obligando al  Programa a construir lineamientos técnicos que vale la pena capitalizar en la  implementación del Programa en el nuevo Gobierno.</p>
+      <p><strong>2. Desde el punto de vista operativo, la nueva  administración recibirá un Programa que está en la fase de diseño e  implementación de proyectos productivos.</strong> El Gobierno Duque se propone dejar  asignaciones para desarrollar proyectos de ciclo corto para el 100% de las  familias, y de ciclo largo para el 40% de ellas. Según lo reportado por el  PNIS, a mayo de 2022, el programa había comprometido recursos por valor de  $624.738 millones, con lo cual se contrató la operación de proyectos productivos  para 49.089 familias. Esta información deberá ser corroborada en el empalme.</p><p><strong>3. Las condiciones y supuestos bajo los cuales  comenzó a operar el PNIS han cambiado. </strong>El Programa tiene importantes desacoples en sus  componentes y hay pocos avances en la Reforma Rural Integral. El ritmo de  implementación de los PDET y la falta de una estrategia clara de transformación  territorial han dejado al PNIS sin un piso para avanzar.</p><p><strong>4. El deterioro de las condiciones de seguridad es  uno de los obstáculos principales.</strong> En 2017, cuando comenzó el Programa, la tasa de homicidios en los  municipios que hacen parte del PNIS era de 56 por 100 mil habitantes. En 2018  llegó a 73, y en 2021 se encontraba en 60. Durante 2021, en el 41% de los  municipios que hacen parte del Programa la tasa aumentó, destacándose los  incrementos en el sur de Bolívar, Caquetá, Meta y Putumayo. Además, los líderes  sociales que han impulsado el PNIS están expuestos a diferentes riesgos.</p>
     
   
     
-      <a href="https://storage.ideaspaz.org/documents/FIP_NE_QueHacerConelPNIS_ANEXO.pdf"
-  target="_blank" class="inline-block no-underline  bg-fip-blue sm:py-3 py-2 px-4 my-8">
-  <span class="text-white font-normal uppercase text-xs font-sans tracking-wider">
-    Profundice en este documento qué hacer en las Zonas de Manejo Especial
-  </span>
-</a>
+      
+  
+
+
+  
+
+<figure
+  class="sm:float-left sm:mr-12 sm:-ml-48 sm:w-1/2 sm:mt-4 bg-gray-50 sm:text-base -mx-6 sm:-mx-0 not-prose pt-8 px-8 pb-8 font-sans relative">
+  <p class="tracking-normal mt-1 mb-4">En el 2021</p>
+  <p class="font-serif text-6xl leading-8 font-black tracking-tight">41%</p>
+  <figcaption class="block mt-4">La tasa aumentó en los municipios que hacen parte del Programa, destacándose los incrementos en el sur de Bolívar, Caquetá, Meta y Putumayo.</figcaption>
+  
+</figure>
+
+    
+  
+    
+      <p><strong>5. El enfoque individual del PNIS limita su capacidad  de influir positivamente en la inclusión económica y social.</strong> El hecho de que la atención del Programa  se enfoque en las familias —y no en un proceso colectivo local— generó  expectativas respecto a la actividad productiva hacia la cual se dirigirían los  recursos. Esto derivó en una lista dispersa, no articulada, de más de 400  líneas productivas, que impone un reto no solo en términos de la atención de los  beneficiarios del Programa, sino que aleja la posibilidad de tener economías de  escala, avanzar en encadenamientos productivos y <strong>fomentar iniciativas colectivas</strong>. El riesgo es que los recursos del PNIS se inviertan de manera  dispersa, con poco impacto en términos de la transformación territorial.</p><p><strong>6. El PNIS tiene dinámicas territoriales  diferenciadas. </strong>El punto de partida para generar oportunidades que lleven al  tránsito a la economía legal, no es el mismo. El Programa no comenzó al mismo tiempo en todos  los municipios: sus avances han sido diferenciados y las condiciones en las que  opera también son distintas. Comprender esta heterogeneidad es clave para  pensar en lo que sigue. Además de las diferencias en términos de cobertura de  los componentes del Programa, estos municipios también divergen en la situación  de seguridad y el grado de influencia y consolidación de la economía cocalera. Uno  de los retos del Programa será disminuir las brechas de implementación y tomar  decisiones sobre las zonas que se encuentran más rezagadas en sus componentes.</p><p><strong>7. En las Zonas de Manejo Especial (ZME) la  implementación del PNIS enfrenta desafíos adicionales. </strong> El  36% de las familias vinculadas al Programa se encuentran en Zonas de Reserva  Forestal (ZRF), en el Sistema de Parques Nacionales Naturales (SPNN) o en  territorios colectivos de grupos étnicos. El PNIS inició su implementación sin tener  en cuenta las características y restricciones de estas áreas, obligando al  Programa a construir lineamientos técnicos que vale la pena capitalizar en la  implementación del Programa en el nuevo Gobierno.</p>
+    
+  
+    
+      <div class="relative">
+  <div class="sm:absolute z-40 sm:top-4 sm:w-[188px] sm:-ml-[214px] -ml-6 mt-6 sm:mt-0">
+    
+      <!-- related document block -->
+<div class="not-prose pl-5 mb-8">
+  <a href="https://storage.ideaspaz.org/documents/FIP_NE_QueHacerConelPNIS_ANEXO.pdf"
+    class="block mb-4 border border-gray-200 sm:w-full w-1/2" target="_blank">
+    <img src="https://ideaspaz.imgix.net/documents/FIP_NE_QueHacerConelPNIS_ANEXO.pdf?auto=format&w=256&ixlib=php-3.3.1" alt=""
+      alt="" />
+  </a>
+  <a href="https://storage.ideaspaz.org/documents/FIP_NE_QueHacerConelPNIS_ANEXO.pdf"
+    class="grid grid-cols-4 uppercase text-xs font-sans border-4 border-fip-green text-fip-green py-3 px-4 leading-4 hover:border-lime-600 hover:text-lime-600 sm:w-full w-1/2"
+    target=" _blank">
+    <svg class="inline grid-cols-1" data-name="Group 2005" xmlns="http://www.w3.org/2000/svg" width="23.885" height="26.639" viewBox="0 0 23.885 26.639"> <path data-name="Path 4" d="M17.478 17.094h-1.462l-3.869 4.749h-.041l-3.877-4.749H6.768l5.01 5.882h.689Z" fill="#a2c037" stroke="#a2c037" stroke-width=".75"/> <g data-name="Group 14"> <g data-name="Group 1860"> <path data-name="Line 1" fill="none" stroke="#a2c037" stroke-miterlimit="10" stroke-width="2" d="M12.123 22.244V.001"/> </g> </g> <path data-name="Line 139" fill="none" stroke="#a2c037" stroke-width="2" d="M0 25.639h23.885"/> </svg>
+    <div class="col-span-3">
+      <span class="font-bold">Descargar anexo</span> (PDF)
+    </div>
+  </a>
+</div>
+
+    
+  </div>
+</div>
 
     
   
@@ -721,17 +803,54 @@ sm:w-1/2 sm:mt-4 sm:text-base -mx-6 sm:-mx-0">
     
   
     
-      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis_2.html"
-  target="_blank" class="inline-block no-underline  bg-fip-blue sm:py-3 py-2 px-4 my-8">
-  <span class="text-white font-normal uppercase text-xs font-sans tracking-wider">
-    Infografía con acciones urgentes para las  zonas de manejo especial
-  </span>
-</a>
+      
+  <figure class="-mx-6 bg-[#F6F6F6] py-6 px-6 mt-4 mb-0 sm:-mx-0 sm:grid sm:grid-cols-3 sm:gap-4 not-prose"
+    x-data="{ expanded: false }">
+    
+      
+      
+      
+      
+    
+    
+      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis_2.html" target="_blank">
+        <img class="my-0 sm:col-span-1"
+          src="https://ideaspaz.imgix.net/images/62e9152aa6892.jpg?auto=format&fit=crop&w=260&h=148&crop=focalpoint&fp-x=0.5&fp-y=0.5&fp-z=1&ixlib=php-3.3.1" width="260"
+          height="148" alt="Comunidades del Putumayo dejaron sus cultivos de coca por proyectos productivos." />
+      </a>
+    
+    <figcaption class="sm:col-span-2 mt-2 sm:mt-0 sm:grid sm:content-between">
+      <div>
+        <p class="uppercase text-fip-green font-bold text-base align-top leading-5">
+          Infografía
+          
+            . Acciones urgentes
+          
+        </p>
+        <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis_2.html" target="_blank">
+          <h4 class="text-2xl leading-tight font-black">¿Qué hacer con el PNIS en las zonas de manejo especial?</h4>
+        </a>
+      </div>
+      <div>
+        <button x-on:click="expanded = !expanded" x-text="!expanded ? '+ Seguir leyendo' : '- Cerrar'"
+          class="text-fip-green font-sans uppercase text-xs font-bold align-middle py-4 sm:py-0">
+        </button>
+      </div>
+    </figcaption>
+    <p x-show="expanded" x-collapse class="col-span-3 text-lg leading-8">
+      Las familias vinculadas al Programa Nacional Integral de Sustitución de Cultivos Ilícitos (PNIS) tienen en común su condición de vulnerabilidad, que, en parte, explica la relación con la economía de la coca. Pero estas tienen una carga adicional, cuando ocupan áreas con restricciones en términos ambientales o de la protección de derechos territoriales de grupos étnicos.
+      <a href="https://multimedia.ideaspaz.org/infografias/que_hacer_pnis_2.html" target="_blank"
+        class="uppercase text-sm underline decoration-fip-green decoration-1 underline-offset-4">
+        Ver infografía
+      </a>
+    </p>
+  </figure>
+
 
     
   
     
-      <h3 id="pnis-20-actualizacion-para-potenciarlo-como-plataforma-de-oportunidades-y-lograr-la-transformacion-territorial">PNIS 2.0: actualización para potenciarlo como  plataforma de oportunidades y lograr la transformación territorial</h3><p>Entre continuar con el PNIS  en su versión actual y terminar con su implementación,<strong> la FIP recomienda un camino intermedio con ajustes que no vayan en detrimento  de los beneficiarios, </strong>que parta de establecer metas específicas en los territorios, a partir de un análisis de necesidades y oportunidades. El PNIS debería pasar de un programa enfocado en las familias a ser una  plataforma para generar oportunidades en las áreas con presencia de cultivos  ilícitos, que logre articular las diferentes acciones del Estado en las zonas  donde opera. El Programa no debe continuar operando como una camisa de talla  única, sino que debe adaptarse a las condiciones locales.</p><p>Esto abre la pregunta sobre  cuál es la arquitectura institucional adecuada y si el Programa debería seguir siendo  parte de la Consejería Presidencial para la Estabilización y la Consolidación o  estar en el Ministerio de Agricultura y Desarrollo Rural. En todo caso, es  importante considerar que las decisiones que se tomen respecto a la institucionalidad  del PNIS se hagan de manera ordenada y eficiente, para no generar incertidumbre  y aumentar los atrasos en su implementación.</p>
+      <h3 id="pnis-20-actualizacion-para-potenciarlo-como-plataforma-de-oportunidades-y-lograr-la-transformacion-territorial">PNIS 2.0: actualización para potenciarlo como plataforma de oportunidades y lograr la transformación territorial</h3><p>Entre continuar con el PNIS  en su versión actual y terminar con su implementación,<strong> la FIP recomienda un camino intermedio con ajustes que no vayan en detrimento  de los beneficiarios, </strong>que parta de establecer metas específicas en los territorios, a partir de un análisis de necesidades y oportunidades. El PNIS debería pasar de un programa enfocado en las familias a ser una  plataforma para generar oportunidades en las áreas con presencia de cultivos  ilícitos, que logre articular las diferentes acciones del Estado en las zonas  donde opera. El Programa no debe continuar operando como una camisa de talla  única, sino que debe adaptarse a las condiciones locales.</p><p>Esto abre la pregunta sobre  cuál es la arquitectura institucional adecuada y si el Programa debería seguir siendo  parte de la Consejería Presidencial para la Estabilización y la Consolidación o  estar en el Ministerio de Agricultura y Desarrollo Rural. En todo caso, es  importante considerar que las decisiones que se tomen respecto a la institucionalidad  del PNIS se hagan de manera ordenada y eficiente, para no generar incertidumbre  y aumentar los atrasos en su implementación.</p>
     
   
   <!-- prose footer -->
@@ -757,19 +876,22 @@ sm:w-1/2 sm:mt-4 sm:text-base -mx-6 sm:-mx-0">
 
 <div class="not-prose flex border-b border-b-gray-300 py-4 font-sans text-xs sm:grid sm:grid-cols-3 sm:gap-4">
   <div class="grow sm:col-span-1">
-    <a class="align-r mr-2 inline" href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#email"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-email-a"> <path data-name="Path 400" d="M0-106.584h19.419v-19.51H0Z" transform="translate(0 126.094)" fill="#fff"/> </clipPath> </defs> <g data-name="Group 3499" transform="translate(-407 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(407 965)" fill="#b5b5b5"/> <g data-name="Group 3498"> <g data-name="Group 3497" transform="translate(415 971)" clip-path="url(#share-email-a)"> <g data-name="Group 3496"> <path data-name="Path 399" d="M0 16.654V8.295a4.459 4.459 0 0 1 .091-.966 2.013 2.013 0 0 1 .331-.739 3.562 3.562 0 0 1 .684-.689l6.6-5.032A6.969 6.969 0 0 1 8.721.221a2.2 2.2 0 0 1 1-.222 2.187 2.187 0 0 1 .984.222 6.5 6.5 0 0 1 1.011.648l6.591 5.032a3.744 3.744 0 0 1 .693.693 1.977 1.977 0 0 1 .331.734 4.469 4.469 0 0 1 .091.966v8.359a2.8 2.8 0 0 1-.263 1.405l-5.675-5.6L18 7.996q.263-.254 0-.453l-7.307-5.53a3.993 3.993 0 0 0-.521-.354.938.938 0 0 0-.449-.109.953.953 0 0 0-.462.113 4.713 4.713 0 0 0-.526.349L1.428 7.551q-.263.19-.009.444l4.551 4.46-5.707 5.622A2.88 2.88 0 0 1 0 16.654m1.115 2.448 7.515-7.47a1.593 1.593 0 0 1 1.088-.562 1.6 1.6 0 0 1 1.1.562l7.482 7.442a2.75 2.75 0 0 1-1.768.435H2.7a2.4 2.4 0 0 1-1.587-.408" fill="#fff"/> </g> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#facebook"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3495" transform="translate(-324 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(324 965)" fill="#b5b5b5"/> <path data-name="facebook-[#176]" d="M343.252 991.331v-8.248h2.5l.409-3.667h-2.913v-1.785c0-.944.024-1.881 1.343-1.881h1.336v-2.622a14.858 14.858 0 0 0-2.309-.128c-2.425 0-3.943 1.52-3.943 4.308v2.108H337v3.667h2.679v8.248Z" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#twitter"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <g data-name="Group 3494" transform="translate(-366 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(366 965)" fill="#b5b5b5"/> <path data-name="twitter-[#154]" d="M380.72 989.55a10.459 10.459 0 0 0 10.616-10.449c0-.159 0-.317-.011-.475a7.525 7.525 0 0 0 1.861-1.9 7.534 7.534 0 0 1-2.142.578 3.7 3.7 0 0 0 1.64-2.033 7.535 7.535 0 0 1-2.37.893 3.776 3.776 0 0 0-5.28-.159 3.641 3.641 0 0 0-1.079 3.51 10.656 10.656 0 0 1-7.69-3.838 3.642 3.642 0 0 0 1.156 4.9 3.749 3.749 0 0 1-1.694-.459v.047a3.691 3.691 0 0 0 2.994 3.6 3.774 3.774 0 0 1-1.684.062 3.726 3.726 0 0 0 3.485 2.552 7.554 7.554 0 0 1-4.634 1.576 7.732 7.732 0 0 1-.888-.054 10.684 10.684 0 0 0 5.72 1.647" fill="#fff" fill-rule="evenodd"/> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#email"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-email-a"> <path data-name="Path 400" d="M0-106.584h19.419v-19.51H0Z" transform="translate(0 126.094)" fill="#fff"/> </clipPath> </defs> <g data-name="Group 3499" transform="translate(-407 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(407 965)" fill="#b5b5b5"/> <g data-name="Group 3498"> <g data-name="Group 3497" transform="translate(415 971)" clip-path="url(#share-email-a)"> <g data-name="Group 3496"> <path data-name="Path 399" d="M0 16.654V8.295a4.459 4.459 0 0 1 .091-.966 2.013 2.013 0 0 1 .331-.739 3.562 3.562 0 0 1 .684-.689l6.6-5.032A6.969 6.969 0 0 1 8.721.221a2.2 2.2 0 0 1 1-.222 2.187 2.187 0 0 1 .984.222 6.5 6.5 0 0 1 1.011.648l6.591 5.032a3.744 3.744 0 0 1 .693.693 1.977 1.977 0 0 1 .331.734 4.469 4.469 0 0 1 .091.966v8.359a2.8 2.8 0 0 1-.263 1.405l-5.675-5.6L18 7.996q.263-.254 0-.453l-7.307-5.53a3.993 3.993 0 0 0-.521-.354.938.938 0 0 0-.449-.109.953.953 0 0 0-.462.113 4.713 4.713 0 0 0-.526.349L1.428 7.551q-.263.19-.009.444l4.551 4.46-5.707 5.622A2.88 2.88 0 0 1 0 16.654m1.115 2.448 7.515-7.47a1.593 1.593 0 0 1 1.088-.562 1.6 1.6 0 0 1 1.1.562l7.482 7.442a2.75 2.75 0 0 1-1.768.435H2.7a2.4 2.4 0 0 1-1.587-.408" fill="#fff"/> </g> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Comparte</span>
   </div>
   <div class="grow sm:col-span-1 sm:text-center">
-    <a class="align-r mr-2 inline" href="#like"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-like-a"> <path data-name="Path 288" d="M0-2.432h16.349v-15H0Z" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2114" transform="translate(9 27.432)" clip-path="url(#share-like-a)"> <g data-name="Group 2113"> <path data-name="Path 287" d="M8.175-2.432 6.989-3.511C2.779-7.328 0-9.846 0-12.936a4.452 4.452 0 0 1 4.5-4.5 4.894 4.894 0 0 1 3.679 1.708 4.894 4.894 0 0 1 3.679-1.708 4.452 4.452 0 0 1 4.5 4.5C16.349-9.846 13.57-7.328 9.36-3.5Z" fill="#fff"/> </g> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#thumbs-up"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-up-a"> <path data-name="Path 290" d="M0-2.182h17.6v-16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2118"> <g data-name="Group 2117" transform="translate(9 8)" clip-path="url(#share-thumb-up)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 16h7.2a1.591 1.591 0 0 0 1.473-.976l2.415-5.642a1.576 1.576 0 0 0 .112-.584v-1.6a1.6 1.6 0 0 0-1.6-1.6h-5.048l.759-3.656.025-.256a1.205 1.205 0 0 0-.352-.847l-.848-.84-5.272 5.273A1.591 1.591 0 0 0 4.8 6.4v8A1.6 1.6 0 0 0 6.4 16M3.2 6.4H0V16h3.2Z" fill="#fff"/> </g> </g> </g> </svg></a>
-    <a class="align-r mr-2 inline" href="#thumbs-down"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-down-a"> <path data-name="Path 290" d="M0-18.182h17.6v16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <g data-name="Group 3501" transform="translate(-691 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(691 965)" fill="#b5b5b5"/> <g data-name="Group 2119"> <g data-name="Group 2117" clip-path="url(#share-thumb-down-a)" transform="translate(700 976)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 0h7.2a1.591 1.591 0 0 1 1.472.976l2.416 5.64a1.576 1.576 0 0 1 .112.584v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.048l.759 3.656.025.256a1.205 1.205 0 0 1-.352.847l-.848.84-5.272-5.271A1.591 1.591 0 0 1 4.8 9.6v-8A1.6 1.6 0 0 1 6.4 0M3.2 9.6H0V0h3.2Z" fill="#fff"/> </g> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline" href="#like"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-like-a"> <path data-name="Path 288" d="M0-2.432h16.349v-15H0Z" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2114" transform="translate(9 27.432)" clip-path="url(#share-like-a)"> <g data-name="Group 2113"> <path data-name="Path 287" d="M8.175-2.432 6.989-3.511C2.779-7.328 0-9.846 0-12.936a4.452 4.452 0 0 1 4.5-4.5 4.894 4.894 0 0 1 3.679 1.708 4.894 4.894 0 0 1 3.679-1.708 4.452 4.452 0 0 1 4.5 4.5C16.349-9.846 13.57-7.328 9.36-3.5Z" fill="#fff"/> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#thumbs-up"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-up-a"> <path data-name="Path 290" d="M0-2.182h17.6v-16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2118"> <g data-name="Group 2117" transform="translate(9 8)" clip-path="url(#share-thumb-up)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 16h7.2a1.591 1.591 0 0 0 1.473-.976l2.415-5.642a1.576 1.576 0 0 0 .112-.584v-1.6a1.6 1.6 0 0 0-1.6-1.6h-5.048l.759-3.656.025-.256a1.205 1.205 0 0 0-.352-.847l-.848-.84-5.272 5.273A1.591 1.591 0 0 0 4.8 6.4v8A1.6 1.6 0 0 0 6.4 16M3.2 6.4H0V16h3.2Z" fill="#fff"/> </g> </g> </g> </svg></a>
+    <a class="align-r mr-1 inline"
+      href="#thumbs-down"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-thumb-down-a"> <path data-name="Path 290" d="M0-18.182h17.6v16H0Z" transform="translate(0 18.182)" fill="none"/> </clipPath> </defs> <g data-name="Group 3501" transform="translate(-691 -965)"> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" transform="translate(691 965)" fill="#b5b5b5"/> <g data-name="Group 2119"> <g data-name="Group 2117" clip-path="url(#share-thumb-down-a)" transform="translate(700 976)"> <g data-name="Group 2116"> <path data-name="Path 289" d="M6.4 0h7.2a1.591 1.591 0 0 1 1.472.976l2.416 5.64a1.576 1.576 0 0 1 .112.584v1.6a1.6 1.6 0 0 1-1.6 1.6h-5.048l.759 3.656.025.256a1.205 1.205 0 0 1-.352.847l-.848.84-5.272-5.271A1.591 1.591 0 0 1 4.8 9.6v-8A1.6 1.6 0 0 1 6.4 0M3.2 9.6H0V0h3.2Z" fill="#fff"/> </g> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Califica</span>
   </div>
   <div class="flex-none sm:col-span-1 sm:text-right">
-    <a class="mr-2 inline" href="#solo-text"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-solo-text-a"> <path data-name="Path 292" d="M0-3.072h14.628v-16H0Z" transform="translate(0 19.072)" fill="#fff"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2123"> <g data-name="Group 2122" transform="translate(9.563 9)" clip-path="url(#share-solo-text-a)"> <g data-name="Group 2121"> <path data-name="Path 291" d="M13.898 8.008a.676.676 0 0 0 .73-.722v-6.5a.743.743 0 0 0-.8-.789 1.552 1.552 0 0 0-.951.354l-1.559 1.058a.649.649 0 0 0-.369.568.537.537 0 0 0 .531.56.79.79 0 0 0 .479-.177l1.188-.789h.029v5.714a.677.677 0 0 0 .722.722M.907 16a.949.949 0 0 0 1.018-.8l1.194-3.281h5.612L9.926 15.2a.948.948 0 0 0 1.018.8.849.849 0 0 0 .936-.878 1.765 1.765 0 0 0-.111-.59L7.367 2.802a1.387 1.387 0 0 0-1.43-1.018 1.368 1.368 0 0 0-1.409 1.01L.11 14.57a1.731 1.731 0 0 0-.11.568.818.818 0 0 0 .907.862m2.684-5.6 2.308-6.474h.059l2.309 6.471Z" fill="#fff"/> </g> </g> </g> </svg></a>
+    <a class="inline" href="#solo-text"><svg class="inline" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35"> <defs> <clipPath id="share-solo-text-a"> <path data-name="Path 292" d="M0-3.072h14.628v-16H0Z" transform="translate(0 19.072)" fill="#fff"/> </clipPath> </defs> <circle data-name="Ellipse 87" cx="17.5" cy="17.5" r="17.5" fill="#b5b5b5"/> <g data-name="Group 2123"> <g data-name="Group 2122" transform="translate(9.563 9)" clip-path="url(#share-solo-text-a)"> <g data-name="Group 2121"> <path data-name="Path 291" d="M13.898 8.008a.676.676 0 0 0 .73-.722v-6.5a.743.743 0 0 0-.8-.789 1.552 1.552 0 0 0-.951.354l-1.559 1.058a.649.649 0 0 0-.369.568.537.537 0 0 0 .531.56.79.79 0 0 0 .479-.177l1.188-.789h.029v5.714a.677.677 0 0 0 .722.722M.907 16a.949.949 0 0 0 1.018-.8l1.194-3.281h5.612L9.926 15.2a.948.948 0 0 0 1.018.8.849.849 0 0 0 .936-.878 1.765 1.765 0 0 0-.111-.59L7.367 2.802a1.387 1.387 0 0 0-1.43-1.018 1.368 1.368 0 0 0-1.409 1.01L.11 14.57a1.731 1.731 0 0 0-.11.568.818.818 0 0 0 .907.862m2.684-5.6 2.308-6.474h.059l2.309 6.471Z" fill="#fff"/> </g> </g> </g> </svg></a>
     <span class="hidden uppercase sm:inline text-gray-400">Versión solo texto</span>
   </div>
 </div>
@@ -830,6 +952,21 @@ sm:w-1/2 sm:mt-4 sm:text-base -mx-6 sm:-mx-0">
 </div>
 
 </div>
+<script>
+  document.querySelectorAll('[id^="carousel__set"]').forEach(
+    carousel => carousel.addEventListener('click', (event) => {
+      const $slide = document.querySelector(event.target.getAttribute('href'));
+      if (!$slide) return;
+
+      if ($slide.scrollIntoViewIfNeeded) {
+        event.preventDefault();
+        $slide.scrollIntoViewIfNeeded();
+      } else if ($slide.scrollIntoView) {
+        event.preventDefault();
+        $slide.scrollIntoView();
+      }
+    }));
+</script>
 </div>
   
   
@@ -1203,7 +1340,7 @@ sm:w-1/2 sm:mt-4 sm:text-base -mx-6 sm:-mx-0">
 </footer>
 
   
-  <script type="module" src="https://ideaspaz.org/build/assets/app.4077eb9b.js"></script>
+  
 <script src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js" defer></script>
 
   <script src="https://jack-beaming.ideaspaz.org/script.js" data-site="LRVFSOOI" defer></script>
