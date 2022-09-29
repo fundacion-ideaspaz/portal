@@ -4060,7 +4060,7 @@
         "statusCode": 301
     },
     "/publications?contentType=10": {
-        "to": "/publicaciones?query=Investigaciones%20y%20an%C3%A1lisis",
+        "to": "/publicaciones?query=An%C3%A1lisis",
         "statusCode": 301
     },
     "/publications?contentType=250": {
