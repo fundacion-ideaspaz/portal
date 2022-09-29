@@ -4,7 +4,7 @@
     <url>
         <loc>https://ideaspaz.org</loc>
         <lastmod>2022-09-29</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
 
@@ -24,22 +24,22 @@
 
     <url>
         <loc>https://ideaspaz.org/convocatorias</loc>
-        <lastmod>2022-09-27</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2022-09-29</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://ideaspaz.org/proyectos</loc>
-        <lastmod>2022-09-01</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2022-09-29</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
 
     <url>
         <loc>https://ideaspaz.org/publicaciones</loc>
-        <lastmod>2022-09-01</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2022-09-29</lastmod>
+        <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
 
@@ -66,8 +66,8 @@
 
     <url>
         <loc>https://ideaspaz.org/soporte</loc>
-        <lastmod>2022-09-07</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2022-09-29</lastmod>
+        <changefreq>yearly</changefreq>
         <priority>0.5</priority>
     </url>
 
