@@ -52,7 +52,7 @@
 
     <url>
         <loc>https://ideaspaz.org/quienes-somos</loc>
-        <lastmod>2022-09-05</lastmod>
+        <lastmod>2022-09-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -7275,13 +7275,6 @@
     </url>
 
     <url>
-        <loc>https://ideaspaz.org/publicaciones/noticias/2022-09/abc-segunda-marquetalia</loc>
-        <lastmod>2022-09-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
-    <url>
         <loc>https://ideaspaz.org/publicaciones/opinion/2022-09/la-paz-de-los-lavaperros</loc>
         <lastmod>2022-09-21</lastmod>
         <changefreq>monthly</changefreq>
@@ -7298,6 +7291,13 @@
     <url>
         <loc>https://ideaspaz.org/publicaciones/opinion/2022-09/por-que-no-negociar-con-las-disidencias-de-las-farc</loc>
         <lastmod>2022-09-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://ideaspaz.org/publicaciones/investigaciones-analisis/2022-09/construir-puentes-entre-el-congreso-y-las-regiones-aprendizajes-de-la-experiencia-del-capitolio-al-territorio</loc>
+        <lastmod>2022-09-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
