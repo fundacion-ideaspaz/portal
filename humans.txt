@@ -1,7 +1,7 @@
 /* TEAM */
 
 Creator: FIP Communications team
-URL: https://ideaspaz.org/
+URL: https://ideaspaz.org/como-lo-hacemos/comunicaciones
 
 /* THANKS */
 
@@ -20,4 +20,4 @@ Paula Ripoll - UI Design
 /* SITE */
 
 Standards: HTML5, CSS3
-Components: Statamic 3, Laravel, PHP, Alpine JS and Vue 3, Algolia, Fathom Analytics
+Components: Statamic 3, Laravel, PHP, Tailwind CSS, Alpine JS and Vue 3, Algolia, Fathom Analytics
