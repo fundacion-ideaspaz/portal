@@ -702,7 +702,31 @@
           <h2 class="text-lg font-bold">Regiones</h2>
           AMALFI, ANORÍ, ARAUCA (CT), ARAUQUITA, BOJAYA, BUENAVENTURA, BUENOS AIRES, CALDONO, CARMEN DEL DARIEN, CÚCUTA (CT), FLORENCIA, FONSECA, IBAGUÉ (CT), LA MACARENA, MEDELLÍN, MUTATÁ, OVEJAS, PLANADAS, POPAYÁN (CT), PUERTO ASÍS, QUIBDÓ (CT), REMEDIOS, RIOHACHA (CT), SAN JOSÉ DEL GUAVIARE (CT), SAN VICENTE DEL CAGUÁN, SARDINATA, SINCELEJO (CT), TIERRALTA, SAN ANDRES DE TUMACO, URIBE, VILLAVICENCIO (CT), VISTAHERMOSA
           <div class="w-full h-96 mt-4">
-            Please add a MAPBOX_API_KEY to the .env file
+            
+        <div id="iN0ROwP2B0bFyGtK" style="width: 100%; height: 100%;"></div>
+        <script>
+        mapboxgl.accessToken = "pk.eyJ1IjoicGxhdGFmb3JtYXNmaXAiLCJhIjoiY2w5YTZjaHQxMDhxeTN3cGdmbml3bGdoNyJ9.NRTsBdABn2l06f3juqvgzA";
+
+        var map = new mapboxgl.Map({
+            container: "iN0ROwP2B0bFyGtK",
+            projection: "globe",
+            style: "mapbox://styles/mapbox/streets-v11",
+            center: [-74.981239298475, 6.9777888425123],
+            zoom: 4,
+            interactive: false
+        });
+
+        
+
+        
+        var markerElement = null;
+        
+
+        
+        new mapboxgl.Marker({ color: "#3FB1CE", element: markerElement }).setLngLat([-74.981239298475, 6.9777888425123]).addTo(map);
+        
+        </script>
+        
           </div>
         </div>
       </div>

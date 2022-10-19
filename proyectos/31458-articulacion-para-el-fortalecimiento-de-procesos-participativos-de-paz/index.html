@@ -712,7 +712,31 @@
           <h2 class="text-lg font-bold">Regiones</h2>
           Puerto Libertador (Córdoba), Tibú (Nte de Santander), Solano (Caquetá)
           <div class="w-full h-96 mt-4">
-            Please add a MAPBOX_API_KEY to the .env file
+            
+        <div id="F54J6mD4YxgH4bVL" style="width: 100%; height: 100%;"></div>
+        <script>
+        mapboxgl.accessToken = "pk.eyJ1IjoicGxhdGFmb3JtYXNmaXAiLCJhIjoiY2w5YTZjaHQxMDhxeTN3cGdmbml3bGdoNyJ9.NRTsBdABn2l06f3juqvgzA";
+
+        var map = new mapboxgl.Map({
+            container: "F54J6mD4YxgH4bVL",
+            projection: "globe",
+            style: "mapbox://styles/mapbox/streets-v11",
+            center: [-75.771232238354, 7.7115157361769],
+            zoom: 4,
+            interactive: false
+        });
+
+        
+
+        
+        var markerElement = null;
+        
+
+        
+        new mapboxgl.Marker({ color: "#3FB1CE", element: markerElement }).setLngLat([-75.771232238354, 7.7115157361769]).addTo(map);
+        
+        </script>
+        
           </div>
         </div>
       </div>
@@ -979,8 +1003,8 @@
   
 
 
-<div class="mb-2 h-2  bg-fip-gray-light">&nbsp;</div>
-<div class="flex font-black uppercase w-full text-fip-gray-light">
+<div class="mb-2 h-2  bg-fip-green">&nbsp;</div>
+<div class="flex font-black uppercase w-full text-fip-green">
   <h2 id="etiquetas-destacadas" class="text-xl sm:text-2xl">Etiquetas destacadas</h2>
   
 </div>
