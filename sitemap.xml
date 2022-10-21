@@ -8297,6 +8297,13 @@
     </url>
 
     <url>
+        <loc>https://ideaspaz.org/publicaciones/noticias/2022-10/dos-anos-conectando-las-regiones-del-uraba-antioqueno</loc>
+        <lastmod>2022-10-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
         <loc>https://ideaspaz.org/publicaciones/opinion/2022-10/en-catatumbo-no-hay-quien-compre-la-coca</loc>
         <lastmod>2022-10-12</lastmod>
         <changefreq>monthly</changefreq>
@@ -8383,6 +8390,13 @@
     <url>
         <loc>https://ideaspaz.org/publicaciones/boletines/esta-pazando/2022-10/esta-pazando-del-11-al-18-de-octubre</loc>
         <lastmod>2022-10-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <url>
+        <loc>https://ideaspaz.org/publicaciones/boletines/el-radar/2022-10/el-radar-del-11-al-18-de-octubre-de-2022</loc>
+        <lastmod>2022-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
