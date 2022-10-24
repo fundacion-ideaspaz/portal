@@ -1848,11 +1848,11 @@
         "statusCode": 301
     },
     "/publications/posts/1448": {
-        "to": "/publicaciones/noticias/2017-01/se-nos-esta-saliendo-de-la-mano-la-erradicacion-de-cultivos-ilicitos",
+        "to": "/publicaciones/opinion/2017-01/se-nos-esta-saliendo-de-la-mano-la-erradicacion-de-cultivos-ilicitos",
         "statusCode": 301
     },
     "/publications/posts/1446": {
-        "to": "/publicaciones/investigaciones-analisis/2017-01/2017-el-ano-clave-para-la-politica-contra-las-drogas-en-colombia",
+        "to": "/publicaciones/opinion/2017-01/2017-el-ano-clave-para-la-politica-contra-las-drogas-en-colombia",
         "statusCode": 301
     },
     "/publications/posts/1445": {
@@ -2040,7 +2040,7 @@
         "statusCode": 301
     },
     "/publications/posts/1386": {
-        "to": "/publicaciones/noticias/2016-08/la-paz-en-colombia-del-fin-de-la-negociacion-a-la-encrucijada-por-el-plebiscito",
+        "to": "/publicaciones/opinion/2016-08/la-paz-en-colombia-del-fin-de-la-negociacion-a-la-encrucijada-por-el-plebiscito",
         "statusCode": 301
     },
     "/publications/posts/1385": {
